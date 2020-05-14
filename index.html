@@ -1,3 +1,21 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+{%- include snippets/get-lang.html -%}
+<html lang="{{ __return }}">
+  <head>
+    {%- include analytics.html -%}
+    {%- include head.html -%}
+    <script>
+      {%- include scripts/utils/utils.js -%}
+      {%- include scripts/lib/throttle.js -%}
+      {%- include scripts/lib/lazyload.js -%}
+		 {%- include scripts/banner.js -%}
+    </script>
+    {%- include scripts/variables.html -%}
+  </head>
+<body>
 <h2><center>欢迎光临何良年课题组</center></h2>
 <center><div id="container">
     <ul id="banner">
@@ -60,3 +78,6 @@
     <a href="javascript:;" id="next" class="arrow">&gt;</a>  <!--向右-->
 
 </div></center>
+
+<body></html>
+
