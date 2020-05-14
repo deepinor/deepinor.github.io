@@ -80,7 +80,7 @@ key: page-index#
     <a href="javascript:;" id="next" class="arrow">&gt;</a>  <!--向右-->
 
 </div>
-    <!--图片轮播结束-->
+    <!-- 图片轮播结束 -->
 
 <!-- 以下为Javascript代码 -->
 <script>
