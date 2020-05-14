@@ -17,11 +17,9 @@ titles:
   # @end locale config
 key: page-index#
 ---
-# <center> </center>
-## <center>欢迎光临何良年教授课题组</center>
-
+# <center>欢迎光临何良年教授课题组</center>
+<!-- 图片轮播代码-->
 <div id="container">
-    <!--图片-->
     <ul id="banner">
 
           <li>
@@ -82,9 +80,9 @@ key: page-index#
     <a href="javascript:;" id="next" class="arrow">&gt;</a>  <!--向右-->
 
 </div>
+    <!--图片轮播结束-->
 
-
-
+<!-- 以下为Javascript代码 -->
 <script>
 
     window.onload = function () {
