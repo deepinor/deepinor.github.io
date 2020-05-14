@@ -29,7 +29,7 @@
         //轮播图
 
         function animate(offset) {
-        banner.style.transition = "0.5s";
+        banner.style.transition = "1s";
           banner.style.left = -parseInt(offset )* index + "px";
         }
 
@@ -83,7 +83,7 @@
 
 
             },200)
-        },2500);
+        },3000);
         }
 
 
