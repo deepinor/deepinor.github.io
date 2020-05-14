@@ -19,7 +19,7 @@ key: page-index#
 ---
 # <center>欢迎光临何良年教授课题组</center>
 <!-- 图片轮播代码-->
-<div id="container">
+<center><div id="container">
     <ul id="banner">
 
           <li>
@@ -79,4 +79,4 @@ key: page-index#
     <a href="javascript:;" id="prev" class="arrow">&lt;</a>  <!--向左-->
     <a href="javascript:;" id="next" class="arrow">&gt;</a>  <!--向右-->
 
-</div>
+</div></center>
