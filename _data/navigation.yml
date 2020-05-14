@@ -13,7 +13,7 @@ header:
       zh-Hant : &ZH_HANT  首頁
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-    url: /home.html
+    url: /index.html
   - titles:
       # @start locale config
       en      : &EN       Archive
