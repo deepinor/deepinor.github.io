@@ -5,25 +5,6 @@ layout: nav
 
 <div class="sidebar-menu toggle-others fixed">
     <div class="sidebar-menu-inner">
-        <header class="logo-env">
-            <!-- logo -->
-            <div class="logo">
-                <a href="index.html" class="logo-expanded">
-                    <img src="../assets/images/logo@2x.png" width="100%" alt="" />
-                </a>
-                <a href="index.html" class="logo-collapsed">
-                    <img src="../assets/images/logo-collapsed@2x.png" width="40" alt="" />
-                </a>
-            </div>
-            <div class="mobile-menu-toggle visible-xs">
-                <a href="#" data-toggle="user-info-menu">
-                    <i class="linecons-cog"></i>
-                </a>
-                <a href="#" data-toggle="mobile-menu">
-                    <i class="fa-bars"></i>
-                </a>
-            </div>
-        </header>
         <ul id="main-menu" class="main-menu">
             {% for category in site.data.webstack %}
             <li>
@@ -82,25 +63,8 @@ layout: nav
                     <i class="fa-bars"></i>
                 </a>
             </li>
-            <!-- <li class="dropdown hover-line language-switcher">
-                <a href="../cn/index.html" class="dropdown-toggle" data-toggle="dropdown">
-                    <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
-                </a>
-                <ul class="dropdown-menu languages">
-                    <li>
-                        <a href="../en/index.html">
-                            <img src="../assets/images/flags/flag-us.png" alt="flag-us" /> English
-                        </a>
-                    </li>
-                    <li class="active">
-                        <a href="../cn/index.html">
-                            <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
-                        </a>
-                    </li>
-                </ul>
-            </li> -->
         </ul>
-        <a href="https://github.com/{{ site.github.repo }}" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
     </nav>
 
     {% for category in site.data.webstack %}
@@ -152,27 +116,6 @@ layout: nav
         <br />
         {% endif %}
     {% endfor %}
-
-    <!-- Main Footer -->
-    <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
-    <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
-    <!-- Or class "fixed" to  always fix the footer to the end of page -->
-    <footer class="main-footer sticky footer-type-1">
-        <div class="footer-inner">
-            <!-- Add your copyright text here -->
-            <div class="footer-text">
-                &copy; 2017-2019
-                <a href="/about.html"><strong>WebStack</strong></a> design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a>
-                <!--  - Purchase for only <strong>23$</strong> -->
-            </div>
-            <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
-            <div class="go-up">
-                <a href="#" rel="go-top">
-                    <i class="fa-angle-up"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
 </div>
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
