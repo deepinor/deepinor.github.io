@@ -2,16 +2,6 @@
 <html lang="zh">
 
 <head>
-  {%- include analytics.html -%}
-  {%- include head.html -%}
-  <script>
-    {%- include scripts/utils/utils.js -%}
-    {%- include scripts/lib/throttle.js -%}
-    {%- include scripts/lib/lazyload.js -%}
-   {%- include scripts/banner.js -%}
-
-  </script>
-  {%- include scripts/variables.html -%}
     <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
     <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -20,27 +10,10 @@
     <link rel="stylesheet" href="../assets/css/xenon-skins.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
     <script src="../assets/js/jquery-1.11.1.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/TweenMax.min.js"></script>
-    <script src="../assets/js/resizeable.js"></script>
-    <script src="../assets/js/joinable.js"></script>
-    <script src="../assets/js/xenon-api.js"></script>
-    <script src="../assets/js/xenon-toggles.js"></script>
-    <script src="../assets/js/xenon-custom.js"></script>
-
-<script>
-  {%- include scripts/lib/scroll-to.js -%}
-  {%- include scripts/lib/affix.js -%}
-  {%- include scripts/lib/toc.js -%}
-  {%- if _lightbox == true -%}
-    {%- include scripts/lib/gallery.js -%}
-    {%- include scripts/components/lightbox.js -%}
-  {%- endif -%}
-  {%- include scripts/page.js -%}
-</script>
 </head>
 
 <body class="page-body">
+    <!-- skin-white -->
     <div class="page-container">
         {{ content }}
     </div>
@@ -53,10 +26,10 @@
     <script src="../assets/js/xenon-api.js"></script>
     <script src="../assets/js/xenon-toggles.js"></script>
     <script src="../assets/js/xenon-custom.js"></script>
-
+	 
 	 <footer class="footer py-4 js-page-footer">
 	   <div class="main">
-
+	 
 	     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
 	     {%- assign _locale_copyright_dates = __return -%}
 	     <div class="site-info mt-2">
