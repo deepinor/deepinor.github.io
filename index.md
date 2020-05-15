@@ -4,7 +4,7 @@ titles:
 key: page-index#
 show_title: false
 ---
-## <center>欢迎访问^13^C博客</center>
+## <center>欢迎访问<sup>13</sup>博客</center>
 <center><div id="container">
     <ul id="banner">
 
@@ -20,31 +20,31 @@ show_title: false
                 <img src="assets/banner/1.jpg">
             </a>
         </li>
-    
+
         <li>
             <a href="#">
                 <img src="assets/banner/2.jpg">
             </a>
         </li>
-    
+
         <li>
             <a href="#">
                 <img src="assets/banner/3.jpg">
             </a>
         </li>
-    
+
         <li>
             <a href="#">
                 <img src="assets/banner/4.jpg">
             </a>
         </li>
-    
+
         <li>
             <a href="#">
                 <img src="assets/banner/5.jpg">
             </a>
         </li>
-    
+
           <li>
             <a href="#">
                 <img src="assets/banner/1.jpg"><!--最后一张之后，插入图片1-->
@@ -53,7 +53,7 @@ show_title: false
 
 
     </ul>
-    
+
     <!--伴随移动的小圆点-->
     <div id="buttons">
         <span index="1" class="on"></span>

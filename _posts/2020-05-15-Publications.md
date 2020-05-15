@@ -1,7 +1,6 @@
 ---
 layout: article
 titles:
-key: page-index#
 show_title: false
 show_date: false
 comment:false
