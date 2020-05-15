@@ -29,7 +29,9 @@ type: article
     <script src="../assets/js/jquery-1.11.1.min.js"></script>
   </head>
   <body>
-
+    <div class="root" data-is-touch="false">
+      {{ content }}
+    </div>
     <script>
       {%- include scripts/common.js -%}
       <script src="../assets/js/bootstrap.min.js"></script>
