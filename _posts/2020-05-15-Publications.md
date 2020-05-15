@@ -16,8 +16,9 @@ show_title: false
 
 
 50. Mehwish Hussain Muhammad, **Xiao-Lan Chen,\*** Yan Liu, Tao Shi, Yuyu Peng, Lingbo Qu, and Bing Yu, Recyclable Cu@C3N4-catalyzed hydroxylation of aryl boronic acids in water under visible-light: Synthesis of phenols under ambient condition and room temperature. ***ACS Sustainable Chem. Eng.\***, **2020**, 8, 7, 2682-2687. [Link](https://doi.org/10.1021/acssuschemeng.9b06010)
-
+{:refdef: style="text-align: center;"}
 ![img](http://www.zzuchem.com/wp-content/uploads/2020/02/QQ%E6%88%AA%E5%9B%BE20200225131851-300x150.png)
+{: refdef}
 
 
 
