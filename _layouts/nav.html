@@ -64,9 +64,7 @@
       </div>
 
       {%- if site.data.navigation.header -%}
-      <nav class="navigation">
-        <br >
-        <br >
+      <nav class="navigation fixed">
         <ul>
           {%- for _item in site.data.navigation.header -%}
             {%- include snippets/get-nav-url.html path=_item.url -%}
