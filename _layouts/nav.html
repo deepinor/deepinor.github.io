@@ -27,6 +27,17 @@
     <script src="../assets/js/xenon-api.js"></script>
     <script src="../assets/js/xenon-toggles.js"></script>
     <script src="../assets/js/xenon-custom.js"></script>
+    
+<script>
+  {%- include scripts/lib/scroll-to.js -%}
+  {%- include scripts/lib/affix.js -%}
+  {%- include scripts/lib/toc.js -%}
+  {%- if _lightbox == true -%}
+    {%- include scripts/lib/gallery.js -%}
+    {%- include scripts/components/lightbox.js -%}
+  {%- endif -%}
+  {%- include scripts/page.js -%}
+</script>
 </head>
 
 <body class="page-body">

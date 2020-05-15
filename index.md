@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: artical
 titles:
 key: page-index#
 show_title: false
