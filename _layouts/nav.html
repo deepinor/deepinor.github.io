@@ -42,11 +42,11 @@
 
 <body class="page-body">
 {%- if include.theme == 'dark' -%}
-  <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="header header--dark fixed" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- elsif include.theme == 'light' -%}
-  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="header header--light fixed" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- else -%}
-  <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="header fixed" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- endif -%}
     <div class="main">
       <div class="header__title">
@@ -62,7 +62,7 @@
           <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
         {%- endif -%}
       </div>
-      
+
       {%- if site.data.navigation.header -%}
       <nav class="navigation">
         <ul>
