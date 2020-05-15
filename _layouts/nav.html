@@ -9,7 +9,7 @@
     {%- include scripts/lib/throttle.js -%}
     {%- include scripts/lib/lazyload.js -%}
    {%- include scripts/banner.js -%}
-  
+
   </script>
   {%- include scripts/variables.html -%}
     <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
@@ -27,7 +27,7 @@
     <script src="../assets/js/xenon-api.js"></script>
     <script src="../assets/js/xenon-toggles.js"></script>
     <script src="../assets/js/xenon-custom.js"></script>
-    
+
 <script>
   {%- include scripts/lib/scroll-to.js -%}
   {%- include scripts/lib/affix.js -%}
@@ -42,11 +42,11 @@
 
 <body class="page-body">
 {%- if include.theme == 'dark' -%}
-  <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="navigation" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- elsif include.theme == 'light' -%}
-  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="navigation" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- else -%}
-  <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="navigation" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- endif -%}
     <div class="main">
       <div class="header__title">
@@ -63,6 +63,7 @@
         {%- endif -%}
       </div>
       {%- if site.data.navigation.header -%}
+      
       <nav class="navigation">
         <ul>
           {%- for _item in site.data.navigation.header -%}
@@ -97,10 +98,10 @@
     <script src="../assets/js/xenon-api.js"></script>
     <script src="../assets/js/xenon-toggles.js"></script>
     <script src="../assets/js/xenon-custom.js"></script>
-	 
+
 	 <footer class="footer py-4 js-page-footer">
 	   <div class="main">
-	 
+
 	     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
 	     {%- assign _locale_copyright_dates = __return -%}
 	     <div class="site-info mt-2">
