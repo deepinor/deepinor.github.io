@@ -4,6 +4,21 @@ layout: nav
 ---
 
 <div class="sidebar-menu toggle-others fixed">
+  <header class="logo-env">
+      <!-- logo -->
+      <div class="logo">
+          {%- include svg/logo.svg -%}
+          </a>
+      </div>
+      <div class="mobile-menu-toggle visible-xs">
+          <a href="#" data-toggle="user-info-menu">
+              <i class="linecons-cog"></i>
+          </a>
+          <a href="#" data-toggle="mobile-menu">
+              <i class="fa-bars"></i>
+          </a>
+      </div>
+  </header>
     <div class="sidebar-menu-inner">
         <ul id="main-menu" class="main-menu" style="background: {{ include.background }};">
           <div class="mobile-menu-toggle visible-xs">
@@ -62,7 +77,7 @@ layout: nav
             <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
           {%- endif -%}
         </div>
-  
+
         {%- if site.data.navigation.header -%}
         <nav class="navigation fixed">
           <ul>
