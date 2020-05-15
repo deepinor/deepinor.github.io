@@ -3,6 +3,9 @@ layout: article
 titles:
 key: page-index#
 show_title: false
+show_date: false
+comment:false
+show_edit_on_github: false
 ---
 
 ## Publications
@@ -28,7 +31,7 @@ show_title: false
 
 
 
-\48. Shuai-Qi He, **Xiao-Lan Chen,\*** Fan-Lin Zeng, Pei-Pei Lu, Yu-Yu Peng, Ling-Bo Qu, and Bing Yu, Visible-Light-Promoted Oxidative Decarboxylation of Arylacetic Acid in Air: Metal-Free Synthesis of Aldehydes and Ketones at Room Temperature. ***Chin. Chem. Lett.***, **2020**, 31, DOI: 10.1016/j.cclet.2019.12.031. [Link](https://doi.org/10.1016/j.cclet.2019.12.031)
+48. Shuai-Qi He, **Xiao-Lan Chen,\*** Fan-Lin Zeng, Pei-Pei Lu, Yu-Yu Peng, Ling-Bo Qu, and Bing Yu, Visible-Light-Promoted Oxidative Decarboxylation of Arylacetic Acid in Air: Metal-Free Synthesis of Aldehydes and Ketones at Room Temperature. ***Chin. Chem. Lett.***, **2020**, 31, DOI: 10.1016/j.cclet.2019.12.031. [Link](https://doi.org/10.1016/j.cclet.2019.12.031)
 
 ## **![img](http://www.zzuchem.com/wp-content/uploads/2020/02/QQ%E6%88%AA%E5%9B%BE20200225132649-300x94.png)**
 
