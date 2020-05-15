@@ -1,24 +1,7 @@
----
-layout: page
-type: article
----
+<!DOCTYPE html>
+<html lang="zh">
 
-{%- include snippets/assign.html
-  target = site.data.variables.default.page.sharing
-  source0=layout.sharing source1=page.sharing -%}
-{%- assign _sharing = __return -%}
-
-<html lang="{{ __return }}">
-  <head>
-    {%- include analytics.html -%}
-    {%- include head.html -%}
-    <script>
-      {%- include scripts/utils/utils.js -%}
-      {%- include scripts/lib/throttle.js -%}
-      {%- include scripts/lib/lazyload.js -%}
-		 {%- include scripts/banner.js -%}
-    </script>
-    {%- include scripts/variables.html -%}
+<head>
     <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
     <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
@@ -27,20 +10,39 @@ type: article
     <link rel="stylesheet" href="../assets/css/xenon-skins.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
     <script src="../assets/js/jquery-1.11.1.min.js"></script>
-  </head>
-  <body>
-    <div class="root" data-is-touch="false">
-      {{ content }}
+</head>
+
+<body class="page-body">
+    <!-- skin-white -->
+    <div class="page-container">
+        {{ content }}
     </div>
-    <script>
-      {%- include scripts/common.js -%}
-      <script src="../assets/js/bootstrap.min.js"></script>
-      <script src="../assets/js/TweenMax.min.js"></script>
-      <script src="../assets/js/resizeable.js"></script>
-      <script src="../assets/js/joinable.js"></script>
-      <script src="../assets/js/xenon-api.js"></script>
-      <script src="../assets/js/xenon-toggles.js"></script>
-      <script src="../assets/js/xenon-custom.js"></script>
-    </script>
-  </body>
+
+    <!-- Bottom Scripts -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/TweenMax.min.js"></script>
+    <script src="../assets/js/resizeable.js"></script>
+    <script src="../assets/js/joinable.js"></script>
+    <script src="../assets/js/xenon-api.js"></script>
+    <script src="../assets/js/xenon-toggles.js"></script>
+    <script src="../assets/js/xenon-custom.js"></script>
+	 
+	 <footer class="footer py-4 js-page-footer">
+	   <div class="main">
+	 
+	     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
+	     {%- assign _locale_copyright_dates = __return -%}
+	     <div class="site-info mt-2">
+	       <div>
+	         {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
+	         {%- assign _locale_copyright_dates = __return -%}
+	         © <a href="mailto:{{ _author.email }}" target="_blank"> {{ site.title }} </a> 2019 - {{ _locale_copyright_dates }} | All Rights Reserved. | 站内统计：<span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv", Style="color:red"></span>人，</span>
+	                     <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv", Style="color:red"></span>次</span>
+	       </div>
+	     </div>
+	   </div>
+	    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 </footer>
+</body>
+
 </html>
