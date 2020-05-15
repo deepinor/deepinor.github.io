@@ -17,7 +17,7 @@ show_title: false
 
 50. Mehwish Hussain Muhammad, **Xiao-Lan Chen,\*** Yan Liu, Tao Shi, Yuyu Peng, Lingbo Qu, and Bing Yu, Recyclable Cu@C3N4-catalyzed hydroxylation of aryl boronic acids in water under visible-light: Synthesis of phenols under ambient condition and room temperature. ***ACS Sustainable Chem. Eng.\***, **2020**, 8, 7, 2682-2687. [Link](https://doi.org/10.1021/acssuschemeng.9b06010)
 
-<center> ![img](http://www.zzuchem.com/wp-content/uploads/2020/02/QQ%E6%88%AA%E5%9B%BE20200225131851-300x150.png) </center>
+![img](http://www.zzuchem.com/wp-content/uploads/2020/02/QQ%E6%88%AA%E5%9B%BE20200225131851-300x150.png)
 
 
 
@@ -105,19 +105,19 @@ show_title: false
 
 
 
-35. Fan-Lin Zeng, **Xiao-Lan Chen,\*** Shuai-Qi He, Kai Sun, Yan Liu, Rui Fu, Ling-Bo Qu, Yu-Fen Zhao, and Bing Yu, Copper-Catalyzed One-Pot Three-Component Thioamination of 1,4-Naphthoquinone. ***Org. Chem. Front.***, **2019**, 6, 1476-1480. [Link](https://doi.org/10.1039/c9qo00091g) 
+35. Fan-Lin Zeng, **Xiao-Lan Chen,\*** Shuai-Qi He, Kai Sun, Yan Liu, Rui Fu, Ling-Bo Qu, Yu-Fen Zhao, and Bing Yu, Copper-Catalyzed One-Pot Three-Component Thioamination of 1,4-Naphthoquinone. ***Org. Chem. Front.***, **2019**, 6, 1476-1480. [Link](https://doi.org/10.1039/c9qo00091g)
 
 ![img](http://www.zzuchem.com/wp-content/uploads/2019/03/OCF2019-300x105.png)
 
 
 
-34. Junchao Wang,# Kai Sun,# **Xiaolan Chen,\*** Tong Chen, Yan Liu, Lingbo Qu, Yufen Zhao, and Bing Yu, An External-catalyst-free Trifluoromethylation/cyclization Strategy to Access Trifluoromethylated-Dihydroisoquinolinones/Indolines with Togni Reagent II. ***Org. Lett.***, **2019**, 21, 1863-1867. [Link](https://doi.org/10.1021/acs.orglett.9b00465) 
+34. Junchao Wang,# Kai Sun,# **Xiaolan Chen,\*** Tong Chen, Yan Liu, Lingbo Qu, Yufen Zhao, and Bing Yu, An External-catalyst-free Trifluoromethylation/cyclization Strategy to Access Trifluoromethylated-Dihydroisoquinolinones/Indolines with Togni Reagent II. ***Org. Lett.***, **2019**, 21, 1863-1867. [Link](https://doi.org/10.1021/acs.orglett.9b00465)
 
 ![img](http://www.zzuchem.com/wp-content/uploads/2019/03/ol-2019-2.jpeg)
 
 
 
-33. Kai Sun, Shi-Jun Li, **Xiao-Lan Chen,\*** Yan Liu, Xian-Qiang Huang, Dong-Hui Wei, Ling-Bo Qu, Yu-Fen Zhao, and Bing Yu, Silver-Catalyzed Decarboxylative Radical Cascade Cyclization toward Benzimidazo[2,1-a]isoquinolin-6(5*H*)-ones. ***Chem. Commun.***, **2019**, 55(19), 2861-2864. [Link](https://doi.org/10.1039/C8CC10243K) 
+33. Kai Sun, Shi-Jun Li, **Xiao-Lan Chen,\*** Yan Liu, Xian-Qiang Huang, Dong-Hui Wei, Ling-Bo Qu, Yu-Fen Zhao, and Bing Yu, Silver-Catalyzed Decarboxylative Radical Cascade Cyclization toward Benzimidazo[2,1-a]isoquinolin-6(5*H*)-ones. ***Chem. Commun.***, **2019**, 55(19), 2861-2864. [Link](https://doi.org/10.1039/C8CC10243K)
 
 ![img](http://www.zzuchem.com/wp-content/uploads/2019/02/CC2019.jpg)
 
@@ -322,4 +322,3 @@ show_title: false
 ![2014-3.gif](http://www.zzuchem.com/wp-content/uploads/image/20180228/1519811089773711.gif)
 
 ------
-
