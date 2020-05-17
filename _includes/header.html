@@ -30,7 +30,7 @@
                   <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                   <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
                   </a>
-                </li> 
+                </li>
                   <!--循环次级菜单-->
               <ul>
                   {% for sub_category in category.sub %}
@@ -50,8 +50,11 @@
           {%- if site.search.provider -%}
             <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
           {%- endif -%}
+            {% endfor %}
         </ul>
+        
       </nav>
+
       {%- endif -%}
     </div>
   </header>
