@@ -3,7 +3,7 @@
   links: https://www.baidu.com
 
 - name: 灵感采集
-  icon: linecons-lightbulb
+  icon: 
   sub: 
     - name: 发现产品
       links: https://13C.org
