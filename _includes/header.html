@@ -6,8 +6,13 @@
 {%- else -%}
   <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- endif -%}
-    <div class="nav nav-pills">
-      <div class="header__title">
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                <img alt="logo" src="{%- include svg/logo.svg -%}">
+              </a>
+        </div>
         <div class="header__brand">
           {%- include svg/logo.svg -%}
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
