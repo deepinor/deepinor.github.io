@@ -6,61 +6,57 @@
 {%- else -%}
   <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- endif -%}
-    <div class="navbar navbar-default navbar-fixed-top">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
+        <!--响应试导航-->
         <div class="navbar-header">
-              <a class="navbar-brand" href="#">
-                <img alt="logo" src="{%- include svg/logo.svg -%}">
-              </a>
-        </div>
-        <div class="header__brand">
-          {%- include svg/logo.svg -%}
-          {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
-          {%- include snippets/get-nav-url.html path=_paths_root -%}
-          {%- if site.title -%}
-            <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
-          {%- endif -%}
-        </div>
-        {%- if site.search.provider -%}
-          <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
-        {%- endif -%}
-      </div>
-      {%- if site.data.navigation -%}
-      <nav class="navbar navbar-default">
-        <ul class="nav nav-pills">
-          <!--重写导航-->
-          {% for category in site.data.navigation %}
-          <li>
-              {% if category.sub %} <!--如果次级菜单有内容则输出一级菜单名，循环次级菜单-->
-                <li role="presentation" class="dropdown">
-                  <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
-                  </a>
-                </li>
-                  <!--循环次级菜单-->
-              <ul ="nav nav-pills">
-                  {% for sub_category in category.sub %}
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Menu</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+        {%- include snippets/get-nav-url.html path=_paths_root -%}
+       <a class="navbar-brand" href="{{ __return }}">
+         <img alt="logo" src="{%- include svg/logo.svg -%}">
+       </a>
+       <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+        </div>  <!--输出logo和站标题-->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          {%- if site.data.navigation -%}
+        <ul class="nav navbar-nav navbar-right">
+         {% for category in site.data.navigation %}
+         <li>
+           {% if category.sub %}
+           <li class="dropdown">
+             <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+               <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
+               </a>
+             </li>
+             <ul ="dropdown-menu">            <!--循环次级菜单-->
+                 {% for sub_category in category.sub %}
                    <li role="presentation" class="dropdown">
-                    <a href="{{ sub_category.links }}">{{ sub_category.name }}</a></li>
-                  {% endfor %}
-              </ul>
-              <!--结束循环次级菜单-->
-              {% else if %}
-              <li role="presentation">
-              <a href="{{ category.links }}" >
-                  <i class="{{ category.icon }}"></i>
-                  <span class="title">{{ category.name }}</span>
-              </a></li>
-              {% endif %}
+                   <a href="{{ sub_category.links }}">{{ sub_category.name }}</a></li>
+                 {% endfor %}
+             </ul>   <!--结束循环次级菜单-->
+          {% else if %}
+          <li role="presentation">
+          <a href="{{ category.links }}" >
+              <i class="{{ category.icon }}"></i>
+              <span class="title">{{ category.name }}</span>
+          </a>
           </li>
-            {% endfor %}
-            {%- if site.search.provider -%}
-              <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
-            {%- endif -%}
+         </li>
+         {% endfor %}
         </ul>
-
-      </nav>
-
-      {%- endif -%}
-    </div>
+        {% endif %}
+        </div>
+             {%- if site.search.provider -%}
+               <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
+             {%- endif -%}
+      </div>
+    </nav>
   </header>
