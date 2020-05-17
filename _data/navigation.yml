@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - name: 常用推荐
   icon: linecons-star
   links: 
@@ -1026,3 +1027,8 @@
       logo: /assets/images/logos/ctrip.png
       description: 携程设计委员会-Ctrip Design Committee
     
+=======
+- name: 首页
+  icon:  
+  links: https://www.baidu.com
+>>>>>>> 6fdb578b666be84bdc821beb116c55f86db31169
