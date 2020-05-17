@@ -35,7 +35,6 @@
                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                  <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
                </a>
-             </li>
              <ul class="dropdown-menu">            <!--循环次级菜单-->
                  {% for sub_category in category.sub %}
                    <li>
@@ -43,6 +42,7 @@
                    </li>
                  {% endfor %}
              </ul>   <!--结束循环次级菜单-->
+           </li>
           {% else if %}
             <li role="presentation">
             <a href="{{ category.links }}" >
