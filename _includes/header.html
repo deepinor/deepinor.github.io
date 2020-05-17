@@ -22,7 +22,7 @@
       </div>
       {%- if site.data.navigation -%}
       <nav class="nav nav-pills">
-        <ul>
+        <ul class="nav nav-pills">
           <!--重写导航-->
           {% for category in site.data.navigation %}
           <li>
@@ -33,7 +33,7 @@
                   </a>
                 </li>
                   <!--循环次级菜单-->
-              <ul>
+              <ul ="nav nav-pills">
                   {% for sub_category in category.sub %}
                    <li role="presentation" class="dropdown">
                     <a href="{{ sub_category.links }}">{{ sub_category.name }}</a></li>
