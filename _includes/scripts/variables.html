@@ -20,7 +20,11 @@
         valine: '{{ _sources.valine }}',
         mathjax: '{{ _sources.mathjax }}',
         mermaid: '{{ _sources.mermaid }}',
-        busuanzi: '{{_sources.busuanzi }}',
+        busuanzi: '{{ _sources.busuanzi }}',
+        bootstrap: {
+          js: '{{ _sources.bootstrap.js }}',
+          css: '{{ _sources.bootstrap.css }}'
+        },
       },
       site: {
         toc: {
