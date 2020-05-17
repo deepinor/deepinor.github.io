@@ -48,12 +48,11 @@
               </a></li>
               {% endif %}
           </li>
+            {% endfor %}
+        </ul>
           {%- if site.search.provider -%}
             <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
           {%- endif -%}
-            {% endfor %}
-        </ul>
-        
       </nav>
 
       {%- endif -%}
