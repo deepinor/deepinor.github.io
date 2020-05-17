@@ -1,7 +1,7 @@
 - name: 首页 
-  icon: linecons-star 
+  icon: linecons-star
   links: /index.html 
 
 - name: 归档 
-  icon: 
+  icon: linecons-star
   links: /archive.html 
