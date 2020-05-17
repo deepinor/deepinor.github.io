@@ -20,7 +20,7 @@
         {%- endif -%}
       </div>
       {%- if site.data.navigation -%}
-      <nav class="nav nav-pills">
+    <ul class="nav nav-pills">
         <ul>
           <!--重写导航-->
           {% for category in site.data.navigation %}
@@ -55,7 +55,7 @@
         <!--检查搜索-->
  {%- if site.search.provider -%}
             <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
-      </nav>
+      </ul>
 
       {%- endif -%}
     </div>
