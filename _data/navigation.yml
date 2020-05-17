@@ -1,3 +1,9 @@
 - name: 首页
-  icon: linecons-lightbulb
-  links: www.baidu.com
+  icon: 
+  links: https://www.baidu.com
+  
+- name: publication
+   icon: 
+  sub:
+    - name: 发现产品
+      links: https://13C.org
