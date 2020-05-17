@@ -32,13 +32,13 @@
          <li>
            {% if category.sub %}
              <li class="dropdown">
-               <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                  <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
                </a>
              </li>
-             <ul ="dropdown-menu">            <!--循环次级菜单-->
+             <ul class="dropdown-menu">            <!--循环次级菜单-->
                  {% for sub_category in category.sub %}
-                   <li role="presentation" class="dropdown">
+                   <li>
                    <a href="{{ sub_category.links }}">{{ sub_category.name }}</a>
                    </li>
                  {% endfor %}
