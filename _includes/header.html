@@ -1,3 +1,4 @@
+
 {%- if include.theme == 'dark' -%}
   <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- elsif include.theme == 'light' -%}
@@ -5,9 +6,7 @@
 {%- else -%}
   <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
 {%- endif -%}
-
-
-    <div class="nav nav-pills">
+    <div class="main">
       <div class="header__title">
         <div class="header__brand">
           {%- include svg/logo.svg -%}
@@ -21,9 +20,8 @@
           <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
         {%- endif -%}
       </div>
-
       {%- if site.data.navigation -%}
-    <ul class="nav nav-pills">
+      <nav class="nav nav-pills">
         <ul>
           <!--重写导航-->
           {% for category in site.data.navigation %}
@@ -31,15 +29,14 @@
               {% if category.sub %} <!--如果次级菜单有内容则输出一级菜单名，循环次级菜单-->
                 <li role="presentation" class="dropdown">
                   <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="{{ category.icon }}"></i>{{ category.name }}<span class="caret"></span>
+                  <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
                   </a>
                 </li>
                   <!--循环次级菜单-->
               <ul>
                   {% for sub_category in category.sub %}
                    <li role="presentation" class="dropdown">
-                    <a href="{{ sub_category.links }}">{{ sub_category.name }}</a>
-                    </li>
+                    <a href="{{ sub_category.links }}">{{ sub_category.name }}</a></li>
                   {% endfor %}
               </ul>
               <!--结束循环次级菜单-->
@@ -51,12 +48,14 @@
               </a></li>
               {% endif %}
           </li>
+          {%- if site.search.provider -%}
+            <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
+          {%- endif -%}
             {% endfor %}
         </ul>
-        <!--检查搜索-->
- {%- if site.search.provider -%}
-            <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
-      </ul>
+        
+      </nav>
+
       {%- endif -%}
     </div>
   </header>
