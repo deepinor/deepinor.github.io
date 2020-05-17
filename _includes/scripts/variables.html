@@ -4,7 +4,7 @@
 {%- include snippets/get-nav-url.html path="/assets/search.js" -%}
 {%- assign _paths_search_js = __return -%}
 
-<script>
+<script> <!--引入js和css-->
   (function() {
     var TEXT_VARIABLES = {
       version: '2.2.6',
@@ -19,7 +19,8 @@
         },
         valine: '{{ _sources.valine }}',
         mathjax: '{{ _sources.mathjax }}',
-        mermaid: '{{ _sources.mermaid }}'
+        mermaid: '{{ _sources.mermaid }}',
+        busuanzi: '{{_sources.busuanzi }}',
       },
       site: {
         toc: {
