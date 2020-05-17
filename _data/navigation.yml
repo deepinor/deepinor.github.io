@@ -1,3 +1,7 @@
-- name: 常用推荐
-  icon: linecons-star
-  links: /index.html
+- name: 首页 
+  icon: linecons-star 
+  links: /index.html 
+
+- name: 归档 
+  icon: 
+  links: /archive.html 
