@@ -19,7 +19,7 @@
         </button>
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
         {%- include snippets/get-nav-url.html path=_paths_root -%}
-          {%- include svg/logo.svg -%}
+        <ul class="header__brand">  {%- include svg/logo.svg -%} </ul>
        <!-- <a class="navbar-brand" href="{{ __return }}">
 
          <img alt="Brand" src="/assets/logo.png" class="header__brand">
