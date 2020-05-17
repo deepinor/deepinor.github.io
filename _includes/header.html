@@ -28,14 +28,15 @@
               {% if category.sub %} <!--如果次级菜单有内容则输出一级菜单名，循环次级菜单-->
                 <li role="presentation" class="dropdown">
                   <a class="dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
+                  <i class="{{ category.icon }}"></i>{{ category.name }}<span class="caret"></span>
                   </a>
                 </li>
                   <!--循环次级菜单-->
               <ul>
                   {% for sub_category in category.sub %}
                    <li role="presentation" class="dropdown">
-                    <a href="{{ sub_category.links }}">{{ sub_category.name }}</a></li>
+                    <a href="{{ sub_category.links }}">{{ sub_category.name }}</a>
+                    </li>
                   {% endfor %}
               </ul>
               <!--结束循环次级菜单-->
@@ -52,7 +53,7 @@
           {%- endif -%}
             {% endfor %}
         </ul>
-        
+
       </nav>
 
       {%- endif -%}
