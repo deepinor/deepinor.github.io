@@ -8,10 +8,4 @@
   
 - name: 关于 
   icon: linecons-star
-  sub: 
-  - name: 关于本站
-    links: /about.html
-  - name: 关于作者
-    links: /author.html
-  - name: 联系我
-    links: mailto:{{ _author.email }}
+  links: /about.html
