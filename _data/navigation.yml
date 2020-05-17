@@ -1,9 +1,11 @@
 - name: 首页
   icon: 
-  links: https://www.baidu.com
+  links: /index.html
 
-- name: 灵感采集
+- name: 归档
   icon: 
-  sub: 
-    - name: 发现产品
-      links: https://13C.org
+  links: /archive.html
+
+- name: 关于
+  icon: 
+  links: /about.html
