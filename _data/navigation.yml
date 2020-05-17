@@ -1,11 +1,3 @@
 - name: 首页
-  icon: 
+  icon:
   links: /index.html
-
-- name: 归档
-  icon: 
-  links: /archive.html
-
-- name: 关于
-  icon: 
-  links: /about.html
