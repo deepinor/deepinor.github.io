@@ -20,8 +20,9 @@
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
         {%- include snippets/get-nav-url.html path=_paths_root -%}
         <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">
-         <img style="max-width:3.75rem;" alt="Brand" src="/assets/logo.svg"><h3>{{ site.title }}</h3>
+         <img style="max-width:3.75rem;" alt="Brand" src="/assets/logo.svg">
        </a>
+        <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}"><h3>{{ site.title }}</h3></a>
         </div>  <!--输出logo和站标题-->
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
