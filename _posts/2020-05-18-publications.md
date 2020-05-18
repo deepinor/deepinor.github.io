@@ -17,9 +17,6 @@ tags: publications
 
 
 
-51.
-
-
 
 50. Mehwish Hussain Muhammad, **Xiao-Lan Chen,\*** Yan Liu, Tao Shi, Yuyu Peng, Lingbo Qu, and Bing Yu, Recyclable Cu@C3N4-catalyzed hydroxylation of aryl boronic acids in water under visible-light: Synthesis of phenols under ambient condition and room temperature. ***ACS Sustainable Chem. Eng.\***, **2020**, 8, 7, 2682-2687. [Link](https://doi.org/10.1021/acssuschemeng.9b06010)
 {:refdef: style="text-align: center;"}
@@ -36,7 +33,7 @@ tags: publications
 
 48. Shuai-Qi He, **Xiao-Lan Chen,\*** Fan-Lin Zeng, Pei-Pei Lu, Yu-Yu Peng, Ling-Bo Qu, and Bing Yu, Visible-Light-Promoted Oxidative Decarboxylation of Arylacetic Acid in Air: Metal-Free Synthesis of Aldehydes and Ketones at Room Temperature. ***Chin. Chem. Lett.***, **2020**, 31, DOI: 10.1016/j.cclet.2019.12.031. [Link](https://doi.org/10.1016/j.cclet.2019.12.031)
 
-![img](http://www.zzuchem.com/wp-content/uploads/2020/02/QQ%E6%88%AA%E5%9B%BE20200225132649-300x94.png)**
+![img](http://www.zzuchem.com/wp-content/uploads/2020/02/QQ%E6%88%AA%E5%9B%BE20200225132649-300x94.png)
 
 
 
@@ -44,7 +41,7 @@ tags: publications
 
 ![img](http://www.zzuchem.com/wp-content/uploads/2020/02/QQ%E6%88%AA%E5%9B%BE20200225132818-300x111.png)
 
-------
+
 
 46. Kai Sun, **Xiao-Lan Chen,\*** Yin-Li Zhang, Hui-Fang Su, Qiu-Chen Peng, Bing Yu, Ling-Bo Qu, Kai Li, A kind of atypical AIEgens used for one-photon/two-photon targeted-imaging in live cells. ***ACS Appl. Bio Mater.\***, **2020**, 3(1), 505-511. [Link](https://doi.org/10.1021/acsabm.9b00946)
 
@@ -54,7 +51,7 @@ tags: publications
 
 45. Xiao-Ceng Liu, **Xiao-Lan Chen,\*** Yan Liu, Kai Sun, Yu-Yu Peng, Ling-Bo Qu, and Bing Yu, Visible-Light-Induced Metal-Free Synthesis of 2‑Phosphorylated Thioflavones in Water. ***ChemSusChem***, **2020**, 13(2), 298-303. [Link](https://doi.org/10.1002/cssc.201902817)
 
-
+------
 
 ## **2019**
 
