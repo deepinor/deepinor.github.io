@@ -19,9 +19,10 @@
         </button>
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
         {%- include snippets/get-nav-url.html path=_paths_root -%}
+        {%- if /assets/logo.svg -%}
         <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">
          <img style="max-width:3.75rem;margin:0.125rem;" alt="Brand" src="/assets/logo.svg">
-       </a>
+       </a> {% endif %}
         <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}"><h4>{{ site.title }}</h4></a>
         </div>  <!--输出logo和站标题-->
 
