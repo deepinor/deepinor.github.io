@@ -4,7 +4,7 @@
     {%- if _sidebar_nav -%}
     <ul class="toc toc--navigator navbar-text">
       {%- for _item in _sidebar_nav -%}
-        <li class="toc-h1 navbar-text">{{ _item.title }}</li>
+        <li class="toc-h1 pagination-lg">{{ _item.title }}</li>
         {%- if _item.children -%}
           {%- for _child in _item.children -%}
             {%- include snippets/get-nav-url.html path=_child.url -%}
@@ -14,7 +14,7 @@
             {%- if _nav_url == _page_url -%}
               <li class="toc-h2 active"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
             {%- else -%}
-              <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+              <li class="toc-h2 pagination-sm"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
             {%- endif -%}
           {%- endfor -%}
         {%- endif -%}
