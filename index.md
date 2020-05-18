@@ -5,7 +5,7 @@ key: page-index#
 show_title: false
 ---
 ## <center>欢迎访问<sup>13</sup>C博客</center>
-<center><div id="container">
+<center><div>
     <ul id="banner">
 
           <li>
