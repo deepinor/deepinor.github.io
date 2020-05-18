@@ -41,10 +41,10 @@ layout: base
     </div>
 
     <div class="grid page__grid">
-<!--
-      <div class="nav nav-tabs navbar-text">
+
+      <div class="page__sidebar d-print-none">
         {%- include sidebar/toc.html -%}
-      </div> -->
+      </div>
 
 {%- else -%}
 <div class="layout--page js-page-root">
@@ -64,7 +64,7 @@ layout: base
       {%- assign _page_main_class = _page_main_class | append: ' has-aside' -%}
     {%- elsif _full_width -%}
       {%- assign _page_main_class = _page_main_class | append: ' full-width' -%}
-    {%- endif -%} 
+    {%- endif -%}
     <div class="{{ _page_main_class }} cell cell--auto">
 
       <div class="page__main-inner">
