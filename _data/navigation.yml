@@ -6,6 +6,10 @@
   icon:
   links: /archive.html
   
+- name: 链接
+  icon:
+  links: /nav/index.html
+  
 - name: 关于 
   icon: 
   sub: 
