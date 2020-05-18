@@ -1,24 +1,6 @@
----
-layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  # @end locale config
-key: page-about
----
 
 
+readme
 
 本站为使用[Jekyll](https://jekyllcn.com/)搭建的静态网站，基于[TeXt 2](https://tianqi.name/jekyll-TeXt-theme/)主题，使用[Bootstrap](https://v3.bootcss.com/components)对部分组件进行重构。
 
@@ -33,4 +15,3 @@ key: page-about
 2020-15-18: 对底部（_includes/footer.html）进行小部分修改，解决引入bootstrap后footer排版混乱的问题。
 
 2020-05-17：对导航栏（_includes/header.html和 _data/navigation.yml）部分进行重构，支持响应式布局，支持二级菜单。
-
