@@ -49,7 +49,7 @@ layout: base
 {%- else -%}
 <div class="layout--page js-page-root">
 {%- endif -%}
-
+<!--
     {%- assign _page_main_class = 'page__main js-page-main' -%}
     {%- if _page_mode == 'immersive' -%}
       {%- assign _page_main_class = _page_main_class | append: ' page__main--immersive' -%}
@@ -64,7 +64,7 @@ layout: base
       {%- assign _page_main_class = _page_main_class | append: ' has-aside' -%}
     {%- elsif _full_width -%}
       {%- assign _page_main_class = _page_main_class | append: ' full-width' -%}
-    {%- endif -%}
+    {%- endif -%} -->
     <div class="{{ _page_main_class }} cell cell--auto">
 
       <div class="page__main-inner">
