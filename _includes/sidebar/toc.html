@@ -2,9 +2,9 @@
   <div class="sidebar-toc">
     {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
     {%- if _sidebar_nav -%}
-    <ul class="toc toc--navigator">
+    <ul class="toc toc--navigator navbar-text">
       {%- for _item in _sidebar_nav -%}
-        <li class="toc-h1">{{ _item.title }}</li>
+        <li class="toc-h1 navbar-text">{{ _item.title }}</li>
         {%- if _item.children -%}
           {%- for _child in _item.children -%}
             {%- include snippets/get-nav-url.html path=_child.url -%}
