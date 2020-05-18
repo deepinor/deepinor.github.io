@@ -1,4 +1,9 @@
 ---
+layout: page
+type: webpage
+show_title: false
+show_date: false
+show_tag: false
 title: publications
 tags: publications
 
