@@ -1,11 +1,10 @@
 {%- if page.sidebar.nav -%}
-<nav class="navbar navbar-default>
-  <div class="container sidebar-toc main">
+  <div class="sidebar-toc">
     {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
     {%- if _sidebar_nav -%}
-    <ul class="nav nav-default navbar-text">
+    <ul class="toc toc--navigator">
       {%- for _item in _sidebar_nav -%}
-        <li class="navbar-text">{{ _item.title }}</li>
+        <li class="toc-h1">{{ _item.title }}</li>
         {%- if _item.children -%}
           {%- for _child in _item.children -%}
             {%- include snippets/get-nav-url.html path=_child.url -%}
@@ -13,9 +12,9 @@
             {%- include snippets/get-nav-url.html path=page.url -%}
             {%- assign _page_url = __return -%}
             {%- if _nav_url == _page_url -%}
-              <li class="toc-h2 active navbar-text"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+              <li class="toc-h2 active"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
             {%- else -%}
-              <li class="navbar-text"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
+              <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
             {%- endif -%}
           {%- endfor -%}
         {%- endif -%}
@@ -23,5 +22,4 @@
       </ul>
     {%- endif -%}
   </div>
-  </nav>
 {%- endif -%}
