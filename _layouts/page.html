@@ -29,7 +29,7 @@ layout: base
 
 
 {%- assign _article_header_excerpt_truncate = include.excerpt_truncate | default: 200 -%}
-
+<div class="container">
 {%- if page.sidebar -%}
 <div class="layout--page layout--page--sidebar clearfix js-page-root">
   <div class="page__mask d-print-none js-page-mask js-sidebar-hide"></div>
@@ -268,3 +268,4 @@ layout: base
 
 {%- include markdown-enhancements.html -%}
 {%- include pageview.html -%}
+</div>
