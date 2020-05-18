@@ -1,12 +1,12 @@
 
 <footer class="footer py-4 js-page-footer">
 
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container main">
+  <nav class="navbar navbar-default navbar-fixed-bottom text-center">
+  <div class="container main text-center">
   {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
   {%- assign _locale_copyright_dates = __return -%}
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-  <div class="nav navbar-text text-center">
+  <div class="nav navbar-text">
       {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
       {%- assign _locale_copyright_dates = __return -%}
       © <a href="mailto:{{ _author.email }}" target="_blank"> {{ site.title }} </a> 2019 - {{ _locale_copyright_dates }} | All Rights Reserved. | 站内统计：<span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv", Style="color:red"></span>人，</span>
