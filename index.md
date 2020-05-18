@@ -5,7 +5,7 @@ key: page-index#
 show_title: false
 ---
 ## <center>欢迎访问<sup>13</sup>C博客</center>
-<center><div>
+<center><div class="container">
     <ul id="banner">
 
           <li>
@@ -62,7 +62,7 @@ show_title: false
         <span index="4"></span>
         <span index="5"></span>
     </div>
-    <a href="javascript:;" id="prev" class="arrow">&lt;</a>  <!--向左-->
-    <a href="javascript:;" id="next" class="arrow">&gt;</a>  <!--向右-->
+    <a href="javascript:;" id="prev" class="arrow"><i class="glyphicon glyphicon-chevron-left"></i></a>  <!--向左-->
+    <a href="javascript:;" id="next" class="arrow"><i class="glyphicon glyphicon-chevron-right"></i></a>  <!--向右-->
 
 </div></center>
