@@ -1,13 +1,13 @@
 - name: 首页 
-  icon: linecons-star
+  icon:
   links: /index.html
 
 - name: 归档 
-  icon: linecons-star
+  icon:
   links: /archive.html
   
 - name: 关于 
-  icon: linecons-star
+  icon: 
   sub: 
   - name: 关于本站
     links: /about.html
