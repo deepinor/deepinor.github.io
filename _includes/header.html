@@ -20,7 +20,7 @@
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
         {%- include snippets/get-nav-url.html path=_paths_root -%}
         <a class="navbar-brand" href="{{ __return }}">
-         <img class="header__brand" alt="Brand" src="/assets/logo.png">
+         <img class="header__brand" style="margin:1px;" alt="Brand" src="/assets/logo.png">
        </a>
        <a class="navbar-text" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}"><h3>{{ site.title }}</h3></a>
         </div>  <!--输出logo和站标题-->
