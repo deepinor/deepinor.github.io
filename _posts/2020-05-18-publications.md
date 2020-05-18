@@ -1,10 +1,10 @@
 ---
-layout: article
-titles:
-show_title: false
-show_date: false
-comment:false
-show_edit_on_github: false
+title: Post with Header Image
+tags: TeXt
+article_header:
+  type: cover
+  image:
+    src: /screenshot.jpg
 ---
 
 ## Publications
