@@ -14,6 +14,7 @@
 
 <body class="page-body">
     <!-- skin-white -->
+	 {%- include header.html -%}
     <div class="page-container">
         {{ content }}
     </div>
@@ -26,23 +27,8 @@
     <script src="../assets/js/xenon-api.js"></script>
     <script src="../assets/js/xenon-toggles.js"></script>
     <script src="../assets/js/xenon-custom.js"></script>
-	 
-	 <footer class="footer py-4 js-page-footer">
-	   <div class="main">
-	 
-	     {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
-	     {%- assign _locale_copyright_dates = __return -%}
-	     <div class="site-info mt-2">
-	       <div>
-	         {%- include snippets/get-locale-string.html key='COPYRIGHT_DATES' -%}
-	         {%- assign _locale_copyright_dates = __return -%}
-	         © <a href="mailto:{{ _author.email }}" target="_blank"> {{ site.title }} </a> 2019 - {{ _locale_copyright_dates }} | All Rights Reserved. | 站内统计：<span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv", Style="color:red"></span>人，</span>
-	                     <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv", Style="color:red"></span>次</span>
-	       </div>
-	     </div>
-	   </div>
-	    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-	 </footer>
+
+{%- include footer.html -%}
 </body>
 
 </html>
