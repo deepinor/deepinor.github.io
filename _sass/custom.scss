@@ -21,7 +21,7 @@
 
 
 /*设置父元素定位*/
-#container{
+#container_banner{
     position: relative; /*为了给左右按钮 和小圆点*/
 }
 
@@ -76,7 +76,7 @@
     right: 20px;
 }
 
- #container1:hover .arrow {
+ #container_banner:hover .arrow {
      display: block;
  }
 /* end custom scss snippet */
