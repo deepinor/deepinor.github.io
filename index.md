@@ -17,37 +17,37 @@ show_title: false
         </li>
         <li>
             <a href="#">
-                <img src="assets/banner/1.jpg" class="img-responsive">
+                <img src="assets/banner/1.jpg">
             </a>
         </li>
 
         <li>
             <a href="#">
-                <img src="assets/banner/2.jpg" class="img-responsive">
+                <img src="assets/banner/2.jpg">
             </a>
         </li>
 
         <li>
             <a href="#">
-                <img src="assets/banner/3.jpg" class="img-responsive">
+                <img src="assets/banner/3.jpg">
             </a>
         </li>
 
         <li>
             <a href="#">
-                <img src="assets/banner/4.jpg" class="img-responsive">
+                <img src="assets/banner/4.jpg">
             </a>
         </li>
 
         <li>
             <a href="#">
-                <img src="assets/banner/5.jpg" class="img-responsive">
+                <img src="assets/banner/5.jpg">
             </a>
         </li>
 
           <li>
             <a href="#">
-                <img src="assets/banner/1.jpg" class="img-responsive"><!--最后一张之后，插入图片1-->
+                <img src="assets/banner/1.jpg"><!--最后一张之后，插入图片1-->
             </a>
         </li>
 
