@@ -5,8 +5,8 @@ key: page-index#
 show_title: false
 ---
 ## <center>欢迎访问<sup>13</sup>C博客</center>
-<center><div class="container-banner">
-    <ul id="banner">
+<center><div class="banner-container">
+    <ul id="main-banner">
 
           <li>
             <a href="#">
@@ -55,7 +55,7 @@ show_title: false
     </ul>
 
     <!--伴随移动的小圆点-->
-    <div id="buttons">
+    <div id="banner-buttons">
         <span index="1" class="on"></span>
         <span index="2"></span>
         <span index="3"></span>

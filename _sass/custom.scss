@@ -1,33 +1,33 @@
 /* start custom scss snippet */
-#banner,
-#banner li{
+#main-banner,
+#main-banner li{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-#banner{
+#main-banner{
     position: absolute;
 
 }
 
-#banner li{
+#main-banner li{
     float: left;
 }
 
-#banner li img{
+#main-banner li img{
     display: block;
 }
 
 
 /*设置父元素定位*/
-#container-banner{
+#banner-container{
     position: relative; /*为了给左右按钮 和小圆点*/
 }
 
 
 /*小圆点*/
-#buttons{
+#banner-buttons{
     position: absolute; /*小圆点绝对定位*/
     height: 10px;
     width: 100px;
@@ -36,7 +36,7 @@
     z-index: 100;
 }
 
-#buttons span{
+#banner-buttons span{
     cursor: pointer;
     float: left;
     width: 10px;
@@ -76,7 +76,7 @@
     right: 20px;
 }
 
- #container-banner:hover .arrow {
+ #banner-container:hover .arrow {
      display: block;
  }
 /* end custom scss snippet */
