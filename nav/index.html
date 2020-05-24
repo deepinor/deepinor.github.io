@@ -64,10 +64,10 @@ layout: nav
 <div id="{{ category.name }}Content" class="tab-content">
   {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
  {% for sub_category in category.sub %}
- {% if _counter = 1 %}
+ {% if _counter == 1 %}
 <div class="row tab-pane fade in active" id="{{ sub_category.name }}">
   {%- assign _counter = 0 -%}
-  {% else if _counter = 0 %}
+  {% elsif _counter == 0 %}
   <div class="row tab-pane fade" id="{{ sub_category.name }}">
     {% endif %}
   {% for link in sub_category.links %}
