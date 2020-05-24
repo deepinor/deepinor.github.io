@@ -31,7 +31,7 @@
          {% for category in site.data.navigation %}
           <Li>
            {% if category.sub %}
-             <li class="dropdown tab fade in active">
+             <li class="dropdown">
                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                  <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
                </a>
@@ -44,7 +44,7 @@
              </ul>   <!--结束循环次级菜单-->
            </li>
           {% else if %}
-            <li role="presentation" class="tab fade in active">
+            <li role="presentation">
             <a href="{{ category.links }}" >
                 <i class="{{ category.icon }}"></i>
                 <span class="title">{{ category.name }}</span>
