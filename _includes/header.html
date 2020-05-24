@@ -44,12 +44,7 @@
              </ul>   <!--结束循环次级菜单-->
            </li>
           {% else if %}
-          {%- include snippets/get-nav-url.html path=_item.url -%}
-          {%- assign _nav_url = __return -%}
-          {%- include snippets/get-nav-url.html path=page.url -%}
-          {%- assign _page_url = __return -%}
-          {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
-           {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%} <li role="presentation" class="active"> {%- else -%}<li role="presentation">{%- endif -%}
+          <li role="presentation">
             <a href="{{ category.url }}" >
                 <i class="{{ category.icon }}"></i>
                 <span class="title">{{ category.titles }}</span>
