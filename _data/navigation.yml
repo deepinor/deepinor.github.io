@@ -1,21 +1,22 @@
-- name: 首页 
+header:
+- titles: 首页 
   icon:
-  links: /index.html
+  url: /index.html
 
-- name: 归档 
+- titles: 归档 
   icon:
-  links: /archive.html
+  url: /archive.html
   
-- name: 链接
+- titles: 链接
   icon:
-  links: /nav/index.html
+  url: /nav/index.html
   
-- name: 关于 
+- titles: 关于 
   icon: 
   sub: 
-  - name: 关于本站
-    links: /about.html
-  - name: 关于作者
-    links: /author.html
-  - name: 联系我
-    links: mailto:{{ _author.email }}
+  - titles: 关于本站
+    url: /about.html
+  - titles: 关于作者
+    url: /author.html
+  - titles: 联系我
+    url: mailto:{{ _author.email }}

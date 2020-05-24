@@ -26,26 +26,26 @@
         </div>  <!--输出logo和站标题-->
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          {%- if site.data.navigation -%}
+          {%- if site.data.navigation.header -%}
         <ul class="nav nav-pills navbar-nav navbar-right navbar-text">
-         {% for category in site.data.navigation %}
+         {% for category in site.data.navigation.header %}
 
            {% if category.sub %}
              <li class="dropdown">
                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                 <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
+                 <i class="{{ category.icon }}"></i> {{ category.titles }} <span class="caret"></span>
                </a>
              <ul class="dropdown-menu">            <!--循环次级菜单-->
                  {% for sub_category in category.sub %}
                    <li>
-                   <a href="{{ sub_category.links }}">{{ sub_category.name }}</a>
+                   <a href="{{ sub_category.url }}">{{ sub_category.titles }}</a>
                    </li>
                  {% endfor %}
              </ul>   <!--结束循环次级菜单-->
            </li>
           {% else if %}
             <li role="presentation" class="active">
-            <a href="{{ category.links }}" >
+            <a href="{{ category.url }}" >
                 <i class="{{ category.icon }}"></i>
                 <span class="title">{{ category.name }}</span>
             </a>
