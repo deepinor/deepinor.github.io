@@ -13,9 +13,9 @@
       logo:
       url: https://wiki.gooluck.tk/
       description: 维基百科中文镜像站。
-    - title: 站酷
+    - title: x-mol
       logo: /assets/images/logos/zcool.png
-      url: https://www.zcool.com.cn/
+      url: https://www.x-mol.com/
       description: 中国人气设计师互动平台
     - title: Pinterest
       logo: /assets/images/logos/pinterest.png
