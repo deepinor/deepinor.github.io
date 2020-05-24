@@ -21,9 +21,9 @@
       logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
       url: https://scifinder.cas.org/
       description: 美国化学会论文搜索平台
-    - title: 花瓣
-      logo: /assets/images/logos/huaban.png
-      url: https://huaban.com/
+    - title: Reaxys
+      logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
+      url: https://www.reaxys.com/
       description: 收集灵感,保存有用的素材
     - title: Medium
       logo: /assets/images/logos/medium.png
@@ -100,15 +100,15 @@
       description: UI设计师学习交流社区
 
 
-- name: 灵感采集
+- name: 音乐影视
   icon: linecons-lightbulb
   sub:
     - name: 发现产品
       links:
-        - title: Producthunt
-          logo: /assets/images/logos/producthunt.png
-          url: https://www.producthunt.com/
-          description: 发现新鲜有趣的产品
+        - title: 
+          logo:  
+          url:  
+          description:  
         - title: NEXT
           logo: /assets/images/logos/NEXT.png
           url: https://next.36kr.com/posts
