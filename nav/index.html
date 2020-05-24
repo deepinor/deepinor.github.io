@@ -53,7 +53,7 @@ layout: nav
         {% if category.sub %}
           <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
           <br />
-          <ul id="{{ category.name }}" class="nav nav-pills">
+          <ul id="{{ category.name }}" class="nav nav-tabs">
             {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
             {% for sub_category in category.sub %}
               {% if _counter == 1 %}
