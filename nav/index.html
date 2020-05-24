@@ -54,9 +54,15 @@ layout: nav
           <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
           <br />
           <ul id="{{ category.name }}" class="nav nav-pills">
+            {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
             {% for sub_category in category.sub %}
             <li >
-            		<a href="#{{ sub_category.name }}" data-toggle="tab">
+              {% if _counter == 1 %}
+            		<a href="#{{ sub_category.name }}" data-toggle="tab active">
+                  {%- assign _counter = 0 -%}
+                  {% elsif _counter == 0 %}
+                  <a href="#{{ sub_category.name }}" data-toggle="tab">
+               {% endif %}      
             			 <i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
             		</a>
             	</li>
