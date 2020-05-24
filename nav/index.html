@@ -67,7 +67,7 @@ layout: nav
  {% case _counter %}
  {% when _counter = 1 %}
 <div class="row tab-pane fade in active" id="{{ sub_category.name }}">
-  {% assign _counter = 0 %}
+  {%- assign _counter = 0 -%}
   {% else %}
   <div class="row tab-pane fade" id="{{ sub_category.name }}">
     {% endcase %}
