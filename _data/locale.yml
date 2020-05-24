@@ -3,7 +3,7 @@
 ########################
 en: &EN
   SUBSCRIBE               : "Subscribe"
-  READMORE                : "Read more"
+  READMORE                : "MORE"
   SEARCH                  : "Search"
   CANCEL                  : "Cancel"
   VIEWS                   : "views"
@@ -34,7 +34,7 @@ en-AU:
 ########################
 zh-Hans: &ZH_HANS
   SUBSCRIBE               : "订阅"
-  READMORE                : "阅读更多"
+  READMORE                : "更多"
   SEARCH                  : "搜索"
   CANCEL                  : "取消"
   VIEWS                   : "阅读"
