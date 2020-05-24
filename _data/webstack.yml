@@ -2,7 +2,7 @@
   icon: linecons-star
   links:
     - title: Chemsearch
-      logo:
+      logo: https://13c.org/assets/icon/favicon.ico
       url: https://chemsearch.guocx.net
       description: 化学论文解析服务。
     - title: 谷歌学术镜像1
@@ -24,8 +24,8 @@
     - title: Reaxys
       logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
       url: https://www.reaxys.com/
-      description: 收集灵感,保存有用的素材
-    - title: Medium
+      description: 英国皇家化学会论文搜索平台
+    - title: CSDC
       logo: /assets/images/logos/medium.png
       url: https://medium.com/
       description: 高质量设计文章
@@ -105,10 +105,10 @@
   sub:
     - name: 发现产品
       links:
-        - title: 
-          logo:  
-          url:  
-          description:  
+        - title:
+          logo:
+          url:
+          description:
         - title: NEXT
           logo: /assets/images/logos/NEXT.png
           url: https://next.36kr.com/posts
