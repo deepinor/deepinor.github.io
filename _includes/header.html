@@ -28,16 +28,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           {%- if site.data.navigation -%}
         <ul class="nav nav-pills navbar-nav navbar-right navbar-text">
-             {%- assign _counter = 1 -%} 
          {% for category in site.data.navigation %}
-          {% if _counter == 1 %}
-         <li class="active"> 
-         {%- assign _counter = 0 -%}
-         {% elsif _counter == 0 %}
-          <li> 
-          {% endif %}
+          <Li>
            {% if category.sub %}
-             <li class="dropdown">
+             <li class="dropdown tab fade in active">
                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                  <i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
                </a>
@@ -50,7 +44,7 @@
              </ul>   <!--结束循环次级菜单-->
            </li>
           {% else if %}
-            <li role="presentation">
+            <li role="presentation" class="tab fade in active">
             <a href="{{ category.links }}" >
                 <i class="{{ category.icon }}"></i>
                 <span class="title">{{ category.name }}</span>
