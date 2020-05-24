@@ -31,6 +31,21 @@ layout: nav
                 {% endif %}
             </li>
             {% endfor %}
+           <li> <div id="he-plugin-standard"></div></li>
+            <script>
+            WIDGET = {
+              CONFIG: {
+                "layout": 2,
+                "width": "230",
+                "height": "270",
+                "background": 5,
+                "dataColor": "4A4A4A",
+                "borderRadius": 5,
+                "key": "715913ad407a42dea7564d343abff975"
+              }
+            }
+            </script>
+            <script src="https://widget.heweather.net/standard/static/js/he-standard-common.js?v=1.1"></script>
         </ul>
 
     </div>
@@ -45,34 +60,9 @@ layout: nav
                 <a href="#" data-toggle="sidebar">
                     <i class="fa-bars"></i>
                 </a>
-            </li><div id="he-plugin-simple"></div>
+            </li>
         </ul>
-        <div id="he-plugin-simple"></div>
-        <script>
-        WIDGET = {
-          CONFIG: {
-            "modules": "01234",
-            "background": 2,
-            "tmpColor": "4A4A4A",
-            "tmpSize": 16,
-            "cityColor": "4A4A4A",
-            "citySize": 16,
-            "aqiSize": 16,
-            "weatherIconSize": 24,
-            "alertIconSize": 18,
-            "padding": "10px 10px 10px 10px",
-            "shadow": "1",
-            "language": "auto",
-            "borderRadius": 5,
-            "fixed": "false",
-            "vertical": "middle",
-            "horizontal": "light",
-            "key": "a6c816671702443486e367281b4018e7"
-          }
-        }
-        </script>
-        <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
-    </nav>
+
 
     {% for category in site.data.webstack %}
         {% if category.sub %}
