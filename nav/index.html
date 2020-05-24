@@ -65,10 +65,10 @@ layout: nav
   {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
  {% for sub_category in category.sub %}
  {% case _counter %}
- {% when _counter = 1 %}
+ {% if _counter = 1 %}
 <div class="row tab-pane fade in active" id="{{ sub_category.name }}">
   {%- assign _counter = 0 -%}
-  {% else %}
+  {% else if _counter = 0 %}
   <div class="row tab-pane fade" id="{{ sub_category.name }}">
     {% endcase %}
   {% for link in sub_category.links %}
