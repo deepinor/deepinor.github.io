@@ -29,10 +29,10 @@
       logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
       url: http://www.webofknowledge.com
       description: 全球最大规模的出版商中立引文索引和研究情报平台
-    - title: 优设
-      logo: /assets/images/logos/uisdc.png
-      url: https://www.uisdc.com/
-      description: 设计师交流学习平台
+    - title: WebCSD
+      logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
+      url: https://www.ccdc.cam.ac.uk
+      description: 单晶搜索平台
     - title: Producthunt
       logo: /assets/images/logos/producthunt.png
       url: https://www.producthunt.com/
