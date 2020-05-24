@@ -51,11 +51,17 @@ layout: nav
 
     {% for category in site.data.webstack %}
         {% if category.sub %}
+          <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
+          <ul id="{{ category.name }}" class="nav nav-pills nav-tabs"><i class="{{ category.icon }}"></i> {{ category.name }} <span class="caret"></span>
             {% for sub_category in category.sub %}
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ sub_category.name }}"></i>{{ sub_category.name }}</h4>
-            <div class="row">
+           <li >
+           		<a href="#{{ sub_category.name }}" data-toggle="tab">
+           			 <i class="{{ sub_category.icon }}"></i> {{ sub_category.name }} <span class="caret"></span>
+           		</a>
+           	</li>
+<div class="row tab-content">
                 {% for link in sub_category.links %}
-                <div class="col-sm-3">
+                <div class="col-sm-3 tab-pane fade in active" id="{{ sub_category.name }}">
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('{{ link.url }}', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ link.url }}">
                         <div class="xe-comment-entry">
                             <a class="xe-user-img">
@@ -74,6 +80,8 @@ layout: nav
             </div>
             <br />
             {% endfor %}
+            </ul>
+
         {% else if %}
         <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
         <div class="row">
