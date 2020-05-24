@@ -14,7 +14,7 @@
       url: https://wiki.googluck.tk/
       description: 维基百科中文镜像站。
     - title: x-mol
-      logo:
+      logo: https://static.x-mol.com/css/images/favicon.ico
       url: https://www.x-mol.com/
       description: 科学知识平台
     - title:  Scifinder
