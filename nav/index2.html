@@ -51,8 +51,10 @@ layout: nav
 
     {% for category in site.data.webstack %}
         {% if category.sub %}
+          <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ sub_category.name }}"></i>{{ category.name }}</h4>
             {% for sub_category in category.sub %}
-            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ sub_category.name }}"></i>{{ sub_category.name }}</h4>
+
+            <ul id="{{ sub_category.name }}" class="nav nav-pills nav-tabs"><i class="{{ category.icon }}"></i> {{ sub_category.name }} <span class="caret"></span></ul>
             <div class="row">
                 {% for link in sub_category.links %}
                 <div class="col-sm-3">
