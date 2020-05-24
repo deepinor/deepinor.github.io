@@ -24,16 +24,12 @@
        </a>
         <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}"><h4>{{ site.title }}</h4></a>
         </div>  <!--输出logo和站标题-->
-          {%- include snippets/get-nav-url.html path=_item.url -%}
-          {%- assign _nav_url = __return -%}
-          {%- include snippets/get-nav-url.html path=page.url -%}
-          {%- assign _page_url = __return -%}
-          {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
+
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           {%- if site.data.navigation -%}
         <ul class="nav nav-pills navbar-nav navbar-right navbar-text">
          {% for category in site.data.navigation %}
-          <Li>
+
            {% if category.sub %}
              <li class="dropdown">
                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -48,12 +44,7 @@
              </ul>   <!--结束循环次级菜单-->
            </li>
           {% else if %}
-
-          {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
-            <li role="presentation" class="navigation__item navigation__item--active">
-              {% else if %}
-              <li role="presentation" class="navigation__item">
-                {%- endif -%}
+            <li role="presentation" class="active">
             <a href="{{ category.links }}" >
                 <i class="{{ category.icon }}"></i>
                 <span class="title">{{ category.name }}</span>
