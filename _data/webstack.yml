@@ -105,10 +105,6 @@
   sub:
     - name: 发现产品
       links:
-        - title:
-          logo:
-          url:
-          description:
         - title: NEXT
           logo: /assets/images/logos/NEXT.png
           url: https://next.36kr.com/posts
