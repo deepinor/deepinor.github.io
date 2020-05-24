@@ -56,13 +56,13 @@ layout: nav
           <ul id="{{ category.name }}" class="nav nav-pills">
             {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
             {% for sub_category in category.sub %}
-            <li >
               {% if _counter == 1 %}
-            		<a href="#{{ sub_category.name }}" data-toggle="tab active">
+            		  <li class="active">
                   {%- assign _counter = 0 -%}
                   {% elsif _counter == 0 %}
-                  <a href="#{{ sub_category.name }}" data-toggle="tab">
-               {% endif %}      
+                 <li>
+               {% endif %}
+                   <a href="#{{ sub_category.name }}" data-toggle="tab">
             			 <i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
             		</a>
             	</li>
