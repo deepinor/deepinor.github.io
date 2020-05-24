@@ -52,7 +52,7 @@ layout: nav
     {% for category in site.data.webstack %}
         {% if category.sub %}
           <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
-          <ul id="{{ category.name }}" class="nav nav-pills nav-tabs">
+          <ul id="{{ category.name }}" class="nav nav-tabs">
             {% for sub_category in category.sub %}
             <li >
             		<a href="#{{ sub_category.name }}" data-toggle="tab">
