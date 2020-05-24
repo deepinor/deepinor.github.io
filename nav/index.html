@@ -59,9 +59,9 @@ layout: nav
             			 <i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
             		</a>
             	</li>
-              {{% endfor %}}
+               {% endfor %}
           </ul>
-<!-- <div id="{{ category.name }}Content" class="tab-content"> 
+<!-- <div id="{{ category.name }}Content" class="tab-content">
  {% for sub_category in category.sub %}
 <div class="row tab-pane fade in active" id="{{ sub_category.name }}">
   {% for link in sub_category.links %}
@@ -109,6 +109,7 @@ layout: nav
         <br />
         {% endif %}
     {% endfor %}
+
 
     <!-- Main Footer -->
     <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
