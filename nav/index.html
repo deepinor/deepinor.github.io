@@ -62,8 +62,14 @@ layout: nav
                {% endfor %}
           </ul>
 <div id="{{ category.name }}Content" class="tab-content">
+  {%- assign _counter = 1 %}
  {% for sub_category in category.sub %}
+ {% if _counter %}
 <div class="row tab-pane fade in active" id="{{ sub_category.name }}">
+  {%- assign _counter = 0 %}
+  {% else if %}
+  <div class="row tab-pane fade in active" id="{{ sub_category.name }}">
+    {% endif %}
   {% for link in sub_category.links %}
   <div class="col-sm-3">
       <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('{{ link.url }}', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ link.url }}">
