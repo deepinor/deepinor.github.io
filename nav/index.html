@@ -62,12 +62,12 @@ layout: nav
                {% endfor %}
           </ul>
 <div id="{{ category.name }}Content" class="tab-content">
-  {% assign _counter=1 %} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
+  {% assign _counter = 1 %} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
  {% for sub_category in category.sub %}
  {% case _counter %}
- {% when _counter=1 %}
+ {% when _counter = 1 %}
 <div class="row tab-pane fade in active" id="{{ sub_category.name }}">
-  {% assign _counter=0 %}
+  {% assign _counter = 0 %}
   {% else %}
   <div class="row tab-pane fade" id="{{ sub_category.name }}">
     {% endcase %}
