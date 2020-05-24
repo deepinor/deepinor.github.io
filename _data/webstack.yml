@@ -6,11 +6,11 @@
       url: https://chemsearch.guocx.net
       description: 化学论文解析服务。
     - title: 谷歌学术镜像1
-      logo:
+      logo: /assets/images/logos/google.png
       url: https://scholar.googluck.tk/
       description: 谷歌学术镜像服务。
     - title: 维基百科镜像1
-      logo:
+      logo: https://wiki.googluck.tk/static/favicon/wikipedia.ico
       url: https://wiki.googluck.tk/
       description: 维基百科中文镜像站。
     - title: x-mol
