@@ -1,18 +1,18 @@
 - name: 常用推荐
   icon: linecons-star
-  links: 
-    - title: Dribbble
-      logo: /assets/images/logos/dribbble.png
-      url: https://dribbble.com/
-      description: 全球UI设计师作品分享平台。
-    - title: Behance
-      logo: /assets/images/logos/behance.png
-      url: https://behance.net/
-      description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-    - title: UI中国
-      logo: /assets/images/logos/uicn.png
-      url: https://www.ui.cn/
-      description: 图形交互与界面设计交流、作品展示、学习平台。
+  links:
+    - title: Chemsearch
+      logo:
+      url: https://chemsearch.guocx.net
+      description: 化学论文解析服务。
+    - title: 谷歌学术镜像1
+      logo:
+      url: https://scholar.googluck.tk/
+      description: 谷歌学术镜像服务。
+    - title: 维基百科镜像1
+      logo:
+      url: https://wiki.gooluck.tk/
+      description: 维基百科中文镜像站。
     - title: 站酷
       logo: /assets/images/logos/zcool.png
       url: https://www.zcool.com.cn/
@@ -45,11 +45,11 @@
       logo: /assets/images/logos/google.png
       url: https://www.google.com/
       description: 全球最大的UI学习分享平台
-    
+
 
 - name: 社区资讯
   icon: linecons-doc
-  links: 
+  links:
     - title: 雷锋网
       logo: /assets/images/logos/leiphone.png
       url: https://www.leiphone.com/
@@ -74,7 +74,7 @@
       logo: /assets/images/logos/zaodula.png
       url: https://www.zaodula.com/
       description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰 
+    - title: 产品壹佰
       logo: /assets/images/logos/chanpin100.png
       url: http://www.chanpin100.com/
       description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
@@ -98,11 +98,11 @@
       logo: /assets/images/logos/uigreat.png
       url: http://www.uigreat.com/
       description: UI设计师学习交流社区
-    
+
 
 - name: 灵感采集
   icon: linecons-lightbulb
-  sub: 
+  sub:
     - name: 发现产品
       links:
         - title: Producthunt
@@ -129,7 +129,7 @@
           logo: /assets/images/logos/appinn.png
           url: https://faxian.appinn.com/
           description: 在这里发现更多有趣的应用
-      
+
     - name: 界面灵感
       links:
         - title: Pttrns
@@ -148,7 +148,7 @@
           logo: /assets/images/logos/AndroidNiceties.png
           url: https://androidniceties.tumblr.com/
           description: A collection of screenshots encompassing some of the most beautiful looking Android apps.
-      
+
     - name: 网页灵感
       links:
         - title: Awwwards
@@ -208,10 +208,10 @@
           url: https://www.reallygoodux.io/
           description: A library of screenshots and examples of really good UX. Brought to you by
 
-      
+
 - name: 素材资源
   icon: linecons-thumbs-up
-  sub: 
+  sub:
     - name: 图标素材
       links:
         - title: Iconfinder
@@ -266,7 +266,7 @@
           logo: /assets/images/logos/simplelineicons.png
           url: http://simplelineicons.com/
           description: Simple line Icons pack
-      
+
     - name: LOGO设计
       links:
         - title: Iconsfeed
@@ -340,7 +340,7 @@
           logo: /assets/images/logos/sccnn.png
           url: http://www.sccnn.com/
           description: 免费素材共享平台
-      
+
     - name: UI资源
       links:
         - title: Freebiesbug
@@ -383,7 +383,7 @@
           logo: /assets/images/logos/PrincipleRepo.png
           url: http://principlerepo.com/
           description: Free, High Quality Principle Resources
-      
+
     - name: Sketch资源
       links:
         - title: Sketch
@@ -418,7 +418,7 @@
           url: https://www.sketchcasts.net/
           logo: /assets/images/logos/sketchcasts.png
           description: Learn Sketch Train your design skills with a weekly video tutorial
-      
+
     - name: 字体资源
       links:
         - title: Google Font
@@ -481,7 +481,7 @@
           url: http://www.abstractfonts.com/
           logo: /assets/images/logos/abstractfonts.png
           description: Abstract Fonts (13,866 free fonts)
-      
+
     - name: Mockup
       links:
         - title: MockupZone
@@ -516,7 +516,7 @@
           url: http://forgraphictm.com/
           logo: /assets/images/logos/forgraphictm.png
           description: High Quality PSD Mockups for Graphic Designers.
-      
+
     - name: 摄影图库
       links:
         - title: Unsplash
@@ -566,11 +566,11 @@
         - title: 55mm
           url: https://55mm.co/visuals
           logo: /assets/images/logos/55mm.png
-          description: Use our FREE photos to tell your story! 
+          description: Use our FREE photos to tell your story!
         - title: thestocks
           url: http://thestocks.im/
           logo: /assets/images/logos/thestocks.png
-          description: Use our FREE photos to tell your story! 
+          description: Use our FREE photos to tell your story!
         - title: freenaturestock
           url: http://freenaturestock.com/
           logo: /assets/images/logos/freenaturestock.png
@@ -582,7 +582,7 @@
         - title: gratisography
           url: https://gratisography.com/
           logo: /assets/images/logos/gratisography.png
-          description: Free high-resolution pictures you can use on your personal and commercial projects, free of copyright restrictions. 
+          description: Free high-resolution pictures you can use on your personal and commercial projects, free of copyright restrictions.
         - title: imcreator
           url: http://imcreator.com/free
           logo: /assets/images/logos/imcreator.png
@@ -619,7 +619,7 @@
           url: http://publicdomainarchive.com/
           logo: /assets/images/logos/publicdomainarchive.png
           description: New 100% Free Stock Photos. Every. Single. Week.
-      
+
     - name: PPT资源
       links:
         - title: OfficePLUS
@@ -646,11 +646,11 @@
           url: http://ppt.500d.me/
           logo: /assets/images/logos/500d.png
           description: 中国领先的PPT模板共享平台
-      
+
 
 - name: 常用工具
   icon: linecons-diamond
-  sub: 
+  sub:
     - name: 图形创意
       links:
         - title: photoshop
@@ -681,7 +681,7 @@
           url: https://www.blender.org/
           logo: /assets/images/logos/blender.png
           description: Blender is the free and open source 3D creation suite.
-      
+
     - name: 界面设计
       links:
         - title: Sketch
@@ -752,7 +752,7 @@
         - title: webgradients
           url: https://webgradients.com/
           logo: /assets/images/logos/webgradients.png
-          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website. 
+          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website.
         - title: grabient
           url: https://www.grabient.com/
           logo: /assets/images/logos/grabient.png
@@ -824,7 +824,7 @@
           url: https://www.gaoding.com
           logo: /assets/images/logos/gaoding.png
           description: 免费在线抠图软件,图片快速换背景-抠白底图
-        
+
     - name: Chrome插件
       links:
         - title: wappalyzer
@@ -855,7 +855,7 @@
 
 - name: 学习教程
   icon: linecons-pencil
-  sub: 
+  sub:
     - name: 设计规范
       links:
         - title: Design Guidelines
@@ -879,7 +879,7 @@
           logo: /assets/images/logos/photoshopetiquette.png
           description: PS礼仪-WEB设计指南
 
-      
+
     - name: 视频教程
       links:
         - title: Photoshop Lady
@@ -898,7 +898,7 @@
           url: https://www.imooc.com/
           logo: /assets/images/logos/imooc.png
           description: 程序员的梦工厂（有UI课程）
-        
+
     - name: 设计文章
       links:
         - title: 优设网
@@ -934,7 +934,7 @@
         - title: Little Big Details
           url: http://littlebigdetails.com/
           logo: /assets/images/logos/littlebigdetails.png
-          description: Little Big Details is a curated collection of the finer details of design, updated every day. 
+          description: Little Big Details is a curated collection of the finer details of design, updated every day.
         - title: Smashing Magazine
           url: https://www.smashingmagazine.com/category/user-experience
           logo: /assets/images/logos/smashingmagazine.png
@@ -946,11 +946,11 @@
         - title: Boxes and Arrows
           url: http://boxesandarrows.com/
           logo: /assets/images/logos/boxesandarrows.png
-          description: Boxes and Arrows is devoted to the practice, innovation, and discussion of design; including graphic design, interaction design, information architecture and the design of business. 
+          description: Boxes and Arrows is devoted to the practice, innovation, and discussion of design; including graphic design, interaction design, information architecture and the design of business.
         - title: UX Design Weekly
           url: http://uxdesignweekly.com/
           logo: /assets/images/logos/uxdesignweekly.png
-          description:  get a hand picked list of the best user experience design links every week. 
+          description:  get a hand picked list of the best user experience design links every week.
         - title: UX Ren
           url: http://uxren.cn/
           logo: /assets/images/logos/uxren.png
@@ -960,7 +960,7 @@
 
 - name: UED团队
   icon: linecons-user
-  links: 
+  links:
     - title: Airbnb Design
       url: https://airbnb.design
       logo: /assets/images/logos/AirbnbDesign.png
@@ -1025,4 +1025,3 @@
       url: http://ued.ctrip.com/
       logo: /assets/images/logos/ctrip.png
       description: 携程设计委员会-Ctrip Design Committee
-    
