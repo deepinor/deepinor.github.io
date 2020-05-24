@@ -2,7 +2,7 @@
   icon: linecons-star
   links:
     - title: Chemsearch
-      logo: http://statics.dnspod.cn/proxy_favicon/_/favicon?domain=chemsearch.guocx.net
+      logo:
       url: https://chemsearch.guocx.net
       description: 化学论文解析服务。
     - title: 谷歌学术镜像1
@@ -14,13 +14,13 @@
       url: https://wiki.googluck.tk/
       description: 维基百科中文镜像站。
     - title: x-mol
-      logo: 
+      logo:
       url: https://www.x-mol.com/
       description: 科学知识平台
     - title:  Scifinder
-      logo: 
+      logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
       url: https://scifinder.cas.org/
-      description: 全球美图收藏采集站
+      description: 美国化学会论文搜索平台
     - title: 花瓣
       logo: /assets/images/logos/huaban.png
       url: https://huaban.com/
