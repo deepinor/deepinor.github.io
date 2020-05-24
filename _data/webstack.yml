@@ -41,10 +41,10 @@
       logo: /assets/images/logos/youtube.png
       url: https://www.youtube.com/
       description: 全球最大的学习分享平台
-    - title: Google
+    - title: Google镜像(备)
       logo: /assets/images/logos/google.png
-      url: https://www.google.com/
-      description: 全球最大的UI学习分享平台
+      url: https://ac.scmor.com/
+      description: 谷歌镜像服务
 
 
 - name: 社区资讯
