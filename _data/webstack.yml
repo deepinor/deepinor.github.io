@@ -59,19 +59,22 @@
           logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
           url: http://www.webofknowledge.com
           description: 全球最大规模的出版商中立引文索引和研究情报平台
-         - title: SDBS
+        - title: PubMed
+          logo: https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico
+          url: https://pubmed.ncbi.nlm.nih.gov/
+          description: 生物医学方面的论文搜索以及摘要
+        - title: 中国知网|CNKI
+          logo: http://s2.googleusercontent.com/s2/favicons?domain=www.cnki.net
+          url: https://www.cnki.net/
+          description: 面向海内外读者提供中国学术文献、外文文献、学位论文、报纸、会议、年鉴、工具书等各类资源统一检索、统一导航、在线阅读和下载服务
+        - title: SDBS
            logo: https://www.aist.go.jp/images/favicon.ico
            url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
            description: 有机化合物谱图数据库
-         - title: WebCSD
+        - title: WebCSD
            logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
            url: https://www.ccdc.cam.ac.uk
            description: CCDC单晶数据库
-
-         - title: PubMed
-           logo: https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico
-           url: https://pubmed.ncbi.nlm.nih.gov/
-           description: 生物医学方面的论文搜索以及摘要
 
       - name: 出版商
         links:
