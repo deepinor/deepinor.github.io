@@ -34,17 +34,16 @@
       url: https://ac.scmor.com/
       description: 谷歌镜像服务
 
-
 - name: 科研工具
   icon: linecons-doc
   sub:
-   - name: 工具
+    - name: 工具
      links:
     - title: Chemsearch
       logo: https://13c.org/assets/icon/favicon.ico
       url: https://chemsearch.guocx.net
       description: 化学论文解析服务。
-      
+
    - name: 数据库
      links:
     - title: SDBS
