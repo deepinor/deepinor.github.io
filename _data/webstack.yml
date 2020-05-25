@@ -25,7 +25,6 @@
       logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
       url: https://www.ccdc.cam.ac.uk
       description: 单晶搜索平台
-
     - title: Youtube
       logo: /assets/images/logos/youtube.png
       url: https://www.youtube.com/
@@ -38,37 +37,31 @@
 
 - name: 科研工具
   icon: linecons-doc
-  links:
   sub:
    - name: 工具
-     links: 
+     links:
     - title: Chemsearch
       logo: https://13c.org/assets/icon/favicon.ico
       url: https://chemsearch.guocx.net
       description: 化学论文解析服务。
-
    - name: 数据库
-     links: 
+     links:
     - title: SDBS
       logo: https://www.aist.go.jp/images/favicon.ico
       url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
       description: 有机化合物谱图数据库
-
     - title: WebCSD
       logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
       url: https://www.ccdc.cam.ac.uk
       description: CCDC单晶数据库
-
     - title:  Scifinder
       logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
       url: https://scifinder.cas.org/
       description: 美国化学会论文搜索平台
-
     - title: Reaxys
       logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
       url: https://www.reaxys.com/
       description: 英国皇家化学会论文搜索平台
-
     - title: Web of Science
       logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
       url: http://www.webofknowledge.com
@@ -111,7 +104,7 @@
       logo: https://static.x-mol.com/css/images/favicon.ico
       url: https://www.x-mol.com/
       description: 科学知识平台
-
+      
    - name: 别瞎点
      links:
     - title: 雷锋网
