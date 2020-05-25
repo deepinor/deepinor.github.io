@@ -76,13 +76,13 @@
           url: http://www.cqvip.com/
           description: 文检测服务、优先出版服务、论文选题下载，在线分享下载等
         - title: SDBS
-           logo: https://www.aist.go.jp/images/favicon.ico
-           url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
-           description: 有机化合物谱图数据库
+          logo: https://www.aist.go.jp/images/favicon.ico
+          url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
+          description: 有机化合物谱图数据库
         - title: WebCSD
-           logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
-           url: https://www.ccdc.cam.ac.uk
-           description: CCDC单晶数据库
+          logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
+          url: https://www.ccdc.cam.ac.uk
+          description: CCDC单晶数据库
 
       - name: 出版商
         links:
