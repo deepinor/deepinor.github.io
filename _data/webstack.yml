@@ -44,6 +44,7 @@
       logo: https://13c.org/assets/icon/favicon.ico
       url: https://chemsearch.guocx.net
       description: 化学论文解析服务。
+      
    - name: 数据库
      links:
     - title: SDBS
@@ -97,14 +98,14 @@
       logo: https://science.sciencemag.org/sites/default/files/images/favicon.ico
       url: https://science.sciencemag.org/
       description: 美国科学促进会出版的一份学术期刊，为全世界最权威的学术期刊之一
-      
+
    - name: 社区
     links:
     - title: x-mol
       logo: https://static.x-mol.com/css/images/favicon.ico
       url: https://www.x-mol.com/
       description: 科学知识平台
-      
+
    - name: 别瞎点
      links:
     - title: 雷锋网
