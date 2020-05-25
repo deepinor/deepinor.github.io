@@ -47,7 +47,7 @@
 
       - name: 数据库
         links:
-        - title:  Scifinder
+        - title: Scifinder
           logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
           url: https://scifinder.cas.org/
           description: 美国化学会论文搜索平台
@@ -67,6 +67,14 @@
           logo: http://s2.googleusercontent.com/s2/favicons?domain=www.cnki.net
           url: https://www.cnki.net/
           description: 面向海内外读者提供中国学术文献、外文文献、学位论文、报纸、会议、年鉴、工具书等各类资源统一检索、统一导航、在线阅读和下载服务
+        - title: 万方数据
+          logo: http://cdn.wanfangdata.com.cn/page/images/favicon.ico
+          url: http://www.wanfangdata.com.cn/
+          description: 中外学术论文、中外标准、中外专利、科技成果、政策法规等科技文献的在线服务平台
+        - title: 维普数据
+          logo: http://s2.googleusercontent.com/s2/favicons?domain=www.cqvip.com
+          url: http://www.cqvip.com/
+          description: 文检测服务、优先出版服务、论文选题下载，在线分享下载等
         - title: SDBS
            logo: https://www.aist.go.jp/images/favicon.ico
            url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
