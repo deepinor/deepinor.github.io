@@ -470,34 +470,4 @@ layout: nav
         }
     });
 })(jQuery);
-function toTarget(menu, padding = true, isMult = true) {
-    var slider =  menu.children(".anchor");
-    var target = menu.children(".hover").first() ;
-    if (target && 0 < target.length){
-    }
-    else{
-        if(isMult)
-            target = menu.find('.active').parent();
-        else
-            target = menu.find('.active');
-    }
-    if(0 < target.length){
-        if(padding)
-        slider.css({
-            left: target.position().left + target.scrollLeft() + "px",
-            width: target.outerWidth() + "px",
-            opacity: "1"
-        });
-        else
-        slider.css({
-            left: target.position().left + target.scrollLeft() + (target.outerWidth()/4) + "px",
-            width: target.outerWidth()/2 + "px",
-            opacity: "1"
-        });
-    }
-    else{
-        slider.css({
-            opacity: "0"
-        })
-    }
-}</script>
+</script>
