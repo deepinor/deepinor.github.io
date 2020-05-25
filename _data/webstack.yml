@@ -47,6 +47,18 @@
 
       - name: 数据库
         links:
+        - title:  Scifinder
+          logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
+          url: https://scifinder.cas.org/
+          description: 美国化学会论文搜索平台
+        - title: Reaxys
+          logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
+          url: https://www.reaxys.com/
+          description: 英国皇家化学会论文搜索平台
+        - title: Web of Science
+          logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
+          url: http://www.webofknowledge.com
+          description: 全球最大规模的出版商中立引文索引和研究情报平台
          - title: SDBS
            logo: https://www.aist.go.jp/images/favicon.ico
            url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
@@ -55,18 +67,11 @@
            logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
            url: https://www.ccdc.cam.ac.uk
            description: CCDC单晶数据库
-         - title:  Scifinder
-           logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
-           url: https://scifinder.cas.org/
-           description: 美国化学会论文搜索平台
-         - title: Reaxys
-           logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
-           url: https://www.reaxys.com/
-           description: 英国皇家化学会论文搜索平台
-         - title: Web of Science
-           logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
-           url: http://www.webofknowledge.com
-           description: 全球最大规模的出版商中立引文索引和研究情报平台
+
+         - title: PubMed
+           logo: https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico
+           url: https://pubmed.ncbi.nlm.nih.gov/
+           description: 生物医学方面的论文搜索以及摘要
 
       - name: 出版商
         links:
@@ -98,15 +103,15 @@
            logo: https://science.sciencemag.org/sites/default/files/images/favicon.ico
            url: https://science.sciencemag.org/
            description: 美国科学促进会出版的一份学术期刊，为全世界最权威的学术期刊之一
-           
-      
+
+
       - name: 社区
         links:
          - title: x-mol
            logo: https://static.x-mol.com/css/images/favicon.ico
            url: https://www.x-mol.com/
            description: 科学知识平台
-      
+
       - name: 别瞎点
         links:
          - title: 雷锋网
