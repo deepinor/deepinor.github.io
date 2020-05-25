@@ -328,32 +328,7 @@ layout: nav
 </div>
 <!-- 锚点平滑移动 -->
 
-			<script type="text/javascript">(function($){
-    $(document).ready(function(){
-
-    function intoSearch() {
-        if(window.localStorage.getItem("searchlist")){
-            $(".hide-type-list input#"+window.localStorage.getItem("searchlist")).prop('checked', true);
-            $(".hide-type-list input#m_"+window.localStorage.getItem("searchlist")).prop('checked', true);
-        }
-        if(window.localStorage.getItem("searchlistmenu")){
-            $('.s-type-list.big label').removeClass('active');
-            $(".s-type-list [data-id="+window.localStorage.getItem("searchlistmenu")+"]").addClass('active');
-        }
-        toTarget($(".s-type-list.big"),false,false);
-        $('.hide-type-list .s-current').removeClass("s-current");
-        $('.hide-type-list input:radio[name="type"]:checked').parents(".search-group").addClass("s-current");
-        $('.hide-type-list input:radio[name="type2"]:checked').parents(".search-group").addClass("s-current");
-
-        $(".super-search-fm").attr("action",$('.hide-type-list input:radio:checked').val());
-        $(".search-key").attr("placeholder",$('.hide-type-list input:radio:checked').data("placeholder"));
-        if(window.localStorage.getItem("searchlist")=='type-zhannei'){
-            $(".search-key").attr("zhannei","true");
-        }
-    }
-
-    });
-
+			<script type="text/javascript">
     $(document).on('click', '.s-type-list label', function(event) {
         //event.preventDefault();
         $('.s-type-list.big label').removeClass('active');
@@ -470,4 +445,34 @@ layout: nav
         }
     });
 })(jQuery);
-</script>
+function toTarget(menu, padding = true, isMult = true) {
+    var slider =  menu.children(".anchor");
+    var target = menu.children(".hover").first() ;
+    if (target && 0 < target.length){
+    }
+    else{
+        if(isMult)
+            target = menu.find('.active').parent();
+        else
+            target = menu.find('.active');
+    }
+    if(0 < target.length){
+        if(padding)
+        slider.css({
+            left: target.position().left + target.scrollLeft() + "px",
+            width: target.outerWidth() + "px",
+            opacity: "1"
+        });
+        else
+        slider.css({
+            left: target.position().left + target.scrollLeft() + (target.outerWidth()/4) + "px",
+            width: target.outerWidth()/2 + "px",
+            opacity: "1"
+        });
+    }
+    else{
+        slider.css({
+            opacity: "0"
+        })
+    }
+}</script>
