@@ -17,14 +17,6 @@
       logo: https://static.x-mol.com/css/images/favicon.ico
       url: https://www.x-mol.com/
       description: 科学知识平台
-    - title:  Scifinder
-      logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
-      url: https://scifinder.cas.org/
-      description: 美国化学会论文搜索平台
-    - title: Reaxys
-      logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
-      url: https://www.reaxys.com/
-      description: 英国皇家化学会论文搜索平台
     - title: Web of Science
       logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
       url: http://www.webofknowledge.com
@@ -33,10 +25,7 @@
       logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
       url: https://www.ccdc.cam.ac.uk
       description: 单晶搜索平台
-    - title: SDBS
-      logo: https://www.aist.go.jp/images/favicon.ico
-      url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
-      description: 有机化合物谱图数据库
+
     - title: Youtube
       logo: /assets/images/logos/youtube.png
       url: https://www.youtube.com/
@@ -47,9 +36,78 @@
       description: 谷歌镜像服务
 
 
-- name: 社区资讯
+- name: 科研工具
   icon: linecons-doc
   links:
+  sub:
+   - name: 工具
+    - title: Chemsearch
+      logo: https://13c.org/assets/icon/favicon.ico
+      url: https://chemsearch.guocx.net
+      description: 化学论文解析服务。
+
+   - name: 数据库
+    - title: SDBS
+      logo: https://www.aist.go.jp/images/favicon.ico
+      url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
+      description: 有机化合物谱图数据库
+
+    - title: WebCSD
+      logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
+      url: https://www.ccdc.cam.ac.uk
+      description: CCDC单晶数据库
+
+    - title:  Scifinder
+      logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
+      url: https://scifinder.cas.org/
+      description: 美国化学会论文搜索平台
+
+    - title: Reaxys
+      logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
+      url: https://www.reaxys.com/
+      description: 英国皇家化学会论文搜索平台
+
+    - title: Web of Science
+      logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
+      url: http://www.webofknowledge.com
+      description: 全球最大规模的出版商中立引文索引和研究情报平台
+
+   - name: 出版商
+    - title: RSC
+      logo: https://pubs.rsc.org/favicon-32x32.png
+      url: https://pubs.rsc.org/
+      description: 英国化学化学会
+    - title: Wiley
+      logo: http://s2.googleusercontent.com/s2/favicons?domain=onlinelibrary.wiley.com/
+      url: https://onlinelibrary.wiley.com/
+      description: 约翰威立是一个世界性的专注在学术出版的出版社
+    - title: ACS
+      logo: https://assets.acs.org/v2.0/acs-bootstrap/images/favicon.ico
+      url: https://www.acs.org/
+      description: chemistry for life|美国化学学会
+    - title: Elsevier
+      logo: https://cdn.elsevier.io/matrix/includes/favicons/favicon-32x32.png
+      url: https://www.elsevier.com/
+      description: 邪恶的elsevier数据库
+    - title: thieme
+      logo: https://www.thieme.com/templates/thieme/favicon.ico
+      url: https://www.springer.com/
+      description: 科学、技术与医学领域中最大的书籍出版者
+    - title: Nature
+      logo: https://www.nature.com/static/images/favicons/nature/favicon-32x32.3fe59ece92.png
+      url: https://www.nature.com/
+      description: 全世界最权威及最有名望的学术期刊之一
+    - title: Science
+      logo: https://science.sciencemag.org/sites/default/files/images/favicon.ico
+      url: https://science.sciencemag.org/
+      description: 美国科学促进会出版的一份学术期刊，为全世界最权威的学术期刊之一
+   - name: 社区
+    - title: x-mol
+      logo: https://static.x-mol.com/css/images/favicon.ico
+      url: https://www.x-mol.com/
+      description: 科学知识平台
+
+   - name: 别瞎点
     - title: 雷锋网
       logo: /assets/images/logos/leiphone.png
       url: https://www.leiphone.com/
