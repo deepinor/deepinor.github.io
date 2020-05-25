@@ -33,10 +33,10 @@
       logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
       url: https://www.ccdc.cam.ac.uk
       description: 单晶搜索平台
-    - title: Producthunt
-      logo: /assets/images/logos/producthunt.png
-      url: https://www.producthunt.com/
-      description: 发现新鲜有趣的产品
+    - title: SDBS
+      logo: https://www.aist.go.jp/images/favicon.ico
+      url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
+      description: 有机化合物谱图数据库
     - title: Youtube
       logo: /assets/images/logos/youtube.png
       url: https://www.youtube.com/
