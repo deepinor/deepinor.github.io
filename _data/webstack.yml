@@ -36,7 +36,7 @@
 
 
 - name: 科研工具
-  icon: linecons-doc
+  icon: linecons-lightbulb
   sub:
       - name: 工具
         links:
