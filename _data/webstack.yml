@@ -11,12 +11,12 @@
       description: 提供可信赖的合成方法
     - title: 谷歌
       logo: /assets/images/logos/google.png
-      url: https://googluck.tk/
-      description: 谷歌镜像。
-    - title: 维基百科镜像1
-      logo: https://wiki.googluck.tk/static/favicon/wikipedia.ico
-      url: https://wiki.googluck.tk/
-      description: 维基百科中文镜像站。
+      url: https://google.com/ncr/
+      description: 谷歌(官)。
+    - title: 维基百
+      logo: https://zh.wikipedia.org/static/favicon/wikipedia.ico
+      url: https://zh.wikipedia.org/
+      description: 维基百科(官)。
     - title: Youtube
       logo: /assets/images/logos/youtube.png
       url: https://www.youtube.com/
@@ -25,6 +25,10 @@
       logo: http://s2.googleusercontent.com/s2/favicons?domain=www.facebook.com
       url: https://www.facebook.com/
       description: 脸书
+    - title: Twitte
+      logo: https://abs.twimg.com/responsive-web/web/icon-ios.8ea219d4.png
+      url: https://twitter.com/
+      description: 懂王指挥所
 
 
 
