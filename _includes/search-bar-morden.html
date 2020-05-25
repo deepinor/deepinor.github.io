@@ -24,7 +24,7 @@
 				.header-big #search button:active,.header-big #search button:focus{box-shadow:none;outline:none;border:0!important}
 				.header-big .search-smart-tips{top:100px}
 				.content-site.customize-site.big{margin-top:-80px}
-				@media screen and (min-width:768px){.header-big{padding-top:170px;padding-bottom:110px}
+				@media screen and (min-width:768px){.header-big{padding-top:10px;padding-bottom:20px}
 				.header-big .s-search,.header-big #bulletin_box{margin:0}
 				.header-big .search-type li label{padding:5px 20px}
 				.header-big .s-type-list label span{padding:10px 20px}
@@ -195,7 +195,7 @@
 					</div>
 				</div>
 			</div>
-			<script type="text/javascript">(function($){ 
+			<script type="text/javascript">(function($){
     $(document).ready(function(){
 
     function intoSearch() {
@@ -209,13 +209,13 @@
         }
         toTarget($(".s-type-list.big"),false,false);
         $('.hide-type-list .s-current').removeClass("s-current");
-        $('.hide-type-list input:radio[name="type"]:checked').parents(".search-group").addClass("s-current"); 
+        $('.hide-type-list input:radio[name="type"]:checked').parents(".search-group").addClass("s-current");
         $('.hide-type-list input:radio[name="type2"]:checked').parents(".search-group").addClass("s-current");
 
         $(".super-search-fm").attr("action",$('.hide-type-list input:radio:checked').val());
-        $(".search-key").attr("placeholder",$('.hide-type-list input:radio:checked').data("placeholder")); 
+        $(".search-key").attr("placeholder",$('.hide-type-list input:radio:checked').data("placeholder"));
         if(window.localStorage.getItem("searchlist")=='type-zhannei'){
-            $(".search-key").attr("zhannei","true"); 
+            $(".search-key").attr("zhannei","true");
         }
     }
 
@@ -228,7 +228,7 @@
         window.localStorage.setItem("searchlistmenu", $(this).data("id"));
         var parent = $(this).parents(".s-search");
         parent.find('.search-group').removeClass("s-current");
-        parent.find('#'+$(this).attr("for")).parents(".search-group").addClass("s-current"); 
+        parent.find('#'+$(this).attr("for")).parents(".search-group").addClass("s-current");
         toTarget($(this).parents(".s-type-list"),false,false);
     });
     $('.hide-type-list .search-group input').on('click', function() {
