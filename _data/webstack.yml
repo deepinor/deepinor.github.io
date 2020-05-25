@@ -38,124 +38,124 @@
 - name: 科研工具
   icon: linecons-doc
   sub:
-    - name: 工具
-     links:
-    - title: Chemsearch
-      logo: https://13c.org/assets/icon/favicon.ico
-      url: https://chemsearch.guocx.net
-      description: 化学论文解析服务。
+      - name: 工具
+        links:
+        - title: Chemsearch
+          logo: https://13c.org/assets/icon/favicon.ico
+          url: https://chemsearch.guocx.net
+          description: 化学论文解析服务。
 
-   - name: 数据库
-     links:
-    - title: SDBS
-      logo: https://www.aist.go.jp/images/favicon.ico
-      url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
-      description: 有机化合物谱图数据库
-    - title: WebCSD
-      logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
-      url: https://www.ccdc.cam.ac.uk
-      description: CCDC单晶数据库
-    - title:  Scifinder
-      logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
-      url: https://scifinder.cas.org/
-      description: 美国化学会论文搜索平台
-    - title: Reaxys
-      logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
-      url: https://www.reaxys.com/
-      description: 英国皇家化学会论文搜索平台
-    - title: Web of Science
-      logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
-      url: http://www.webofknowledge.com
-      description: 全球最大规模的出版商中立引文索引和研究情报平台
+     - name: 数据库
+       links:
+        - title: SDBS
+          logo: https://www.aist.go.jp/images/favicon.ico
+          url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
+          description: 有机化合物谱图数据库
+        - title: WebCSD
+          logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
+          url: https://www.ccdc.cam.ac.uk
+          description: CCDC单晶数据库
+        - title:  Scifinder
+          logo: https://sso.cas.org/assets/images/favicon-cas-purple.ico
+          url: https://scifinder.cas.org/
+          description: 美国化学会论文搜索平台
+        - title: Reaxys
+          logo: http://s2.googleusercontent.com/s2/favicons?domain=www.reaxys.com
+          url: https://www.reaxys.com/
+          description: 英国皇家化学会论文搜索平台
+        - title: Web of Science
+          logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
+          url: http://www.webofknowledge.com
+          description: 全球最大规模的出版商中立引文索引和研究情报平台
 
-   - name: 出版商
-     links:
-    - title: RSC
-      logo: https://pubs.rsc.org/favicon-32x32.png
-      url: https://pubs.rsc.org/
-      description: 英国化学化学会
-    - title: Wiley
-      logo: http://s2.googleusercontent.com/s2/favicons?domain=onlinelibrary.wiley.com/
-      url: https://onlinelibrary.wiley.com/
-      description: 约翰威立是一个世界性的专注在学术出版的出版社
-    - title: ACS
-      logo: https://assets.acs.org/v2.0/acs-bootstrap/images/favicon.ico
-      url: https://www.acs.org/
-      description: chemistry for life|美国化学学会
-    - title: Elsevier
-      logo: https://cdn.elsevier.io/matrix/includes/favicons/favicon-32x32.png
-      url: https://www.elsevier.com/
-      description: 邪恶的elsevier数据库
-    - title: thieme
-      logo: https://www.thieme.com/templates/thieme/favicon.ico
-      url: https://www.springer.com/
-      description: 科学、技术与医学领域中最大的书籍出版者
-    - title: Nature
-      logo: https://www.nature.com/static/images/favicons/nature/favicon-32x32.3fe59ece92.png
-      url: https://www.nature.com/
-      description: 全世界最权威及最有名望的学术期刊之一
-    - title: Science
-      logo: https://science.sciencemag.org/sites/default/files/images/favicon.ico
-      url: https://science.sciencemag.org/
-      description: 美国科学促进会出版的一份学术期刊，为全世界最权威的学术期刊之一
+     - name: 出版商
+       links:
+        - title: RSC
+          logo: https://pubs.rsc.org/favicon-32x32.png
+          url: https://pubs.rsc.org/
+          description: 英国化学化学会
+        - title: Wiley
+          logo: http://s2.googleusercontent.com/s2/favicons?domain=onlinelibrary.wiley.com/
+          url: https://onlinelibrary.wiley.com/
+          description: 约翰威立是一个世界性的专注在学术出版的出版社
+        - title: ACS
+          logo: https://assets.acs.org/v2.0/acs-bootstrap/images/favicon.ico
+          url: https://www.acs.org/
+          description: chemistry for life|美国化学学会
+        - title: Elsevier
+          logo: https://cdn.elsevier.io/matrix/includes/favicons/favicon-32x32.png
+          url: https://www.elsevier.com/
+          description: 邪恶的elsevier数据库
+        - title: thieme
+          logo: https://www.thieme.com/templates/thieme/favicon.ico
+          url: https://www.springer.com/
+          description: 科学、技术与医学领域中最大的书籍出版者
+        - title: Nature
+          logo: https://www.nature.com/static/images/favicons/nature/favicon-32x32.3fe59ece92.png
+          url: https://www.nature.com/
+          description: 全世界最权威及最有名望的学术期刊之一
+        - title: Science
+          logo: https://science.sciencemag.org/sites/default/files/images/favicon.ico
+          url: https://science.sciencemag.org/
+          description: 美国科学促进会出版的一份学术期刊，为全世界最权威的学术期刊之一
 
-   - name: 社区
-    links:
-    - title: x-mol
-      logo: https://static.x-mol.com/css/images/favicon.ico
-      url: https://www.x-mol.com/
-      description: 科学知识平台
-
-   - name: 别瞎点
-     links:
-    - title: 雷锋网
-      logo: /assets/images/logos/leiphone.png
-      url: https://www.leiphone.com/
-      description: 人工智能和智能硬件领域的互联网科技媒体
-    - title: 36kr
-      logo: /assets/images/logos/36kr.png
-      url: https://36kr.com/
-      description: 创业资讯、科技新闻
-    - title: 数英网
-      logo: /assets/images/logos/digitaling.png
-      url: https://www.digitaling.com/
-      description: 数字媒体及职业招聘网站
-    - title: 猎云网
-      logo: /assets/images/logos/lieyunwang.png
-      url: https://www.lieyunwang.com/
-      description: 互联网创业项目推荐和创业创新资讯
-    - title: 人人都是产品经理
-      logo: /assets/images/logos/woshipm.png
-      url: http://www.woshipm.com/
-      description: 产品经理、产品爱好者学习交流平台
-    - title: 互联网早读课
-      logo: /assets/images/logos/zaodula.png
-      url: https://www.zaodula.com/
-      description: 互联网行业深度阅读与学习平台
-    - title: 产品壹佰
-      logo: /assets/images/logos/chanpin100.png
-      url: http://www.chanpin100.com/
-      description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
-    - title: PMCAFF
-      logo: /assets/images/logos/pmcaff.png
-      url: http://www.pmcaff.com/
-      description: 中国第一产品经理人气组织，专注于研究互联网产品
-    - title: 爱运营
-      logo: /assets/images/logos/iyunying.png
-      url: http://www.iyunying.org/
-      description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
-    - title: 鸟哥笔记
-      logo: /assets/images/logos/niaogebiji.png
-      url: http://www.niaogebiji.com/
-      description: 移动互联网第一干货平台
-    - title: 古田路9号
-      logo: /assets/images/logos/gtn9.png
-      url: http://www.gtn9.com/
-      description: 国内专业品牌创意平台
-    - title: 优阁网
-      logo: /assets/images/logos/uigreat.png
-      url: http://www.uigreat.com/
-      description: UI设计师学习交流社区
+     - name: 社区
+      links:
+        - title: x-mol
+          logo: https://static.x-mol.com/css/images/favicon.ico
+          url: https://www.x-mol.com/
+          description: 科学知识平台
+      
+     - name: 别瞎点
+       links:
+        - title: 雷锋网
+          logo: /assets/images/logos/leiphone.png
+          url: https://www.leiphone.com/
+          description: 人工智能和智能硬件领域的互联网科技媒体
+        - title: 36kr
+          logo: /assets/images/logos/36kr.png
+          url: https://36kr.com/
+          description: 创业资讯、科技新闻
+        - title: 数英网
+          logo: /assets/images/logos/digitaling.png
+          url: https://www.digitaling.com/
+          description: 数字媒体及职业招聘网站
+        - title: 猎云网
+          logo: /assets/images/logos/lieyunwang.png
+          url: https://www.lieyunwang.com/
+          description: 互联网创业项目推荐和创业创新资讯
+        - title: 人人都是产品经理
+          logo: /assets/images/logos/woshipm.png
+          url: http://www.woshipm.com/
+          description: 产品经理、产品爱好者学习交流平台
+        - title: 互联网早读课
+          logo: /assets/images/logos/zaodula.png
+          url: https://www.zaodula.com/
+          description: 互联网行业深度阅读与学习平台
+        - title: 产品壹佰
+          logo: /assets/images/logos/chanpin100.png
+          url: http://www.chanpin100.com/
+          description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
+        - title: PMCAFF
+          logo: /assets/images/logos/pmcaff.png
+          url: http://www.pmcaff.com/
+          description: 中国第一产品经理人气组织，专注于研究互联网产品
+        - title: 爱运营
+          logo: /assets/images/logos/iyunying.png
+          url: http://www.iyunying.org/
+          description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
+        - title: 鸟哥笔记
+          logo: /assets/images/logos/niaogebiji.png
+          url: http://www.niaogebiji.com/
+          description: 移动互联网第一干货平台
+        - title: 古田路9号
+          logo: /assets/images/logos/gtn9.png
+          url: http://www.gtn9.com/
+          description: 国内专业品牌创意平台
+        - title: 优阁网
+          logo: /assets/images/logos/uigreat.png
+          url: http://www.uigreat.com/
+          description: UI设计师学习交流社区
 
 
 - name: 音乐影视
