@@ -5,46 +5,27 @@
       logo: https://13c.org/assets/icon/favicon.ico
       url: https://chemsearch.guocx.net
       description: 化学论文解析服务。
-    - title: 谷歌学术镜像1
+    - title: Organic syntheses
+      logo:
+      url: http://www.orgsyn.org/
+      description: 提供可信赖的合成方法
+    - title: 谷歌
       logo: /assets/images/logos/google.png
-      url: https://scholar.googluck.tk/
-      description: 谷歌学术镜像服务。
+      url: https://googluck.tk/
+      description: 谷歌镜像。
     - title: 维基百科镜像1
       logo: https://wiki.googluck.tk/static/favicon/wikipedia.ico
       url: https://wiki.googluck.tk/
       description: 维基百科中文镜像站。
-    - title: x-mol
-      logo: https://static.x-mol.com/css/images/favicon.ico
-      url: https://www.x-mol.com/
-      description: 科学知识平台
-    - title: Web of Science
-      logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
-      url: http://www.webofknowledge.com
-      description: 全球最大规模的出版商中立引文索引和研究情报平台
-    - title: WebCSD
-      logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
-      url: https://www.ccdc.cam.ac.uk
-      description: 单晶搜索平台
     - title: Youtube
       logo: /assets/images/logos/youtube.png
       url: https://www.youtube.com/
-      description: 全球最大的学习分享平台
-    - title: 谷歌镜像
-      logo: /assets/images/logos/google.png
-      url: https://googluck.tk
-      description: 谷歌镜像
-    - title: 谷歌学术镜像1
-      logo: https://scholar.google.com.hk/favicon.ico
-      url: https://scholar.googluck.tk/
-      description: 谷歌学术镜
-    - title: 维基百科镜像1
-      logo: https://wiki.googluck.tk/static/favicon/wikipedia.ico
-      url: https://wiki.googluck.tk/
-      description: 维基百科中文镜像站
-    - title: Google镜像(备)
-      logo: /assets/images/logos/google.png
-      url: https://ac.scmor.com/
-      description: 备用谷歌镜像
+      description: 油管
+    - title: Facebook
+      logo: http://s2.googleusercontent.com/s2/favicons?domain=www.facebook.com
+      url: https://www.facebook.com/
+      description: 脸书
+
 
 
 - name: 科研工具
@@ -147,6 +128,10 @@
            logo: https://science.sciencemag.org/sites/default/files/images/favicon.ico
            url: https://science.sciencemag.org/
            description: 美国科学促进会出版的一份学术期刊，为全世界最权威的学术期刊之一
+         - title: Organic syntheses
+           logo:
+           url: http://www.orgsyn.org/
+           description: 提供可信赖的合成方法
 
       - name: 社区
         links:
