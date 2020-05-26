@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)  -->
+<html lang="zh"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+{%- include snippets/get-article-title.html article=page -%}
+<title>{%- if __return -%}{{ __return }} - {{ site.title }}{%- else -%}{{ site.title }}{%- endif -%}</title>
+
+<meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
+<link rel="canonical" href="{%- include snippets/page-url.html -%}">
+
+{%- assign _paths_rss = site.paths.rss | default: site.data.variables.default.paths.rss -%}
+{%- include snippets/get-nav-url.html path=_paths_rss -%}
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ __return }}">
+
+{%- include head/favicon.html -%}
+
+{%- include snippets/get-sources.html -%}
+{%- assign _sources = __return -%}
+
+<link rel="stylesheet" href="{{ _sources.font_awesome }}" >
+
+{%- include head/custom.html -%}
+    <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
+    <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/xenon-core.css">
+    <link rel="stylesheet" href="../assets/css/xenon-components.css">
+    <link rel="stylesheet" href="../assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+</head>
+
+<body class="page-body" data-gr-c-s-loaded="true">
+    <!-- skin-white --><header class="header">
+	 {%- include header.html -%}
+  </header>
+<div class="page-container" style="margin-top:-20px;">
+        <div class="sidebar-menu toggle-others fixed nav">
+    <div class="sidebar-menu-inner container ps-container ps-active-x" style="margin-top:80px;">
+
+        <ul id="main-menu" class="main-menu">
+            
+            <li>
+                
+                <a href=" #常用推荐" class="smooth">
+                    <i class="linecons-star"></i>
+                    <span class="title">常用推荐</span>
+                </a>
+                
+            </li>
+            
+            <li class="has-sub">
+                
+                <a>
+                    <i class="linecons-lightbulb"></i>
+                    <span class="title">科研工具</span>
+                </a>
+                <ul>
+                    
+                    <li>
+                        <a href=" #工具" class="smooth">
+                            <span class="title">工具</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #数据库" class="smooth">
+                            <span class="title">数据库</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #出版商" class="smooth">
+                            <span class="title">出版商</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #社区" class="smooth">
+                            <span class="title">社区</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #别瞎点" class="smooth">
+                            <span class="title">别瞎点</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </li>
+            
+            <li class="has-sub">
+                
+                <a>
+                    <i class="linecons-lightbulb"></i>
+                    <span class="title">音乐影视</span>
+                </a>
+                <ul>
+                    
+                    <li>
+                        <a href=" #发现产品" class="smooth">
+                            <span class="title">发现产品</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #界面灵感" class="smooth">
+                            <span class="title">界面灵感</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #网页灵感" class="smooth">
+                            <span class="title">网页灵感</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </li>
+            
+            <li class="has-sub">
+                
+                <a>
+                    <i class="linecons-thumbs-up"></i>
+                    <span class="title">素材资源</span>
+                </a>
+                <ul>
+                    
+                    <li>
+                        <a href=" #图标素材" class="smooth">
+                            <span class="title">图标素材</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #LOGO设计" class="smooth">
+                            <span class="title">LOGO设计</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #平面素材" class="smooth">
+                            <span class="title">平面素材</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #UI资源" class="smooth">
+                            <span class="title">UI资源</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #Sketch资源" class="smooth">
+                            <span class="title">Sketch资源</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #字体资源" class="smooth">
+                            <span class="title">字体资源</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #Mockup" class="smooth">
+                            <span class="title">Mockup</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #摄影图库" class="smooth">
+                            <span class="title">摄影图库</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #PPT资源" class="smooth">
+                            <span class="title">PPT资源</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </li>
+            
+            <li class="has-sub">
+                
+                <a>
+                    <i class="linecons-diamond"></i>
+                    <span class="title">常用工具</span>
+                </a>
+                <ul>
+                    
+                    <li>
+                        <a href=" #图形创意" class="smooth">
+                            <span class="title">图形创意</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #界面设计" class="smooth">
+                            <span class="title">界面设计</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #交互动效" class="smooth">
+                            <span class="title">交互动效</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #在线配色" class="smooth">
+                            <span class="title">在线配色</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #在线工具" class="smooth">
+                            <span class="title">在线工具</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #Chrome插件" class="smooth">
+                            <span class="title">Chrome插件</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </li>
+            
+            <li class="has-sub">
+                
+                <a>
+                    <i class="linecons-pencil"></i>
+                    <span class="title">学习教程</span>
+                </a>
+                <ul>
+                    
+                    <li>
+                        <a href=" #设计规范" class="smooth">
+                            <span class="title">设计规范</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #视频教程" class="smooth">
+                            <span class="title">视频教程</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #设计文章" class="smooth">
+                            <span class="title">设计文章</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #设计电台" class="smooth">
+                            <span class="title">设计电台</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href=" #交互设计" class="smooth">
+                            <span class="title">交互设计</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </li>
+            
+            <li>
+                
+                <a href=" #UED团队" class="smooth">
+                    <i class="linecons-user"></i>
+                    <span class="title">UED团队</span>
+                </a>
+                
+            </li>
+            
+        </ul>
+
+    <div class="ps-scrollbar-x-rail" style="width: 250px; left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" style="left: 0px; width: 223px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 2px;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div>
+</div><div class="main-content">
+    <nav class="navbar user-info-navbar" role="navigation">
+        <!-- User Info, Notifications and Menu Bar -->
+        <!-- Left links for user info navbar -->
+        <ul class="user-info-menu left-links list-inline list-unstyled">
+            <li class="hidden-sm hidden-xs" style="min-height: 74px;">
+                <a href=" #" data-toggle="sidebar">
+                    <i class="fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>    
+<div> {%- include header.html -%}</div>
+          <ul id="科研工具" class="nav nav-tabs"><!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
+            
+              
+            		  <li class="">
+                   <a href=" #工具_tab" data-toggle="tab" id="工具"   aria-expanded="false">
+            			 <i class=""></i> 工具
+            		</a>
+            	</li>
+               
+              
+                 <li class="active">
+               
+                   <a href=" #数据库_tab" data-toggle="tab" id="数据库"   aria-expanded="true">
+            			 <i class=""></i> 数据库
+            		</a>
+            	</li>
+               
+              
+                 <li>
+               
+                   <a href=" #出版商_tab" data-toggle="tab" id="出版商"  >
+            			 <i class=""></i> 出版商
+            		</a>
+            	</li>
+               
+              
+                 <li>
+                   <a href=" #社区_tab" data-toggle="tab" id="社区"  >
+            			 <i class=""></i> 社区
+            		</a>
+            	</li>
+               
+              
+                 <li>
+               
+                   <a href=" #别瞎点_tab" data-toggle="tab" id="别瞎点"  >
+            			 <i class=""></i> 别瞎点
+            		</a>
+            	</li>
+               
+          </ul>
+<div id="科研工具Content" class="tab-content"><!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
+ 
+ 
+<div class="row tab-pane fade" id="工具_tab">
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://chemsearch.guocx.net&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://chemsearch.guocx.net">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon.ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Chemsearch</strong>
+                  </a>
+                  <p class="overflowClip_2">化学论文解析</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://sci-hub.se/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://sci-hub.se/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicons" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Sci-hub</strong>
+                  </a>
+                  <p class="overflowClip_2">拆掉学术围墙</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://googluck.tk&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://googluck.tk">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/google.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>谷歌镜像</strong>
+                  </a>
+                  <p class="overflowClip_2">谷歌镜像</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://scholar.googluck.tk/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://scholar.googluck.tk/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon(1).ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>谷歌学术镜像1</strong>
+                  </a>
+                  <p class="overflowClip_2">谷歌学术镜</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://wiki.googluck.tk/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://wiki.googluck.tk/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/wikipedia.ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>维基百科镜像1</strong>
+                  </a>
+                  <p class="overflowClip_2">维基百科中文镜像站</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://ac.scmor.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://ac.scmor.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/google.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Google镜像(备)</strong>
+                  </a>
+                  <p class="overflowClip_2">还是谷歌镜像</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+
+ 
+  <div class="row tab-pane fade active in" id="数据库_tab">
+    
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://scifinder.cas.org/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://scifinder.cas.org/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon-cas-purple.ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Scifinder</strong>
+                  </a>
+                  <p class="overflowClip_2">美国化学会论文搜索平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.reaxys.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.reaxys.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicons(1)" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Reaxys</strong>
+                  </a>
+                  <p class="overflowClip_2">英国皇家化学会论文搜索平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.webofknowledge.com&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.webofknowledge.com">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/wok_favicon.ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Web of Science</strong>
+                  </a>
+                  <p class="overflowClip_2">全球最大规模的出版商中立引文索引和研究情报平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://pubmed.ncbi.nlm.nih.gov/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://pubmed.ncbi.nlm.nih.gov/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon(2).ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>PubMed</strong>
+                  </a>
+                  <p class="overflowClip_2">生物医学方面的论文搜索以及摘要</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.cnki.net/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.cnki.net/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicons(2)" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>中国知网|CNKI</strong>
+                  </a>
+                  <p class="overflowClip_2">面向海内外读者提供中国学术文献、外文文献、学位论文、报纸、会议、年鉴、工具书等各类资源统一检索、统一导航、在线阅读和下载服务</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.wanfangdata.com.cn/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.wanfangdata.com.cn/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicons(3)" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>万方数据</strong>
+                  </a>
+                  <p class="overflowClip_2">中外学术论文、中外标准、中外专利、科技成果、政策法规等科技文献的在线服务平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.cqvip.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.cqvip.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicons(4)" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>维普数据</strong>
+                  </a>
+                  <p class="overflowClip_2">文检测服务、优先出版服务、论文选题下载，在线分享下载等</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon(3).ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>SDBS</strong>
+                  </a>
+                  <p class="overflowClip_2">有机化合物谱图数据库</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.ccdc.cam.ac.uk&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.ccdc.cam.ac.uk">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>WebCSD</strong>
+                  </a>
+                  <p class="overflowClip_2">CCDC单晶数据库</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+
+ 
+  <div class="row tab-pane fade" id="出版商_tab">
+    
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://pubs.rsc.org/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://pubs.rsc.org/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon-32x32.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>RSC</strong>
+                  </a>
+                  <p class="overflowClip_2">英国化学化学会</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://onlinelibrary.wiley.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://onlinelibrary.wiley.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicons(5)" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Wiley</strong>
+                  </a>
+                  <p class="overflowClip_2">约翰威立是一个世界性的专注在学术出版的出版社</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.acs.org/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.acs.org/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon(4).ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>ACS</strong>
+                  </a>
+                  <p class="overflowClip_2">chemistry for life|美国化学学会</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.elsevier.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.elsevier.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon-32x32(1).png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Elsevier</strong>
+                  </a>
+                  <p class="overflowClip_2">邪恶的elsevier数据库</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.springer.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.springer.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon(5).ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>thieme</strong>
+                  </a>
+                  <p class="overflowClip_2">科学、技术与医学领域中最大的书籍出版者</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.nature.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.nature.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon-32x32.3fe59ece92.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Nature</strong>
+                  </a>
+                  <p class="overflowClip_2">全世界最权威及最有名望的学术期刊之一</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://science.sciencemag.org/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://science.sciencemag.org/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon(6).ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Science</strong>
+                  </a>
+                  <p class="overflowClip_2">美国科学促进会出版的一份学术期刊，为全世界最权威的学术期刊之一</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.orgsyn.org/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.orgsyn.org/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" " class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>Organic syntheses</strong>
+                  </a>
+                  <p class="overflowClip_2">提供可信赖的合成方法</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+
+ 
+  <div class="row tab-pane fade" id="社区_tab">
+    
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.x-mol.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.x-mol.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/favicon(7).ico" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>x-mol</strong>
+                  </a>
+                  <p class="overflowClip_2">科学知识平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+
+ 
+  <div class="row tab-pane fade" id="别瞎点_tab">
+    
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.leiphone.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.leiphone.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/leiphone.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>雷锋网</strong>
+                  </a>
+                  <p class="overflowClip_2">人工智能和智能硬件领域的互联网科技媒体</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://36kr.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://36kr.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/36kr.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>36kr</strong>
+                  </a>
+                  <p class="overflowClip_2">创业资讯、科技新闻</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.digitaling.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.digitaling.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/digitaling.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>数英网</strong>
+                  </a>
+                  <p class="overflowClip_2">数字媒体及职业招聘网站</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.lieyunwang.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.lieyunwang.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/lieyunwang.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>猎云网</strong>
+                  </a>
+                  <p class="overflowClip_2">互联网创业项目推荐和创业创新资讯</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.woshipm.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.woshipm.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/woshipm.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>人人都是产品经理</strong>
+                  </a>
+                  <p class="overflowClip_2">产品经理、产品爱好者学习交流平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;https://www.zaodula.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.zaodula.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/zaodula.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>互联网早读课</strong>
+                  </a>
+                  <p class="overflowClip_2">互联网行业深度阅读与学习平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.chanpin100.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.chanpin100.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/chanpin100.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>产品壹佰</strong>
+                  </a>
+                  <p class="overflowClip_2">为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.pmcaff.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.pmcaff.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/pmcaff.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>PMCAFF</strong>
+                  </a>
+                  <p class="overflowClip_2">中国第一产品经理人气组织，专注于研究互联网产品</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.iyunying.org/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.iyunying.org/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/iyunying.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>爱运营</strong>
+                  </a>
+                  <p class="overflowClip_2">网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.niaogebiji.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.niaogebiji.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/niaogebiji.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>鸟哥笔记</strong>
+                  </a>
+                  <p class="overflowClip_2">移动互联网第一干货平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.gtn9.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.gtn9.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/gtn9.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>古田路9号</strong>
+                  </a>
+                  <p class="overflowClip_2">国内专业品牌创意平台</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-3">
+      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open(&#39;http://www.uigreat.com/&#39;, &#39;_blank&#39;)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.uigreat.com/">
+          <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                  <img src=" ../assets/images/logos/uigreat.png" class="img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                  <a href=" #" class="xe-user-name overflowClip_1">
+                      <strong>优阁网</strong>
+                  </a>
+                  <p class="overflowClip_2">UI设计师学习交流社区</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  </div>
+
+  <br>
+ </div>
+ 
+</div>
+
+    </div>
+	 <!-- Bottom Scripts -->
+	 <script src="../assets/js/bootstrap.min.js"></script>
+	 <script src="../assets/js/TweenMax.min.js"></script>
+	 <script src="../assets/js/resizeable.js"></script>
+	 <script src="../assets/js/joinable.js"></script>
+	 <script src="../assets/js/xenon-api.js"></script>
+	 <script src="../assets/js/xenon-toggles.js"></script>
+	 <script src="../assets/js/xenon-custom.js"></script>
+	 
+{%- include footer.html -%}
+</body></html>
