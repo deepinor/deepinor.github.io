@@ -195,9 +195,7 @@
 			</div>
       <script type="text/javascript">
       	(function($) {
-      		$(document).ready(function() {
-      
-      			function intoSearch() {
+      		$(document).ready(function intoSearch() {
       				if (window.localStorage.getItem("searchlist")) {
       					$(".hide-type-list input#" + window.localStorage.getItem("searchlist")).prop('checked', true);
       					$(".hide-type-list input#m_" + window.localStorage.getItem("searchlist")).prop('checked', true);
@@ -210,7 +208,7 @@
       				$('.hide-type-list .s-current').removeClass("s-current");
       				$('.hide-type-list input:radio[name="type"]:checked').parents(".search-group").addClass("s-current");
       				$('.hide-type-list input:radio[name="type2"]:checked').parents(".search-group").addClass("s-current");
-      
+
       				$(".super-search-fm").attr("action", $(
       					'.hide-type-list input<img class="emoji" title=":radio:" alt=":radio:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4fb.png" height="20" width="20">checked'
       				).val());
@@ -221,9 +219,9 @@
       					$(".search-key").attr("zhannei", "true");
       				}
       			}
-      
-      		});
-      
+
+      	);
+
       		$(document).on('click', '.s-type-list label', function(event) {
       			//event.preventDefault();
       			$('.s-type-list.big label').removeClass('active');
@@ -239,12 +237,12 @@
       			window.localStorage.setItem("searchlist", $(this).attr("id").replace("m_", ""));
       			parent.children(".super-search-fm").attr("action", $(this).val());
       			parent.find(".search-key").attr("placeholder", $(this).data("placeholder"));
-      
+
       			if ($(this).attr('id') == "type-zhannei" || $(this).attr('id') == "m_type-zhannei")
       				parent.find(".search-key").attr("zhannei", "true");
       			else
       				parent.find(".search-key").attr("zhannei", "");
-      
+
       			parent.find(".search-key").select();
       			parent.find(".search-key").focus();
       		});
@@ -257,7 +255,7 @@
       				return false;
       			}
       		});
-      
+
       		function getSmartTips(value, parents) {
       			$.ajax({
       				type: "GET",
@@ -343,7 +341,7 @@
       			}
       		});
       	})(jQuery);
-      
+
       	function toTarget(menu, padding = true, isMult = true) {
       		var slider = menu.children(".anchor");
       		var target = menu.children(".hover").first();
@@ -373,5 +371,3 @@
       		}
       	}
       </script>
-      
-
