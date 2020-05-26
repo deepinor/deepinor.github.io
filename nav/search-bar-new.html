@@ -1,4 +1,7 @@
-
+---
+permalink: /nav/index.html
+layout: nav
+---
 <html lang="zh-CN">
 	<head>
 		<meta charset="utf-8">
@@ -33,10 +36,10 @@
 							 style="outline:0" autocomplete="off">
 							<button type="submit"><i class="glyphicon glyphicon-search"></i></button>
 						</form>
-						
+
 <!--子组-->
 						<div id="search-list" class="hide-type-list">
-						{% for category in site.data.search-bar %}	
+						{% for category in site.data.search-bar %}
 							<div class="search-group group-{{ category.id }} {%- if category.status=="active" -%}s-current{%- endif -%}">
 								<ul class="search-type">
 									{% for list_category in site.data.search-bar %}
