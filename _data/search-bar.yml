@@ -1,0 +1,55 @@
+
+- group: 常用
+  id: a
+  status: active
+  list:
+  - name: 百度
+    type: baidu
+    url: https://www.google.com/search?q=
+    placeholder: 百度一下，你就死掉
+
+
+- group: 搜索
+  id: b
+  status:
+  list:
+  - name: 百度
+    type: baidu
+    url: https://www.google.com/search?q=
+    placeholder: 百度一下，你就死掉
+
+- group: 工具
+  id: c
+  status:
+  list:
+  - name: 百度
+    type: baidu
+    url: https://www.google.com/search?q=
+    placeholder: 百度一下，你就死掉
+
+- group: 社区
+  id: d
+  status:
+  list:
+  - name: 百度
+    type: baidu
+    url: https://www.google.com/search?q=
+    placeholder: 百度一下，你就死掉
+
+- group: 生活
+  id: e
+  status:
+  list:
+  - name: 百度
+    type: baidu
+    url: https://www.google.com/search?q=
+    placeholder: 百度一下，你就死掉
+
+- group: 求职
+  id: f
+  status: 
+  list:
+  - name: 百度
+    type: baidu
+    url: https://www.google.com/search?q=
+    placeholder: 百度一下，你就死掉
