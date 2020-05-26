@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Chemsearch</title>
+	<link href="http://chemsearch.guocx.net/assets/xml/resolver_opensearch.xml" rel="search" title="RefResolver" type="application/opensearchdescription+xml" />
+<script type="text/javascript" src="http://chemsearch.guocx.net/assets/js/jquery.js"></script>
+<script type="text/javascript" src="http://chemsearch.guocx.net/assets/js/journals_db.js"></script>
+<script type="text/javascript" src="http://chemsearch.guocx.net/assets/js/scripts.js"></script>
+	<link href="http://chemsearch.guocx.net/assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link href="http://chemsearch.guocx.net/assets/css/mobile.css" media="only screen and (max-device-width: 640px)" rel="stylesheet" type="text/css" />
+</head>
+<body onload="javascript:document.resolver.q.focus();">
+<center><img alt="Organic Chemistry Reference Resolver" class="resolver-logo" src="http://chemsearch.guocx.net/assets/image/logo-2x.png" title="Organic Chemistry Reference Resolver" />
+<div class="main">
+<form action="http://chemsearch.kovsky.net/index.php"" class="mainform" id="resolver" method="get" name="resolver" onsubmit="return validate_and_submit();"><textarea autocapitalize="off" autocorrect="off" class="mainsearchfield" id="q" name="q" onkeypress="return shift_enter(event, this.form);" rows="10" spellcheck="false"></textarea>
+<div class="suggestions" id="suggestions" style="display: none;"></div>
+<p class="search_notes" style="font-size:10pt;color:#808080">Separate references by semicolumns or new lines (Shift+Enter).
+<br/>Notification: your browser may block the tabs during multi-resolve</p>
+<input class="resolve_button" type="submit" value="Resolve" />
+</div>
+</center>
+<div class="footer_div">
+	<span class="footer_span">Powdered by <a href="http://chemsearch.kovsky.net">Chemistry Reference Resolver</a>.
+	</span>
+</div>
+</body>
+</html>
