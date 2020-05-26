@@ -1,59 +1,67 @@
+---
+permalink: /dh/index.html
+layout:  
+---
 
-  <html lang="zh-CN">
-    <head>
+<html lang="zh-CN">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" id="bootstrap-css" href="../asset/bootstrap.min.css" type="text/css" media="all">
     <link rel="stylesheet" id="bootstrap-css" href="../asset/search-bar.css" type="text/css" media="all">
 
-        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    </head>
-    <body>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
 
-          <div class="header-big no-bg mb-4">﻿
-    <div class="s-search">
-    <div id="search" class="s-search mx-auto">
-    <div id="search-list-menu" class="hide-type-list">
-    <!--组别-->
-    <div class="s-type">
-    <div class="s-type-list big">
-    <div class="anchor" style="position: absolute; left: 207.5px; opacity: 1; width: 35px;"></div>
-    {% for category in site.data.search %}
-   {% if category.list %}
-  <label for="type-{{ list_category.type }}" class="{{ category.status }}" data-id="group-{{ category.id }}"><span>{{ category.group }}</span></label>
-    {% endif %}
-    {% endfor %}
-    </div>
-    </div>
-    </div>
-  <!--输入框-->
-    <form action="https://www.googluck.tk/search?q=" method="get" target="_blank" class="super-search-fm" _lpchecked="1">
-    <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="搜索一下"style="outline:0" autocomplete="off">
-      <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
-        </form>
-
-      <!--子组-->
-    <div id="search-list" class="hide-type-list">
-    {% for category in site.data.search %}
-     <div class="search-group group-{{ category.id }} {%- if category.status=="active" -%}s-current{%- endif -%}">
-    <ul class="search-type">
-                      {% for list_category in site.data.search %}
-                      <li>
-                        <input hidden="" type="radio" name="type" id="type-{{ list_category.type }}" value="{{ list_category.url }}" data-placeholder="{{ list_category.placeholder }}">
-                        <label for="type-{{ list_category.type }}"><span class="text-muted">{{ list_category.name }}</span></label>
-                      </li>
-                      {% endfor %}
-                      </ul>
-                      </div>
-              {% endfor %}
-                </div>
-                <div class="card search-smart-tips" style="display:none;background:white;">
-                  <ul></ul>
-                </div>
+    <div class="header-big no-bg mb-4">﻿
+      <div class="s-search">
+        <div id="search" class="s-search mx-auto">
+          <div id="search-list-menu" class="hide-type-list">
+            <!--组别-->
+            <div class="s-type">
+              <div class="s-type-list big">
+                <div class="anchor" style="position: absolute; left: 207.5px; opacity: 1; width: 35px;"></div>
+                {% for category in site.data.search %}
+                {% if category.list %}
+                <label for="type-{{ list_category.type }}" class="{{ category.status }}" data-id="group-{{ category.id }}"><span>{{ category.group }}</span></label>
+                {% endif %}
+                {% endfor %}
               </div>
             </div>
           </div>
-          <script type="text/javascript" src="../asset/search-bar.js"></script>
-        </body>
-    </html>
+          <!--输入框-->
+          <form action="https://www.googluck.tk/search?q=" method="get" target="_blank" class="super-search-fm"
+            _lpchecked="1">
+            <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="搜索一下"
+              style="outline:0" autocomplete="off">
+            <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+          </form>
+
+          <!--子组-->
+          <div id="search-list" class="hide-type-list">
+            {% for category in site.data.search %}
+            <div class="search-group group-{{ category.id }} {%- if category.status==" active" -%}s-current{%- endif
+              -%}">
+              <ul class="search-type">
+                {% for list_category in site.data.search %}
+                <li>
+                  <input hidden="" type="radio" name="type" id="type-{{ list_category.type }}" value="{{ list_category.url }}"
+                    data-placeholder="{{ list_category.placeholder }}">
+                  <label for="type-{{ list_category.type }}"><span class="text-muted">{{ list_category.name }}</span></label>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="card search-smart-tips" style="display:none;background:white;">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../asset/search-bar.js"></script>
+  </body>
+</html>
