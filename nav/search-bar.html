@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<link rel="stylesheet" id="bootstrap-css" href="../assets/css/bootstrap.min.css" type="text/css" media="all">
+		<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	</head>
+	<body>
+<style>
+				.header-big .search-group{padding:0;margin:0 auto}
+				.header-big #search-list{text-align:center}
+				.header-big .search-smart-tips{width:unset;left:20px;right:20px}
+				.header-big .search-type input:checked+label,.header-big .search-type input:hover+label{position:relative;background:transparent!important}
+				.header-big .search-type input:checked+label:before{content:'';border-width:8px 8px 0px 8px;border-style:solid;border-color:rgba(0,0,0,0.6) transparent transparent;position:absolute;left:50%;top:0;margin-left:-8px}
+				.header-big .search-type li label{padding-top:5px}
+				.header-big .s-type-list{position:relative!important;display:block;overflow:auto;white-space:nowrap;text-align:center;position:inherit;top:unset;padding:unset;width:unset;background:unset!important;border-radius:unset;box-shadow:unset!important}
+				.header-big:not(.no-bg) .s-type-list{color:#fff;}
+				.header-big .s-type-list .anchor{background:#888;border-radius:100px;width:10px;height:4px;bottom:5px;-webkit-transition:.25s;transition:.25s}
+				.header-big:not(.no-bg) .s-type-list .anchor{background:#fff;}
+				.header-big .s-type-list label:hover{background:unset}
+				.header-big .s-type-list:before{display:none}
+				.header-big .s-type{position:inherit;top:unset;left:unset;z-index:unset;width:unset}
+				.header-big .s-type-list label{position:relative;display:inline-block}
+				.header-big .s-type-list label span{display:block;padding:10px 10px}
+				.header-big .s-type-list label:not(.active)::after{content:'';height:4px;width:4px;border-radius:2px;position:absolute;left:50%;bottom:5px;margin-left:-2px;background-color:rgba(255,255,255,0);transition:.3s}
+				.header-big .s-type-list label:not(.active):hover::after{background-color:#fff}
+				.header-big .s-type-list label:not(.active),.header-big:not(.no-bg) .search-type label{opacity:.5;transition:opacity .3s}
+				.header-big .s-type-list label:not(.active):hover,.header-big:not(.no-bg) .search-type label:hover{opacity:1}
+				.header-big .search-type input:checked+label{opacity:1}
+				.header-big #search-text{border-radius:50px;color:#fff;border:1px solid rgba(255,255,255,.05);padding:9px 20px;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);background-color:rgba(0,0,0,0.6)!important}
+				.header-big #search button{position:absolute;top:0;right:0;background:transparent;border:0!important;width:unset;height:unset;margin:0 9px;line-height:50px;border-radius:3px}
+				.header-big #search button:active,.header-big #search button:focus{box-shadow:none;outline:none;border:0!important}
+				.header-big .search-smart-tips{top:100px}
+				.content-site.customize-site.big{margin-top:-80px}
+				@media screen and (min-width:768px){.header-big{padding-top:1px;padding-bottom:20px}
+				.header-big .s-search,.header-big #bulletin_box{margin:0}
+				.header-big .search-type li label{padding:5px 20px}
+				.header-big .s-type-list label span{padding:10px 20px}
+				}
+				#search{max-width:800px;position:relative}
+				#search form{position:relative}
+				#search-text{z-index:inherit;padding:9pt;height:50px;font-size:1pc;border:0;border-radius:3px;background-color:#fff;transition:.3s}
+				#search button{position:absolute;top:0;right:0;background:#313437;border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
+				#search button:hover{background:#000;cursor:pointer}
+				#search button i{color:#fff;font-size:18px}
+				#search .search-select{height:50px;cursor:pointer;border:none;background-color:#fff;transition:.3s}
+				#search .input-group-prepend:not(.d-none)+.search-key{border-top-left-radius:0;border-bottom-left-radius:0}
+				.search-group{display:none;padding-left:75px}
+				.search-group-modal{display:none;padding-left:75px}
+				.s-current .search-type{padding-left:0;display:block}
+				.s-current{display:block}
+				#search-list{position:relative}
+				#search-list-modal{position:relative}
+				.s-type{position:absolute;top:0;left:0;z-index:23;width:75px}
+				.s-type:hover{height:auto}
+				.s-type>span{display:block;height:31px;width:75px}
+				.s-type-list{display:none;position:absolute;top:31px;padding:9pt 0;width:70px;background:#fff;border-radius:5px;box-shadow:0 9px 20px rgba(0,0,0,.16)}
+				.s-type-list:before{position:absolute;top:-1pc;left:20px;content:'';display:block;width:0;height:0;border:10px solid transparent;border-bottom-color:#fff}
+				.s-type-list label{display:block;font-size:15px;text-align:center;font-weight:normal;margin-bottom:0;padding:2px 0;cursor:pointer;transition:.3s}
+				.s-type-list label:hover{background:rgba(136,136,136,.1)}
+				.s-type-list .tile-lg{color:#fff;width:3pc;height:3pc;font-size:1.25rem;line-height:3rem;border-radius:.3rem;display:block;margin:auto}
+				.s-type:hover .s-type-list{display:block}
+				.type-text{position:absolute;left:0;width:75px;padding-left:9pt;font-size:1pc;line-height:31px}
+				.type-text:after{content:"\e793";font-family:"iconfont";font-size:12px;margin:0 0 0 10px}
+				.search-type{white-space:nowrap;margin:0}.search-type label{margin:0}
+				.search-type li{display:inline-block}
+				.search-type li label{display:inline-block;padding:0 11px;font-size:14px;line-height:31px;border-radius:3px 3px 0 0;cursor:pointer}
+				.search-type input:checked+label,.search-type input:hover+label{background-color:#fff}
+				.set-check{margin-top:3px;font-size:9pt}.set-check label{margin-left:3px}
+				.set-check input,.set-check label{opacity:0;transition:all .3s ease}
+				.search-type li{list-style:none;display:inline-block}
+				.search-type{overflow:auto}
+				.search-smart-tips{position:absolute;z-index:20;width:100%;overflow:hidden}
+				.search-smart-tips ul{padding:10px 0;margin:0}
+				.search-smart-tips ul li{line-height:30px;font-size:14px;padding:0px 25px;cursor:pointer;list-style:none;transition:.3s}
+				.search-smart-tips ul li:hover,.search-smart-tips ul li.current{background-color:rgba(130,130,130,.5)}
+				@media screen and (max-width:767.98px){#search{margin:25px auto 15px}
+				.s-type-list label{padding:5px 0}
+				.search-list{height:30px;overflow-y:hidden;overflow-x:scroll;white-space:nowrap}
+				}
+				.search-modal #m_search-text{z-index:inherit;padding:9pt;height:50px;font-size:1pc;border:0;border-radius:3px;background-color:rgba(126, 126, 126, 0.1)}
+				.search-modal #search .search-select,.search-modal .search-type input:checked+label,.search-modal .search-type input:hover+label{background-color:rgba(126, 126, 126, 0.1)}
+				.search-modal li.menu-item{display:inline-block!important;margin:4px}
+				.search-modal li.menu-item a{font-size:12px;padding:.375rem .875rem;background:rgba(136,136,136,.1);border-radius:50px}
+				.btn-search{position:relative;background-color:rgba(150,150,150,.16);transition:.2s ease-out}
+				.btn-search:hover,.btn-search.current{color:#fff!important;background-color:#f1404b;box-shadow:0 5px 20px -3px rgba(249,100,90,.6)}
+				.btn-search.current:after{content:"";position:absolute;bottom:-17px;left:0;right:0;margin:0 auto;width:0;border:10px solid transparent;border-top-color:#f1404b}
+	</style>
+			<div class="header-big no-bg mb-4">﻿
+				<div class="s-search">
+					<div id="search" class="s-search mx-auto">
+						<div id="search-list-menu" class="hide-type-list">
+							<div class="s-type">
+								<div class="s-type-list big">
+									<div class="anchor" style="position: absolute; left: 207.5px; opacity: 1; width: 35px;"></div>
+									<label for="type-baidu" class="active" data-id="group-a"><span>常用</span></label><label for="type-baidu1"
+									 data-id="group-b" class=""><span>搜索</span></label><label for="type-br" data-id="group-c" class=""><span>工具</span></label><label
+									 for="type-zhihu" data-id="group-d" class=""><span>社区</span></label><label for="type-taobao1" data-id="group-e"
+									 class=""><span>生活</span></label><label for="type-zhaopin" data-id="group-f" class=""><span>求职</span></label>
+								</div>
+							</div>
+						</div>
+						<form action="https://cn.bing.com/search?q=" method="get" target="_blank" class="super-search-fm" _lpchecked="1">
+							<input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="微软Bing搜索"
+							 style="outline:0" autocomplete="off">
+							<button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+						</form>
+						<div id="search-list" class="hide-type-list">
+							<div class="search-group group-a s-current">
+								<ul class="search-type">
+									<li><input checked="checked" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd="
+										 data-placeholder="百度一下"><label for="type-baidu"><span class="text-muted">百度</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q="
+										 data-placeholder="谷歌两下"><label for="type-google"><span class="text-muted">Google</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-taobao" value="https://s.taobao.com/search?q="
+										 data-placeholder="淘宝"><label for="type-taobao"><span class="text-muted">淘宝</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q="
+										 data-placeholder="微软Bing搜索"><label for="type-bing"><span class="text-muted">Bing</span></label></li>
+								</ul>
+							</div>
+							<div class="search-group group-b">
+								<ul class="search-type">
+									<li><input hidden="" type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd="
+										 data-placeholder="百度一下"><label for="type-baidu1"><span class="text-muted">百度</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-google1" value="https://www.google.com/search?q="
+										 data-placeholder="谷歌两下"><label for="type-google1"><span class="text-muted">Google</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-360" value="https://www.so.com/s?q=" data-placeholder="360好搜"><label
+										 for="type-360"><span class="text-muted">360</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query="
+										 data-placeholder="搜狗搜索"><label for="type-sogo"><span class="text-muted">搜狗</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q="
+										 data-placeholder="微软Bing搜索"><label for="type-bing1"><span class="text-muted">Bing</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-sm" value="https://yz.m.sm.cn/s?q=" data-placeholder="UC移动端搜索"><label
+										 for="type-sm"><span class="text-muted">神马</span></label></li>
+								</ul>
+							</div>
+							<div class="search-group group-c">
+								<ul class="search-type">
+									<li><input hidden="" type="radio" name="type" id="type-br" value="http://rank.chinaz.com/all/"
+										 data-placeholder="请输入网址(不带http://)"><label for="type-br"><span class="text-muted">权重查询</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-links" value="http://link.chinaz.com/" data-placeholder="请输入网址(不带http://)"><label
+										 for="type-links"><span class="text-muted">友链检测</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-icp" value="https://icp.aizhan.com/" data-placeholder="请输入网址(不带http://)"><label
+										 for="type-icp"><span class="text-muted">备案查询</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-ping" value="http://ping.chinaz.com/" data-placeholder="请输入网址(不带http://)"><label
+										 for="type-ping"><span class="text-muted">PING检测</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-404" value="http://tool.chinaz.com/Links/?DAddress="
+										 data-placeholder="请输入网址(不带http://)"><label for="type-404"><span class="text-muted">死链检测</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-ciku" value="http://www.ciku5.com/s?wd="
+										 data-placeholder="请输入关键词"><label for="type-ciku"><span class="text-muted">关键词挖掘</span></label></li>
+								</ul>
+							</div>
+							<div class="search-group group-d">
+								<ul class="search-type">
+									<li><input hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&amp;q="
+										 data-placeholder="知乎"><label for="type-zhihu"><span class="text-muted">知乎</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-wechat" value="http://weixin.sogou.com/weixin?type=2&amp;query="
+										 data-placeholder="微信"><label for="type-wechat"><span class="text-muted">微信</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-weibo" value="http://s.weibo.com/weibo/"
+										 data-placeholder="微博"><label for="type-weibo"><span class="text-muted">微博</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q="
+										 data-placeholder="豆瓣"><label for="type-douban"><span class="text-muted">豆瓣</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-why" value="https://ask.seowhy.com/search/?q="
+										 data-placeholder="SEO问答社区"><label for="type-why"><span class="text-muted">搜外问答</span></label></li>
+								</ul>
+							</div>
+							<div class="search-group group-e">
+								<ul class="search-type">
+									<li><input hidden="" type="radio" name="type" id="type-taobao1" value="https://s.taobao.com/search?q="
+										 data-placeholder="淘宝"><label for="type-taobao1"><span class="text-muted">淘宝</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-jd" value="https://search.jd.com/Search?keyword="
+										 data-placeholder="京东"><label for="type-jd"><span class="text-muted">京东</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-xiachufang" value="http://www.xiachufang.com/search/?keyword="
+										 data-placeholder="下厨房"><label for="type-xiachufang"><span class="text-muted">下厨房</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-xiangha" value="https://www.xiangha.com/so/?q=caipu&amp;s="
+										 data-placeholder="香哈菜谱"><label for="type-xiangha"><span class="text-muted">香哈菜谱</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-12306" value="http://www.12306.cn/?" data-placeholder="12306"><label
+										 for="type-12306"><span class="text-muted">12306</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-kd100" value="http://www.kuaidi100.com/?"
+										 data-placeholder="快递100"><label for="type-kd100"><span class="text-muted">快递100</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-qunar" value="https://www.qunar.com/?" data-placeholder="去哪儿"><label
+										 for="type-qunar"><span class="text-muted">去哪儿</span></label></li>
+								</ul>
+							</div>
+							<div class="search-group group-f">
+								<ul class="search-type">
+									<li><input hidden="" type="radio" name="type" id="type-zhaopin" value="https://sou.zhaopin.com/jobs/searchresult.ashx?kw="
+										 data-placeholder="智联招聘"><label for="type-zhaopin"><span class="text-muted">智联招聘</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-51job" value="https://search.51job.com/?"
+										 data-placeholder="前程无忧"><label for="type-51job"><span class="text-muted">前程无忧</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-lagou" value="https://www.lagou.com/jobs/list_"
+										 data-placeholder="拉钩网"><label for="type-lagou"><span class="text-muted">拉钩网</span></label></li>
+									<li><input hidden="" type="radio" name="type" id="type-liepin" value="https://www.liepin.com/zhaopin/?key="
+										 data-placeholder="猎聘网"><label for="type-liepin"><span class="text-muted">猎聘网</span></label></li>
+								</ul>
+							</div>
+						</div>
+						<div class="card search-smart-tips" style="display:none;background:white;">
+							<ul></ul>
+						</div>
+					</div>
+				</div>
+			</div>
+      <script type="text/javascript">
+      	(function($) {
+      		$(document).ready(function intoSearch() {
+      				if (window.localStorage.getItem("searchlist")) {
+      					$(".hide-type-list input#" + window.localStorage.getItem("searchlist")).prop('checked', true);
+      					$(".hide-type-list input#m_" + window.localStorage.getItem("searchlist")).prop('checked', true);
+      				}
+      				if (window.localStorage.getItem("searchlistmenu")) {
+      					$('.s-type-list.big label').removeClass('active');
+      					$(".s-type-list [data-id=" + window.localStorage.getItem("searchlistmenu") + "]").addClass('active');
+      				}
+      				toTarget($(".s-type-list.big"), false, false);
+      				$('.hide-type-list .s-current').removeClass("s-current");
+      				$('.hide-type-list input:radio[name="type"]:checked').parents(".search-group").addClass("s-current");
+      				$('.hide-type-list input:radio[name="type2"]:checked').parents(".search-group").addClass("s-current");
+
+      				$(".super-search-fm").attr("action", $(
+      					'.hide-type-list input<img class="emoji" title=":radio:" alt=":radio:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4fb.png" height="20" width="20">checked'
+      				).val());
+      				$(".search-key").attr("placeholder", $(
+      					'.hide-type-list input<img class="emoji" title=":radio:" alt=":radio:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4fb.png" height="20" width="20">checked'
+      				).data("placeholder"));
+      				if (window.localStorage.getItem("searchlist") == 'type-zhannei') {
+      					$(".search-key").attr("zhannei", "true");
+      				}
+      			}
+
+      	);
+
+      		$(document).on('click', '.s-type-list label', function(event) {
+      			//event.preventDefault();
+      			$('.s-type-list.big label').removeClass('active');
+      			$(this).addClass('active');
+      			window.localStorage.setItem("searchlistmenu", $(this).data("id"));
+      			var parent = $(this).parents(".s-search");
+      			parent.find('.search-group').removeClass("s-current");
+      			parent.find('#' + $(this).attr("for")).parents(".search-group").addClass("s-current");
+      			toTarget($(this).parents(".s-type-list"), false, false);
+      		});
+      		$('.hide-type-list .search-group input').on('click', function() {
+      			var parent = $(this).parents(".s-search");
+      			window.localStorage.setItem("searchlist", $(this).attr("id").replace("m_", ""));
+      			parent.children(".super-search-fm").attr("action", $(this).val());
+      			parent.find(".search-key").attr("placeholder", $(this).data("placeholder"));
+
+      			if ($(this).attr('id') == "type-zhannei" || $(this).attr('id') == "m_type-zhannei")
+      				parent.find(".search-key").attr("zhannei", "true");
+      			else
+      				parent.find(".search-key").attr("zhannei", "");
+
+      			parent.find(".search-key").select();
+      			parent.find(".search-key").focus();
+      		});
+      		$(document).on("submit", ".super-search-fm", function() {
+      			var key = $(this).find(".search-key").val()
+      			if (key == "")
+      				return false;
+      			else {
+      				window.open($(this).attr("action") + key);
+      				return false;
+      			}
+      		});
+
+      		function getSmartTips(value, parents) {
+      			$.ajax({
+      				type: "GET",
+      				url: "//sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su",
+      				async: true,
+      				data: {
+      					wd: value
+      				},
+      				dataType: "jsonp",
+      				jsonp: "cb",
+      				success: function(res) {
+      					var list = parents.children(".search-smart-tips");
+      					list.children("ul").text("");
+      					tipsList = res.s.length;
+      					if (tipsList) {
+      						for (var i = 0; i < tipsList; i++) {
+      							list.children("ul").append("<li>" + res.s[i] + "</li>");
+      							list.find("li").eq(i).click(function() {
+      								var keyword = $(this).html();
+      								parents.find(".smart-tips.search-key").val(keyword);
+      								parents.children(".super-search-fm").submit();
+      								list.slideUp(200);
+      							});
+      						};
+      						list.slideDown(200);
+      					} else {
+      						list.slideUp(200)
+      					}
+      				},
+      				error: function(res) {
+      					tipsList = 0;
+      					console.log(res);
+      				}
+      			})
+      		}
+      		var listIndex = -1;
+      		var parent;
+      		var tipsList = 0;
+      		var isZhannei = false;
+      		$(document).on("blur", ".smart-tips.search-key", function() {
+      			parent = '';
+      			$(".search-smart-tips").slideUp(200)
+      		});
+      		$(document).on("focus", ".smart-tips.search-key", function() {
+      			isZhannei = $(this).attr('zhannei') != '' ? true : false;
+      			parent = $(this).parents('#search');
+      			if ($(this).val() && !isZhannei) {
+      				getSmartTips($(this).val(), parent)
+      			}
+      		});
+      		$(document).on("keyup", ".smart-tips.search-key", function(e) {
+      			isZhannei = $(this).attr('zhannei') != '' ? true : false;
+      			parent = $(this).parents('#search');
+      			if ($(this).val()) {
+      				if (e.keyCode == 38 || e.keyCode == 40 || isZhannei) {
+      					return
+      				}
+      				getSmartTips($(this).val(), parent);
+      				listIndex = -1;
+      			} else {
+      				$(".search-smart-tips").slideUp(200)
+      			}
+      		});
+      		$(document).on("keydown", ".smart-tips.search-key", function(e) {
+      			parent = $(this).parents('#search');
+      			if (e.keyCode === 40) {
+      				listIndex === (tipsList - 1) ? listIndex = 0 : listIndex++;
+      				parent.find(".search-smart-tips ul li").eq(listIndex).addClass("current").siblings().removeClass("current");
+      				var hotValue = parent.find(".search-smart-tips ul li").eq(listIndex).html();
+      				parent.find(".smart-tips.search-key").val(hotValue)
+      			}
+      			if (e.keyCode === 38) {
+      				if (e.preventDefault) {
+      					e.preventDefault()
+      				}
+      				if (e.returnValue) {
+      					e.returnValue = false
+      				}
+      				listIndex === 0 || listIndex === -1 ? listIndex = (tipsList - 1) : listIndex--;
+      				parent.find(".search-smart-tips ul li").eq(listIndex).addClass("current").siblings().removeClass("current");
+      				var hotValue = parent.find(".search-smart-tips ul li").eq(listIndex).html();
+      				parent.find(".smart-tips.search-key").val(hotValue)
+      			}
+      		});
+      	})(jQuery);
+
+      	function toTarget(menu, padding = true, isMult = true) {
+      		var slider = menu.children(".anchor");
+      		var target = menu.children(".hover").first();
+      		if (target && 0 < target.length) {} else {
+      			if (isMult)
+      				target = menu.find('.active').parent();
+      			else
+      				target = menu.find('.active');
+      		}
+      		if (0 < target.length) {
+      			if (padding)
+      				slider.css({
+      					left: target.position().left + target.scrollLeft() + "px",
+      					width: target.outerWidth() + "px",
+      					opacity: "1"
+      				});
+      			else
+      				slider.css({
+      					left: target.position().left + target.scrollLeft() + (target.outerWidth() / 4) + "px",
+      					width: target.outerWidth() / 2 + "px",
+      					opacity: "1"
+      				});
+      		} else {
+      			slider.css({
+      				opacity: "0"
+      			})
+      		}
+      	}
+      </script>
+
+		</body>
+</html>
