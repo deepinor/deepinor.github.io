@@ -1,0 +1,32 @@
+<div class="sidebar-menu toggle-others fixed nav">
+    <div class="sidebar-menu-inner container" style="margin-top:80px;">
+
+        <ul id="main-menu" class="main-menu">
+            {% for category in site.data.webstack %}
+            <li>
+                {% if category.sub %}
+                <a>
+                    <i class="{{ category.icon }}"></i>
+                    <span class="title">{{ category.name }}</span>
+                </a>
+                <ul>
+                    {% for sub_category in category.sub %}
+                    <li>
+                        <a href="#{{ sub_category.name }}" class="smooth">
+                            <span class="title">{{ sub_category.name }}</span>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% else if %}
+                <a href="#{{ category.name }}" class="smooth">
+                    <i class="{{ category.icon }}"></i>
+                    <span class="title">{{ category.name }}</span>
+                </a>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+</div>
