@@ -19,11 +19,11 @@
 							<div class="s-type">
 								<div class="s-type-list big">
 									<div class="anchor" style="position: absolute; left: 207.5px; opacity: 1; width: 35px;"></div>
-								    {% for category in site.data.search %}
-								    {% if category.list %}
+                    {% for category in site.data.search %}
+                    {% if category.list %}
 									<label for="type-{{ list_category.type }}" class="{{ category.status }}" data-id="group-{{ category.id }}"><span>{{ category.group }}</span></label>
-									{% endif %}
-									{% endfor %}
+                    {% endif %}
+                    {% endfor %}
 								</div>
 							</div>
 						</div>
@@ -36,18 +36,18 @@
 
 <!--子组-->
 						<div id="search-list" class="hide-type-list">
-						{% for category in site.data.search %}
-							<div class="search-group group-{{ category.id }} {%- if category.status=="active" -%}s-current{%- endif -%}">
+            {% for category in site.data.search %}
+            <div class="search-group group-{{ category.id }} {%- if category.status=="active" -%}s-current{%- endif -%}">
 								<ul class="search-type">
-									{% for list_category in site.data.search %}
+                  {% for list_category in site.data.search %}
 									<li>
 										<input hidden="" type="radio" name="type" id="type-{{ list_category.type }}" value="{{ list_category.url }}" data-placeholder="{{ list_category.placeholder }}">
 										<label for="type-{{ list_category.type }}"><span class="text-muted">{{ list_category.name }}</span></label>
 									</li>
-									{% endfor %}
+                  {% endfor %}
 									</ul>
 									</div>
-						{% endfor %}
+          {% endfor %}
 						</div>
 						<div class="card search-smart-tips" style="display:none;background:white;">
 							<ul></ul>
