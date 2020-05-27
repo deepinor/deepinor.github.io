@@ -14,7 +14,7 @@
         <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">
           <img src="/assets/logo.svg" height="40" alt="13C博客">
         </a>
-        <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}"><span class="mb-0 h3">{{ site.title }}</h1></a>
+        <span class="navbar-brand mb-0" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Content" aria-controls="navbar-Content" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,7 +35,7 @@
               </ul>   <!--结束循环次级菜单-->
              </li>
           {% else if %}
-           
+
             <li class="nav-item">
               <a class="nav-link" href="{{ category.url }}">{{ category.titles }}</a>
             </li>
