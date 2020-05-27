@@ -3,39 +3,8 @@ permalink: /nav/index.html
 layout: nav
 ---
 
-<div class="sidebar-menu toggle-others fixed nav">
-    <div class="sidebar-menu-inner container" style="margin-top:80px;">
 
-        <ul id="main-menu" class="main-menu">
-            {% for category in site.data.webstack %}
-            <li>
-                {% if category.sub %}
-                <a>
-                    <i class="{{ category.icon }}"></i>
-                    <span class="title">{{ category.name }}</span>
-                </a>
-                <ul>
-                    {% for sub_category in category.sub %}
-                    <li>
-                        <a href="#{{ sub_category.name }}" class="smooth">
-                            <span class="title">{{ sub_category.name }}</span>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-                {% else if %}
-                <a href="#{{ category.name }}" class="smooth">
-                    <i class="{{ category.icon }}"></i>
-                    <span class="title">{{ category.name }}</span>
-                </a>
-                {% endif %}
-            </li>
-            {% endfor %}
-        </ul>
-
-    </div>
-</div>
-
+ {%- include nav/nav-sidebar.html -%}
 <div class="main-content">
     <nav class="navbar user-info-navbar" role="navigation">
         <!-- User Info, Notifications and Menu Bar -->
@@ -48,79 +17,7 @@ layout: nav
             </li>
         </ul>
     </nav>
-
-    {% for category in site.data.webstack %}
-        {% if category.sub %}
-          <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
-          <br />
-          <ul id="{{ category.name }}" class="nav nav-tabs">
-            {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
-            {% for sub_category in category.sub %}
-              {% if _counter == 1 %}
-            		  <li class="active">
-                  {%- assign _counter = 0 -%}
-                  {% elsif _counter == 0 %}
-                 <li>
-               {% endif %}
-                   <a href="#{{ sub_category.name }}_tab" data-toggle="tab" id="{{ sub_category.name }}"">
-            			 <i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
-            		</a>
-            	</li>
-               {% endfor %}
-          </ul>
-<div id="{{ category.name }}Content" class="tab-content">
-  {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
- {% for sub_category in category.sub %}
- {% if _counter == 1 %}
-<div class="row tab-pane fade in active" id="{{ sub_category.name }}_tab">
-  {%- assign _counter = 0 -%}
-  {% elsif _counter == 0 %}
-  <div class="row tab-pane fade" id="{{ sub_category.name }}_tab">
-    {% endif %}
-  {% for link in sub_category.links %}
-  <div class="col-sm-3">
-      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('{{ link.url }}', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ link.url }}">
-          <div class="xe-comment-entry">
-              <a class="xe-user-img">
-                  <img src="{{ link.logo }}" class="img-circle" width="40">
-              </a>
-              <div class="xe-comment">
-                  <a href="#" class="xe-user-name overflowClip_1">
-                      <strong>{{ link.title }}</strong>
-                  </a>
-                  <p class="overflowClip_2">{{ link.description }}</p>
-              </div>
-          </div>
-      </div>
-  </div>
-  {% endfor %}
-  </div>
-{% endfor %}
-  <br />
- </div>
-        {% else if %}
-        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
-        <div class="row">
-            {% for link in category.links %}
-            <div class="col-sm-3">
-                <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('{{ link.url }}', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{ link.url }}">
-                    <div class="xe-comment-entry">
-                        <a class="xe-user-img">
-                            <img src="{{ link.logo }}" class="img-circle" width="40">
-                        </a>
-                        <div class="xe-comment">
-                            <a href="#" class="xe-user-name overflowClip_1">
-                                <strong>{{ link.title }}</strong>
-                            </a>
-                            <p class="overflowClip_2">{{ link.description }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        <br />
-        {% endif %}
-    {% endfor %}
+    <div><iframe src="./search-bar.html" id="iframe" frameborder="0" scrolling="no" height="200px" width="100%"></iframe></div>
+ {%- include nav/nav-list.html -%}
  {%- include footer.html -%}
 </div>
