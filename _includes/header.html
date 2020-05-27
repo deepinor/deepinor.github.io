@@ -18,10 +18,10 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Content" aria-controls="navbar-Content" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
+       {%- if site.data.navigation.header -%}
       <div class="collapse navbar-collapse justify-content-end" id="navbar-Content">  <!--伸缩菜单-->
-        {%- if site.data.navigation.header -%}
-        <ul class="navbar-nav ">
+        <ul class="navbar-nav">
+          {%- for category in site.data.navigation.header -%}
             {% if category.sub %}
            <li class="nav-item dropdown">
              <a class="nav-link dropdown-toggle" href="#" id="{{ category.titles }}-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="{{ category.icon }}"></i> {{ category.titles }} <span class="caret"></span>
@@ -59,7 +59,7 @@
          </ul>
 
       </div> <!--伸缩菜单结束-->
-
+        {%- endif -%}
     </div>  <!--导航结束-->
     </nav>
   </header>
