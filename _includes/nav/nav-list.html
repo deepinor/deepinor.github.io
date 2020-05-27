@@ -2,19 +2,18 @@
         {% if category.sub %}
           <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
           <br />
-          <ul id="{{ category.name }}" class="nav nav-tabs">
+          <ul id="{{ category.name }}" class="nav nav-tabs" role="tablist">
             {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
             {% for sub_category in category.sub %}
               {% if _counter == 1 %}
             		  <li class="nav-item">
-                    <a class="nav-link active" href="#{{ sub_category.name }}_tab" id="{{ sub_category.name }}"><i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
+                    <a class="nav-link active" id="{{ sub_category.name }}-tab" data-toggle="pill" href="#{{ sub_category.name }}" role="tab" aria-controls="{{ sub_category.name }}" aria-selected="true"><i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
             		</a>
                     </li>
                   {%- assign _counter = 0 -%}
                   {% elsif _counter == 0 %}
                  <li class="nav-item">
-                   <a class="nav-link" href="#{{ sub_category.name }}_tab" data-toggle="tab" id="{{ sub_category.name }}">
-            			 <i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
+                    <a class="nav-link" id="{{ sub_category.name }}-tab" data-toggle="pill" href="#{{ sub_category.name }}" role="tab" aria-controls="{{ sub_category.name }}" aria-selected="true"><i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
             		</a>
             	</li>
                   {% endif %}
