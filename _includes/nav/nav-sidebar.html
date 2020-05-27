@@ -3,10 +3,13 @@
 
         <ul id="main-menu" class="main-menu">
             {% for category in site.data.webstack %}
+            <li>
+
                 <a href="#{{ category.name }}" class="smooth">
                     <i class="{{ category.icon }}"></i>
                     <span class="title">{{ category.name }}</span>
                 </a>
+
             </li>
             {% endfor %}
         </ul>
