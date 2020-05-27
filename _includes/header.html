@@ -9,57 +9,57 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <!--响应试导航-->
-        <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Menu</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
         {%- include snippets/get-nav-url.html path=_paths_root -%}
-   
         <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">
-         <img style="max-width:3.75rem;" alt="Brand" src="/assets/logo.svg">
-       </a>
-        <a class="navbar-brand" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}"><h4>{{ site.title }}</h4></a>
-        </div>  <!--输出logo和站标题-->
+          <img src="assets/logo.svg" height="40" alt="13C博客">
+        </a>
+        <a class="navbar-brand h1" title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-Content" aria-controls="navbar-Content" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          {%- if site.data.navigation.header -%}
-        <ul class="nav nav-pills navbar-nav navbar-right navbar-text">
-         {% for category in site.data.navigation.header %}
-
-           {% if category.sub %}
-             <li class="dropdown">
-               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                 <i class="{{ category.icon }}"></i> {{ category.titles }} <span class="caret"></span>
-               </a>
-             <ul class="dropdown-menu">            <!--循环次级菜单-->
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-Content">  <!--伸缩菜单-->
+        {%- if site.data.navigation.header -%}
+        <ul class="navbar-nav ">
+            {% if category.sub %}
+           <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="{{ category.titles }}-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="{{ category.icon }}"></i> {{ category.titles }} <span class="caret"></span>
+             </a>
+             <ul class="dropdown-menu" aria-labelledby="{{ category.titles }}-dropdown">            <!--循环次级菜单-->
                  {% for sub_category in category.sub %}
                    <li>
-                   <a href="{{ sub_category.url }}">{{ sub_category.titles }}</a>
+                   <a class="dropdown-item" href="{{ sub_category.url }}">{{ sub_category.titles }}</a>
                    </li>
                  {% endfor %}
-             </ul>   <!--结束循环次级菜单-->
-           </li>
+              </ul>   <!--结束循环次级菜单-->
+             </li>
           {% else if %}
-          <li role="presentation">
-            <a href="{{ category.url }}" >
-                <i class="{{ category.icon }}"></i>
-                <span class="title">{{ category.titles }}</span>
-            </a>
+            {%- include snippets/get-nav-url.html path=_item.url -%}
+            {%- assign _nav_url = __return -%}
+            {%- include snippets/get-nav-url.html path=page.url -%}
+            {%- assign _page_url = __return -%}
+            {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
+            {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
+            <li class="nav-item active">
+              <a class="nav-link" href="{{ category.url }}">{{ category.titles }}<span class="sr-only">(current)</span></a>
             </li>
+            {%- else -%}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ category.url }}">{{ category.titles }}</a>
+            </li>
+            {%- endif -%}
+            {% endif %}
+             </li>
+             {% endfor %}
+          </li>
+          {%- if site.search.provider -%}
+            <button class="button button--secondary button--circle search-button js-search-toggle navbar-text"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></button>
+          {%- endif -%}
+         </ul>
         {% endif %}
-         </li>
-         {% endfor %}
-         {%- if site.search.provider -%}
-           <button class="button button--secondary button--circle search-button js-search-toggle navbar-text"><i class="glyphicon glyphicon-search" aria-hidden="true"></i></button>
-         {%- endif -%}
-        </ul>
-        {% endif %}
-        </div>
-      </div>
+      </div> <!--伸缩菜单结束-->
+
+    </div>  <!--导航结束-->
     </nav>
   </header>
