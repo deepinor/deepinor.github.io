@@ -6,15 +6,18 @@
             {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
             {% for sub_category in category.sub %}
               {% if _counter == 1 %}
-            		  <li class="active">
+            		  <li class="nav-item">
+                    <a class="nav-link active" href="#{{ sub_category.name }}_tab" id="{{ sub_category.name }}"><i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
+            		</a>
+                    </li>
                   {%- assign _counter = 0 -%}
                   {% elsif _counter == 0 %}
-                 <li>
-               {% endif %}
-                   <a href="#{{ sub_category.name }}_tab" data-toggle="tab" id="{{ sub_category.name }}">
+                 <li class="nav-item">
+                   <a class="nav-link" href="#{{ sub_category.name }}_tab" data-toggle="tab" id="{{ sub_category.name }}">
             			 <i class="{{ sub_category.icon }}"></i> {{ sub_category.name }}
             		</a>
             	</li>
+                  {% endif %}
                {% endfor %}
           </ul>
 <div id="{{ category.name }}Content" class="tab-content">
