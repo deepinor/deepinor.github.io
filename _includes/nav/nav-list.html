@@ -23,7 +23,6 @@
 
   {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
  {% for sub_category in category.sub %}
-   <div class="row">
  {% if _counter == 1 %}
 <div class="tab-pane fade show active row" id="{{ sub_category.name }}" role="tabpanel" aria-labelledby="{{ sub_category.name }}-tab">
   {%- assign _counter = 0 -%}
@@ -45,7 +44,6 @@
               </div>
           </div>
       </div>
-  </div>
   </div>
   {% endfor %}
   </div>
