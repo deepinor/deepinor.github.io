@@ -1,6 +1,7 @@
     {% for category in site.data.webstack %}
         {% if category.sub %}
-          <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
+          <br />
+          <h5 class="text-muted"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h5>
           <br />
           <ul id="{{ category.name }}" class="nav nav-tabs" role="tablist">
             {%- assign _counter = 1 -%} <!--初始化一个计数器1，首次使用class为active, 然后将计数器归零，class为fade-->
@@ -54,7 +55,7 @@
 
  </div>
         {% else if %}
-        <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h4>
+        <h5 class="text-muted"><i class="linecons-tag" style="margin-right: 7px;" id="{{ category.name }}"></i>{{ category.name }}</h5>
         <div class="row">
             {% for link in category.links %}
             <div class="col-sm-3 col-6">
