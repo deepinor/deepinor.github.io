@@ -14,4 +14,11 @@ layout: nav
  {%- include nav/nav-list.html -%}
  </div>
  {%- include footer.html -%}
+ <!-- Menu Toggle Script -->
+ <script>
+   $("#sidebar-toggle").click(function(e) {
+     e.preventDefault();
+     $("#wrapper").toggleClass("toggled");
+   });
+ </script>
 </div>
