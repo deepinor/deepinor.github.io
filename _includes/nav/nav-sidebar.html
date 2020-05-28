@@ -1,10 +1,10 @@
-    <div class="bg-light" id="sidebar-wrapper">
+    <div class="collapse navbar-collapse" id="sidebar-wrapper">
       <br />
-      <div class="nav navbar sticky-top list-group list-group-flush">
-			</ul>
+      <div class="navlist-group list-group-flush">
+			<ul class="navbar navbar-light ">
 			    {% for category in site.data.webstack %}
 			    <li class="nav-item">
-			        <a href="#{{ category.name }}" class="list-group-item list-group-item-action bg-light nav-link" role="tab" aria-controls="{{ category.name }}" aria-selected="true">
+			        <a href="#{{ category.name }}" class="bg-light nav-link js-scroll-trigger" role="tab" aria-controls="{{ category.name }}" aria-selected="true">
 			            <i class="{{ category.icon }}"></i>
 			            <span class="title">{{ category.name }}</span>
 			        </a>
@@ -14,3 +14,37 @@
 			</ul>
       </div>
     </div>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="assets/js/jquery.easing.min.js"></script>
+      <script>
+    (function($) {
+      "use strict"; // Start of use strict
+
+      // Smooth scrolling using jQuery easing
+      $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: (target.offset().top - 56)
+            }, 1000, "easeInOutExpo");
+            return false;
+          }
+        }
+      });
+
+      // Closes responsive menu when a scroll trigger link is clicked
+      $('.js-scroll-trigger').click(function() {
+        $('.navbar-collapse').collapse('hide');
+      });
+
+      // Activate scrollspy to add active class to navbar items on scroll
+      $('body').scrollspy({
+        target: '#mainNav',
+        offset: 56
+      });
+
+    })(jQuery); </script>
