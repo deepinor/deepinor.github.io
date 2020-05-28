@@ -9,19 +9,136 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>bootstrap 4.4.1 测试页</title>
+    <style>
+.box2 {
+    height: 86px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0px 10px 0px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #e4ecf3;
+    margin: 10px 0 0 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.box2:hover {
+    transform: translateY(-6px);
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
+    -webkit-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
+    -moz-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.nav-logo img {
+    float: left;
+    display: block;
+    margin-right: 10px;
+    height: 46px;
+}
+
+.xe-comment p {
+    margin-bottom: 0px;
+}
+.overflowClip_1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.overflowClip_2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+.submit-tag{
+    margin-top: 50px;
+
+}</style>
+
+webkit-line-clamp
   </head>
   <body>
     <h1>bootstrap 4.4.1 测试页</h1>
 <!--测试代码开始-->
 <div class="container">
-<div class="d-flex mb-3 row">
-    <div class="p-2 mr-1 ml-1 flex-fill bg-info col-5 col-sm-3 rounded h60">Flex item 1</div>
-    <div class="p-2 mr-1 ml-1 flex-fill bg-warning  col-5  col-sm-3 rounded">Flex item 2</div>
-    <div class="p-2 mr-1 ml-1 flex-fill bg-primary col-5 col-sm-3 rounded">Flex item 3</div>
-    <div class="p-2 mr-1 ml-1 flex-fill bg-primary col-5 col-sm-3 rounded">Flex item 3</div>
-  </div></div>
-  <div class="box2 bg-danger m-5">123</div>
- <!--测试代码结束-->
+  <div class="row">
+    <div class="col-sm-3">
+    <div class="box2 row bg-light border ">
+        <div class="align-self-center nav-logo">
+                <a>
+                    <img src="./assets/images/logos/365PSD.png" class="img-circle">
+                </a>
+        </div>
+    <div class="align-self-center">
+      <a href="#" class="overflowClip_1">
+          <strong>测试链接</strong>
+      </a>
+      <p class="overflowClip_2">这个是个不知道什么的东西</p>
+    </div>
+</div>
+</div>
+    <div class="col-sm-3">
+        <div class="box2 row bg-light border ">
+            <div class="align-self-center nav-logo">
+                    <a>
+                        <img src="./assets/images/logos/365PSD.png" class="img-circle">
+                    </a>
+            </div>
+        <div class="align-self-center">
+          <a href="#" class="overflowClip_1">
+              <strong>测试链接</strong>
+          </a>
+          <p class="overflowClip_2">这个是</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="box2 row bg-light border ">
+            <div class="align-self-center nav-logo">
+                    <a>
+                        <img src="./assets/images/logos/365PSD.png" class="img-circle">
+                    </a>
+            </div>
+        <div class="align-self-center">
+          <a href="#" class="overflowClip_1">
+              <strong>测试链接</strong>
+          </a>
+          <p class="overflowClip_2">这个是</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-3">
+        <div class="box2 row bg-light border ">
+            <div class="align-self-center nav-logo">
+                    <a>
+                        <img src="./assets/images/logos/365PSD.png" class="img-circle">
+                    </a>
+            </div>
+        <div class="align-self-center">
+          <a href="#" class="overflowClip_1">
+              <strong>测试链接</strong>
+          </a>
+          <p class="overflowClip_2">这个是</p>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
