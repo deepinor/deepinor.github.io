@@ -4,8 +4,7 @@
 			</ul>
 			    {% for category in site.data.webstack %}
 			    <li class="nav-item">
-
-			        <a href="#{{ category.name }}" class="list-group-item list-group-item-action bg-light nav-link">
+			        <a href="#{{ category.name }}" class="list-group-item list-group-item-action bg-light nav-link" role="tab" aria-controls="{{ category.name }}" aria-selected="true">
 			            <i class="{{ category.icon }}"></i>
 			            <span class="title">{{ category.name }}</span>
 			        </a>
