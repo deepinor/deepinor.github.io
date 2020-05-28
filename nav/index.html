@@ -6,20 +6,18 @@ layout: nav
 
 {%- include nav/nav-sidebar.html -%}
 <div id="page-content-wrapper">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="btn" id="menu-toggle"><span class="navbar-toggler-icon"></span></button>
-      </nav>
-<div class="container">
-    <div><iframe src="./search-bar.html" id="iframe" frameborder="0" scrolling="no" height="200px" width="100%"></iframe></div>
- {%- include nav/nav-list.html -%}
- </div>
- {%- include footer.html -%}
- <!-- Menu Toggle Script -->
+  <div class="container">
+    <div><iframe src="./search-bar.html" id="iframe" frameborder="0" scrolling="no" height="200px" width="100%"></iframe>
+    </div>
+    {%- include nav/nav-list.html -%}
+  </div>
+  {%- include footer.html -%}
+  <!-- Menu Toggle Script -->
 
 </div>
 <script>
-   $("#sidebar-toggle").click(function(e) {
-     e.preventDefault();
-     $("#wrapper").toggleClass("toggled");
-   });
- </script>
+  $("#sidebar-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+</script>
