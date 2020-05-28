@@ -6,7 +6,7 @@ layout: nav
 
 {%- include nav/nav-sidebar.html -%}
 <div id="page-content-wrapper">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="btn" id="menu-toggle"><span class="navbar-toggler-icon"></span></button>
       </nav>
 <div class="container">
@@ -15,10 +15,11 @@ layout: nav
  </div>
  {%- include footer.html -%}
  <!-- Menu Toggle Script -->
- <script>
+
+</div>
+<script>
    $("#sidebar-toggle").click(function(e) {
      e.preventDefault();
      $("#wrapper").toggleClass("toggled");
    });
  </script>
-</div>
