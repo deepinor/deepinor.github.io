@@ -49,4 +49,3 @@ Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: [10.1039/D0SC00968G](https://sci-hub.
 
 -----
 
-Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: {:. text-info} [10.1039/D0SC00968G](https://sci-hub.se/10.1039/D0SC01544J)
