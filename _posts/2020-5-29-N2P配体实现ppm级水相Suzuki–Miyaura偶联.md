@@ -37,7 +37,9 @@ Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: [10.1039/D0SC00968G](https://sci-hub.
 
 {:.success}
 
-Error Text. {:.error}
+Error Text.
+
+{:.error}
 
 ------
 
