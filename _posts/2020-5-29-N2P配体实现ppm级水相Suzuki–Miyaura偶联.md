@@ -35,11 +35,7 @@ Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: [10.1039/D0SC00968G](https://sci-hub.
 
 **图1**： N2P配体的合成 1: 2,7-dibromonaphthalene, Pd-PEPPSI-iPent (2 mol%), dibenzylamine, tBuOK, in toluene at 80 <sup>o</sup>C; **2:** NBS, in DMF at 0 <sup>o</sup>C to r.t.; **3**: 2,4-dimethoxyphenylboronic acid, Pd(OAc)2 (2 mol%), BI-DIME, K<sub>3</sub>PO<sub>4</sub>·H<sub>2</sub>O, dioxane, 80<sup>o</sup>C; 4:  n-BuLi, THF, 0 <sup>o</sup>C; then Cy2PCl, 0 <sup>o</sup>C to r.t. .
 
-{:.success}
-
-Error Text.
-
-{:.error}
+{:.success} Error Text. {:.error}
 
 ------
 
