@@ -37,6 +37,8 @@ Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: [10.1039/D0SC00968G](https://sci-hub.
 
 {:.success}
 
+Error Text. {:.error}
+
 ------
 
 在相同条件下（ 45 <sup>o</sup>C），新的N2P-Pd金属络合物催化Suzuki偶联产率要比已报道的 EvanPhos-Pd体系高25%左右。
