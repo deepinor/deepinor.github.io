@@ -31,7 +31,11 @@
     display: block;
     margin-right: 10px;
     margin-top: 15px;
-    border-radius:50%
+    border-radius:50%;
+    transition: transform 0.5s ease-out;
+}
+.nav-term img:hover {
+  transform: rotateZ(360deg);
 }
 
 .nav-link p {
@@ -81,4 +85,3 @@ body {
     margin-left: 0;
   }
 }
-

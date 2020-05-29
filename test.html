@@ -9,22 +9,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>bootstrap 4.4.1 测试页</title>
+<style>
+	body{
+		background: #727272;
+	}
+	.xuanzhuan{
+		margin: 0 auto;
+		border-radius: 50%;
+		transition: transform 0.5s ease-out;
+	}
+	.xuanzhuan:hover{
+		transform: rotateZ(360deg);
+	}
+	</style>
 
   </head>
   <body>
     <h1>bootstrap 4.4.1 测试页</h1>
 <!--测试代码开始-->
-<ul class="nav nav-pills navbar-light list-group list-group-flush" id="myTab" >
-  <li class="nav-item">
-    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-  </li>
-</ul>
+<a><img class="xuanzhuan" src="assets/images/logos/logo-default.png" /></a>
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
