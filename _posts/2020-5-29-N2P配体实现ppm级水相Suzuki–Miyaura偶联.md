@@ -31,7 +31,9 @@ Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: [10.1039/D0SC00968G](https://sci-hub.
 
 最近《Chemical Science》报道了一种N2P双芳基含磷配体。该配体由2,7-二溴联苯通过四步合成，方法简单，收率高。
 
-![image-20200529143327493](../assets/images/upload/2020-5-29-N2P%E9%85%8D%E4%BD%93%E5%AE%9E%E7%8E%B0ppm%E7%BA%A7%E6%B0%B4%E7%9B%B8Suzuki%E2%80%93Miyaura%E5%81%B6%E8%81%94.assets/image-20200529143327493.png)
+{:.img-responsive}
+
+![N2P-Ligand synthesis](/assets/images/upload/2020-5-29-N2P%E9%85%8D%E4%BD%93%E5%AE%9E%E7%8E%B0ppm%E7%BA%A7%E6%B0%B4%E7%9B%B8Suzuki%E2%80%93Miyaura%E5%81%B6%E8%81%94.assets/image-20200529143327493.png)
 
 {:.text-muted}
 
