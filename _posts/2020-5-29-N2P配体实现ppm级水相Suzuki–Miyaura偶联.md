@@ -39,13 +39,14 @@ Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: [10.1039/D0SC00968G](https://sci-hub.
 
 ------
 
-在相同条件下（ 45 <sup>o</sup>C），新的N2P-Pd金属络合物催化Suzuki偶联产率要比已报道的 EvanPhos-Pd体系高25%左右。
+在相同条件下（ 45 <sup>o</sup>C），新的N2P-Pd金属络合物催化Suzuki偶联产率要比已报道的 EvanPhos-Pd体系高25%左右。同时，该催化体系可以在水-甲苯（10:1）体系中高效进行，使用K<sub>3</sub>PO<sub>4</sub>·H<sub>2</sub>O作为碱，1000ppm催化剂就可以实现多种硼酸底物与卤代物的偶联，甚至是反应性很低的氯代芳香烃也能作为底物。
 
 <img src="/assets/images/upload/2020-5-29-N2P%E9%85%8D%E4%BD%93%E5%AE%9E%E7%8E%B0ppm%E7%BA%A7%E6%B0%B4%E7%9B%B8Suzuki%E2%80%93Miyaura%E5%81%B6%E8%81%94.assets/image-20200529144501253.png" alt="N2PvsEvan" class="img-responsive" style="zoom: 33%;" />
 
 {:.text-muted}
 
-图2：N2P-Pd 与EvanPhos催化Suzuki偶联的对比
+**图2**：N2P-Pd 与EvanPhos催化Suzuki偶联的对比
 
 -----
 
+Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: {:. text-info} [10.1039/D0SC00968G](https://sci-hub.se/10.1039/D0SC01544J)
