@@ -33,7 +33,9 @@ Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: [10.1039/D0SC00968G](https://sci-hub.
 
 ![image-20200529143327493](../assets/images/upload/2020-5-29-N2P%E9%85%8D%E4%BD%93%E5%AE%9E%E7%8E%B0ppm%E7%BA%A7%E6%B0%B4%E7%9B%B8Suzuki%E2%80%93Miyaura%E5%81%B6%E8%81%94.assets/image-20200529143327493.png)
 
-**图1**： N2P配体的合成 1: 2,7-dibromonaphthalene, Pd-PEPPSI-iPent (2 mol%), dibenzylamine, tBuOK, in toluene at 80 <sup>o</sup>C; **2:** NBS, in DMF at 0 <sup>o</sup>C to r.t.; **3**: 2,4-dimethoxyphenylboronic acid, Pd(OAc)2 (2 mol%), BI-DIME, K<sub>3</sub>PO<sub>4</sub>·H<sub>2</sub>O, dioxane, 80<sup>o</sup>C; 4:  n-BuLi, THF, 0 <sup>o</sup>C; then Cy2PCl, 0 <sup>o</sup>C to r.t. .{:.success}
+**图1**： N2P配体的合成 1: 2,7-dibromonaphthalene, Pd-PEPPSI-iPent (2 mol%), dibenzylamine, tBuOK, in toluene at 80 <sup>o</sup>C; **2:** NBS, in DMF at 0 <sup>o</sup>C to r.t.; **3**: 2,4-dimethoxyphenylboronic acid, Pd(OAc)2 (2 mol%), BI-DIME, K<sub>3</sub>PO<sub>4</sub>·H<sub>2</sub>O, dioxane, 80<sup>o</sup>C; 4:  n-BuLi, THF, 0 <sup>o</sup>C; then Cy2PCl, 0 <sup>o</sup>C to r.t. .
+
+{:.success}
 
 ------
 
