@@ -233,7 +233,7 @@
            url: http://www.people.com.cn/
            description: 世界十大报纸之一《人民日报》建设的以新闻为主的大型网上信息发布平台，也是互联网上最大的中文和多语种新闻网站之一
          - title: 澎湃新闻
-           logo: https://file.thepaper.cn/www/v3/img/thepaper.ico
+           logo: /assets/images/icons/thepaper.png
            url: https://www.thepaper.cn/
            description: 澎湃是植根于中国上海的时政思想类互联网平台
          - title: 光明网
