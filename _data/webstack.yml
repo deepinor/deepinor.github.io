@@ -218,7 +218,20 @@
            logo: https://file.ipadown.com/tophub/assets/images/logo.png
            url: https://tophub.today/c/news
            description: 今日热榜提供各站热榜聚合，追踪全网热点、简单高效阅读
-         - title:
+         - title: 鱼塘热榜
+           logo: https://mo.fish/fish.ico
+           url: https://mo.fish/
+           description: 鱼塘热榜-聚合每日热门、搞笑、有趣资讯.
+         - title: 抽屉新热榜
+           logo: https://dig.chouti.com/images/favicon-d38b877458.png
+           url: https://dig.chouti.com/
+           description: 看抽屉新热榜，每日热门、有趣资讯尽收眼底
+      - name: 综合
+        links:
+         - title: 人民网
+           logo: /assets/images/icons/people.png
+           url: http://www.people.com.cn/
+           description: 世界十大报纸之一《人民日报》建设的以新闻为主的大型网上信息发布平台，也是互联网上最大的中文和多语种新闻网站之一
 
 
       - name: 别瞎点
