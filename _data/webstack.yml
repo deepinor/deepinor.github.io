@@ -69,6 +69,10 @@
           logo: /assets/images/icons/chemspider.png
           url: http://www.chemspider.com/
           description: 网络化学数据库
+        - title: GYCC学术
+          logo: https://www.gfsoso.com/static/favicon.ico
+          url: https://www.gfsoso.com/
+          description: 谷歌学术镜像
 
 
       - name: 数据库
