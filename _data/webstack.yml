@@ -4,7 +4,7 @@
     - title: Chemsearch
       logo: https://13c.org/assets/icon/favicon.ico
       url: https://13C.org/chemsearch/
-      description: 化学论文解析服务。
+      description: 化学论文解析
     - title: Organic syntheses
       logo: /assets/images/icons/logo-default.png
       url: http://www.orgsyn.org/
@@ -43,7 +43,7 @@
         links:
         - title: Chemsearch
           logo: https://13c.org/assets/icon/favicon.ico
-          url: https://chemsearch.guocx.net
+          url: https://13C.org/chemsearch/
           description: 化学论文解析
         - title: Sci-hub
           logo: https://sci-hub.se/misc/img/logo.raven.jpg
