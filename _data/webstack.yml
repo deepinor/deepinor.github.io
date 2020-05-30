@@ -194,6 +194,10 @@
              logo: https://www.tcichemicals.com/_ui/responsive/theme-tci/images/TCIFaviconLogo.jpg
              url: https://www.tcichemicals.com/
              description: 日本东京化成工业株式会社
+           - title: Chemexper
+             logo: /assets/images/icons/chemexper.png
+             url: http://www.chemexper.com/
+             description: 试剂供应商聚合
 
 
 
