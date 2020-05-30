@@ -46,7 +46,7 @@
           url: https://chemsearch.guocx.net
           description: 化学论文解析
         - title: Sci-hub
-          logo: http://s2.googleusercontent.com/s2/favicons?domain=sci-hub.se
+          logo: https://sci-hub.se/misc/img/logo.raven.jpg
           url: https://sci-hub.se/
           description: 拆掉学术围墙
         - title: 谷歌镜像
