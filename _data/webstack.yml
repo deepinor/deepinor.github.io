@@ -442,7 +442,7 @@
 - name: 素材资源
   icon: linecons-thumbs-up
   sub:
-    - name: 图标素材
+    - name: 图标
       links:
         - title: Iconfinder
           logo: /assets/images/logos/Iconfinder.png
@@ -497,7 +497,7 @@
           url: http://simplelineicons.com/
           description: Simple line Icons pack
 
-    - name: LOGO设计
+    - name: LOGO
       links:
         - title: Iconsfeed
           logo: /assets/images/logos/iconsfeed.png
@@ -516,7 +516,7 @@
           url: http://instantlogosearch.com/
           description: Search & download thousands of logos instantly
 
-    - name: 平面素材
+    - name: 平面
       links:
         - title: freepik
           logo: /assets/images/logos/freepik.png
@@ -571,7 +571,7 @@
           url: http://www.sccnn.com/
           description: 免费素材共享平台
 
-    - name: UI资源
+    - name: UI
       links:
         - title: Freebiesbug
           logo: /assets/images/logos/freebiesbug.png
@@ -614,7 +614,7 @@
           url: http://principlerepo.com/
           description: Free, High Quality Principle Resources
 
-    - name: Sketch资源
+    - name: Sketch
       links:
         - title: Sketch
           url: https://sketchapp.com/
@@ -649,7 +649,7 @@
           logo: /assets/images/logos/sketchcasts.png
           description: Learn Sketch Train your design skills with a weekly video tutorial
 
-    - name: 字体资源
+    - name: 字体
       links:
         - title: Google Font
           url: https://fonts.google.com/
@@ -747,7 +747,7 @@
           logo: /assets/images/logos/forgraphictm.png
           description: High Quality PSD Mockups for Graphic Designers.
 
-    - name: 摄影图库
+    - name: 图库
       links:
         - title: Unsplash
           url: https://unsplash.com/
@@ -850,7 +850,7 @@
           logo: /assets/images/logos/publicdomainarchive.png
           description: New 100% Free Stock Photos. Every. Single. Week.
 
-    - name: PPT资源
+    - name: PPT
       links:
         - title: OfficePLUS
           url: http://www.officeplus.cn/Template/Home.shtml
