@@ -172,6 +172,10 @@
            logo: https://www.uspto.gov/profiles/uspto_gov/themes/uspto/favicon.ico
            url: https://www.uspto.gov/patent
            description: 美国国家专利和商标局
+         - tile: ChemRxiv
+           logo: https://website-p-eu.figstatic.com/assets/632e9a61153ddae07772b5e901a65e4d002e3c93/public/global/favicon/apple-touch-icon-57x57.png
+           url: https://chemrxiv.org/
+           description: 化学预印本网站
 
       - name: 社区
         links:
