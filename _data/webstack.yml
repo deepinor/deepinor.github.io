@@ -160,6 +160,14 @@
            logo:
            url: http://www.orgsyn.org/
            description: 提供可信赖的合成方法
+         - title: 中国专利
+           logo: /assets/images/icons/cnipa.png
+           url: http://pss-system.cnipa.gov.cn/
+           description: 中国国家专利局专利检索
+         - title: Espacenet
+           logo: https://worldwide.espacenet.com/6_3_0/images/favicon.ico
+           url: https://worldwide.espacenet.com/?locale=cn_EP
+           description: 欧洲专利局专利检索
 
       - name: 社区
         links:
