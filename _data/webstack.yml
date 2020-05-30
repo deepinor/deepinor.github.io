@@ -315,22 +315,22 @@
       - name: 港澳台
         links:
          - title: 凤凰网
-           logo: /assets/images/logos/ifeng.png
+           logo: /assets/images/icons/ifeng.png
            url: http://news.ifeng.com/
            description: 全球领先的跨平台网络新媒体公司
 
       - name: 国外
         links:
          - title: cnn
-           logo: /assets/images/logos/cnn.png
+           logo: /assets/images/icons/cnn.png
            url: https://www.cnn.com/
            description: 有线电视新闻网是美国一个通过有线电视与卫星电视播出的新闻频道
          - title: RFI
-           logo: /assets/images/logos/rfi.png
+           logo: /assets/images/icons/rfi.png
            url: http://www.rfi.fr/cn/
            description: 法国国际广播电台，简称法广，是法国专责世界大部分地区之国际广播的电台广播机构，现隶属法国国营国际广播公司法国世界媒体旗下
          - title: BBC
-           logo: /assets/images/logos/bbc.png
+           logo: /assets/images/icons/bbc.png
            url: https://www.bbc.com/
            description: 英国广播公司
 
