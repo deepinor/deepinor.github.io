@@ -32,7 +32,7 @@
     - title: quora
       logo: https://qsf.fs.quoracdn.net/-3-images.favicon.ico-26-ae77b637b1e7ed2c.ico
       url: https://www.quora.com/
-      description: 国外问答社区
+      description: 海外问答社区
 
 
 
@@ -319,7 +319,7 @@
            url: http://news.ifeng.com/
            description: 全球领先的跨平台网络新媒体公司
 
-      - name: 国外
+      - name: 海外
         links:
          - title: cnn
            logo: /assets/images/icons/cnn.png
