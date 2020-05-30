@@ -144,7 +144,7 @@
       - name: 社区
         links:
          - title: x-mol
-           logo: https://static.x-mol.com/css/images/favicon.ico
+           logo: /assets/images/icons/x-mol.png
            url: https://www.x-mol.com/
            description: 科学知识平台
          - title: 小木虫
