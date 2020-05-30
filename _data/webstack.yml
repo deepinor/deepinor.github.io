@@ -154,6 +154,7 @@
 
   - name: 新闻资讯
     icon: linecons-note
+    sub: 
       - name: 别瞎点
         links:
          - title: 雷锋网
