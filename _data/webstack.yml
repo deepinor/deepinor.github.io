@@ -240,6 +240,14 @@
            logo: /assets/images/icons/gmw.png
            url: https://www.gmw.cn/
            description: 是光明日报在网络时代的新延伸，也是国内唯一一家定位于思想理论领域的中央重点新闻网站
+         - title: 中新网
+           logo: /assets/images/icons/chinanews.png
+           url: http://www.chinanews.com/
+           description: 中国新闻网是知名的中文新闻门户网站，也是全球互联网中文新闻资讯最重要的原创内容供应商之一
+         - title: 央视网
+           logo: https://p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1548732472557170/logonew190218.jpg
+           url: https://www.cctv.com/
+           description: 中央广播电视总台主办，是以视频为特色的中央重点新闻网站，是央视的融合传播平台，是拥有全牌照业务资质的大型互联网文化企业
 
 
       - name: 别瞎点
