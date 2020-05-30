@@ -65,6 +65,10 @@
           logo: /assets/images/logos/google.png
           url: https://ac.scmor.com/
           description: 还是谷歌镜像
+        - title: Chemspider
+          logo: /assets/images/icons/chemspider.png
+          url: http://www.chemspider.com/
+          description: 网络化学数据库
 
 
       - name: 数据库
@@ -109,7 +113,10 @@
           logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
           url: https://www.ccdc.cam.ac.uk
           description: CCDC单晶数据库
-        - title: Pubchem
+        - title: Drugbank
+          logo: https://www.drugbank.ca/favicons/apple-touch-icon-76x76-precomposed.png
+          url: https://www.drugbank.ca/
+          description: 阿尔伯塔大学提供的一个生物信息学和化学信息学数据库
 
       - name: 出版商
         links:
@@ -156,6 +163,18 @@
            logo: /assets/images/icons/muchong.png
            url: http://muchong.com/bbs/
            description: 学术科研互动平台
+
+      - name: 试剂仪器
+        links:
+           - title: Sigma-Aldrich
+             logo: https://www.sigmaaldrich.com/etc/designs/sigma-aldrich/images/sial-logo-sharing.png
+             logo: https://www.sigmaaldrich.com/
+             description:
+           - title: TCI
+             logo: https://www.tcichemicals.com/_ui/responsive/theme-tci/images/TCIFaviconLogo.jpg
+             url: https://www.tcichemicals.com/
+             description: 日本东京化成工业株式会社
+
 
 
 - name: 新闻资讯
