@@ -168,6 +168,10 @@
            logo: https://worldwide.espacenet.com/6_3_0/images/favicon.ico
            url: https://worldwide.espacenet.com/?locale=cn_EP
            description: 欧洲专利局专利检索
+         - title: 美国专利
+           logo: https://www.uspto.gov/profiles/uspto_gov/themes/uspto/favicon.ico
+           url: https://www.uspto.gov/patent
+           description: 美国国家专利和商标局
 
       - name: 社区
         links:
