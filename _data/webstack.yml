@@ -46,7 +46,7 @@
           url: https://chemsearch.guocx.net
           description: 化学论文解析
         - title: Sci-hub
-          logo: https://sci-hub.se/misc/img/logo.raven.jpg 
+          logo: https://sci-hub.se/misc/img/logo.raven.jpg
           url: https://sci-hub.se/
           description: 拆掉学术围墙
         - title: 谷歌镜像
@@ -147,7 +147,13 @@
            logo: https://static.x-mol.com/css/images/favicon.ico
            url: https://www.x-mol.com/
            description: 科学知识平台
+         - title: 小木虫
+           logo: http://muchongimg.xmcimg.com/data/emuch_bbs_images/favicon.ico
+           url: http://muchong.com/bbs/
+           description: 学术科研互动平台
 
+  - name: 新闻资讯
+    icon: linecons-note
       - name: 别瞎点
         links:
          - title: 雷锋网
