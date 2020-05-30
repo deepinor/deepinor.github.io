@@ -329,6 +329,10 @@
            logo: /assets/images/logos/rfi.png
            url: http://www.rfi.fr/cn/
            description: 法国国际广播电台，简称法广，是法国专责世界大部分地区之国际广播的电台广播机构，现隶属法国国营国际广播公司法国世界媒体旗下
+         - title: BBC
+           logo: /assets/images/logos/bbc.png
+           url: https://www.bbc.com/
+           description: 英国广播公司
 
 - name: 音乐影视
   icon: linecons-lightbulb
