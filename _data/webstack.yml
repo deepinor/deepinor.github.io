@@ -6,7 +6,7 @@
       url: https://13C.org/chemsearch/
       description: 化学论文解析服务。
     - title: Organic syntheses
-      logo:
+      logo: /assets/images/icons/logo-default.png
       url: http://www.orgsyn.org/
       description: 提供可信赖的合成方法
     - title: 谷歌
@@ -148,7 +148,7 @@
            url: https://www.x-mol.com/
            description: 科学知识平台
          - title: 小木虫
-           logo: http://muchongimg.xmcimg.com/data/emuch_bbs_images/favicon.ico
+           logo: /assets/images/icons/muchong.png
            url: http://muchong.com/bbs/
            description: 学术科研互动平台
 
