@@ -117,6 +117,10 @@
           logo: https://www.drugbank.ca/favicons/apple-touch-icon-76x76-precomposed.png
           url: https://www.drugbank.ca/
           description: 阿尔伯塔大学提供的一个生物信息学和化学信息学数据库
+        - title: ChEBI
+          logo: https://www.ebi.ac.uk/chebi/images/ChEBI_logo_16.ico
+          url: https://www.ebi.ac.uk/chebi/
+          description: 生物医学相关化学条目数据库
 
       - name: 出版商
         links:
@@ -155,7 +159,7 @@
 
       - name: 社区
         links:
-         - title: x-mol
+         - title: X-mol
            logo: /assets/images/icons/x-mol.png
            url: https://www.x-mol.com/
            description: 科学知识平台
