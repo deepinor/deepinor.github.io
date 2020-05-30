@@ -85,6 +85,10 @@
           logo: https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico
           url: https://pubmed.ncbi.nlm.nih.gov/
           description: 生物医学方面的论文搜索以及摘要
+        - title: PubChem
+          logo: https://pubchem.ncbi.nlm.nih.gov/pcfe/favicon/apple-touch-icon.png
+          url: https://pubchem.ncbi.nlm.nih.gov/
+          description: 化学方面的论文搜索以及摘要
         - title: 中国知网|CNKI
           logo: http://s2.googleusercontent.com/s2/favicons?domain=www.cnki.net
           url: https://www.cnki.net/
@@ -105,6 +109,7 @@
           logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
           url: https://www.ccdc.cam.ac.uk
           description: CCDC单晶数据库
+        - title: Pubchem
 
       - name: 出版商
         links:
