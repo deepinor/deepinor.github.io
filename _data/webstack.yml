@@ -248,6 +248,10 @@
            logo: https://p1.img.cctvpic.com/photoAlbum/templet/common/DEPA1548732472557170/logonew190218.jpg
            url: https://www.cctv.com/
            description: 中央广播电视总台主办，是以视频为特色的中央重点新闻网站，是央视的融合传播平台，是拥有全牌照业务资质的大型互联网文化企业
+         - title: 环球网
+           logo: https://rs2.huanqiucdn.cn/huanqiu/image/www/common/favicon1.ico
+           url: https://www.huanqiu.com
+           description: 环球网是中国领先的国际资讯门户，拥有独立采编权的中央重点新闻网站
 
 
       - name: 别瞎点
