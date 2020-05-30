@@ -208,6 +208,19 @@
 - name: 新闻资讯
   icon: linecons-note
   sub:
+      - name: 热榜
+        links:
+         - title: 今日头条
+           logo: https://sf3-dycdn-tos.pstatp.com/obj/eden-cn/uhbfnupkbps/toutiao_favicon.ico
+           url: https://www.toutiao.com/
+           description: 一款基于数据挖掘的推荐引擎产品，它为用户推荐有价值的、个性化的信息.
+         - title: 今日热榜
+           logo: https://file.ipadown.com/tophub/assets/images/logo.png
+           url: https://tophub.today/c/news
+           description: 今日热榜提供各站热榜聚合，追踪全网热点、简单高效阅读
+         - title:
+
+
       - name: 别瞎点
         links:
          - title: 雷锋网
