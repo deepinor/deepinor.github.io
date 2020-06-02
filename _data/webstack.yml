@@ -337,6 +337,20 @@
 - name: 音乐影视
   icon: linecons-lightbulb
   sub:
+    - name: 音乐
+      links:
+       - title: ¹³C在线音乐
+         logo: /assets/logo.png
+         url: https://music.13C.org
+         description: 在线音乐试听，账号密码都是12345
+         
+    - name: 影视
+      links:
+        - title: ¹³C视频聚合
+          logo: /assets/logo.png
+          url: https://mv.guocx.net
+          description: 影视聚合，账号密码都是12345
+          
     - name: 发现产品
       links:
         - title: NEXT
