@@ -1269,3 +1269,13 @@
       url: http://ued.ctrip.com/
       logo: /assets/images/logos/ctrip.png
       description: 携程设计委员会-Ctrip Design Committee
+      
+      
+- name: 友情链接
+  icon: linecons-user
+  links:
+    - title: 索语人云
+      url: http://www.syrenyun.top/
+      logo: http://www.syrenyun.top/wp-content/uploads/2020/04/logo4.png
+      description: 网址导航
+  
