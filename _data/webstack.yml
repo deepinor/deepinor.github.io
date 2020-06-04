@@ -214,23 +214,23 @@
       - name: 搜索
         links:
            - title: 搜索(ga)
-             logo:
+             logo: /assets/images/logos/google.png
              logo: https://googluck.ga
              description:
            - title: 搜索(tk)
-             logo:
+             logo: /assets/images/logos/google.png
              logo: https://googluck.tk
              description:
            - title: 搜索(cf)
-             logo:
+             logo: /assets/images/logos/google.png
              logo: https://googluck.cf
              description:
            - title: 搜索(gq)
-             logo:
+             logo: /assets/images/logos/google.png
              logo: https://googluck.gq
              description:
            - title: 搜索(ml)
-             logo:
+             logo: /assets/images/logos/google.png
              logo: https://googluck.ml
              description:
 
