@@ -260,48 +260,48 @@
       - name: 百科
         links:
            - title: 百科(ga)
-             logo:
+             logo: https://wiki.googluck.ga/static/favicon/wikipedia.ico
              logo: https://wiki.googluck.ga
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(tk)
-             logo:
+             logo: https://wiki.googluck.tk/static/favicon/wikipedia.ico
              logo: https://wiki.googluck.tk
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(cf)
-             logo:
+             logo: https://wiki.googluck.cf/static/favicon/wikipedia.ico
              logo: https://wiki.googluck.cf
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(gq)
-             logo:
+             logo: https://wiki.googluck.gq/static/favicon/wikipedia.ico
              logo: https://wiki.googluck.gq
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(ml)
-             logo:
+             logo: https://wiki.googluck.ml/static/favicon/wikipedia.ico
              logo: https://wiki.googluck.ml
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
 
       - name: sci-hub
         links:
            - title: sci-hub.se
-             logo:
+             logo: https://sci-hub.se/misc/img/logo.raven.jpg
              logo: https://sci-hub.se
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.top
-             logo:
+             logo: https://scihub.wikicn.top/misc/img/logo.raven.jpg
              logo: https://scihub.wikicn.top/
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.ee
-             logo:
+             logo: https://sci-hub.ee/misc/img/logo.raven.jpg
              logo: https://sci-hub.ee
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.st
-             logo:
+             logo: https://sci-hub.st/misc/img/logo.raven.jpg
              logo: https://sci-hub.st/
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.shop
-             logo:
+             logo: https://sci-hub.shop/misc/img/logo.raven.jpg
              logo: https://sci-hub.shop
-             description:
+             description: 如果您看不到logo, 意味着您可能无法连接该网站
 
 - name: 新闻资讯
   icon: linecons-note
