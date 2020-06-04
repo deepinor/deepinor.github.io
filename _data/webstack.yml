@@ -203,7 +203,7 @@
         links:
            - title: Sigma-Aldrich
              logo: https://www.sigmaaldrich.com/etc/designs/sigma-aldrich/images/sial-logo-sharing.png
-             logo: https://www.sigmaaldrich.com/
+             url: https://www.sigmaaldrich.com/
              description:
            - title: TCI
              logo: https://www.tcichemicals.com/_ui/responsive/theme-tci/images/TCIFaviconLogo.jpg
@@ -218,92 +218,92 @@
         links:
            - title: 搜索(ga)
              logo: /assets/images/logos/google.png
-             logo: https://googluck.ga
+             url: https://googluck.ga
              description:
            - title: 搜索(tk)
              logo: /assets/images/logos/google.png
-             logo: https://googluck.tk
+             url: https://googluck.tk
              description:
            - title: 搜索(cf)
              logo: /assets/images/logos/google.png
-             logo: https://googluck.cf
+             url: https://googluck.cf
              description:
            - title: 搜索(gq)
              logo: /assets/images/logos/google.png
-             logo: https://googluck.gq
+             url: https://googluck.gq
              description:
            - title: 搜索(ml)
              logo: /assets/images/logos/google.png
-             logo: https://googluck.ml
+             url: https://googluck.ml
              description:
 
       - name: 学术
         links:
            - title: 学术(ga)
              logo:
-             logo: https://scholar.googluck.ga
+             url: https://scholar.googluck.ga
              description:
            - title: 学术(tk)
              logo:
-             logo: https://scholar.googluck.tk
+             url: https://scholar.googluck.tk
              description:
            - title: 学术(cf)
              logo:
-             logo: https://scholar.googluck.cf
+             url: https://scholar.googluck.cf
              description:
            - title: 学术(gq)
              logo:
-             logo: https://scholar.googluck.gq
+             url: https://scholar.googluck.gq
              description:
            - title: 学术(ml)
              logo:
-             logo: https://scholar.googluck.ml
-             description: 
+             url: https://scholar.googluck.ml
+             description:
 
       - name: 百科
         links:
            - title: 百科(ga)
              logo: https://wiki.googluck.ga/static/favicon/wikipedia.ico
-             logo: https://wiki.googluck.ga
+             url: https://wiki.googluck.ga
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(tk)
              logo: https://wiki.googluck.tk/static/favicon/wikipedia.ico
-             logo: https://wiki.googluck.tk
+             url: https://wiki.googluck.tk
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(cf)
              logo: https://wiki.googluck.cf/static/favicon/wikipedia.ico
-             logo: https://wiki.googluck.cf
+             url: https://wiki.googluck.cf
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(gq)
              logo: https://wiki.googluck.gq/static/favicon/wikipedia.ico
-             logo: https://wiki.googluck.gq
+             url: https://wiki.googluck.gq
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(ml)
-             logo: https://wiki.googluck.ml/static/favicon/wikipedia.ico
-             logo: https://wiki.googluck.ml
+             url: https://wiki.googluck.ml/static/favicon/wikipedia.ico
+             url: https://wiki.googluck.ml
              description: 如果您看不到logo, 意味着您可能无法连接该网站
 
       - name: sci-hub
         links:
            - title: sci-hub.se
              logo: https://sci-hub.se/misc/img/logo.raven.jpg
-             logo: https://sci-hub.se
+             url: https://sci-hub.se
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.top
              logo: https://scihub.wikicn.top/misc/img/logo.raven.jpg
-             logo: https://scihub.wikicn.top/
+             url: https://scihub.wikicn.top/
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.ee
              logo: https://sci-hub.ee/misc/img/logo.raven.jpg
-             logo: https://sci-hub.ee
+             url: https://sci-hub.ee
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.st
              logo: https://sci-hub.st/misc/img/logo.raven.jpg
-             logo: https://sci-hub.st/
+             url: https://sci-hub.st/
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.shop
              logo: https://sci-hub.shop/misc/img/logo.raven.jpg
-             logo: https://sci-hub.shop
+             url: https://sci-hub.shop
              description: 如果您看不到logo, 意味着您可能无法连接该网站
 
 - name: 新闻资讯
