@@ -84,6 +84,14 @@
         - title: Libgen
           logo: /assets/images/icons/logo-default.png
           url:  https://libgen.uid00.workers.dev/
+        - title: 微软学术
+          logo: https://academic.microsoft.com/apple-touch-icon.png?v=lk9W0aw06r
+          url: https://academic.microsoft.com/home
+          description: 微软亚洲研究院开发的在线免费学术搜索引擎。它为研究员、学生、图书馆员和其他用户查找学术论文、国际会议、权威期刊、作者和学术兴趣圈提供了更加智能、新颖的获取方式
+        - title:
+          logo:
+          url:
+          description:
 
 
       - name: 数据库
@@ -100,6 +108,10 @@
           logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
           url: http://www.webofknowledge.com
           description: 全球最大规模的出版商中立引文索引和研究情报平台
+        - title: Engineering Village
+          logo: /assets/images/icons/EngineeringVillage.png
+          url: https://www.engineeringvillage.com/
+          description: 最权威的工程、应用科学领域文献检索平台
         - title: PubMed
           logo: https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.ico
           url: https://pubmed.ncbi.nlm.nih.gov/
@@ -136,6 +148,15 @@
           logo: https://www.ebi.ac.uk/chebi/images/ChEBI_logo_16.ico
           url: https://www.ebi.ac.uk/chebi/
           description: 生物医学相关化学条目数据库
+        - title: BaseSearch
+          logo: https://www.base-search.net/apple-touch-icon-57x57-precomposed.png
+          url: https://www.base-search.net/
+          description: 超过100万件科学文献来自超过5000免费来源。BASE是世界性大型搜搜引擎，存储来自互联网上免费的开放获取科学文献。
+        - title: 中国科技论文在线
+          logo: http://www.paper.edu.cn/app/static/1.0/img/alert_logo.png
+          url: http://www.paper.edu.cn/
+          description: 中国科技论文在线是经教育部批准、由教育部科技发展中心主办的科技论文网站，利用现代化信息技术和互联网出版的优势，为科研论文及时发布、创新思想快速交流、学术成果高效转化提供了快速通道
+
 
       - name: 出版商
         links:
