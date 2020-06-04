@@ -231,7 +231,7 @@
              url: http://www.chemexper.com/
              description: 试剂供应商聚合
 
-      - name: 搜索
+      - name: 镜像
         links:
            - title: 搜索(ga)
              logo: /assets/images/logos/google.png
@@ -253,32 +253,6 @@
              logo: /assets/images/logos/google.png
              url: https://googluck.ml
              description:
-
-      - name: 学术
-        links:
-           - title: 学术(ga)
-             logo:
-             url: https://scholar.googluck.ga
-             description:
-           - title: 学术(tk)
-             logo:
-             url: https://scholar.googluck.tk
-             description:
-           - title: 学术(cf)
-             logo:
-             url: https://scholar.googluck.cf
-             description:
-           - title: 学术(gq)
-             logo:
-             url: https://scholar.googluck.gq
-             description:
-           - title: 学术(ml)
-             logo:
-             url: https://scholar.googluck.ml
-             description:
-
-      - name: 百科
-        links:
            - title: 百科(ga)
              logo: https://wiki.googluck.ga/static/favicon/wikipedia.ico
              url: https://wiki.googluck.ga
@@ -299,9 +273,6 @@
              logo: https://wiki.googluck.ml/static/favicon/wikipedia.ico
              url: https://wiki.googluck.ml
              description: 如果您看不到logo, 意味着您可能无法连接该网站
-
-      - name: sci-hub
-        links:
            - title: sci-hub.se
              logo: https://sci-hub.se/misc/img/logo.raven.jpg
              url: https://sci-hub.se
