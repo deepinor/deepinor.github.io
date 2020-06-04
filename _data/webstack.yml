@@ -497,6 +497,12 @@
          logo: /assets/images/icons/logo-default.png
          url: http://aekun.com/
          description: 音乐分享、音乐试听、非主流音乐、欧美音乐、独立音乐
+         
+       - title: 豆瓣fm
+         logo: https://img9.doubanio.com/f/fm/55cc7ebd1777d5101a82d7d6ce47ffc5e114131d/pics/fm/san_favicon.ico
+         url: https://douban.fm/
+         description: 最懂你的个性化音乐服务，既可以让你在私人电台里与喜欢的音乐不期而遇，又可以获取到精心为你挑选的最有质量的歌单
+         
 
     - name: 影视
       links:
