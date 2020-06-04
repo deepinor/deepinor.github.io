@@ -444,7 +444,7 @@
          description: 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活
 
        - url: https://www.xiami.com/
-         description:
+         description: 虾米音乐是专业音乐内容发现平台，依托专业曲库内容和精准推荐算法，带你发现音乐惊喜，提升音乐审美
          logo: /assets/images/icons/xiami.png
          title: 虾米音乐
 
@@ -472,7 +472,7 @@
          description: 一听音乐网是在线音乐网站，提供免费歌曲在线试听、下载。一听音乐网拥有正版、庞大、完整的曲库，歌曲更新迅速，试听流畅，口碑极佳。一听音乐网，每天听一听
          logo: /assets/images/icons/1ting.png
          title: 一听音乐
-         
+
        - title: 5sing
          logo: https://5sstatic.kugou.com/public/images/5sing_icon72.png
          url: http://5sing.kugou.com/
