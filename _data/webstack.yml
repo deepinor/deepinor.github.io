@@ -65,10 +65,6 @@
           logo: /assets/images/logos/google.png
           url: https://ac.scmor.com/
           description: 还是谷歌镜像
-        - title: Chemspider
-          logo: /assets/images/icons/chemspider.png
-          url: http://www.chemspider.com/
-          description: 网络化学数据库
         - title: GYCC学术
           logo: https://www.gfsoso.com/static/favicon.ico
           url: https://www.gfsoso.com/
@@ -152,6 +148,10 @@
           logo: http://www.paper.edu.cn/app/static/1.0/img/alert_logo.png
           url: http://www.paper.edu.cn/
           description: 中国科技论文在线是经教育部批准、由教育部科技发展中心主办的科技论文网站，利用现代化信息技术和互联网出版的优势，为科研论文及时发布、创新思想快速交流、学术成果高效转化提供了快速通道
+        - title: Chemspider
+          logo: /assets/images/icons/chemspider.png
+          url: http://www.chemspider.com/
+          description: 网络化学数据库
 
 
       - name: 出版商
