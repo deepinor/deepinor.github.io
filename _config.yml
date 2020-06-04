@@ -22,7 +22,7 @@ url     : https://13C.org # the base hostname & protocol for your site e.g. http
 baseurl : / # does not include hostname
 title   : ¹³C.org
 description: > # this means to ignore newlines until "Language & timezone"
-  科研动态，导航网站，科研工具
+ 13C.org，科研动态，导航网站，科研工具，科研导航，工具聚合，
 
 ## => Language and Timezone
 ##############################
