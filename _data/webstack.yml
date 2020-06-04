@@ -17,10 +17,6 @@
       logo: https://zh.wikipedia.org/static/favicon/wikipedia.ico
       url: https://zh.wikipedia.org/
       description: 维基百科(404)
-    - title: Youtube
-      logo: /assets/images/logos/youtube.png
-      url: https://www.youtube.com/
-      description: 油管(404)
     - title: Facebook
       logo: http://s2.googleusercontent.com/s2/favicons?domain=www.facebook.com
       url: https://www.facebook.com/
@@ -510,6 +506,11 @@
           logo: /assets/logo.png
           url: https://mv.guocx.net
           description: 影视聚合，账号密码都是12345
+          
+        - title: Youtube
+          logo: /assets/images/icons/youtube.png
+          url: https://www.youtube.com/
+          description: 油管(404)
 
     - name: 电子书
       links:
