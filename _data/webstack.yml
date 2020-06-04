@@ -493,6 +493,11 @@
          logo: https://imoongo.com/wp-content/uploads/2017/10/cropped-cropped-1-32x32.png
          title: 经典轻音乐
 
+       - title: 小众音乐
+         logo: /assets/images/icons/logo-default.png
+         url: http://aekun.com/
+         description: 音乐分享、音乐试听、非主流音乐、欧美音乐、独立音乐
+
     - name: 影视
       links:
         - title: ¹³C视频聚合
