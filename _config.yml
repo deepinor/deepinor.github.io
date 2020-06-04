@@ -29,6 +29,8 @@ description: > # this means to ignore newlines until "Language & timezone"
 lang: zh # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
+keywords: > # this means to ignore newlines until "Author and Social"
+ 谷歌学术 sci-hub 科研导航 学术导航 学术搜索 学术网站大全 数据库导航 科研工具  science nature database 学术资源 科研资源  论文 实验室 学术会议 学术工具 数据库 科研基础设施 科研仪器 科学院 中科院 中国科学院 社会科学院 科技部
 
 ## => Author and Social
 ##############################
