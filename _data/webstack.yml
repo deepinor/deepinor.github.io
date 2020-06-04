@@ -202,16 +202,75 @@
              logo: /assets/images/icons/chemexper.png
              url: http://www.chemexper.com/
              description: 试剂供应商聚合
-
-- name: 文献工具
-  icon: linecons-note
-  sub:
-      - name: 热榜
+             
+      - name: 搜索
         links:
-         - title: 今日头条
-           logo: https://sf3-dycdn-tos.pstatp.com/obj/eden-cn/uhbfnupkbps/toutiao_favicon.ico
-           url: https://www.toutiao.com/
-           description: 一款基于数据挖掘的推荐引擎产品，它为用户推荐有价值的、个性化的信息.
+           - title: 搜索(ga)
+             logo: 
+             logo: https://googluck.ga
+             description:
+           - title: 搜索(tk)
+             logo: 
+             logo: https://googluck.tk
+             description:
+           - title: 搜索(cf)
+             logo: 
+             logo: https://googluck.cf
+             description: 
+           - title: 搜索(gq)
+             logo: 
+             logo: https://googluck.gq
+             description:
+           - title: 搜索(ml)
+             logo: 
+             logo: https://googluck.ml
+             description:
+
+      - name: 学术
+        links:
+           - title: 学术(ga)
+             logo: 
+             logo: https://scholar.googluck.ga
+             description:
+           - title: 学术(tk)
+             logo: 
+             logo: https://scholar.googluck.tk
+             description:
+           - title: 学术(cf)
+             logo: 
+             logo: https://scholar.googluck.cf
+             description: 
+           - title: 学术(gq)
+             logo: 
+             logo: https://scholar.googluck.gq
+             description:
+           - title: 学术(ml)
+             logo: 
+             logo: https://scholar.googluck.ml
+             description:
+             
+      - name: 百科
+        links:
+           - title: 百科(ga)
+             logo: 
+             logo: https://wiki.googluck.ga
+             description:
+           - title: 百科(tk)
+             logo: 
+             logo: https://wiki.googluck.tk
+             description:
+           - title: 百科(cf)
+             logo: 
+             logo: https://wiki.googluck.cf
+             description: 
+           - title: 百科(gq)
+             logo: 
+             logo: https://wiki.googluck.gq
+             description:
+           - title: 百科(ml)
+             logo: 
+             logo: https://wiki.googluck.ml
+             description:
 
 - name: 新闻资讯
   icon: linecons-note
