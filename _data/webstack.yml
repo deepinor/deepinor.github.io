@@ -81,6 +81,9 @@
           logo:
           url: https://scihub.wikicn.top/
           description: Sci-hub最新可用
+        - title: Libgen
+          logo: /assets/images/icons/logo-default.png
+          url:  https://libgen.uid00.workers.dev/search.php?req=
 
 
       - name: 数据库
@@ -255,7 +258,7 @@
            - title: 学术(ml)
              logo:
              logo: https://scholar.googluck.ml
-             description:
+             description: 
 
       - name: 百科
         links:
