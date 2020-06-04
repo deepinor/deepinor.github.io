@@ -511,114 +511,114 @@
           logo: /assets/images/icons/youtube.png
           url: https://www.youtube.com/
           description: 油管(404)
-        
+
         - title: netflix
           logo: https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png
           url: https://www.netflix.com/
           description: 奈飞
-        
+
         - title: bilibili
           logo: /assets/images/icons/bilibili.png
           url: https://www.bilibili.com/
           description: bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主
-          
+
         - url: https://www.wanmeikk.me/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 完美看看
-         
+
         - url: https://www.shenma4480.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 神马电影
 
         - url: http://www.9rmb.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 94神马电影网
 
         - url: https://www.tcmove.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 太初电影
 
         - url: https://www.aosk.online/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 阿木影视
 
         - url: http://www.mvcat.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 电影推荐（分类别致）
 
         - url: https://app.movie/
-          description: 
-          logo: 
+          description:
+          logo:
           title: APP影院
         - url: https://www.qukantv.net/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 去看TV
-         
+
         - url: http://www.9rmb.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 94神马电影网
-         
+
         - url: http://www.languang.co/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 蓝光画质电影
-         
+
         - url: http://1090ys1.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 1090影视
-         
+
         - url: http://kk2w.cc/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 2W.CM
-         
+
         - url: http://www.vip1280.net/
-          description: 
-          logo: 
+          description:
+          logo:
           title: VIP电影
-         
+
         - url: https://www.xiangkanju.cc/
-          description: 
-          logo: 
-          title: 想看剧视频
-         
+          description:
+          logo: https://www.xiangkanju.cc/favicon.ico
+          title: 想看剧
+
         - url: http://www.wyb128.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 手机网
-         
+
         - url: https://www.kan84.tv/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 看巴士
-         
+
         - url: https://www.adcmove.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: ADC电影网
-         
+
         - url: https://www.nfmovies.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 奈菲影视
-         
+
         - url: https://www.yunbtv.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: 云播TV
-         
+
         - url: https://www.hktvyb.com/
-          description: 
-          logo: 
+          description:
+          logo:
           title: TVB云播
 
     - name: 电子书
