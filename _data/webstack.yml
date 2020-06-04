@@ -294,7 +294,7 @@
              url: https://scihub.wikicn.top/
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.ee
-             logo: https://sci-hub.ee/misc/img/logo.raven.jpg
+             logo: https://img.sci-hub.shop/scihub/logo.raven.jpg
              url: https://sci-hub.ee
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: sci-hub.st
