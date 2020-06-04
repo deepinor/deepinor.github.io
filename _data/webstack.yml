@@ -522,6 +522,11 @@
           url: https://www.bilibili.com/
           description: bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主
 
+        - url: http://www.mvcat.com/
+          description: 影猫电影推荐网是一个专门的电影推荐平台，通过收集经典电影，电影专题以及网友互动分享好看电影，为广大电影爱好者提供优质的电影推荐服务
+          logo: https://www.mvcat.com/img/logo_appicon.png
+          title: 电影猫
+
         - url: https://www.wanmeikk.me/
           description:
           logo:
@@ -547,11 +552,6 @@
           logo:
           title: 阿木影视
 
-        - url: http://www.mvcat.com/
-          description:
-          logo:
-          title: 电影推荐（分类别致）
-
         - url: https://app.movie/
           description:
           logo:
@@ -565,11 +565,6 @@
           description:
           logo:
           title: 94神马电影网
-
-        - url: http://www.languang.co/
-          description:
-          logo:
-          title: 蓝光画质电影
 
         - url: http://1090ys1.com/
           description:
@@ -587,9 +582,9 @@
           title: VIP电影
 
         - url: https://www.xiangkanju.cc/
-          description:
+          description: 左手吃斋影视 - 想看剧,影视大全
           logo: https://www.xiangkanju.cc/favicon.ico
-          title: 想看剧
+          title: 左手吃斋影视
 
         - url: http://www.wyb128.com/
           description:
