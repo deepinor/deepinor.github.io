@@ -279,7 +279,7 @@
              url: https://wiki.googluck.gq
              description: 如果您看不到logo, 意味着您可能无法连接该网站
            - title: 百科(ml)
-             url: https://wiki.googluck.ml/static/favicon/wikipedia.ico
+             logo: https://wiki.googluck.ml/static/favicon/wikipedia.ico
              url: https://wiki.googluck.ml
              description: 如果您看不到logo, 意味着您可能无法连接该网站
 
