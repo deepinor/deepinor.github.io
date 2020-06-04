@@ -74,16 +74,16 @@
           url: https://www.gfsoso.com/
           description: 谷歌学术镜像
         - title: 思谷学术
-          logo:
+          logo: /assets/images/icons/logo-default.png
           url: https://siguso.com/google/
           description: 思谷学术： 提供高效秒开的谷歌/学术镜像，sci-hub网址导航
         - title: 企鹅文献
-          logo:
+          logo: /assets/images/icons/logo-default.png
           url: https://scihub.wikicn.top/
           description: Sci-hub最新可用
         - title: Libgen
           logo: /assets/images/icons/logo-default.png
-          url:  https://libgen.uid00.workers.dev/search.php?req=
+          url:  https://libgen.uid00.workers.dev/
 
 
       - name: 数据库
