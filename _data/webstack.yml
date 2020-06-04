@@ -432,6 +432,50 @@
          logo: /assets/logo.png
          url: https://music.13C.org
          description: 在线音乐试听，账号密码都是12345
+         
+       - url: https://www.ximalaya.com/yinyue/
+         description: 喜马拉雅音乐频道汇聚丰富高品质原创音乐、3D音乐与电台节目
+         logo: 
+         title: 喜马拉雅●音乐
+        
+       - url: https://www.xiami.com/
+         description: 
+         logo: 
+         title: 虾米音乐
+        
+       - url: https://www.1ting.com/
+         description: 
+         logo: 
+         title: 一听音乐
+        
+       - url: https://y.qq.com/
+         description: 
+         logo: 
+         title: QQ音乐
+        
+       - url: http://gequdaquan.net/gqss/
+         description: 
+         logo: 
+         title: 歌曲大全-音乐聚合搜索引擎
+        
+       - url: http://music.taihe.com/
+         description: 
+         logo: 
+         title: 千千音乐-听见世界
+        
+       - url: https://www.qingting.fm/
+         description: 
+         logo: 
+         title: 蜻蜓FM
+        
+       - url: http://www.kugou.com/
+         description: 
+         logo: 
+         title: 酷狗
+       - url: https://imoongo.com/
+         description: 
+         logo: https://imoongo.com/wp-content/uploads/2017/10/cropped-cropped-1-32x32.png
+         title: 经典轻音乐
 
     - name: 影视
       links:
