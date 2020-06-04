@@ -472,6 +472,11 @@
          description: 一听音乐网是在线音乐网站，提供免费歌曲在线试听、下载。一听音乐网拥有正版、庞大、完整的曲库，歌曲更新迅速，试听流畅，口碑极佳。一听音乐网，每天听一听
          logo: /assets/images/icons/1ting.png
          title: 一听音乐
+         
+       - title: 5sing
+         logo: https://5sstatic.kugou.com/public/images/5sing_icon72.png
+         url: http://5sing.kugou.com/
+         description: 中国原创音乐基地，数字音乐网站，汇集了大量的网络歌手的原创音乐歌曲及翻唱歌曲，提供大量歌曲的伴奏以及歌词免费下载，将喜爱的音乐或者歌曲作为手机彩铃下载
 
        - url: https://www.ximalaya.com/yinyue/
          description: 喜马拉雅音乐频道汇聚丰富高品质原创音乐、3D音乐与电台节目
