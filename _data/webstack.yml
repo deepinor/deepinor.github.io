@@ -73,6 +73,14 @@
           logo: https://www.gfsoso.com/static/favicon.ico
           url: https://www.gfsoso.com/
           description: 谷歌学术镜像
+        - title: 思谷学术
+          logo:
+          url: https://siguso.com/google/
+          description: 思谷学术： 提供高效秒开的谷歌/学术镜像，sci-hub网址导航
+        - title: 企鹅文献
+          logo:
+          url: https://scihub.wikicn.top/
+          description: Sci-hub最新可用
 
 
       - name: 数据库
@@ -202,74 +210,97 @@
              logo: /assets/images/icons/chemexper.png
              url: http://www.chemexper.com/
              description: 试剂供应商聚合
-             
+
       - name: 搜索
         links:
            - title: 搜索(ga)
-             logo: 
+             logo:
              logo: https://googluck.ga
              description:
            - title: 搜索(tk)
-             logo: 
+             logo:
              logo: https://googluck.tk
              description:
            - title: 搜索(cf)
-             logo: 
+             logo:
              logo: https://googluck.cf
-             description: 
+             description:
            - title: 搜索(gq)
-             logo: 
+             logo:
              logo: https://googluck.gq
              description:
            - title: 搜索(ml)
-             logo: 
+             logo:
              logo: https://googluck.ml
              description:
 
       - name: 学术
         links:
            - title: 学术(ga)
-             logo: 
+             logo:
              logo: https://scholar.googluck.ga
              description:
            - title: 学术(tk)
-             logo: 
+             logo:
              logo: https://scholar.googluck.tk
              description:
            - title: 学术(cf)
-             logo: 
+             logo:
              logo: https://scholar.googluck.cf
-             description: 
+             description:
            - title: 学术(gq)
-             logo: 
+             logo:
              logo: https://scholar.googluck.gq
              description:
            - title: 学术(ml)
-             logo: 
+             logo:
              logo: https://scholar.googluck.ml
              description:
-             
+
       - name: 百科
         links:
            - title: 百科(ga)
-             logo: 
+             logo:
              logo: https://wiki.googluck.ga
              description:
            - title: 百科(tk)
-             logo: 
+             logo:
              logo: https://wiki.googluck.tk
              description:
            - title: 百科(cf)
-             logo: 
+             logo:
              logo: https://wiki.googluck.cf
-             description: 
+             description:
            - title: 百科(gq)
-             logo: 
+             logo:
              logo: https://wiki.googluck.gq
              description:
            - title: 百科(ml)
-             logo: 
+             logo:
              logo: https://wiki.googluck.ml
+             description:
+
+      - name: sci-hub
+        links:
+           - title: sci-hub.se
+             logo:
+             logo: https://sci-hub.se
+             description:
+           - title: sci-hub.top
+             logo:
+             logo: https://scihub.wikicn.top/
+             description:
+           - title: sci-hub.ee
+             logo:
+             logo: https://sci-hub.ee
+             description:
+           - title: sci-hub.st
+             logo:
+             logo: https://sci-hub.st/
+             description:
+           - title: sci-hub.shop
+             logo:
+             logo: https://sci-hub.shop
              description:
 
 - name: 新闻资讯
