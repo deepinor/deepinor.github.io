@@ -438,45 +438,46 @@
          url: https://music.163.com/
          description: 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活
 
-       - url: https://www.ximalaya.com/yinyue/
-         description: 喜马拉雅音乐频道汇聚丰富高品质原创音乐、3D音乐与电台节目
-         logo:
-         title: 喜马拉雅●音乐
-
        - url: https://www.xiami.com/
          description:
-         logo:
+         logo: /assets/images/icons/xiami.png
          title: 虾米音乐
 
-       - url: https://www.1ting.com/
-         description:
-         logo:
-         title: 一听音乐
-
        - url: https://y.qq.com/
-         description:
-         logo:
+         description: QQ音乐是腾讯公司推出的一款网络音乐服务产品，海量音乐在线试听、新歌热歌在线首发、歌词翻译、手机铃声下载、高品质无损音乐试听、海量无损曲库、正版音乐下载、空间背景音乐设置、MV观看等，是互联网音乐播放和下载的优选。
+         logo: /assets/images/icons/qq-music.png
          title: QQ音乐
 
-       - url: http://gequdaquan.net/gqss/
-         description:
-         logo:
-         title: 歌曲大全-音乐聚合搜索引擎
+       - url: http://www.kugou.com/
+         description: 酷狗音乐旗下最新最全的在线正版音乐网站，本站为您免费提供最全的在线音乐试听下载，以及全球海量电台和MV播放服务、最新音乐播放器下载。酷狗音乐 和音乐在一起
+         logo: https://staticssl.kugou.com/public/root/images/logo.png
+         title: 酷狗音乐
+         
+       - title: 酷我音乐
+         logo: https://image.kuwo.cn/website/favicon.ico
+         url: https://www.kuwo.cn/
+         description: 酷我音乐-无损音质正版在线试听网站，酷我音乐为您提供高品质音乐，无损音乐下载，拥有各类音乐榜单，快捷的新歌速递，完善的主题电台，个性化的歌曲推荐，高品质音乐在线听，好音质，用酷我
 
        - url: http://music.taihe.com/
-         description:
-         logo:
-         title: 千千音乐-听见世界
+         description: 千千音乐是中国音乐门户之一，为你提供海量正版高品质音乐，权威的音乐榜单，新歌速递，契合你的主题电台，人性化的歌曲搜索，让你更快地找到喜爱的音乐，带给你全新音乐体验。
+         logo: /assets/images/icons/tianhe.png
+         title: 千千音乐
+
+       - url: https://www.1ting.com/
+         description: 一听音乐网是在线音乐网站，提供免费歌曲在线试听、下载。一听音乐网拥有正版、庞大、完整的曲库，歌曲更新迅速，试听流畅，口碑极佳。一听音乐网，每天听一听
+         logo: /assets/images/icons/1ting.png
+         title: 一听音乐
+
+       - url: https://www.ximalaya.com/yinyue/
+         description: 喜马拉雅音乐频道汇聚丰富高品质原创音乐、3D音乐与电台节目
+         logo: /assets/images/icons/ximalaya.png
+         title: 喜马拉雅音乐
 
        - url: https://www.qingting.fm/
-         description:
-         logo:
+         description: 蜻蜓FM作为用户喜爱的有声听书应用，为广大听众呈现前沿丰富的有声读物、有声小说和广播电台节目
+         logo: https://sss.qingting.fm/favicon.ico
          title: 蜻蜓FM
 
-       - url: http://www.kugou.com/
-         description:
-         logo:
-         title: 酷狗
        - url: https://imoongo.com/
          description:
          logo: https://imoongo.com/wp-content/uploads/2017/10/cropped-cropped-1-32x32.png
