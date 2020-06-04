@@ -203,7 +203,15 @@
              url: http://www.chemexper.com/
              description: 试剂供应商聚合
 
-
+- name: 文献工具
+  icon: linecons-note
+  sub:
+      - name: 热榜
+        links:
+         - title: 今日头条
+           logo: https://sf3-dycdn-tos.pstatp.com/obj/eden-cn/uhbfnupkbps/toutiao_favicon.ico
+           url: https://www.toutiao.com/
+           description: 一款基于数据挖掘的推荐引擎产品，它为用户推荐有价值的、个性化的信息.
 
 - name: 新闻资讯
   icon: linecons-note
@@ -334,7 +342,7 @@
            url: https://www.bbc.com/
            description: 英国广播公司
 
-- name: 音乐影视
+- name: 影音娱乐
   icon: linecons-lightbulb
   sub:
     - name: 音乐
@@ -343,14 +351,22 @@
          logo: /assets/logo.png
          url: https://music.13C.org
          description: 在线音乐试听，账号密码都是12345
-         
+
     - name: 影视
       links:
         - title: ¹³C视频聚合
           logo: /assets/logo.png
           url: https://mv.guocx.net
           description: 影视聚合，账号密码都是12345
-          
+
+    - name: 电子书
+      links:
+        - title: ¹³C视频聚合
+          logo: /assets/logo.png
+          url: https://pan.guo.st
+          description:
+
+
     - name: 发现产品
       links:
         - title: NEXT
@@ -1106,171 +1122,9 @@
           url: http://designguidelines.co/
           logo: /assets/images/logos/designguidelines.png
           description: Design Guidelines &mdash; The way products are built.
-        - title: Awesome design systems
-          url: https://github.com/alexpate/awesome-design-systems
-          logo: /assets/images/logos/awesome_design_systems.png
-          description:  A collection of awesome design systems
-        - title: Material Design
-          url: https://material.io/guidelines/
-          logo: /assets/images/logos/Material_Design.png
-          description: Introduction - Material Design
-        - title: Human Interface Guidelines
-          url: https://developer.apple.com/ios/human-interface-guidelines
-          logo: /assets/images/logos/human_interface_guidelines.png
-          description: Human Interface Guidelines iOS
-        - title: Photoshop Etiquette
-          url: http://viggoz.com/photoshopetiquette/
-          logo: /assets/images/logos/photoshopetiquette.png
-          description: PS礼仪-WEB设计指南
-
-
-    - name: 视频教程
-      links:
-        - title: Photoshop Lady
-          url: http://www.photoshoplady.com/
-          logo: /assets/images/logos/PhotoshopLady.png
-          description: Your Favourite Photoshop Tutorials in One Place
-        - title: doyoudo
-          url: http://doyoudo.com/
-          logo: /assets/images/logos/doyoudo.png
-          description: 创意设计软件学习平台
-        - title: 没位道
-          url: http://www.c945.com/web-ui-tutorial/
-          logo: /assets/images/logos/web_ui_tutorial.png
-          description: WEB UI免费视频公开课
-        - title: 慕课网
-          url: https://www.imooc.com/
-          logo: /assets/images/logos/imooc.png
-          description: 程序员的梦工厂（有UI课程）
-
-    - name: 设计文章
-      links:
-        - title: 优设网
-          url: http://www.uisdc.com/
-          logo: /assets/images/logos/uisdc.png
-          description: 设计师交流学习平台
-        - title: Web Design Ledger
-          url: https://webdesignledger.com
-          logo: /assets/images/logos/webdesignledger.png
-          description: Web Design Blog
-        - title: Medium
-          url: https://medium.com/
-          logo: /assets/images/logos/medium.png
-          description: Read, write and share stories that matter
-
-    - name: 设计电台
-      links:
-        - title: UX Coffee
-          url: http://uxcoffee.co/
-          logo: /assets/images/logos/uxcoffee.png
-          description: 《UX Coffee 设计咖》是一档关于用户体验的播客节目。我们邀请来自硅谷和国内的学者和职人来聊聊「产品设计」、「用户体验」和「个人成长」。
-        - title: Anyway.FM
-          url: https://anyway.fm/
-          logo: /assets/images/logos/anyway.png
-          description: 设计杂谈 • UI 设计师 JJ 和 Leon 主播的设计播客
-        - title: 异能电台
-          url: https://www.yineng.fm
-          logo: /assets/images/logos/yineng.png
-          description: 将全宇宙设计师的故事讲给你听。
-
-    - name: 交互设计
-      links:
-        - title: Little Big Details
-          url: http://littlebigdetails.com/
-          logo: /assets/images/logos/littlebigdetails.png
-          description: Little Big Details is a curated collection of the finer details of design, updated every day.
-        - title: Smashing Magazine
-          url: https://www.smashingmagazine.com/category/user-experience
-          logo: /assets/images/logos/smashingmagazine.png
-          description: Below you’ll find the best tips to take not only your UX design process but also the experiences you craft to the next level.
-        - title: nngroup
-          url: https://www.nngroup.com/articles/
-          logo: /assets/images/logos/nngroup.png
-          description: Evidence-Based User Experience Research, Training, and Consulting
-        - title: Boxes and Arrows
-          url: http://boxesandarrows.com/
-          logo: /assets/images/logos/boxesandarrows.png
-          description: Boxes and Arrows is devoted to the practice, innovation, and discussion of design; including graphic design, interaction design, information architecture and the design of business.
-        - title: UX Design Weekly
-          url: http://uxdesignweekly.com/
-          logo: /assets/images/logos/uxdesignweekly.png
-          description:  get a hand picked list of the best user experience design links every week.
-        - title: UX Ren
-          url: http://uxren.cn/
-          logo: /assets/images/logos/uxren.png
-          description: 用户体验人的专业社区
 
 
 
-- name: UED团队
-  icon: linecons-user
-  links:
-    - title: Airbnb Design
-      url: https://airbnb.design
-      logo: /assets/images/logos/AirbnbDesign.png
-      description: Airbnb Design
-    - title: Facebook Design
-      url: http://facebook.design/
-      logo: /assets/images/logos/FacebookDesign.png
-      description: Facebook Design
-    - title: Google Design
-      url: https://design.google/
-      logo: /assets/images/logos/GoogleDesign.png
-      description: Google Design
-    - title: eico design
-      url: http://eicodesign.com/
-      logo: /assets/images/logos/eico.png
-      description: 数字化咨询与产品专家
-    - title: nice design
-      url: http://www.niceui.cn/
-      logo: /assets/images/logos/niceui.png
-      description: nicedesign奈思设计是领先的用户体验设计与互联网品牌建设公司
-    - title: 腾讯CDC
-      url: http://cdc.tencent.com/
-      logo: /assets/images/logos/cdc.png
-      description: 腾讯CDC关注于互联网视觉设计、交互设计、用户研究、前端开发。
-    - title: TGideas
-      url: http://tgideas.qq.com/
-      logo: /assets/images/logos/tgideas.png
-      description: TGideas隶属于腾讯公司互动娱乐业务系统的专业推广类设计团队
-    - title: ISUX
-      url: https://isux.tencent.com/
-      logo: /assets/images/logos/isux.png
-      description: 腾讯社交用户体验设计部
-    - title: MXD
-      url: http://mxd.tencent.com/
-      logo: /assets/images/logos/mxd.png
-      description: 腾讯MIG无线互联网事业群设计团队
-    - title: Aliued
-      url: http://www.aliued.com/
-      logo: /assets/images/logos/aliued.png
-      description: 阿里巴巴国际UED团队
-    - title: U一点
-      url: http://www.aliued.cn/
-      logo: /assets/images/logos/aliuedcn.png
-      description: 阿里巴巴（中国站）用户体验设计部博客U一点设计 UED团队
-    - title: 网易uedc
-      url: http://uedc.163.com/
-      logo: /assets/images/logos/uedc.png
-      description: 网易用户体验设计中心（User Experience Design Center）
-    - title: 百度用户体验中心
-      url: http://ued.baidu.com/
-      logo: /assets/images/logos/uedbaidu.png
-      description: 百度用户体验中心
-    - title: 京东设计中心
-      url: http://jdc.jd.com/
-      logo: /assets/images/logos/jdc.png
-      description: 京东设计中心
-    - title: 百度企业产品用户体验中心
-      url: http://eux.baidu.com/
-      logo: /assets/images/logos/euxbaidu.png
-      description: 百度企业产品用户体验中心
-    - title: 携程设计委员会
-      url: http://ued.ctrip.com/
-      logo: /assets/images/logos/ctrip.png
-      description: 携程设计委员会-Ctrip Design Committee
-      
-      
 - name: 友情链接
   icon: linecons-user
   links:
@@ -1278,4 +1132,3 @@
       url: http://www.syrenyun.top/
       logo: http://www.syrenyun.top/wp-content/uploads/2020/04/logo4.png
       description: 网址导航
-  
