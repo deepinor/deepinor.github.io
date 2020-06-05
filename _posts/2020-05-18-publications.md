@@ -6,7 +6,6 @@ show_tags: false
 show_edit_on_github: false
 title: publications
 tags: publications
-author: Bing Yu
 
 
 ---
