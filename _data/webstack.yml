@@ -80,6 +80,10 @@
           logo: https://academic.microsoft.com/apple-touch-icon.png?v=lk9W0aw06r
           url: https://academic.microsoft.com/home
           description: 微软亚洲研究院开发的在线免费学术搜索引擎。它为研究员、学生、图书馆员和其他用户查找学术论文、国际会议、权威期刊、作者和学术兴趣圈提供了更加智能、新颖的获取方式
+        - title: 爱学术
+          logo: https://www.static.ixueshu.com/static/favicon.ico
+          url: https://www.ixueshu.com/
+          description: 爱学术是一家专业的学术文献分享平台，覆盖各个行业期刊论文，学位论文，会议论文，标准，专利等各类学术资源，是国内最大的学术文献交流中心和论文资源免费下载网站
 
 
       - name: 数据库
