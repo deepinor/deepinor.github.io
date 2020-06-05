@@ -1,7 +1,6 @@
 ---
 layout: page
 type: webpage
-show_title: false
 show_date: false
 show_tags: false
 show_edit_on_github: false
@@ -11,8 +10,6 @@ author: Bing Yu
 
 
 ---
-
-# Publications
 
 ## **2020**
 
