@@ -7,6 +7,7 @@ show_tags: false
 show_edit_on_github: false
 title: N2P配体实现ppm级水相Suzuki–Miyaura偶联
 tags: publicaiton coupling catalyst
+author: 13C.org
 ---
 
 
