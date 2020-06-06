@@ -1,7 +1,7 @@
 ---
 layout: page
 type: webpage
-show_title: false
+show_title: true
 show_date: true
 show_tags: false
 show_edit_on_github: false
@@ -10,8 +10,6 @@ tags: publicaiton coupling catalyst
 ---
 
 
-
-# N2P配体实现ppm级水相Suzuki–Miyaura偶联
 
 -----
 
@@ -48,4 +46,3 @@ Chem. Sci. 2020, 11 (20), 5205-5212.  DOI: [10.1039/D0SC00968G](https://sci-hub.
 **图2**：N2P-Pd 与EvanPhos催化Suzuki偶联的对比
 
 -----
-
