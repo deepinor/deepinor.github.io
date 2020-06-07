@@ -5,6 +5,14 @@
       logo: https://13c.org/assets/icon/favicon.ico
       url: https://13C.org/chemsearch/
       description: 化学论文解析
+    - title: ¹³C在线音乐
+      logo: /assets/logo.png
+      url: https://music.13C.org
+      description: 在线音乐试听，账号密码都是12345
+    - title: ¹³C视频聚合
+      logo: /assets/logo.png
+      url: https://mv.guocx.net
+      description: 影视聚合，账号密码都是12345
     - title: 果汁排行榜
       logo: /assets/images/icons/logo-default.png
       url: http://www.guozhivip.com/rank/
@@ -315,6 +323,11 @@
            logo: https://dig.chouti.com/images/favicon-d38b877458.png
            url: https://dig.chouti.com/
            description: 看抽屉新热榜，每日热门、有趣资讯尽收眼底
+        - title: 果汁排行榜
+          logo: /assets/images/icons/logo-default.png
+          url: http://www.guozhivip.com/rank/
+          description: 果汁导航旗下一键式快速查询各类排行榜的网站，网站囊括了热搜、热议、电影、音乐、摄影、游戏、财富等各大领域权威排名榜单
+             
       - name: 综合
         links:
          - title: 人民网
@@ -1364,7 +1377,15 @@
           logo: /assets/images/logos/designguidelines.png
           description: Design Guidelines &mdash; The way products are built.
 
-
+- name: 高效工作
+  icon: linecons-cog
+  links:
+  sub: 
+    - name: 文件分享
+        - title: Airportal
+          url: https://airportal.cn/
+          logo: https://airportal.cn/img/mainLogo_2020.png
+          description: 一个免费即时文件分享网站
 
 - name: 友情链接
   icon: linecons-user
