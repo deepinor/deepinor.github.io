@@ -323,10 +323,10 @@
            logo: https://dig.chouti.com/images/favicon-d38b877458.png
            url: https://dig.chouti.com/
            description: 看抽屉新热榜，每日热门、有趣资讯尽收眼底
-        - title: 果汁排行榜
-          logo: /assets/images/icons/logo-default.png
-          url: http://www.guozhivip.com/rank/
-          description: 果汁导航旗下一键式快速查询各类排行榜的网站，网站囊括了热搜、热议、电影、音乐、摄影、游戏、财富等各大领域权威排名榜单
+         - title: 果汁排行榜
+           logo: /assets/images/icons/logo-default.png
+           url: http://www.guozhivip.com/rank/
+           description: 果汁导航旗下一键式快速查询各类排行榜的网站，网站囊括了热搜、热议、电影、音乐、摄影、游戏、财富等各大领域权威排名榜单
 
       - name: 综合
         links:
