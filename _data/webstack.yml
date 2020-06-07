@@ -1388,7 +1388,11 @@
           logo: https://xlimage.uzero.cn/shinescan/res/favicon.ico
           url: https://web.baimiaoapp.com/
           description: 猫一样灵动的扫描识别神器。简洁高效的ocr文字识别应用与文件扫描软件，拍照取字高效确度，高清晰的文件扫描，可生成PDF，包含iOS版，安卓版，小程序版，网页版
-          
+        - title: 微软爱写作
+          logo: http://aimwriting.mtutor.engkoo.com/favicon.ico
+          url: http://aimwriting.mtutor.engkoo.com/
+          description: 微软出品的一款免费工具，利用AI对英文作文进行打分和修改，自动检查语法和拼写错误的网站。
+
     - name: 文件分享
         - title: Airportal
           url: https://airportal.cn/
