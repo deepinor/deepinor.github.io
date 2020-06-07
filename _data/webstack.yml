@@ -1261,6 +1261,36 @@
           logo: /assets/images/logos/svgomg.png
           description: SVG在线压缩平台
 
+    - name: Office
+      links:
+        - title: OfficePLUS
+          url: http://www.officeplus.cn/Template/Home.shtml
+          logo: /assets/images/logos/officeplus.png
+          description: OfficePLUS，微软Office官方在线模板网站！
+        - title: Office
+          url: https://templates.office.com/
+          logo: https://www.microsoft.com/favicon.ico?v2
+          description: 微软在线模板网站
+        - title: 优品PPT
+          url: http://www.ypppt.com/
+          logo: /assets/images/logos/ypppt.png
+          description: 高质量的模版，而且还有PPT图表，PPT背景图等资源
+        - title: PPT+
+          url: http://www.pptplus.cn/
+          logo: /assets/images/logos/pptplus.png
+          description: PPT加直播、录制和分享—PPT+语音内容分享平台
+        - title: PPTMind
+          url: http://www.pptmind.com/
+          logo: /assets/images/logos/pptmind.png
+          description: 分享高端ppt模板与keynote模板的数字作品交易平台
+        - title: tretars
+          url: http://www.tretars.com/ppt-templates
+          logo: /assets/images/logos/tretars.png
+          description: The best free Mockups from the Web
+        - title: 5百丁
+          url: http://ppt.500d.me/
+          logo: /assets/images/logos/500d.png
+          description: 中国领先的PPT模板共享平台
     - name: 在线配色
       links:
         - title: khroma
