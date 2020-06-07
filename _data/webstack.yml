@@ -209,8 +209,58 @@
            logo: https://website-p-eu.figstatic.com/assets/632e9a61153ddae07772b5e901a65e4d002e3c93/public/global/favicon/apple-touch-icon-57x57.png
            url: https://chemrxiv.org/
            description: 化学预印本网站
+      - name: 翻译
+        links:
+         - title: 百度翻译
+           url: http://fanyi.baidu.com/
+           logo: https://fanyi-cdn.cdn.bcebos.com/static/translation/img/favicon/favicon-32x32_ca689c3.png
+           description: 百度翻译提供即时免费的多语种文本翻译和网页翻译服务，支持中、英、日、韩、泰、法、西、德等28种热门语言互译，覆盖756个翻译方向
+         - title: 谷歌翻译
+           url: https://translate.google.cn/
+           logo: /assets/images/icons/gugefanyi.png
+           description:
+         - title: Bing翻译
+           url: https://www.bing.com/translator?mkt=zh-CN
+           logo: https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico
+           description: 在英语和 70 多种语言之间快速翻译单词、短语和网页
+         - title: 剑桥字典
+           url: https://dictionary.cambridge.org/zhs/
+           logo: https://dictionary.cambridge.org/zhs/external/images/apple-touch-icon-precomposed.png?version=5.0.98
+           description: 让您的词汇有意义
+         - title: 在线牛津搭配词典
+           url: http://collocationdictionary.freedicts.com/
+           logo: /assets/images/icons/logo-default.png
+           description: 一种全新的英文词典，提供词于词见常用并且地道搭配用法
+         - title: 汉典
+           url: http://i1.haidii.com/favicon.ico
+           logo: https://www.zdic.net/favicon.ico
+           description: 一个免费的在线汉语字、词查询网站
+         - title: 有道词典
+           url: http://dict.youdao.com/
+           logo: https://shared.ydstatic.com/images/favicon.ico
+           description: 网易有道是中国领先的智能学习公司，致力于提供100%以用户为导向的学习产品和服务。有道成立于2006年，打造了一系列深受用户喜欢的口碑型大众学习工具产品
+         - title: 海词
+           url: http://dict.cn/
+           logo: http://i1.haidii.com/favicon.ico
+           description: 海词词典是中国第一个在线词典，海量权威词典官方网站。独有2000万词汇，配释义饼图、精细讲解、优质例句，专业提供60个行业11个语种的在线词典和在线翻译服务
+         - title: Leo
+           url: https://dict.leo.org/
+           logo: https://dict.leo.org/img/favicons/chde-16-1df43d23.png
+           description: 您的在线词典汉语-德语强大的翻译查询功能
+         - title: 金山词霸
+           url: http://www.iciba.com/
+           logo: http://cdn.iciba.com/www/img/www/favicon.ico
+           description: 爱词霸英语在线查词和在线翻译频道致力于为您提供优质的在线查词及在线翻译服务
+         - title: 词都
+           url: http://www.dictall.com/
+           logo: /assets/images/icons/logo-default.png
+           description: 词都网是含有超过500万不重复词条的专业词典，涵盖了基础科学,工业技术,医药卫生,农业,文化历史,社会科学,经济管理,电子技术，信息科学等各个方面，并且不断更新以获取最新的词汇和知识
+         - title: 知网翻译
+           url: http://dict.cnki.net/
+           logo: /assets/images/icons/logo-default.png
+           description: CNKI英语在线翻译系统，为您提供学科领域最全面、最专业的专业词汇翻译，文献翻译、英汉互译、英汉词典、汉英辞典字典、英汉例句、专业词汇、科技术语翻译等免费翻译服务，中国知网翻译助手依托海量文献(论文)资源研制而成，是您英汉、汉英在线翻译的最佳助手
 
-      - name: 社区
+      - name: 社区/资讯
         links:
          - title: X-mol
            logo: /assets/images/icons/x-mol.png
