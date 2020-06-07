@@ -260,16 +260,17 @@
            logo: /assets/images/icons/logo-default.png
            description: CNKI英语在线翻译系统，为您提供学科领域最全面、最专业的专业词汇翻译，文献翻译、英汉互译、英汉词典、汉英辞典字典、英汉例句、专业词汇、科技术语翻译等免费翻译服务，中国知网翻译助手依托海量文献(论文)资源研制而成，是您英汉、汉英在线翻译的最佳助手
 
-      - name: 社区/资讯
+
+      - name: 社区资讯
         links:
-         - title: X-mol
-           logo: /assets/images/icons/x-mol.png
-           url: https://www.x-mol.com/
-           description: 科学知识平台
-         - title: 小木虫
-           logo: /assets/images/icons/muchong.png
-           url: http://muchong.com/bbs/
-           description: 学术科研互动平台
+           - title: X-mol
+             logo: /assets/images/icons/x-mol.png
+             url: https://www.x-mol.com/
+             description: 科学知识平台
+           - title: 小木虫
+             logo: /assets/images/icons/muchong.png
+             url: http://muchong.com/bbs/
+             description: 学术科研互动平台
 
       - name: 试剂仪器
         links:
@@ -408,7 +409,79 @@
            logo: /assets/images/icons/ec.png
            url: http://www.ce.cn/
            description: 国家重点新闻网站中唯一以经济报道为中心的综合新闻网站，每日采写大量经济新闻，同时整合国内主要媒体经济新闻及信息，为政府部门、企业决策提供权威的参考依据；为所有关注经济生活的网络读者提供丰富及时的经济新闻
+           
+          - url: https://xueqiu.com/ 
+            logo: https://xueqiu.com/favicon.ico 
+            title: 雪球 
 
+          - url: https://finance.sina.com.cn/ 
+            logo: https://finance.sina.com.cn/favicon.ico 
+            title: 新浪财经 
+            
+          - url: https://new.qq.com/ch/finance/ 
+            logo: https://new.qq.com/favicon.ico 
+            title: 腾讯财经 
+            
+          - url: https://www.eastmoney.com/ 
+            logo: https://www.eastmoney.com/favicon.ico 
+            title: 东方财富网 
+            
+          - url: http://finance.ifeng.com/ 
+            logo: http://finance.ifeng.com/favicon.ico 
+            title: 凤凰财经 
+            
+          - url: https://money.163.com/ 
+            logo: https://money.163.com/favicon.ico 
+            title: 网易财经 
+            
+          - url: http://www.etnetchina.com.cn/ 
+            logo: http://www.etnetchina.com.cn/favicon.ico 
+            title: 专业财经网 
+            
+          - url: http://www.caijing.com.cn/ 
+            logo: http://www.caijing.com.cn/favicon.ico 
+            title: 财经网 
+            
+          - url: http://1234567.com.cn 
+            logo: http://1234567.com.cn/favicon.ico 
+            title: 天天基金网 
+            
+          - url: http://southmoney.com/ 
+            logo: http://southmoney.com/favicon.ico 
+            title: 南方财富网 
+            
+          - url: http://www.ce.cn/ 
+            logo: http://www.ce.cn/favicon.ico 
+            title: 中国经济网 
+            
+          - url: http://www.10jqka.com.cn/ 
+            logo: http://www.10jqka.com.cn/favicon.ico 
+            title: 同花顺财经 
+            
+          - url: http://www.stockstar.com/ 
+            logo: http://www.stockstar.com/favicon.ico 
+            title: 证券之星 
+            
+          - url: http://www.jrj.com.cn/ 
+            logo: http://www.jrj.com.cn/favicon.ico 
+            title: 金融界 
+            
+          - url: http://business.sohu.com/ 
+            logo: http://business.sohu.com/favicon.ico 
+            title: 搜狐财经 
+            
+          - url: http://www.financeun.com/ 
+            logo: http://img.ilxdh.com/navig/2019-12-05/1575547953_266.png?auth_key=1591543207-78ba3e589378a44adab3feb012dc12b16af2909b-0-2fad6bdb3d3dc029b3d46470c6504865 
+            title: 中国金融网 
+            
+          - url: http://www.hexun.com/ 
+            logo: http://www.hexun.com/favicon.ico 
+            title: 和讯财经 
+            
+          - url: https://xueqiu.com/dh 
+            logo: https://xueqiu.com/favicon.ico 
+            title: 雪球财经导航 
+        
       - name: 科技
         links:
          - title: 雷锋网
@@ -423,6 +496,10 @@
            url: http://www.geekpark.net/
            logo: http://imgslim.geekpark.net/geekpark-icon-196-03ac430f5643fc17aba3b3f5429a287d.png
            description: 聚焦互联网领域，跟踪最新的科技新闻动态，关注极具创新精神的科技产品
+         - title: CnBeta
+           url: https://www.cnbeta.com
+           logo: https://static.cnbetacdn.com/images/logo.png
+           description: 是互联网IT新闻业界的后起之秀,是国内领先的即时科技资讯站点和网友交流平台。消息速度快，报导立场公正中立，网友讨论气氛浓厚，在IT业界拥有独特的影响力
          - title: 数英网
            logo: /assets/images/logos/digitaling.png
            url: https://www.digitaling.com/
