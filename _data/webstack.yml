@@ -515,6 +515,10 @@
          logo: https://img9.doubanio.com/f/fm/55cc7ebd1777d5101a82d7d6ce47ffc5e114131d/pics/fm/san_favicon.ico
          url: https://douban.fm/
          description: 最懂你的个性化音乐服务，既可以让你在私人电台里与喜欢的音乐不期而遇，又可以获取到精心为你挑选的最有质量的歌单
+       - title: 落网
+         url: https://www.luoow.com/radio/
+         logo: http://luoow.wxwenku.com/static/img/luoo.jpg
+         description: 一个推荐国内外独立音乐的网站
 
 
     - name: 影视
@@ -1234,7 +1238,6 @@
           url: https://www.shudan.vip/
           logo: /assets/images/icons/link-default.png
           description: 让搜书变得简单
-          
         - url: http://www.zvdd.de/en/start/
           logo:
           title: Zvdd
