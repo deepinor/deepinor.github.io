@@ -753,33 +753,29 @@
           description: 影猫电影推荐网是一个专门的电影推荐平台，通过收集经典电影，电影专题以及网友互动分享好看电影，为广大电影爱好者提供优质的电影推荐服务
           logo: https://www.mvcat.com/img/logo_appicon.png
           title: 影猫
-        - url: https://www.wanmeikk.me/
-          description:
-          logo:
-          title: 完美看看
         - url: http://www.9rmb.com/
           description:
-          logo:
+          logo: http://www.9rmb.com/favicon.ico
           title: 94神马电影网
         - url: https://www.tcmove.com/
           description:
-          logo:
+          logo: https://www.tcmove.com/upload/site/20191021-1/28056278f60af4f3335e69d56f038956.png
           title: 太初电影
         - url: https://app.movie/
           description:
-          logo:
+          logo: https://app.movie/favicon.ico
           title: APP影院
         - url: https://www.qukantv.net/
           description:
-          logo:
+          logo: https://www.qukantv.net/favicon.ico
           title: 去看TV
         - url: http://1090ys1.com/
           description:
-          logo:
+          logo: /assets/images/icons/logo-default.png
           title: 1090影视
         - url: http://www.vip1280.net/
           description:
-          logo:
+          logo: http://www.vip1280.net/favicon.ico
           title: VIP电影
         - url: https://www.xiangkanju.cc/
           description: 左手吃斋影视 - 想看剧,影视大全
@@ -787,29 +783,28 @@
           title: 左手吃斋影视
         - url: http://www.wyb128.com/
           description:
-          logo:
+          logo: http://www.wyb128.com/favicon.ico
           title: 手机网
         - url: https://www.kan84.tv/
           description:
-          logo:
+          logo: https://www.kan84.tv/favicon.ico
           title: 看巴士
         - url: https://www.adcmove.com/
           description:
-          logo:
+          logo: https://www.adcmove.com/favicon.ico
           title: ADC电影网
         - url: https://www.nfmovies.com/
           description:
-          logo:
+          logo: https://www.nfmovies.com/favicon.ico
           title: 奈菲影视
         - url: https://www.yunbtv.com/
           description:
-          logo:
+          logo: https://www.yunbtv.com/favicon.ico
           title: 云播TV
         - title: TVB云播
           url: https://www.hktvyb.com/
           description:
           logo: https://www.hktvyb.com/favicon.ico
-
         - title: 完美看看
           url: https://www.wanmeikk.me/
           logo: https://www.wanmeikk.me/favicon.ico
