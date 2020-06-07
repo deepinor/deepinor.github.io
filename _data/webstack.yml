@@ -1173,87 +1173,6 @@
           description: 列出了基于Web的软件，台式计算机软件和移动应用程序的替代方案
 
 
-    - name: 界面设计
-      links:
-        - title: Sketch
-          url: https://sketchapp.com/
-          logo: /assets/images/logos/sketchapp.png
-          description: The digital design toolkit
-        - title: Adobe XD
-          url: http://www.adobe.com/products/xd.html
-          logo: /assets/images/logos/ADOBEXDCC.png
-          description: Introducing Adobe XD. Design. Prototype. Experience.
-        - title: invisionapp
-          url: https://www.invisionapp.com/
-          logo: /assets/images/logos/invisionapp.png
-          description: Powerful design prototyping tools
-        - title: marvelapp
-          url: https://marvelapp.com/
-          logo: /assets/images/logos/marvelapp.png
-          description: Simple design, prototyping and collaboration
-        - title: Muse CC
-          url: https://creative.adobe.com/zh-cn/products/download/muse
-          logo: /assets/images/logos/MuseCC.png
-          description: 无需利用编码即可进行网站设计。
-        - title: figma
-          url: https://www.figma.com/
-          logo: /assets/images/logos/figma.png
-          description: Design, prototype, and gather feedback all in one place with Figma.
-    - name: 交互动效
-      links:
-        - title: Adobe After Effects CC
-          url: https://www.adobe.com/cn/products/aftereffects/
-          logo: /assets/images/logos/AdobeAfterEffectsCC.png
-          description: 电影般的视觉效果和动态图形。
-        - title: principle
-          url: http://principleformac.com/
-          logo: /assets/images/logos/principle.png
-          description: Animate Your Ideas, Design Better Apps
-        - title: flinto
-          url: https://www.flinto.com/
-          logo: /assets/images/logos/flinto.png
-          description: Flinto is a Mac app used by top designers around the world to create interactive and animated prototypes of their app designs.
-        - title: framer
-          url: https://framer.com/
-          logo: /assets/images/logos/framer.png
-          description: Design everything from detailed icons to high-fidelity interactions—all in one place.
-        - title: ProtoPie
-          url: http://www.protopie.cn/
-          logo: /assets/images/logos/protopie.png
-          description: 高保真交互原型设计
-
-
-
-    - name: 在线工具
-      links:
-        - title: tinypng
-          url: https://tinypng.com/
-          logo: /assets/images/logos/tinypng.png
-          description: Optimize your images with a perfect balance in quality and file size.
-        - title: goqr
-          url: http://goqr.me/
-          logo: /assets/images/logos/goqr.png
-          description: create QR codes for free (Logo, T-Shirt, vCard, EPS)
-        - title: ezgif
-          url: https://ezgif.com
-          logo: /assets/images/logos/ezgif.png
-          description: simple online GIF maker and toolset for basic animated GIF editing.
-        - title: Android 9 patch
-          url: http://inloop.github.io/shadow4android/
-          logo: /assets/images/logos/Android9patch.png
-          description: Android 9-patch shadow generator fully customizable shadows
-        - title: screen sizes
-          url: http://screensiz.es/
-          logo: /assets/images/logos/screensizes.png
-          description: Viewport Sizes and Pixel Densities for Popular Devices
-        - title: svgomg
-          url: https://jakearchibald.github.io/svgomg/
-          logo: /assets/images/logos/svgomg.png
-          description: SVG在线压缩平台
-        - title: 稿定抠图
-          url: https://www.gaoding.com
-          logo: /assets/images/logos/gaoding.png
-          description: 免费在线抠图软件,图片快速换背景-抠白底图
 
     - name: Chrome插件
       links:
@@ -1283,12 +1202,12 @@
           description: Discover the world's most beautiful places at every opened tab.
 
 - name: 学习提升
-  icon: 
-  sub: 
+  icon:
+  sub:
     - name: 图书
-      links: 
+      links:
         - title: 中国国家图书馆：
-          logo: /assets/imaged/icons/nlc.png
+          logo: /assets/images/icons/nlc.png
           url: http://www.nlc.cn/
           description: 国家图书馆是国家总书库，国家书目中心，国家古籍保护中心，国家典籍博物馆
 
