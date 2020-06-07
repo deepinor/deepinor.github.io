@@ -1372,6 +1372,7 @@
   links:
   sub:
     - name: 实用工具
+      links: 
         - title: 文档压缩
           logo: https://docsmall.com/favicon.png
           url: https://docsmall.com/
@@ -1394,6 +1395,7 @@
           description: 微软出品的一款免费工具，利用AI对英文作文进行打分和修改，自动检查语法和拼写错误的网站。
 
     - name: 文件分享
+      links:
         - title: Airportal
           url: https://airportal.cn/
           logo: https://airportal.cn/img/mainLogo_2020.png
