@@ -884,6 +884,7 @@
             title: 哇哈体育
 
           - url: http://www.zhibo.me/
+            logo: /assets/images/icons/logo-default.png
             title: 直播迷网
 
     - name: 视频解析
