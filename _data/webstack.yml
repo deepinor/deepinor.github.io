@@ -5,10 +5,10 @@
       logo: https://13c.org/assets/icon/favicon.ico
       url: https://13C.org/chemsearch/
       description: 化学论文解析
-    - title: Organic syntheses
+    - title: 果汁排行榜
       logo: /assets/images/icons/logo-default.png
-      url: http://www.orgsyn.org/
-      description: 提供可信赖的合成方法
+      url: http://www.guozhivip.com/rank/
+      description: 果汁导航旗下一键式快速查询各类排行榜的网站，网站囊括了热搜、热议、电影、音乐、摄影、游戏、财富等各大领域权威排名榜单
     - title: 谷歌
       logo: /assets/images/logos/google.png
       url: https://google.com/ncr/
