@@ -678,49 +678,59 @@
          logo: http://luoow.wxwenku.com/static/img/luoo.jpg
          description: 一个推荐国内外独立音乐的网站
 
-
-    - name: 影视
+    - name: 视频综合
+      links:
+        - title: Youtube
+          logo: /assets/images/icons/youtube.png
+          url: https://www.youtube.com/
+          description: 油管(404)
+        - title: netflix
+          logo: https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png
+          url: https://www.netflix.com/
+          description: 奈飞
+        - title: bilibili
+          logo: /assets/images/icons/bilibili.png
+          url: https://www.bilibili.com/
+          description: bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主
+        - url: http://tv.cctv.com/live/cctv1/
+          logo: http://tv.cctv.com/favicon.ico
+          title: CCTV全直播
+        - url: http://live.jstv.com/
+          logo: http://live.jstv.com/favicon.ico
+          title: 江苏卫视
+        - url: http://tv.cztv.com/live1
+          logo: http://tv.cztv.com/favicon.ico
+          title: 浙江卫视
+        - url: https://live.qq.com/
+          logo: https://live.qq.com/favicon.ico
+          title: 企鹅体育
+        - title: 芒果TV
+          url: https://www.mgtv.com/
+          logo: https://www.mgtv.com/favicon.ico
+          description: 
+        
+    - name: 在线影视
       links:
         - title: ¹³C视频聚合
           logo: /assets/logo.png
           url: https://mv.guocx.net
           description: 影视聚合，账号密码都是12345
-
-        - title: Youtube
-          logo: /assets/images/icons/youtube.png
-          url: https://www.youtube.com/
-          description: 油管(404)
-
-        - title: netflix
-          logo: https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png
-          url: https://www.netflix.com/
-          description: 奈飞
-
-        - title: bilibili
-          logo: /assets/images/icons/bilibili.png
-          url: https://www.bilibili.com/
-          description: bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主
-
         - url: http://www.mvcat.com/
           description: 影猫电影推荐网是一个专门的电影推荐平台，通过收集经典电影，电影专题以及网友互动分享好看电影，为广大电影爱好者提供优质的电影推荐服务
           logo: https://www.mvcat.com/img/logo_appicon.png
           title: 影猫
-
         - url: https://www.wanmeikk.me/
           description:
           logo:
           title: 完美看看
-
         - url: http://www.9rmb.com/
           description:
           logo:
           title: 94神马电影网
-
         - url: https://www.tcmove.com/
           description:
           logo:
           title: 太初电影
-
         - url: https://app.movie/
           description:
           logo:
@@ -729,47 +739,38 @@
           description:
           logo:
           title: 去看TV
-
         - url: http://1090ys1.com/
           description:
           logo:
           title: 1090影视
-
         - url: http://www.vip1280.net/
           description:
           logo:
           title: VIP电影
-
         - url: https://www.xiangkanju.cc/
           description: 左手吃斋影视 - 想看剧,影视大全
           logo: https://www.xiangkanju.cc/favicon.ico
           title: 左手吃斋影视
-
         - url: http://www.wyb128.com/
           description:
           logo:
           title: 手机网
-
         - url: https://www.kan84.tv/
           description:
           logo:
           title: 看巴士
-
         - url: https://www.adcmove.com/
           description:
           logo:
           title: ADC电影网
-
         - url: https://www.nfmovies.com/
           description:
           logo:
           title: 奈菲影视
-
         - url: https://www.yunbtv.com/
           description:
           logo:
           title: 云播TV
-
         - url: https://www.hktvyb.com/
           description:
           logo:
@@ -825,25 +826,9 @@
             logo: http://www.inke.cn/favicon.ico
             title: 映客直播
 
-          - url: http://tv.cctv.com/live/cctv1/
-            logo: http://tv.cctv.com/favicon.ico
-            title: CCTV全直播
-
           - url: http://www.migu123.com/
             logo: http://www.migu123.com/favicon.ico
             title: 咪咕直播
-
-          - url: http://live.jstv.com/
-            logo: http://live.jstv.com/favicon.ico
-            title: 江苏卫视
-
-          - url: http://tv.cztv.com/live1
-            logo: http://tv.cztv.com/favicon.ico
-            title: 浙江卫视
-
-          - url: https://live.qq.com/
-            logo: https://live.qq.com/favicon.ico
-            title: 企鹅体育
 
           - url: http://www.ningmengbo.com/
             logo: http://www.ningmengbo.com/favicon.ico
