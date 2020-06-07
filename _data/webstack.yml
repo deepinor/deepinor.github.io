@@ -1386,7 +1386,7 @@
           description: create QR codes for free (Logo, T-Shirt, vCard, EPS)
         - title: ezgif
           url: https://ezgif.com
-          logo: /assets/images/logos/ezgif.png
+          logo: https://ezgif.com/apple-touch-icon-precomposed.png
           description: simple online GIF maker and toolset for basic animated GIF editing.
         - title: screen sizes
           url: http://screensiz.es/
