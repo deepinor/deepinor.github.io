@@ -33,10 +33,7 @@
       logo: https://abs.twimg.com/responsive-web/web/icon-ios.8ea219d4.png
       url: https://twitter.com/
       description: 懂王指挥所(404)
-    - title: quora
-      logo: https://qsf.fs.quoracdn.net/-3-images.favicon.ico-26-ae77b637b1e7ed2c.ico
-      url: https://www.quora.com/
-      description: 海外问答社区
+
 
 
 
@@ -372,6 +369,10 @@
            logo: /assets/images/logos/36kr.png
            url: https://36kr.com/
            description: 创业资讯、科技新闻
+         - title: 极客公园
+           url: http://www.geekpark.net/
+           logo: http://imgslim.geekpark.net/geekpark-icon-196-03ac430f5643fc17aba3b3f5429a287d.png
+           description: 聚焦互联网领域，跟踪最新的科技新闻动态，关注极具创新精神的科技产品
          - title: 数英网
            logo: /assets/images/logos/digitaling.png
            url: https://www.digitaling.com/
@@ -412,7 +413,33 @@
            logo: /assets/images/logos/uigreat.png
            url: http://www.uigreat.com/
            description: UI设计师学习交流社区
-
+         - title: 少数派
+           logo: /assets/images/logos/sspai.png
+           url: https://sspai.com/
+           description: 高品质数字消费指南
+         - title: Today
+           logo: /assets/images/logos/today.png
+           url: http://today.itjuzi.com/
+           description: 为身边的新产品喝彩
+           
+      - name: 社区
+        links:
+         - title: 知乎
+           url:
+           logo:
+           description:
+         - title: quora
+           logo: https://qsf.fs.quoracdn.net/-3-images.favicon.ico-26-ae77b637b1e7ed2c.ico
+           url: https://www.quora.com/
+           description: 海外问答社区
+         - title: 简书
+           url: https://www.jianshu.com/
+           logo: https://cdn2.jianshu.io/assets/favicons/favicon-e743bfb1821442341c3ab15bdbe804f7ad97676bd07a770ccc9483473aa76f06.ico
+           description: 以互联网为基础的可以进行独立内容创作和发布的平台
+         - title: CSDN
+           url: https://www.csdn.net/
+           logo: https://csdnimg.cn/public/favicon.ico
+           description: 中文IT知识服务集团，业务有IT信息传播、技术交流、教育培训和专业技术人才服务
 
       - name: 港澳台
         links:
@@ -1137,17 +1164,6 @@
           url: http://www.8kraw.com/
           logo: http://www.8kraw.com/favicon.png
           description: 8KRAW一个致力于创作高质量影像素材的摄影师组织。影像素材库可以授权4K 8K 12K等高质量素材 。500+签约摄影师遍布世界各地，可以高效完成定制拍摄需求
-
-    - name: 发现产品
-      links:
-        - title: 少数派
-          logo: /assets/images/logos/sspai.png
-          url: https://sspai.com/
-          description: 高品质数字消费指南
-        - title: Today
-          logo: /assets/images/logos/today.png
-          url: http://today.itjuzi.com/
-          description: 为身边的新产品喝彩
 
 - name: 常用工具
   icon: linecons-diamond
