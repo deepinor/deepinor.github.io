@@ -1262,13 +1262,16 @@
           url: https://www.guokr.com/
           logo: /assets/images/icons/guokr.png
           description: 一个泛科技主题网站，提供负责任、有智趣、贴近生活的内容，你可以在这里阅读、分享、交流、提问。
-
+        - title: 科学松鼠会
+          url: https://songshuhui.net/
+          logo: https://songshuhui.net/wp-content/uploads/cropped-songshuhui-32x32.jpg
+          description: 汇聚了当代最优秀的华语青年科学传播者的非营利机构,旨在“剥开科学的坚果,帮助人们领略科学之美妙”
+          
         - title: 环球科学
           url: https://huanqiukexue.com/
           logo: /assets/images/icons/huanqiukexue.png
           description: 《环球科学》杂志社官网,最快的科学新闻，最新的应用技术，著名科学爱好者现身说法，细数成功背后的种种诀窍，新锐鲜明的科学观点，颠覆传统的逻辑论断，50，100,150年前的科学美国人，见证经典时刻
           
-
         - url: http://www.astron.ac.cn/index.htm
           description:
           logo:
@@ -1286,12 +1289,6 @@
           logo:
           title: 格致论道
 
-
-
-        - url: https://songshuhui.net/
-          description: 汇聚了当代最优秀的华语青年科学传播者的非营利机构,旨在“剥开科学的坚果,帮助人们领略科学之美妙”
-          logo:
-          title: 科学松鼠会
         - url: http://www.kepu.net.cn/
           description: 旨在推动中国科学院高端、优质、特色的科研科普资源在学校科学教育中的落地与应用
           logo:
