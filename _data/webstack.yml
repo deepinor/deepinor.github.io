@@ -1892,7 +1892,7 @@
 - name: 生活点滴
   icon: linecons-diamond
   sub:
-    - name: 综合：
+    - name: 综合
       links:
         - title: WikiHow
           logo: https://zh.wikihow.com/favicon.ico
