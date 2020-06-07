@@ -1449,7 +1449,7 @@
           description: 8KRAW一个致力于创作高质量影像素材的摄影师组织。影像素材库可以授权4K 8K 12K等高质量素材 。500+签约摄影师遍布世界各地，可以高效完成定制拍摄需求
 
 - name: 常用工具
-  icon: linecons-diamond
+  icon: linecons-truck
   sub:
     - name: 精品软件
       links:
