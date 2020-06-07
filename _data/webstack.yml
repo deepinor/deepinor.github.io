@@ -1266,7 +1266,7 @@
           logo: /assets/images/icons/logo-default.png
           description: 超270万份书籍、5800万份科学期刊免费下载，每天都在增加
         - url: http://www.gutenberg.org/
-          logo:
+          logo: http://www.gutenberg.org/pics/logo-144x144.png
           title: 古登堡计划
           description: 超5.7万版权过期（Public domain）的电子书，免费、合法、无需注册
         - title: 书单网
