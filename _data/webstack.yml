@@ -1036,6 +1036,10 @@
 
     - name: 图库
       links:
+        - title: 天空之城
+          url: https://www.skypixel.com/
+          logo: https://spcn-webfront.skypixel.com/skypixel/public/favicon.ico
+          description: 全球航拍爱好者和专业摄影作品的社区
         - title: Unsplash
           url: https://unsplash.com/
           logo: /assets/images/logos/unsplash.png
