@@ -1179,6 +1179,14 @@
           url: https://www.uzer.me/
           logo: https://img.uzer.me/uzsite/1584512994019/static-uzsite/images/logo.png
           description: 致力于全生命周期的文档管理,无需安装,即可在线编辑Office, CAD,PS等任意格式文档,支持远程协作,全文检索,版本管理,权限管理,安全外发等.提高工作效率,降低安全风险
+        - title: X mind
+          url: https://www.xmind.cn/xmind2020/
+          logo: https://www.xmind.cn/apple-touch-icon-57x57.png
+          description: 由香港XMind公司开发的脑力激荡法和心智图的软件工具，其主要用途为帮助用户捕捉想法，组织各类报表。它支持心智图、石川图、树形结构图、组织结构图和电子表格
+        - title: MSDN
+          url: https://msdn.itellyou.cn/
+          logo: https://www.microsoft.com/favicon.ico?v2
+          description: msdn我告诉你, 微软产品下载中心
 
 
 
@@ -1236,7 +1244,7 @@
           description: 超5.7万版权过期（Public domain）的电子书，免费、合法、无需注册
         - title: 书单网
           url: https://www.shudan.vip/
-          logo: /assets/images/icons/link-default.png
+          logo: /assets/images/icons/logo-default.png
           description: 让搜书变得简单
         - url: http://www.zvdd.de/en/start/
           logo:
