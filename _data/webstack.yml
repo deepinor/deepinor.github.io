@@ -1165,36 +1165,13 @@
 - name: 常用工具
   icon: linecons-diamond
   sub:
-    - name: 图形创意
+    - name: 精品软件
       links:
-        - title: photoshop
-          url: https://www.adobe.com/cn/products/photoshop.html
-          logo: /assets/images/logos/photoshop.png
-          description: Photoshop不需要解释
-        - title: Affinity Designer
-          url: https://affinity.serif.com/
-          logo: /assets/images/logos/AffinityDesigner.png
-          description: 专业创意软件
-        - title: Illustrator
-          url: https://www.adobe.com/cn/products/illustrator/
-          logo: /assets/images/logos/Illustrator.png
-          description: 矢量图形和插图。
-        - title: indesign
-          url: http://www.adobe.com/cn/products/indesign.html
-          logo: /assets/images/logos/INDESIGN .png
-          description: 页面设计、布局和出版。
-        - title: cinema-4d
-          url: https://www.maxon.net/en/products/cinema-4d/overview/
-          logo: /assets/images/logos/cinema4d.png
-          description: Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free.
-        - title: 3ds-max
-          url: https://www.autodesk.com/products/3ds-max/overview
-          logo: /assets/images/logos/3dsmax.png
-          description: 3D modeling, animation, and rendering software
-        - title: Blender
-          url: https://www.blender.org/
-          logo: /assets/images/logos/blender.png
-          description: Blender is the free and open source 3D creation suite.
+        - title: Alternativeto
+          url: https://alternativeto.net/
+          logo: https://alternativeto.net/apple-touch-icon.png
+          description: 列出了基于Web的软件，台式计算机软件和移动应用程序的替代方案
+       
 
     - name: 界面设计
       links:
@@ -1335,6 +1312,26 @@
           logo: http://aimwriting.mtutor.engkoo.com/favicon.ico
           url: http://aimwriting.mtutor.engkoo.com/
           description: 微软出品的一款免费工具，利用AI对英文作文进行打分和修改，自动检查语法和拼写错误的网站。
+        - title: tinypng
+          url: https://tinypng.com/
+          logo: /assets/images/logos/tinypng.png
+          description: Optimize your images with a perfect balance in quality and file size.
+        - title: goqr
+          url: http://goqr.me/
+          logo: /assets/images/logos/goqr.png
+          description: create QR codes for free (Logo, T-Shirt, vCard, EPS)
+        - title: ezgif
+          url: https://ezgif.com
+          logo: /assets/images/logos/ezgif.png
+          description: simple online GIF maker and toolset for basic animated GIF editing.
+        - title: screen sizes
+          url: http://screensiz.es/
+          logo: /assets/images/logos/screensizes.png
+          description: Viewport Sizes and Pixel Densities for Popular Devices
+        - title: svgomg
+          url: https://jakearchibald.github.io/svgomg/
+          logo: /assets/images/logos/svgomg.png
+          description: SVG在线压缩平台
 
     - name: 在线配色
       links:
