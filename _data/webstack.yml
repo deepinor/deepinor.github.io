@@ -799,12 +799,8 @@
           title: 奈菲影视
         - url: https://www.yunbtv.com/
           description:
-          logo: https://www.yunbtv.com/favicon.ico
+          logo: https://www.yunbtv.com/template/yunbtv_ui/images/favicon.ico
           title: 云播TV
-        - title: TVB云播
-          url: https://www.hktvyb.com/
-          description:
-          logo: https://www.hktvyb.com/favicon.ico
         - title: 完美看看
           url: https://www.wanmeikk.me/
           logo: https://www.wanmeikk.me/favicon.ico
