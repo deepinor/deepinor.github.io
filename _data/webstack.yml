@@ -1125,6 +1125,7 @@
           url: https://www.streetartutopia.com/
           logo: https://i0.wp.com/www.streetartutopia.com/wp-content/uploads/2019/08/427068_10150673564687700_1763374176_n.jpg?fit=32%2C32&ssl=1
           description: 一个街头艺术乌托邦平台，拥有众多的艺术家和收藏作品，可以点击网站的任意链接，查找相关的艺术家作品和主题作品
+          
         - title: Colossal
           url: https://www.thisiscolossal.com/
           logo: https://www.thisiscolossal.com/favicon-32x32.png
@@ -1506,6 +1507,10 @@
           logo: http://zhongguose.com/img/favicon.ico
           url: http://zhongguose.com/
           description: 提供各种中国的传统颜色的名称，CMYK值，RGB值，16进制表示
+        - title: 日本色
+          logo: https://nipponcolors.com/images/site_thumb.jpg
+          url: https://nipponcolors.com/
+          description: 提供各种日本的传统颜色的名称，CMYK值，RGB值，16进制表示
 
 
     - name: 文件分享
