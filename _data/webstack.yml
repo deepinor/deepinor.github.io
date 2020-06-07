@@ -41,7 +41,7 @@
 
 
 - name: 科研工具
-  icon: linecons-lightbulb
+  icon: linecons-beaker
   sub:
       - name: 工具
         links:
@@ -1206,7 +1206,7 @@
           description: Discover the world's most beautiful places at every opened tab.
 
 - name: 学习提升
-  icon:
+  icon: linecons-graduation-cap
   sub:
     - name: 图书
       links:
@@ -1381,7 +1381,7 @@
   icon: linecons-diamond
   sub:
     - name: 综合：
-      links: 
+      links:
         - title: WikiHow
           logo: https://zh.wikihow.com/favicon.ico
           url: https://zh.wikihow.com/
