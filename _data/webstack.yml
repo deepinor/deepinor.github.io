@@ -1235,6 +1235,58 @@
           logo: https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png
           url: https://www.coursera.org/
           description: Coursera与多家大学合作，给大众带来一些在线免费课堂
+
+    - name: 科学科普
+      links:
+        - url: https://huanqiukexue.com/
+          description: 《环球科学》是《科学美国人》独家授权中文版。《科学美国人》（Scientific American）是全球科技媒体第一品牌，全球科学家智慧与卓越见解的分享之地
+          logo:
+          title: 环球科学
+        - url: http://www.astron.ac.cn/index.htm
+          description:
+          logo:
+          title: 中国天文科普网
+        - url: http://rwcc.bao.ac.cn/index.jsp
+          description: 1991年国家科委和中国科学院批准成立世界警报中心北京日地物理预报中心
+          logo:
+          title: 太阳活动预报中心
+        - url: https://www.kexueshengyin.com/
+          description: 以普及科学知识、传播科学精神为宗旨的科普自媒体联盟
+          logo:
+          title: 科学声音
+        - url: http://www.self.org.cn/
+          description: 提倡以&quot;格物致知&quot;的精神探讨科技、教育、生活、未来的发展。每月举办一期演讲活动，邀请来自科技、教育、文化、艺术等诸多领域嘉宾分享思想和观点。
+          logo:
+          title: 格致论道
+        - url: https://www.guokr.com/
+          description: 泛科技主题网站,提供负责任、有智趣、贴近生活的内容,你可以在这里阅读、分享、交流、提问
+          logo:
+          title: 果壳科技有意思
+        - url: https://songshuhui.net/
+          description: 汇聚了当代最优秀的华语青年科学传播者的非营利机构,旨在“剥开科学的坚果,帮助人们领略科学之美妙”
+          logo:
+          title: 科学松鼠会
+        - url: http://www.kepu.net.cn/
+          description: 旨在推动中国科学院高端、优质、特色的科研科普资源在学校科学教育中的落地与应用
+          logo:
+          title: 中国科普博览
+        - url: https://www.kepuchina.cn/
+          description: 提供科学、权威、准确的科普信息内容和相关资讯,让科技知识在网上和生活中流行
+          logo:
+          title: 科普中国
+        - url: http://www.bao.ac.cn/
+          description:
+          logo:
+          title: 中国科学院国家天文台
+        - url: http://www.dili360.com/
+          description: 这里雪山、冰川、湿地、草原等地理地貌丰富,同时孕育了传承千年的藏羌文化
+          logo:
+          title: 中国国家地理
+        - url: https://www.cdstm.cn/
+          description: 以科技馆为核心的科普课程,体现科技馆实践、探究的教育特征,展示科技馆多元化的教育资源
+          logo:
+          title: 中国数字科技馆
+
     - name: 图书
       links:
         - title: 中国国家图书馆：
@@ -1447,7 +1499,9 @@
           logo: https://www.bangongziyuan.com/web/foreground/images/favicon.ico
           url: https://www.bangongziyuan.com/
           description: 办公资源网是一家专注海量办公资源下载的网站,提供各种精美创意PPT模板,Excel模板,Word模板,免费音效资源及素材,涉及个人简历,工作总结,教育培训课件等模板下载
-
+    - name: 翻译
+      links:
+        - title:
     - name: 配色
       links:
         - title: khroma
