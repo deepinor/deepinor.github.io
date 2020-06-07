@@ -1121,11 +1121,14 @@
 
     - name: 艺术
       links:
+        - title: 站酷(ZCOOL)
+          url: https://www.zcool.com.cn
+          logo: https://static.zcool.cn/git_z/z/site/favicon.ico?version=1591266806672
+          description: 中国设计师互动平台。深耕设计领域十四年，站酷聚集了1100万设计师、摄影师、插画师、艺术家、创意人，设计创意群体中具有较高的影响力与号召力
         - title: 街头艺术网
           url: https://www.streetartutopia.com/
           logo: https://i0.wp.com/www.streetartutopia.com/wp-content/uploads/2019/08/427068_10150673564687700_1763374176_n.jpg?fit=32%2C32&ssl=1
           description: 一个街头艺术乌托邦平台，拥有众多的艺术家和收藏作品，可以点击网站的任意链接，查找相关的艺术家作品和主题作品
-          
         - title: Colossal
           url: https://www.thisiscolossal.com/
           logo: https://www.thisiscolossal.com/favicon-32x32.png
@@ -1159,6 +1162,10 @@
           url: https://www.uzer.me/
           logo: https://img.uzer.me/uzsite/1584512994019/static-uzsite/images/logo.png
           description: 致力于全生命周期的文档管理,无需安装,即可在线编辑Office, CAD,PS等任意格式文档,支持远程协作,全文检索,版本管理,权限管理,安全外发等.提高工作效率,降低安全风险
+        - title: 云上应用
+          url: https://www.imcloudapp.com/
+          logo: /assets/images/icons/imcloudapp.png
+          description: 易用便捷、极简的轻应用收藏与管理、云端一体。云上应用，开启轻世界
         - title: X mind
           url: https://www.xmind.cn/xmind2020/
           logo: https://www.xmind.cn/apple-touch-icon-57x57.png
