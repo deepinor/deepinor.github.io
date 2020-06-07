@@ -1123,6 +1123,10 @@
         - title: 街头艺术网
           url: https://www.streetartutopia.com/
           logo: 一个街头艺术乌托邦平台，拥有众多的艺术家和收藏作品，可以点击网站的任意链接，查找相关的艺术家作品和主题作品
+        - title: Colossal
+          url: https://www.thisiscolossal.com/
+          logo: https://www.thisiscolossal.com/favicon-32x32.png
+          description: 一个图片视频网站，里面也提供了一些很有趣的视频和创意图片，它们也是很多账号素材的宠儿，翻了翻发现了很多爆款视在这里也被收录了
 
     - name: 发现产品
       links:
@@ -1130,15 +1134,11 @@
           logo: /assets/images/logos/sspai.png
           url: https://sspai.com/
           description: 高品质数字消费指南
-        - title: 利器
-          logo: /assets/images/logos/liqi.png
-          url: https://liqi.io/
-          description: 创造者和他们的工具
         - title: Today
           logo: /assets/images/logos/today.png
           url: http://today.itjuzi.com/
           description: 为身边的新产品喝彩
-          
+
 - name: 常用工具
   icon: linecons-diamond
   sub:
