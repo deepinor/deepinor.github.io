@@ -1477,6 +1477,10 @@
   sub:
     - name: 在线工具
       links:
+        - title: 工具123
+          url: http://www.gjw123.com/
+          logo: /assets/images/icons/logo-default.png
+          description: 全国第一家纯在线免安装的在线工具网站；目前集合了1800个在线小工具，包括：站长工具、娱乐工具、文件转换工具等等在线实用工具，而且是免费使用的哟，赶快来体验吧！
         - title: 迅捷在线
           logo: https://app.xunjiepdf.com/favicon.ico
           url: https://app.xunjiepdf.com/
