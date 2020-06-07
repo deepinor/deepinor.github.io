@@ -1222,7 +1222,6 @@
           url: https://www.wdl.org/zh/
           logo: https://www.wdl.org/static/img/logos/wdl-152x152.3c48b49bd60d.png
           description: 以多语种格式免费提供世界各地的重要材料
-
         - title: Library Genesis
           url: http://libgen.io/
           logo: /assets/images/icons/logo-default.png
@@ -1231,7 +1230,11 @@
           logo:
           title: 古登堡计划
           description: 超5.7万版权过期（Public domain）的电子书，免费、合法、无需注册
-
+        - title: 书单网
+          url: https://www.shudan.vip/
+          logo: /assets/images/icons/link-default.png
+          description: 让搜书变得简单
+          
         - url: http://www.zvdd.de/en/start/
           logo:
           title: Zvdd
@@ -1303,7 +1306,7 @@
           description: 一个提供计算机科学书籍，教科书和讲义免费电子书下载导航网站，链接到书籍符合法律要求或是版权协议，许可免费的
         - url: http://digital.library.upenn.edu/books/
           logo:
-          title: Online Books Page        
+          title: Online Books Page
           description: 超过200万本免费电子书索引，其中有超过50万本为网站编辑精选合集，所有入选内容必须能够在线免费获得，不涉及到版权问题。索引中收录了免费书籍、权威馆藏和连续出版物。
         - url: https://openlibrary.org/
           logo:
