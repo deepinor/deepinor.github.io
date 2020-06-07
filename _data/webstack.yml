@@ -1258,10 +1258,17 @@
 
     - name: 科学科普
       links:
-        - url: https://huanqiukexue.com/
-          description: 《环球科学》是《科学美国人》独家授权中文版。《科学美国人》（Scientific American）是全球科技媒体第一品牌，全球科学家智慧与卓越见解的分享之地
-          logo:
-          title: 环球科学
+        - title: 果壳
+          url: https://www.guokr.com/
+          logo: /assets/images/icons/guokr.png
+          description: 一个泛科技主题网站，提供负责任、有智趣、贴近生活的内容，你可以在这里阅读、分享、交流、提问。
+
+        - title: 环球科学
+          url: https://huanqiukexue.com/
+          logo: /assets/images/icons/huanqiukexue.png
+          description: 《环球科学》杂志社官网,最快的科学新闻，最新的应用技术，著名科学爱好者现身说法，细数成功背后的种种诀窍，新锐鲜明的科学观点，颠覆传统的逻辑论断，50，100,150年前的科学美国人，见证经典时刻
+          
+
         - url: http://www.astron.ac.cn/index.htm
           description:
           logo:
@@ -1278,10 +1285,9 @@
           description: 提倡以&quot;格物致知&quot;的精神探讨科技、教育、生活、未来的发展。每月举办一期演讲活动，邀请来自科技、教育、文化、艺术等诸多领域嘉宾分享思想和观点。
           logo:
           title: 格致论道
-        - url: https://www.guokr.com/
-          description: 泛科技主题网站,提供负责任、有智趣、贴近生活的内容,你可以在这里阅读、分享、交流、提问
-          logo:
-          title: 果壳科技有意思
+
+
+
         - url: https://songshuhui.net/
           description: 汇聚了当代最优秀的华语青年科学传播者的非营利机构,旨在“剥开科学的坚果,帮助人们领略科学之美妙”
           logo:
