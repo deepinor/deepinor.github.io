@@ -1838,6 +1838,7 @@
           logo: http://assets.dxycdn.com/app/bbs/favicon@2x.ico
           url: http://www.dxy.cn/
           description: 丁香园是面向医生、医疗机构、医药从业者以及生命科学领域人士的专业性社会化网络，提供医学、医疗、药学、生命科学等相关领域的交流平台、专业知识、最新科研进展以及技术服务。
+          
     - name: 旅游
       links:
         - title: 天巡
@@ -1881,10 +1882,6 @@
           logo: http://www.lvmama.com/favicon.ico
           title: 驴妈妈
 
-        - url: http://www.lotour.com/
-          url
-          title: 乐途
-
         - url: http://www.dili360.com/
           logo: http://www.dili360.com/favicon.ico
           title: 中国国家地理
@@ -1904,6 +1901,7 @@
         - url: http://www.aoyou.com/
           logo: http://www.aoyou.com/favicon.ico
           title: 中青旅遨游
+          
 - name: 友情链接
   icon: linecons-user
   links:
