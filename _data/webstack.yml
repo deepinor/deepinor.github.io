@@ -426,8 +426,8 @@
            logo: https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32
            description: 一个聚焦信息技术公司报道的新闻网站，他们关注的公司大小各异，从创业公司到纳斯达克指数所包含的顶尖企业都有涉及
 
-    - name: 社区
-      links:
+      - name: 社区
+        links:
          - title: 知乎
            url: https://www.zhihu.com/
            logo: https://static.zhihu.com/static/favicon.ico
@@ -1266,12 +1266,11 @@
           url: https://songshuhui.net/
           logo: https://songshuhui.net/wp-content/uploads/cropped-songshuhui-32x32.jpg
           description: 汇聚了当代最优秀的华语青年科学传播者的非营利机构,旨在“剥开科学的坚果,帮助人们领略科学之美妙”
-          
         - title: 环球科学
           url: https://huanqiukexue.com/
           logo: /assets/images/icons/huanqiukexue.png
           description: 《环球科学》杂志社官网,最快的科学新闻，最新的应用技术，著名科学爱好者现身说法，细数成功背后的种种诀窍，新锐鲜明的科学观点，颠覆传统的逻辑论断，50，100,150年前的科学美国人，见证经典时刻
-          
+
         - url: http://www.astron.ac.cn/index.htm
           description:
           logo:
