@@ -1377,6 +1377,19 @@
           logo: https://airportal.cn/img/mainLogo_2020.png
           description: 一个免费即时文件分享网站
 
+- name: 生活点滴
+  icon: linecons-diamond
+  sub:
+    - name: 医疗
+      links:
+        - title: 医学微视
+          logo: https://www.mvyxws.com/images/logo_01.png
+          url: https://www.mvyxws.com/
+          description: 中国医药卫生事业发展基金会医学科普微视频百科全书
+        - title: 丁香园
+          logo: http://assets.dxycdn.com/app/bbs/favicon@2x.ico
+          url: http://www.dxy.cn/
+          description: 丁香园是面向医生、医疗机构、医药从业者以及生命科学领域人士的专业性社会化网络，提供医学、医疗、药学、生命科学等相关领域的交流平台、专业知识、最新科研进展以及技术服务。
 - name: 友情链接
   icon: linecons-user
   links:
