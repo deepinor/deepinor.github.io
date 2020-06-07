@@ -1171,7 +1171,7 @@
           url: https://alternativeto.net/
           logo: https://alternativeto.net/apple-touch-icon.png
           description: 列出了基于Web的软件，台式计算机软件和移动应用程序的替代方案
-       
+
 
     - name: 界面设计
       links:
@@ -1282,6 +1282,15 @@
           logo: /assets/images/logos/mustsee.png
           description: Discover the world's most beautiful places at every opened tab.
 
+- name: 学习提升
+  icon: 
+  sub: 
+    - name: 图书
+      links: 
+        - title: 中国国家图书馆：
+          logo: /assets/imaged/icons/nlc.png
+          url: http://www.nlc.cn/
+          description: 国家图书馆是国家总书库，国家书目中心，国家古籍保护中心，国家典籍博物馆
 
 - name: 高效工作
   icon: linecons-cog
