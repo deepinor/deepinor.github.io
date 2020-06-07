@@ -409,79 +409,79 @@
            logo: /assets/images/icons/ec.png
            url: http://www.ce.cn/
            description: 国家重点新闻网站中唯一以经济报道为中心的综合新闻网站，每日采写大量经济新闻，同时整合国内主要媒体经济新闻及信息，为政府部门、企业决策提供权威的参考依据；为所有关注经济生活的网络读者提供丰富及时的经济新闻
-           
-          - url: https://xueqiu.com/ 
-            logo: https://xueqiu.com/favicon.ico 
-            title: 雪球 
 
-          - url: https://finance.sina.com.cn/ 
-            logo: https://finance.sina.com.cn/favicon.ico 
-            title: 新浪财经 
-            
-          - url: https://new.qq.com/ch/finance/ 
-            logo: https://new.qq.com/favicon.ico 
-            title: 腾讯财经 
-            
-          - url: https://www.eastmoney.com/ 
-            logo: https://www.eastmoney.com/favicon.ico 
-            title: 东方财富网 
-            
-          - url: http://finance.ifeng.com/ 
-            logo: http://finance.ifeng.com/favicon.ico 
-            title: 凤凰财经 
-            
-          - url: https://money.163.com/ 
-            logo: https://money.163.com/favicon.ico 
-            title: 网易财经 
-            
-          - url: http://www.etnetchina.com.cn/ 
-            logo: http://www.etnetchina.com.cn/favicon.ico 
-            title: 专业财经网 
-            
-          - url: http://www.caijing.com.cn/ 
-            logo: http://www.caijing.com.cn/favicon.ico 
-            title: 财经网 
-            
-          - url: http://1234567.com.cn 
-            logo: http://1234567.com.cn/favicon.ico 
-            title: 天天基金网 
-            
-          - url: http://southmoney.com/ 
-            logo: http://southmoney.com/favicon.ico 
-            title: 南方财富网 
-            
-          - url: http://www.ce.cn/ 
-            logo: http://www.ce.cn/favicon.ico 
-            title: 中国经济网 
-            
-          - url: http://www.10jqka.com.cn/ 
-            logo: http://www.10jqka.com.cn/favicon.ico 
-            title: 同花顺财经 
-            
-          - url: http://www.stockstar.com/ 
-            logo: http://www.stockstar.com/favicon.ico 
-            title: 证券之星 
-            
-          - url: http://www.jrj.com.cn/ 
-            logo: http://www.jrj.com.cn/favicon.ico 
-            title: 金融界 
-            
-          - url: http://business.sohu.com/ 
-            logo: http://business.sohu.com/favicon.ico 
-            title: 搜狐财经 
-            
-          - url: http://www.financeun.com/ 
-            logo: http://img.ilxdh.com/navig/2019-12-05/1575547953_266.png?auth_key=1591543207-78ba3e589378a44adab3feb012dc12b16af2909b-0-2fad6bdb3d3dc029b3d46470c6504865 
-            title: 中国金融网 
-            
-          - url: http://www.hexun.com/ 
-            logo: http://www.hexun.com/favicon.ico 
-            title: 和讯财经 
-            
-          - url: https://xueqiu.com/dh 
-            logo: https://xueqiu.com/favicon.ico 
-            title: 雪球财经导航 
-        
+          - url: https://xueqiu.com/
+            logo: https://xueqiu.com/favicon.ico
+            title: 雪球
+
+          - url: https://finance.sina.com.cn/
+            logo: https://finance.sina.com.cn/favicon.ico
+            title: 新浪财经
+
+          - url: https://new.qq.com/ch/finance/
+            logo: https://new.qq.com/favicon.ico
+            title: 腾讯财经
+
+          - url: https://www.eastmoney.com/
+            logo: https://www.eastmoney.com/favicon.ico
+            title: 东方财富网
+
+          - url: http://finance.ifeng.com/
+            logo: http://finance.ifeng.com/favicon.ico
+            title: 凤凰财经
+
+          - url: https://money.163.com/
+            logo: https://money.163.com/favicon.ico
+            title: 网易财经
+
+          - url: http://www.etnetchina.com.cn/
+            logo: http://www.etnetchina.com.cn/favicon.ico
+            title: 专业财经网
+
+          - url: http://www.caijing.com.cn/
+            logo: http://www.caijing.com.cn/favicon.ico
+            title: 财经网
+
+          - url: http://1234567.com.cn
+            logo: http://1234567.com.cn/favicon.ico
+            title: 天天基金网
+
+          - url: http://southmoney.com/
+            logo: http://southmoney.com/favicon.ico
+            title: 南方财富网
+
+          - url: http://www.ce.cn/
+            logo: http://www.ce.cn/favicon.ico
+            title: 中国经济网
+
+          - url: http://www.10jqka.com.cn/
+            logo: http://www.10jqka.com.cn/favicon.ico
+            title: 同花顺财经
+
+          - url: http://www.stockstar.com/
+            logo: http://www.stockstar.com/favicon.ico
+            title: 证券之星
+
+          - url: http://www.jrj.com.cn/
+            logo: http://www.jrj.com.cn/favicon.ico
+            title: 金融界
+
+          - url: http://business.sohu.com/
+            logo: http://business.sohu.com/favicon.ico
+            title: 搜狐财经
+
+          - url: http://www.financeun.com/
+            logo: http://img.ilxdh.com/navig/2019-12-05/1575547953_266.png?auth_key=1591543207-78ba3e589378a44adab3feb012dc12b16af2909b-0-2fad6bdb3d3dc029b3d46470c6504865
+            title: 中国金融网
+
+          - url: http://www.hexun.com/
+            logo: http://www.hexun.com/favicon.ico
+            title: 和讯财经
+
+          - url: https://xueqiu.com/dh
+            logo: https://xueqiu.com/favicon.ico
+            title: 雪球财经导航
+
       - name: 科技
         links:
          - title: 雷锋网
@@ -1753,6 +1753,72 @@
           logo: http://assets.dxycdn.com/app/bbs/favicon@2x.ico
           url: http://www.dxy.cn/
           description: 丁香园是面向医生、医疗机构、医药从业者以及生命科学领域人士的专业性社会化网络，提供医学、医疗、药学、生命科学等相关领域的交流平台、专业知识、最新科研进展以及技术服务。
+    - name: 旅游
+      links:
+        - title: 天巡
+          logo: /assets/images/icons/tianxun.png
+          url: https://www.tianxun.com/
+          description: 为您提供覆盖全球超过1000家航空公司航班机票，含廉价航空，国际机票，特价机票，查询预定及酒店租车等服务！比较机票价格、打折机票预订。世界最大独立机票搜索引擎，国际机票首选平台
+          
+        - url: https://www.fliggy.com/
+          logo: /assets/images/icons/flipig.ico
+          title: 飞猪
+
+        - title: 携程
+          url: https://www.ctrip.com/
+          logo: https://pic.c-ctrip.com/h5/common/57.png
+
+        - url: http://www.elong.com/
+          logo: http://www.elong.com/favicon.ico
+          title: 艺龙
+
+        - url: http://www.mafengwo.cn/
+          logo: http://www.mafengwo.cn/favicon.ico
+          title: 马蜂窝
+
+        - url: https://www.qunar.com/
+          logo: https://www.qunar.com/favicon.ico
+          title: 去哪儿
+
+        - url: https://www.ly.com/
+          logo: https://www.ly.com/favicon.ico
+          title: 同程
+
+        - url: https://www.tuniu.com/
+          logo: https://www.tuniu.com/favicon.ico
+          title: 途牛
+
+        - url: https://www.qyer.com/
+          logo: https://www.qyer.com/favicon.ico
+          title: 穷游网
+
+        - url: http://www.lvmama.com/
+          logo: http://www.lvmama.com/favicon.ico
+          title: 驴妈妈
+
+        - url: http://www.lotour.com/
+          url
+          title: 乐途
+
+        - url: http://www.dili360.com/
+          logo: http://www.dili360.com/favicon.ico
+          title: 中国国家地理
+
+        - url: http://bbs.8264.com/
+          logo: http://bbs.8264.com/favicon.ico
+          title: 驴友论坛
+
+        - url: http://bbs.fblife.com/forum.php
+          logo: http://bbs.fblife.com/favicon.ico
+          title: 越野e族
+
+        - url: http://www.youxiake.com/
+          logo: http://www.youxiake.com/favicon.ico
+          title: 游侠客
+
+        - url: http://www.aoyou.com/
+          logo: http://www.aoyou.com/favicon.ico
+          title: 中青旅遨游
 - name: 友情链接
   icon: linecons-user
   links:
