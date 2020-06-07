@@ -624,29 +624,6 @@
           url: https://www.videograbber.net/zh/
           description: 可以帮您下载优酷、爱奇艺、哔哩哔哩、搜狐等其他网站的视频。只需一键点击，就可以解锁真实的视频文件，而且有多种视频文件可供选择，比如MP4、FLV、3GP、WMV、WEBM、MP3等等
 
-    - name: 发现产品
-      links:
-        - title: NEXT
-          logo: /assets/images/logos/NEXT.png
-          url: https://next.36kr.com/posts
-          description: 不错过任何一个新产品
-        - title: 少数派
-          logo: /assets/images/logos/sspai.png
-          url: https://sspai.com/
-          description: 高品质数字消费指南
-        - title: 利器
-          logo: /assets/images/logos/liqi.png
-          url: https://liqi.io/
-          description: 创造者和他们的工具
-        - title: Today
-          logo: /assets/images/logos/today.png
-          url: http://today.itjuzi.com/
-          description: 为身边的新产品喝彩
-        - title: 小众软件
-          logo: /assets/images/logos/appinn.png
-          url: https://faxian.appinn.com/
-          description: 在这里发现更多有趣的应用
-
 - name: 素材资源
   icon: linecons-thumbs-up
   sub:
@@ -1063,7 +1040,7 @@
           description: New 100% Free Stock Photos. Every. Single. Week.
 
 - name: 艺术灵感
-  icon: 
+  icon:
     - name: 界面灵感
       links:
         - title: Pttrns
@@ -1140,13 +1117,27 @@
           logo: /assets/images/logos/ReallyGoodUX.png
           url: https://www.reallygoodux.io/
           description: A library of screenshots and examples of really good UX. Brought to you by
-          
+
     - name: 艺术
-      links: 
+      links:
         - title: 街头艺术网
           url: https://www.streetartutopia.com/
           logo: 一个街头艺术乌托邦平台，拥有众多的艺术家和收藏作品，可以点击网站的任意链接，查找相关的艺术家作品和主题作品
-          
+
+    - name: 发现产品
+      links:
+        - title: 少数派
+          logo: /assets/images/logos/sspai.png
+          url: https://sspai.com/
+          description: 高品质数字消费指南
+        - title: 利器
+          logo: /assets/images/logos/liqi.png
+          url: https://liqi.io/
+          description: 创造者和他们的工具
+        - title: Today
+          logo: /assets/images/logos/today.png
+          url: http://today.itjuzi.com/
+          description: 为身边的新产品喝彩
           
 - name: 常用工具
   icon: linecons-diamond
@@ -1169,6 +1160,10 @@
           url: https://msdn.itellyou.cn/
           logo: https://www.microsoft.com/favicon.ico?v2
           description: msdn我告诉你, 微软产品下载中心
+        - title: 小众软件
+          logo: /assets/images/logos/appinn.png
+          url: https://faxian.appinn.com/
+          description: 在这里发现更多有趣的应用
 
     - name: Chrome插件
       links:
