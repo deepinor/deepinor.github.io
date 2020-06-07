@@ -421,13 +421,17 @@
            logo: /assets/images/logos/today.png
            url: http://today.itjuzi.com/
            description: 为身边的新产品喝彩
-           
-      - name: 社区
-        links:
+         - title: Techcrunch
+           url: https://techcrunch.com/
+           logo: https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32
+           description: 一个聚焦信息技术公司报道的新闻网站，他们关注的公司大小各异，从创业公司到纳斯达克指数所包含的顶尖企业都有涉及
+
+    - name: 社区
+      links:
          - title: 知乎
-           url:
-           logo:
-           description:
+           url: https://www.zhihu.com/
+           logo: https://static.zhihu.com/static/favicon.ico
+           description: 社会化问答网站
          - title: quora
            logo: https://qsf.fs.quoracdn.net/-3-images.favicon.ico-26-ae77b637b1e7ed2c.ico
            url: https://www.quora.com/
