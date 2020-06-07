@@ -405,10 +405,10 @@
 
       - name: 经济
         links:
-         - title: 中国经济网
-           logo: /assets/images/icons/ec.png
-           url: http://www.ce.cn/
-           description: 国家重点新闻网站中唯一以经济报道为中心的综合新闻网站，每日采写大量经济新闻，同时整合国内主要媒体经济新闻及信息，为政府部门、企业决策提供权威的参考依据；为所有关注经济生活的网络读者提供丰富及时的经济新闻
+          - title: 中国经济网
+            logo: /assets/images/icons/ec.png
+            url: http://www.ce.cn/
+            description: 国家重点新闻网站中唯一以经济报道为中心的综合新闻网站，每日采写大量经济新闻，同时整合国内主要媒体经济新闻及信息，为政府部门、企业决策提供权威的参考依据；为所有关注经济生活的网络读者提供丰富及时的经济新闻
 
           - url: https://xueqiu.com/
             logo: https://xueqiu.com/favicon.ico
@@ -774,6 +774,91 @@
           description:
           logo:
           title: TVB云播
+
+    - name: 直播
+      links:
+          - url: https://www.huya.com/
+            logo: https://www.huya.com/favicon.ico
+            title: 虎牙
+
+          - url: https://www.douyu.com/
+            logo: https://www.douyu.com/favicon.ico
+            title: 斗鱼
+
+          - url: https://live.bilibili.com/
+            logo: https://live.bilibili.com/favicon.ico
+            title: bilibili直播
+
+          - url: https://www.yy.com/
+            logo: https://www.yy.com/favicon.ico
+            title: YY直播
+
+          - url: http://www.longzhu.com/
+            logo: http://www.longzhu.com/favicon.ico
+            title: 龙珠直播
+
+          - url: https://www.zhanqi.tv/
+            logo: https://www.zhanqi.tv/favicon.ico
+            title: 战旗直播
+
+          - url: https://live.kuaishou.com/
+            logo:
+            title: 快手直播
+
+          - url: http://cc.163.com/
+            logo: http://cc.163.com/favicon.ico
+            title: CC直播
+
+          - url: https://www.huajiao.com/
+            logo: https://www.huajiao.com/favicon.ico
+            title: 花椒直播
+
+          - url: https://www.huomao.com/
+            logo: https://www.huomao.com/favicon.ico
+            title: 火猫直播
+
+          - url: https://chushou.tv/
+            logo: https://chushou.tv/favicon.ico
+            title: 触手直播
+
+          - url: http://www.inke.cn/
+            logo: http://www.inke.cn/favicon.ico
+            title: 映客直播
+
+          - url: http://tv.cctv.com/live/cctv1/
+            logo: http://tv.cctv.com/favicon.ico
+            title: CCTV全直播
+
+          - url: http://www.migu123.com/
+            logo: http://www.migu123.com/favicon.ico
+            title: 咪咕直播
+
+          - url: http://live.jstv.com/
+            logo: http://live.jstv.com/favicon.ico
+            title: 江苏卫视
+
+          - url: http://tv.cztv.com/live1
+            logo: http://tv.cztv.com/favicon.ico
+            title: 浙江卫视
+
+          - url: https://live.qq.com/
+            logo: https://live.qq.com/favicon.ico
+            title: 企鹅体育
+
+          - url: http://www.ningmengbo.com/
+            logo: http://www.ningmengbo.com/favicon.ico
+            title: 柠檬直播
+
+          - url: https://www.zhibo8.cc/
+            logo: https://www.zhibo8.cc/favicon.ico
+            title: 直播吧
+
+          - url: https://www.52waha.com/
+            logo: https://www.52waha.com/favicon.ico
+            title: 哇哈体育
+
+          - url: http://www.zhibo.me/
+            title: 直播迷网
 
     - name: 视频解析
       links:
@@ -1759,7 +1844,7 @@
           logo: /assets/images/icons/tianxun.png
           url: https://www.tianxun.com/
           description: 为您提供覆盖全球超过1000家航空公司航班机票，含廉价航空，国际机票，特价机票，查询预定及酒店租车等服务！比较机票价格、打折机票预订。世界最大独立机票搜索引擎，国际机票首选平台
-          
+
         - url: https://www.fliggy.com/
           logo: /assets/images/icons/flipig.ico
           title: 飞猪
