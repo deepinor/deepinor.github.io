@@ -1618,21 +1618,21 @@
           logo: /assets/images/icons/logo-default.png
           description: 让搜书变得简单
         - url: http://www.zvdd.de/en/start/
-          logo:
+          logo: http://www.zvdd.de/favicon.ico
           title: Zvdd
           description: 汇聚百万余册德国电子书的网站，包括十五世纪以来的各种书籍，可检索浏览，其中有不少中文书
         - url: https://cnx.org/
-          logo:
+          logo: https://cnx.org/images/favicon-32x32.cache.a9deab55125ff207.png
           title: OpenStax CNX
           description: 已有2000多本书人文学科、数学计算、科学技术等几大类，所有的书籍支持在线看和免费下载
 
         - url: http://en.booksee.org/
-          logo:
+          logo: http://en.booksee.org/favicon.ico
           title: Booksee
           description: 免费电子书库，超过200万本书和杂志
 
         - url: http://en.bookfi.net/
-          logo:
+          logo: http://en.bookfi.net/favicon.ico
           title: BookFI
           description: 最流行多语言在线图书馆之一，超过220万本书下载
 
@@ -1897,7 +1897,7 @@
           logo: https://zh.wikihow.com/favicon.ico
           url: https://zh.wikihow.com/
           description: 你可以信赖的万事指南
-          
+
     - name: 医疗
       links:
         - title: 医学微视
