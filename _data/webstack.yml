@@ -1214,6 +1214,121 @@
           logo: /assets/images/icons/nlc.png
           url: http://www.nlc.cn/
           description: 国家图书馆是国家总书库，国家书目中心，国家古籍保护中心，国家典籍博物馆
+        - title: 鸠摩搜书
+          logo: https://www.jiumodiary.com/images/apple/apple-57.png
+          url: https://www.jiumodiary.com/
+          description: 文档搜索引擎
+        - title: 世界数字图书馆
+          url: https://www.wdl.org/zh/
+          logo: https://www.wdl.org/static/img/logos/wdl-152x152.3c48b49bd60d.png
+          description: 以多语种格式免费提供世界各地的重要材料
+
+        - title: Library Genesis
+          url: http://libgen.io/
+          logo: /assets/images/icons/logo-default.png
+          description: 超270万份书籍、5800万份科学期刊免费下载，每天都在增加
+        - url: http://www.gutenberg.org/
+          logo:
+          title: 古登堡计划
+          description: 超5.7万版权过期（Public domain）的电子书，免费、合法、无需注册
+
+        - url: http://www.zvdd.de/en/start/
+          logo:
+          title: Zvdd
+          description: 汇聚百万余册德国电子书的网站，包括十五世纪以来的各种书籍，可检索浏览，其中有不少中文书
+
+        - url: https://cnx.org/
+          logo:
+          title: OpenStax CNX
+          description: 已有2000多本书人文学科、数学计算、科学技术等几大类，所有的书籍支持在线看和免费下载
+
+        - url: http://en.booksee.org/
+          logo:
+          title: Booksee
+          description: 免费电子书库，超过200万本书和杂志
+
+        - url: http://en.bookfi.net/
+          logo:
+          title: BookFI
+          description: 最流行多语言在线图书馆之一，超过220万本书下载
+
+        - url: http://www.ebook3000.com/
+          logo:
+          title: ebook3000
+          description: 最好的电子书库之一，提供免费电子书目录和下载链接
+
+        - url: http://booksc.org/
+          logo:
+          title: BookSC
+          description: 世界最大科学文档资源库，超过5000万篇文章
+
+        - url: https://ocw.mit.edu/index.htm
+          logo:
+          title: MIT OpenCourseWare
+          description: 公开MIT的全部课程的教学材料和课件，供免费使用，其中有部分教科书和高中课程
+
+        - url: https://open.umn.edu/opentextbooks/
+          logo:
+          title: Open Textbook Library
+          description: 开放教科书是经过资助、出版和许可的教科书，可以自由使用，改编和分发。这些书籍已经通过各种学院和大学的教师评估，确保质量
+
+        - url: http://www.edx.org/
+          logo:
+          title: edX开放课程平台
+          description: 麻省理工和哈佛大学联手创建的大规模开放课程平台
+
+        - url: http://www.freebookspot.es/
+          logo:
+          title: FreeBookSpot
+          description: 一个免费英文电子书大全网站，它提供有4485本免费电子书，分为96个分类，高达71.97GB
+        - url: http://www.free-ebooks.net
+          logo:
+          title: Free-eBooks
+          description: 一个提供免费电子书下载，电子书资源，电子书作者介绍的网站
+        - url: http://www.manybooks.net/
+          logo:
+          title: ManyBooks
+          description: 一个专门提供免费和打折电子书下载的网站，它所提供的免费电子书近3万本
+        - url: https://www.getfreeebooks.com/
+          logo:
+          title: GetFreeEBooks
+          description: 一个提供免费电子书下载的网站，站内的所有电子书都可以免费下载
+        - url: http://freecomputerbooks.com/
+          logo:
+          title: FreeComputerBooks
+          description: 一个专门收集计算机，编程，数学，工程和技术书籍，讲义和教程等专业知识电子书的链接网站，内容全免费，有13个顶级类别和200多个子类别
+        - url: http://www.freetechbooks.com/
+          logo:
+          title: FreeTechBooks
+          description: 一个提供计算机科学书籍，教科书和讲义免费电子书下载导航网站，链接到书籍符合法律要求或是版权协议，许可免费的
+        - url: http://digital.library.upenn.edu/books/
+          logo:
+          title: Online Books Page        
+          description: 超过200万本免费电子书索引，其中有超过50万本为网站编辑精选合集，所有入选内容必须能够在线免费获得，不涉及到版权问题。索引中收录了免费书籍、权威馆藏和连续出版物。
+        - url: https://openlibrary.org/
+          logo:
+          title: Open Library
+          description: 一个开放的，可编辑的图书馆目录，为每本图书创建一个网页，截止到2018年10月共收录了超过36万本书。就像维基百科一样，用户可以向目录提供新信息或者进行更正用户可以按主题、作者或者成员进行浏览
+        - url: https://www.hathitrust.org/
+          logo:
+          title: HathiTrust数字图书馆
+          description: 美国高校图书馆建立的一个旨在将其成员馆所收藏的纸质文献进行数字化存储，为用户提供数字服务的数字图书馆项目。截至2018年10月，HathiTrust项目已经数字化文献1675万册，包括约81万册的图书和44万册的连续出版物用户可以按主题、作者或者成员进行浏览
+        - url: https://www.planetebook.com/
+          logo:
+          title: Planet eBook
+          description: 免费的经典文学之家！ 该网站的最新版本，对移动设备友好设计，支持多种格式电子书，致力于提供电子书集适配所有设备
+        - url: https://en.wikibooks.org/wiki/Main_Page
+          logo:
+          title: Wikibooks(维基教科书)
+          description: 由维基媒体基金会主办的维基教科书网站，人人可编辑的免费、自由教科书
+        - url: https://www.nap.edu/
+          logo:
+          title: National Academies Press 美国国家学术出版社
+          description: 出版的大部分PDF版图书对所有读者免费开放下载，并且将这些图书去除DRM保护
+        - url: https://ebookee.org/
+          logo:
+          title: EBOOKEE
+          description: 该站书籍种类丰富，基本专业书籍都可找到
 
 - name: 高效工作
   icon: linecons-cog
