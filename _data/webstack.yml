@@ -1380,6 +1380,12 @@
 - name: 生活点滴
   icon: linecons-diamond
   sub:
+    - name: 综合：
+      links: 
+        - title: WikiHow
+          logo: https://zh.wikihow.com/favicon.ico
+          url: https://zh.wikihow.com/
+          description: 你可以信赖的万事指南
     - name: 医疗
       links:
         - title: 医学微视
