@@ -1221,6 +1221,24 @@
 - name: 学习提升
   icon: linecons-graduation-cap
   sub:
+    - name: 在线课程
+      links:
+        - title: TED
+          url: https://www.ted.com
+          logo: https://pa.tedcdn.com/favicon.ico
+          description: 美国的媒体组织，其口号是“值得传播的思想”，可以在线发布演讲稿以供免费分发
+        - title: 网易公开课
+          url: https://open.163.com/
+          logo: https://c.open.163.com/favicon.ico
+          description: 网易视频公开课频道推出国内外名校公开课,涉及广泛的学科,名校老师认真讲解深度剖析,网易视频公开课频道搭建起强有力的网络视频教学平台
+        - url: https://ocw.mit.edu/index.htm
+          logo: https://ocw.mit.edu/images/apple-touch-icon.png
+          title: MIT OpenCourseWare
+          description: 公开MIT的全部课程的教学材料和课件，供免费使用，其中有部分教科书和高中课程
+        - url: http://www.edx.org/
+          logo: https://www.edx.org/sites/default/files/theme/favicon.png
+          title: EDX
+          description: 麻省理工和哈佛大学联手开放课程平台
     - name: 图书
       links:
         - title: 中国国家图书馆：
@@ -1251,7 +1269,6 @@
           logo:
           title: Zvdd
           description: 汇聚百万余册德国电子书的网站，包括十五世纪以来的各种书籍，可检索浏览，其中有不少中文书
-
         - url: https://cnx.org/
           logo:
           title: OpenStax CNX
@@ -1277,20 +1294,10 @@
           title: BookSC
           description: 世界最大科学文档资源库，超过5000万篇文章
 
-        - url: https://ocw.mit.edu/index.htm
-          logo:
-          title: MIT OpenCourseWare
-          description: 公开MIT的全部课程的教学材料和课件，供免费使用，其中有部分教科书和高中课程
-
         - url: https://open.umn.edu/opentextbooks/
           logo:
           title: Open Textbook Library
           description: 开放教科书是经过资助、出版和许可的教科书，可以自由使用，改编和分发。这些书籍已经通过各种学院和大学的教师评估，确保质量
-
-        - url: http://www.edx.org/
-          logo:
-          title: edX开放课程平台
-          description: 麻省理工和哈佛大学联手创建的大规模开放课程平台
 
         - url: http://www.freebookspot.es/
           logo:
