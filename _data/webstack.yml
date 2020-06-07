@@ -866,6 +866,46 @@
           logo: https://dnkhvatr21h8f.cloudfront.net/local/videograbber.net/img/logo.png?1583114308.114
           url: https://www.videograbber.net/zh/
           description: 可以帮您下载优酷、爱奇艺、哔哩哔哩、搜狐等其他网站的视频。只需一键点击，就可以解锁真实的视频文件，而且有多种视频文件可供选择，比如MP4、FLV、3GP、WMV、WEBM、MP3等等
+          
+        - url: http://www.qmaile.com/
+          description: 
+          logo: 
+          title: 全民vip视频在线解析
+         
+        - url: https://tv.bavei.com/
+          description: 
+          logo: 
+          title: 大咖领域vip视频在线解析
+         
+        - url: https://daga.cc/
+          description: 
+          logo: 
+          title: 蓝光vip视频在线解析
+         
+        - url: http://mv.688ing.com/
+          description: 
+          logo: 
+          title: 牛巴巴vip解析
+         
+        - url: http://czjx8.com/
+          description: 
+          logo: 
+          title: 船长解析-vip视频在线解析
+         
+        - url: http://www.spzcr.cn/
+          description: 
+          logo: 
+          title: 爱奇艺腾讯vip解析
+         
+        - url: https://vip.fxw.la/
+          description: 
+          logo: 
+          title: VIP在线视频解析
+         
+        - url: http://lcoc.top/m2.2/
+          description: 
+          logo: 
+          title: 蓝调2.2解析
 
 - name: 素材资源
   icon: linecons-thumbs-up
@@ -1410,7 +1450,10 @@
           logo: /assets/images/logos/appinn.png
           url: https://faxian.appinn.com/
           description: 在这里发现更多有趣的应用
-
+        - url: https://vip.svip8.vip/
+          description: 抖音去水印,快手去水印,抖音解析,快手解析,美拍今日头条西瓜视频去水印解析下载工具支持解析抖音快手美 
+          logo: 
+          title: 短视频去水印
     - name: Chrome插件
       links:
         - title: wappalyzer
@@ -1838,7 +1881,7 @@
           logo: http://assets.dxycdn.com/app/bbs/favicon@2x.ico
           url: http://www.dxy.cn/
           description: 丁香园是面向医生、医疗机构、医药从业者以及生命科学领域人士的专业性社会化网络，提供医学、医疗、药学、生命科学等相关领域的交流平台、专业知识、最新科研进展以及技术服务。
-          
+
     - name: 旅游
       links:
         - title: 天巡
@@ -1901,7 +1944,7 @@
         - url: http://www.aoyou.com/
           logo: http://www.aoyou.com/favicon.ico
           title: 中青旅遨游
-          
+
 - name: 友情链接
   icon: linecons-user
   links:
