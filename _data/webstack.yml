@@ -1040,7 +1040,7 @@
           url: https://unsplash.com/
           logo: /assets/images/logos/unsplash.png
           description: Beautiful, free photos.
-        - title: visualhunt
+        - title: Visualhunt
           url: https://visualhunt.com/
           logo: /assets/images/logos/visualhunt.png
           description: 100% Free High Quality Photos
@@ -1136,38 +1136,6 @@
           url: http://publicdomainarchive.com/
           logo: /assets/images/logos/publicdomainarchive.png
           description: New 100% Free Stock Photos. Every. Single. Week.
-
-    - name: PPT
-      links:
-        - title: OfficePLUS
-          url: http://www.officeplus.cn/Template/Home.shtml
-          logo: /assets/images/logos/officeplus.png
-          description: OfficePLUS，微软Office官方在线模板网站！
-        - title: 优品PPT
-          url: http://www.ypppt.com/
-          logo: /assets/images/logos/ypppt.png
-          description: 高质量的模版，而且还有PPT图表，PPT背景图等资源
-        - title: PPT+
-          url: http://www.pptplus.cn/
-          logo: /assets/images/logos/pptplus.png
-          description: PPT加直播、录制和分享—PPT+语音内容分享平台
-        - title: PPTMind
-          url: http://www.pptmind.com/
-          logo: /assets/images/logos/pptmind.png
-          description: 分享高端ppt模板与keynote模板的数字作品交易平台
-        - title: tretars
-          url: http://www.tretars.com/ppt-templates
-          logo: /assets/images/logos/tretars.png
-          description: The best free Mockups from the Web
-        - title: 5百丁
-          url: http://ppt.500d.me/
-          logo: /assets/images/logos/500d.png
-          description: 中国领先的PPT模板共享平台
-        - title: Slidershare
-          url: https://www.slideshare.net/
-          logo: /assets/images/icons/slideshare.png
-          description: 幻灯片和文档分享网站，用户可以上传自己的文件并展示出来
-
 
 - name: 常用工具
   icon: linecons-diamond
@@ -1363,7 +1331,7 @@
 - name: 高效工作
   icon: linecons-cog
   sub:
-    - name: 实用工具
+    - name: 在线工具
       links:
         - title: 迅捷在线
           logo: https://app.xunjiepdf.com/favicon.ico
@@ -1420,6 +1388,10 @@
           url: https://jakearchibald.github.io/svgomg/
           logo: /assets/images/logos/svgomg.png
           description: SVG在线压缩平台
+        - title: 创客贴
+          logo: /assets/images/icons/chuangkit.png
+          url: https://www.chuangkit.com/designtools/designindex
+          description: 创客贴专注图片模板在线设计,广告设计在线印刷.平台提供63类场景图片设计模板，一键生成，在线编辑。设计有名片、海报、ppt、邀请函、贺卡、宣传单、展架、公众号推文图片等社交媒体图片
 
     - name: Office
       links:
@@ -1455,7 +1427,8 @@
           logo: https://www.bangongziyuan.com/web/foreground/images/favicon.ico
           url: https://www.bangongziyuan.com/
           description: 办公资源网是一家专注海量办公资源下载的网站,提供各种精美创意PPT模板,Excel模板,Word模板,免费音效资源及素材,涉及个人简历,工作总结,教育培训课件等模板下载
-    - name: 在线配色
+
+    - name: 配色
       links:
         - title: khroma
           url: http://khroma.co/generator/
