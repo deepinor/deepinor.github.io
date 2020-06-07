@@ -617,13 +617,12 @@
           logo:
           title: TVB云播
 
-    - name: 电子书
+    - name: 视频解析
       links:
-        - title: ¹³C视频聚合
-          logo: /assets/logo.png
-          url: https://pan.guo.st
-          description:
-
+        - title: Videograbber
+          logo: https://dnkhvatr21h8f.cloudfront.net/local/videograbber.net/img/logo.png?1583114308.114
+          url: https://www.videograbber.net/zh/
+          description: 可以帮您下载优酷、爱奇艺、哔哩哔哩、搜狐等其他网站的视频。只需一键点击，就可以解锁真实的视频文件，而且有多种视频文件可供选择，比如MP4、FLV、3GP、WMV、WEBM、MP3等等
 
     - name: 发现产品
       links:
@@ -1164,6 +1163,10 @@
           url: http://ppt.500d.me/
           logo: /assets/images/logos/500d.png
           description: 中国领先的PPT模板共享平台
+        - title: Slidershare
+          url: https://www.slideshare.net/
+          logo: /assets/images/icons/slideshare.png
+          description: 幻灯片和文档分享网站，用户可以上传自己的文件并展示出来
 
 
 - name: 常用工具
@@ -1187,8 +1190,6 @@
           url: https://msdn.itellyou.cn/
           logo: https://www.microsoft.com/favicon.ico?v2
           description: msdn我告诉你, 微软产品下载中心
-
-
 
     - name: Chrome插件
       links:
