@@ -1041,6 +1041,7 @@
 
 - name: 艺术灵感
   icon:
+  sub: 
     - name: 界面灵感
       links:
         - title: Pttrns
