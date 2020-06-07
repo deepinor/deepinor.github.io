@@ -1372,23 +1372,27 @@
   links:
   sub:
     - name: 实用工具
-      links: 
+      links:
         - title: 文档压缩
           logo: https://docsmall.com/favicon.png
           url: https://docsmall.com/
           description: 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具
+          
         - title: Flourish
           logo: https://flourish.studio/images/logo-bosh.png
           url: https://flourish.studio/
           description: 非常好用的在线制作可视化数据的网站，不需要懂得代码就可以让我们的数据动起来，更加直观地展示我们的数据
+          
         - title: 稿定设计
           logo: https://st-gdx.dancf.com/assets/20190910-143749-32a5.png
           url: https://www.gaoding.com
           description: 线快速图片和视频编辑,不会PS也能搞定设计。海报、简历、PPT、公众号配图、电商等海量模板快速出图。三秒抠图实用便捷,抖音快手热门视频轻松搞定。海量正版授权资源,商用无忧。
+          
         - title: 白描
           logo: https://xlimage.uzero.cn/shinescan/res/favicon.ico
           url: https://web.baimiaoapp.com/
           description: 猫一样灵动的扫描识别神器。简洁高效的ocr文字识别应用与文件扫描软件，拍照取字高效确度，高清晰的文件扫描，可生成PDF，包含iOS版，安卓版，小程序版，网页版
+          
         - title: 微软爱写作
           logo: http://aimwriting.mtutor.engkoo.com/favicon.ico
           url: http://aimwriting.mtutor.engkoo.com/
