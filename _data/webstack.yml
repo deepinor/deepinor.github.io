@@ -805,10 +805,26 @@
           description:
           logo:
           title: 云播TV
-        - url: https://www.hktvyb.com/
+        - title: TVB云播
+          url: https://www.hktvyb.com/
           description:
-          logo:
-          title: TVB云播
+          logo: https://www.hktvyb.com/favicon.ico
+
+        - title: 完美看看
+          url: https://www.wanmeikk.me/
+          logo: https://www.wanmeikk.me/favicon.ico
+        - title: 全民看电影
+          url: http://vip.cnsalu.com/
+          logo: http://vip.cnsalu.com/favicon.ico
+        - title: 星辰影院
+          url: https://www.vodxc.in/
+          logo: https://www.vodxc.in/favicon.ico
+        - title: 两个BT
+          url: https://www.bttwo.com/
+          logo: https://www.bttwo.com/wp-content/themes/mibt/favicon.ico
+        - title: TV6
+          url: https://www.tv6.com/
+          logo: https://www.tv6.com/statics/img/favicon.ico
 
     - name: 直播
       links:
