@@ -1245,68 +1245,7 @@
           logo: /assets/images/logos/protopie.png
           description: 高保真交互原型设计
 
-    - name: 在线配色
-      links:
-        - title: khroma
-          url: http://khroma.co/generator/
-          logo: /assets/images/logos/khroma.png
-          description: Khroma is the fastest way to discover, search, and save color combos you'll want to use.
-        - title: uigradients
-          url: https://uigradients.com
-          logo: /assets/images/logos/uigradients.png
-          description: Beautiful colored gradients
-        - title: gradients
-          url: http://gradients.io/
-          logo: /assets/images/logos/gradients.png
-          description: Curated gradients for designers and developers
-        - title: Coolest
-          url: https://webkul.github.io/coolhue/
-          logo: /assets/images/logos/Coolest.png
-          description: Coolest handpicked Gradient Hues for your next super ⚡ amazing stuff
-        - title: webgradients
-          url: https://webgradients.com/
-          logo: /assets/images/logos/webgradients.png
-          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website.
-        - title: grabient
-          url: https://www.grabient.com/
-          logo: /assets/images/logos/grabient.png
-          description: 2017 Grabient by unfold
-        - title: thedayscolor
-          url: http://www.thedayscolor.com/
-          logo: /assets/images/logos/thedayscolor.png
-          description: The daily color digest
-        - title: flatuicolors
-          url: http://flatuicolors.com/
-          logo: /assets/images/logos/flatuicolors.png
-          description: Copy Paste Color Pallette from Flat UI Theme
-        - title: coolors
-          url: https://coolors.co/
-          logo: /assets/images/logos/coolors.png
-          description: The super fast color schemes generator!
-        - title: colorhunt
-          url: http://www.colorhunt.co/
-          logo: /assets/images/logos/colorhunt.png
-          description: Beautiful Color Palettes
-        - title: Adobe Color CC
-          url: https://color.adobe.com/zh/create/color-wheel
-          logo: /assets/images/logos/AdobeColorCC.png
-          description: Create color schemes with the color wheel or browse thousands of color combinations from the Color community.
-        - title: flatuicolorpicker
-          url: http://www.flatuicolorpicker.com/
-          logo: /assets/images/logos/flatuicolorpicker.png
-          description: Best Flat Colors For UI Design
-        - title: trianglify
-          url: http://qrohlf.com/trianglify-generator/
-          logo: /assets/images/logos/trianglify.png
-          description: Trianglify Generator
-        - title: klart
-          url: https://klart.co/colors/
-          logo: /assets/images/logos/klart.png
-          description: Beautiful colors and designs to your inbox every week
-        - title: vanschneider
-          url: http://www.vanschneider.com/colors
-          logo: /assets/images/logos/vanschneider.png
-          description: Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.
+
 
     - name: 在线工具
       links:
@@ -1397,6 +1336,74 @@
           url: http://aimwriting.mtutor.engkoo.com/
           description: 微软出品的一款免费工具，利用AI对英文作文进行打分和修改，自动检查语法和拼写错误的网站。
 
+    - name: 在线配色
+      links:
+        - title: khroma
+          url: http://khroma.co/generator/
+          logo: /assets/images/logos/khroma.png
+          description: Khroma is the fastest way to discover, search, and save color combos you'll want to use.
+        - title: uigradients
+          url: https://uigradients.com
+          logo: /assets/images/logos/uigradients.png
+          description: Beautiful colored gradients
+        - title: gradients
+          url: http://gradients.io/
+          logo: /assets/images/logos/gradients.png
+          description: Curated gradients for designers and developers
+        - title: Coolest
+          url: https://webkul.github.io/coolhue/
+          logo: /assets/images/logos/Coolest.png
+          description: Coolest handpicked Gradient Hues for your next super ⚡ amazing stuff
+        - title: webgradients
+          url: https://webgradients.com/
+          logo: /assets/images/logos/webgradients.png
+          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website.
+        - title: grabient
+          url: https://www.grabient.com/
+          logo: /assets/images/logos/grabient.png
+          description: 2017 Grabient by unfold
+        - title: thedayscolor
+          url: http://www.thedayscolor.com/
+          logo: /assets/images/logos/thedayscolor.png
+          description: The daily color digest
+        - title: flatuicolors
+          url: http://flatuicolors.com/
+          logo: /assets/images/logos/flatuicolors.png
+          description: Copy Paste Color Pallette from Flat UI Theme
+        - title: coolors
+          url: https://coolors.co/
+          logo: /assets/images/logos/coolors.png
+          description: The super fast color schemes generator!
+        - title: colorhunt
+          url: http://www.colorhunt.co/
+          logo: /assets/images/logos/colorhunt.png
+          description: Beautiful Color Palettes
+        - title: Adobe Color CC
+          url: https://color.adobe.com/zh/create/color-wheel
+          logo: /assets/images/logos/AdobeColorCC.png
+          description: Create color schemes with the color wheel or browse thousands of color combinations from the Color community.
+        - title: flatuicolorpicker
+          url: http://www.flatuicolorpicker.com/
+          logo: /assets/images/logos/flatuicolorpicker.png
+          description: Best Flat Colors For UI Design
+        - title: trianglify
+          url: http://qrohlf.com/trianglify-generator/
+          logo: /assets/images/logos/trianglify.png
+          description: Trianglify Generator
+        - title: klart
+          url: https://klart.co/colors/
+          logo: /assets/images/logos/klart.png
+          description: Beautiful colors and designs to your inbox every week
+        - title: vanschneider
+          url: http://www.vanschneider.com/colors
+          logo: /assets/images/logos/vanschneider.png
+          description: Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.
+        - title: 中国色
+          logo: http://zhongguose.com/img/favicon.ico
+          url: http://zhongguose.com/
+          description: 提供各种中国的传统颜色的名称，CMYK值，RGB值，16进制表示
+          
+          
     - name: 文件分享
       links:
         - title: Airportal
