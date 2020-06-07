@@ -698,17 +698,51 @@
         - url: http://live.jstv.com/
           logo: http://live.jstv.com/favicon.ico
           title: 江苏卫视
-        - url: http://tv.cztv.com/live1
+        - title: 中国蓝TV
+          url: http://tv.cztv.com/live1
           logo: http://tv.cztv.com/favicon.ico
-          title: 浙江卫视
         - url: https://live.qq.com/
           logo: https://live.qq.com/favicon.ico
           title: 企鹅体育
         - title: 芒果TV
           url: https://www.mgtv.com/
           logo: https://www.mgtv.com/favicon.ico
-          description: 
-        
+          description:
+        - title: 1905电影网
+          url: https://www.1905.com/
+          logo: https://www.1905.com/favicon.ico
+        - title: 优酷
+          url: http://www.youku.com/favicon.ico
+          logo: https://img.alicdn.com/tfs/TB1WeJ9Xrj1gK0jSZFuXXcrHpXa-195-195.png
+        - title: 腾讯视频
+          url: https://v.qq.com/
+          logo: https://v.qq.com/favicon.ico
+        - title: 爱奇艺
+          url: https://www.iqiyi.com/
+          logo: https://www.iqiyi.com/favicon.ico
+        - title: 乐视视频
+          url: http://www.le.com/
+          logo: http://www.le.com/favicon.ico
+        - title: 风行视频
+          url: https://www.fun.tv/
+          logo: https://www.fun.tv/favicon.ico
+        - title: 西瓜视频
+          url: https://www.ixigua.com/
+          logo: https://www.ixigua.com/favicon.ico
+        - title: 华数tv
+          url: https://www.wasu.cn/
+          logo: https://www.wasu.cn/favicon.ico
+        - title: 360影视
+          url: http://www.360kan.com/
+          logo: http://www.360kan.com/favicon.ico
+        - title: 搜狗影视
+          url: http://kan.sogou.com/
+          logo: http://kan.sogou.com/favicon.ico
+        - title: Mtime时光网
+          url: http://www.mtime.com/
+          logo: http://www.mtime.com/favicon.ico
+
+
     - name: 在线影视
       links:
         - title: ¹³C视频聚合
