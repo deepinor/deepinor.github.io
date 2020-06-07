@@ -1294,6 +1294,10 @@
           url: http://ppt.500d.me/
           logo: /assets/images/logos/500d.png
           description: 中国领先的PPT模板共享平台
+        - title: 办公资源网
+          logo: https://www.bangongziyuan.com/web/foreground/images/favicon.ico
+          url: https://www.bangongziyuan.com/
+          description: 办公资源网是一家专注海量办公资源下载的网站,提供各种精美创意PPT模板,Excel模板,Word模板,免费音效资源及素材,涉及个人简历,工作总结,教育培训课件等模板下载
     - name: 在线配色
       links:
         - title: khroma
