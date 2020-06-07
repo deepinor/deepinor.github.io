@@ -595,7 +595,7 @@
            description: 英国广播公司
 
 - name: 影音娱乐
-  icon: linecons-lightbulb
+  icon: linecons-videocam
   sub:
     - name: 音乐
       links:
@@ -1350,7 +1350,7 @@
           description: New 100% Free Stock Photos. Every. Single. Week.
 
 - name: 艺术灵感
-  icon:
+  icon: linecons-camera
   sub:
     - name: 界面灵感
       links:
