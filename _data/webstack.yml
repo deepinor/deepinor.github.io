@@ -1386,11 +1386,11 @@
           url: http://www.flatuicolorpicker.com/
           logo: /assets/images/logos/flatuicolorpicker.png
           description: Best Flat Colors For UI Design
-        - title: trianglify
+        - title: Trianglify
           url: http://qrohlf.com/trianglify-generator/
           logo: /assets/images/logos/trianglify.png
           description: Trianglify Generator
-        - title: klart
+        - title: Klart
           url: https://klart.co/colors/
           logo: /assets/images/logos/klart.png
           description: Beautiful colors and designs to your inbox every week
@@ -1402,8 +1402,8 @@
           logo: http://zhongguose.com/img/favicon.ico
           url: http://zhongguose.com/
           description: 提供各种中国的传统颜色的名称，CMYK值，RGB值，16进制表示
-          
-          
+
+
     - name: 文件分享
       links:
         - title: Airportal
