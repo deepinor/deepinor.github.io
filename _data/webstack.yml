@@ -349,6 +349,10 @@
              logo: https://img.sci-hub.shop/scihub/logo.raven.jpg
              url: https://sci-hub.shop
              description: 如果您看不到logo, 意味着您可能无法连接该网站
+           - title: Libgen
+             logo: /assets/images/icons/logo-default.png
+             url:  https://libgen.pw
+             description: 镜像
 
 - name: 新闻资讯
   icon: linecons-note
