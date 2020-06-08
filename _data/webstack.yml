@@ -357,6 +357,10 @@
              logo: /assets/images/icons/logo-default.png
              url:  http://gen.lib.rus.ec/
              description: 镜像
+           - title: libgen
+             url: https://libgen.uid00.workers.dev/
+             logo: /assets/images/icons/logo-default.png
+             description: 镜像
 - name: 新闻资讯
   icon: linecons-note
   sub:
