@@ -353,7 +353,10 @@
              logo: /assets/images/icons/logo-default.png
              url:  https://libgen.pw
              description: 镜像
-
+           - title: Libgen
+             logo: /assets/images/icons/logo-default.png
+             url:  http://gen.lib.rus.ec/
+             description: 镜像
 - name: 新闻资讯
   icon: linecons-note
   sub:
