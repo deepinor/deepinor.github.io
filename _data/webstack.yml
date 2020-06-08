@@ -80,7 +80,7 @@
           description: Sci-hub最新可用
         - title: Libgen
           logo: /assets/images/icons/logo-default.png
-          url:  https://libgen.uid00.workers.dev/
+          url:  https://libgen.lc/
         - title: 微软学术
           logo: https://academic.microsoft.com/apple-touch-icon.png?v=lk9W0aw06r
           url: https://academic.microsoft.com/home
