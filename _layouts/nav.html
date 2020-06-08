@@ -21,6 +21,8 @@
 
 {%- include snippets/get-sources.html -%}
 {%- assign _sources = __return -%}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
 
 <link rel="stylesheet" href="{{ _sources.font_awesome }}" >
 
@@ -28,6 +30,14 @@
     <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
     <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167959040-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-167959040-1');
+    </script>
 </head>
 
 <body class="page-body">
