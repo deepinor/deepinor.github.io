@@ -1542,7 +1542,7 @@
           description: 麻省理工和哈佛大学联手开放课程平台
         - title: 可汗学院
           logo: https://cdn.kastatic.org/images/apple-touch-icon-57x57-precomposed.new.png
-          title: https://zh.khanacademy.org/
+          url: https://zh.khanacademy.org/
           description: 一所非营利教育机构，你可以学习任何知识。每个学科和等级都有专家创建的内容和资源。永远免费
         - title: Coursera
           logo: https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png
