@@ -605,6 +605,206 @@
            url: https://www.bbc.com/
            description: 英国广播公司
 
+- name: 学习提升
+  icon: linecons-graduation-cap
+  sub:
+    - name: 在线课程
+      links:
+        - title: TED
+          url: https://www.ted.com
+          logo: https://pa.tedcdn.com/favicon.ico
+          description: 美国的媒体组织，其口号是“值得传播的思想”，可以在线发布演讲稿以供免费分发
+        - title: 网易公开课
+          url: https://open.163.com/
+          logo: https://c.open.163.com/favicon.ico
+          description: 网易视频公开课频道推出国内外名校公开课,涉及广泛的学科,名校老师认真讲解深度剖析,网易视频公开课频道搭建起强有力的网络视频教学平台
+        - url: https://ocw.mit.edu/index.htm
+          logo: https://ocw.mit.edu/images/apple-touch-icon.png
+          title: MIT OpenCourseWare
+          description: 公开MIT的全部课程的教学材料和课件，供免费使用，其中有部分教科书和高中课程
+        - url: http://www.edx.org/
+          logo: https://www.edx.org/sites/default/files/theme/favicon.png
+          title: EDX
+          description: 麻省理工和哈佛大学联手开放课程平台
+        - title: 可汗学院
+          logo: https://cdn.kastatic.org/images/apple-touch-icon-57x57-precomposed.new.png
+          url: https://zh.khanacademy.org/
+          description: 一所非营利教育机构，你可以学习任何知识。每个学科和等级都有专家创建的内容和资源。永远免费
+        - title: Coursera
+          logo: https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png
+          url: https://www.coursera.org/
+          description: Coursera与多家大学合作，给大众带来一些在线免费课堂
+        - title: 慕课网
+          logo: https://www.imooc.com/favicon.ico
+          url: https://www.imooc.com
+          description: 慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课
+
+    - name: 科学科普
+      links:
+        - title: 果壳
+          url: https://www.guokr.com/
+          logo: /assets/images/icons/guokr.png
+          description: 一个泛科技主题网站，提供负责任、有智趣、贴近生活的内容，你可以在这里阅读、分享、交流、提问。
+        - title: 科学松鼠会
+          url: https://songshuhui.net/
+          logo: https://songshuhui.net/wp-content/uploads/cropped-songshuhui-32x32.jpg
+          description: 汇聚了当代最优秀的华语青年科学传播者的非营利机构,旨在“剥开科学的坚果,帮助人们领略科学之美妙”
+        - title: 环球科学
+          url: https://huanqiukexue.com/
+          logo: /assets/images/icons/huanqiukexue.png
+          description: 《环球科学》杂志社官网,最快的科学新闻，最新的应用技术，著名科学爱好者现身说法，细数成功背后的种种诀窍，新锐鲜明的科学观点，颠覆传统的逻辑论断，50，100,150年前的科学美国人，见证经典时刻
+
+        - url: http://www.astron.ac.cn/index.htm
+          description:
+          logo:
+          title: 中国天文科普网
+        - url: http://rwcc.bao.ac.cn/index.jsp
+          description: 1991年国家科委和中国科学院批准成立世界警报中心北京日地物理预报中心
+          logo:
+          title: 太阳活动预报中心
+        - url: https://www.kexueshengyin.com/
+          description: 以普及科学知识、传播科学精神为宗旨的科普自媒体联盟
+          logo:
+          title: 科学声音
+        - url: http://www.self.org.cn/
+          description: 提倡以&quot;格物致知&quot;的精神探讨科技、教育、生活、未来的发展。每月举办一期演讲活动，邀请来自科技、教育、文化、艺术等诸多领域嘉宾分享思想和观点。
+          logo:
+          title: 格致论道
+
+        - url: http://www.kepu.net.cn/
+          description: 旨在推动中国科学院高端、优质、特色的科研科普资源在学校科学教育中的落地与应用
+          logo:
+          title: 中国科普博览
+        - url: https://www.kepuchina.cn/
+          description: 提供科学、权威、准确的科普信息内容和相关资讯,让科技知识在网上和生活中流行
+          logo:
+          title: 科普中国
+        - url: http://www.bao.ac.cn/
+          description:
+          logo:
+          title: 中国科学院国家天文台
+        - url: http://www.dili360.com/
+          description: 这里雪山、冰川、湿地、草原等地理地貌丰富,同时孕育了传承千年的藏羌文化
+          logo:
+          title: 中国国家地理
+        - url: https://www.cdstm.cn/
+          description: 以科技馆为核心的科普课程,体现科技馆实践、探究的教育特征,展示科技馆多元化的教育资源
+          logo:
+          title: 中国数字科技馆
+
+    - name: 图书
+      links:
+        - title: 中国国家图书馆：
+          logo: /assets/images/icons/nlc.png
+          url: http://www.nlc.cn/
+          description: 国家图书馆是国家总书库，国家书目中心，国家古籍保护中心，国家典籍博物馆
+        - title: 鸠摩搜书
+          logo: https://www.jiumodiary.com/images/apple/apple-57.png
+          url: https://www.jiumodiary.com/
+          description: 文档搜索引擎
+        - title: 世界数字图书馆
+          url: https://www.wdl.org/zh/
+          logo: https://www.wdl.org/static/img/logos/wdl-152x152.3c48b49bd60d.png
+          description: 以多语种格式免费提供世界各地的重要材料
+        - title: Library Genesis
+          url: http://libgen.io/
+          logo: /assets/images/icons/logo-default.png
+          description: 超270万份书籍、5800万份科学期刊免费下载，每天都在增加
+        - url: http://www.gutenberg.org/
+          logo: http://www.gutenberg.org/pics/logo-144x144.png
+          title: 古登堡计划
+          description: 超5.7万版权过期（Public domain）的电子书，免费、合法、无需注册
+        - title: 书单网
+          url: https://www.shudan.vip/
+          logo: /assets/images/icons/logo-default.png
+          description: 让搜书变得简单
+        - url: http://www.zvdd.de/en/start/
+          logo: http://www.zvdd.de/favicon.ico
+          title: Zvdd
+          description: 汇聚百万余册德国电子书的网站，包括十五世纪以来的各种书籍，可检索浏览，其中有不少中文书
+        - url: https://cnx.org/
+          logo: https://cnx.org/images/favicon-32x32.cache.a9deab55125ff207.png
+          title: OpenStax CNX
+          description: 已有2000多本书人文学科、数学计算、科学技术等几大类，所有的书籍支持在线看和免费下载
+
+        - url: http://en.booksee.org/
+          logo: http://en.booksee.org/favicon.ico
+          title: Booksee
+          description: 免费电子书库，超过200万本书和杂志
+
+        - url: http://en.bookfi.net/
+          logo: http://en.bookfi.net/favicon.ico
+          title: BookFI
+          description: 最流行多语言在线图书馆之一，超过220万本书下载
+
+        - url: http://www.ebook3000.com/
+          logo:
+          title: ebook3000
+          description: 最好的电子书库之一，提供免费电子书目录和下载链接
+
+        - url: http://booksc.org/
+          logo:
+          title: BookSC
+          description: 世界最大科学文档资源库，超过5000万篇文章
+
+        - url: https://open.umn.edu/opentextbooks/
+          logo:
+          title: Open Textbook Library
+          description: 开放教科书是经过资助、出版和许可的教科书，可以自由使用，改编和分发。这些书籍已经通过各种学院和大学的教师评估，确保质量
+
+        - url: http://www.freebookspot.es/
+          logo:
+          title: FreeBookSpot
+          description: 一个免费英文电子书大全网站，它提供有4485本免费电子书，分为96个分类，高达71.97GB
+        - url: http://www.free-ebooks.net
+          logo:
+          title: Free-eBooks
+          description: 一个提供免费电子书下载，电子书资源，电子书作者介绍的网站
+        - url: http://www.manybooks.net/
+          logo:
+          title: ManyBooks
+          description: 一个专门提供免费和打折电子书下载的网站，它所提供的免费电子书近3万本
+        - url: https://www.getfreeebooks.com/
+          logo:
+          title: GetFreeEBooks
+          description: 一个提供免费电子书下载的网站，站内的所有电子书都可以免费下载
+        - url: http://freecomputerbooks.com/
+          logo:
+          title: FreeComputerBooks
+          description: 一个专门收集计算机，编程，数学，工程和技术书籍，讲义和教程等专业知识电子书的链接网站，内容全免费，有13个顶级类别和200多个子类别
+        - url: http://www.freetechbooks.com/
+          logo:
+          title: FreeTechBooks
+          description: 一个提供计算机科学书籍，教科书和讲义免费电子书下载导航网站，链接到书籍符合法律要求或是版权协议，许可免费的
+        - url: http://digital.library.upenn.edu/books/
+          logo:
+          title: Online Books Page
+          description: 超过200万本免费电子书索引，其中有超过50万本为网站编辑精选合集，所有入选内容必须能够在线免费获得，不涉及到版权问题。索引中收录了免费书籍、权威馆藏和连续出版物。
+        - url: https://openlibrary.org/
+          logo:
+          title: Open Library
+          description: 一个开放的，可编辑的图书馆目录，为每本图书创建一个网页，截止到2018年10月共收录了超过36万本书。就像维基百科一样，用户可以向目录提供新信息或者进行更正用户可以按主题、作者或者成员进行浏览
+        - url: https://www.hathitrust.org/
+          logo:
+          title: HathiTrust数字图书馆
+          description: 美国高校图书馆建立的一个旨在将其成员馆所收藏的纸质文献进行数字化存储，为用户提供数字服务的数字图书馆项目。截至2018年10月，HathiTrust项目已经数字化文献1675万册，包括约81万册的图书和44万册的连续出版物用户可以按主题、作者或者成员进行浏览
+        - url: https://www.planetebook.com/
+          logo:
+          title: Planet eBook
+          description: 免费的经典文学之家！ 该网站的最新版本，对移动设备友好设计，支持多种格式电子书，致力于提供电子书集适配所有设备
+        - url: https://en.wikibooks.org/wiki/Main_Page
+          logo:
+          title: Wikibooks(维基教科书)
+          description: 由维基媒体基金会主办的维基教科书网站，人人可编辑的免费、自由教科书
+        - url: https://www.nap.edu/
+          logo:
+          title: National Academies Press 美国国家学术出版社
+          description: 出版的大部分PDF版图书对所有读者免费开放下载，并且将这些图书去除DRM保护
+        - url: https://ebookee.org/
+          logo:
+          title: EBOOKEE
+          description: 该站书籍种类丰富，基本专业书籍都可找到
+
 - name: 影音娱乐
   icon: linecons-videocam
   sub:
@@ -1518,202 +1718,6 @@
           url: http://mustsee.earth/
           logo: /assets/images/logos/mustsee.png
           description: Discover the world's most beautiful places at every opened tab.
-
-- name: 学习提升
-  icon: linecons-graduation-cap
-  sub:
-    - name: 在线课程
-      links:
-        - title: TED
-          url: https://www.ted.com
-          logo: https://pa.tedcdn.com/favicon.ico
-          description: 美国的媒体组织，其口号是“值得传播的思想”，可以在线发布演讲稿以供免费分发
-        - title: 网易公开课
-          url: https://open.163.com/
-          logo: https://c.open.163.com/favicon.ico
-          description: 网易视频公开课频道推出国内外名校公开课,涉及广泛的学科,名校老师认真讲解深度剖析,网易视频公开课频道搭建起强有力的网络视频教学平台
-        - url: https://ocw.mit.edu/index.htm
-          logo: https://ocw.mit.edu/images/apple-touch-icon.png
-          title: MIT OpenCourseWare
-          description: 公开MIT的全部课程的教学材料和课件，供免费使用，其中有部分教科书和高中课程
-        - url: http://www.edx.org/
-          logo: https://www.edx.org/sites/default/files/theme/favicon.png
-          title: EDX
-          description: 麻省理工和哈佛大学联手开放课程平台
-        - title: 可汗学院
-          logo: https://cdn.kastatic.org/images/apple-touch-icon-57x57-precomposed.new.png
-          url: https://zh.khanacademy.org/
-          description: 一所非营利教育机构，你可以学习任何知识。每个学科和等级都有专家创建的内容和资源。永远免费
-        - title: Coursera
-          logo: https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png
-          url: https://www.coursera.org/
-          description: Coursera与多家大学合作，给大众带来一些在线免费课堂
-
-    - name: 科学科普
-      links:
-        - title: 果壳
-          url: https://www.guokr.com/
-          logo: /assets/images/icons/guokr.png
-          description: 一个泛科技主题网站，提供负责任、有智趣、贴近生活的内容，你可以在这里阅读、分享、交流、提问。
-        - title: 科学松鼠会
-          url: https://songshuhui.net/
-          logo: https://songshuhui.net/wp-content/uploads/cropped-songshuhui-32x32.jpg
-          description: 汇聚了当代最优秀的华语青年科学传播者的非营利机构,旨在“剥开科学的坚果,帮助人们领略科学之美妙”
-        - title: 环球科学
-          url: https://huanqiukexue.com/
-          logo: /assets/images/icons/huanqiukexue.png
-          description: 《环球科学》杂志社官网,最快的科学新闻，最新的应用技术，著名科学爱好者现身说法，细数成功背后的种种诀窍，新锐鲜明的科学观点，颠覆传统的逻辑论断，50，100,150年前的科学美国人，见证经典时刻
-
-        - url: http://www.astron.ac.cn/index.htm
-          description:
-          logo:
-          title: 中国天文科普网
-        - url: http://rwcc.bao.ac.cn/index.jsp
-          description: 1991年国家科委和中国科学院批准成立世界警报中心北京日地物理预报中心
-          logo:
-          title: 太阳活动预报中心
-        - url: https://www.kexueshengyin.com/
-          description: 以普及科学知识、传播科学精神为宗旨的科普自媒体联盟
-          logo:
-          title: 科学声音
-        - url: http://www.self.org.cn/
-          description: 提倡以&quot;格物致知&quot;的精神探讨科技、教育、生活、未来的发展。每月举办一期演讲活动，邀请来自科技、教育、文化、艺术等诸多领域嘉宾分享思想和观点。
-          logo:
-          title: 格致论道
-
-        - url: http://www.kepu.net.cn/
-          description: 旨在推动中国科学院高端、优质、特色的科研科普资源在学校科学教育中的落地与应用
-          logo:
-          title: 中国科普博览
-        - url: https://www.kepuchina.cn/
-          description: 提供科学、权威、准确的科普信息内容和相关资讯,让科技知识在网上和生活中流行
-          logo:
-          title: 科普中国
-        - url: http://www.bao.ac.cn/
-          description:
-          logo:
-          title: 中国科学院国家天文台
-        - url: http://www.dili360.com/
-          description: 这里雪山、冰川、湿地、草原等地理地貌丰富,同时孕育了传承千年的藏羌文化
-          logo:
-          title: 中国国家地理
-        - url: https://www.cdstm.cn/
-          description: 以科技馆为核心的科普课程,体现科技馆实践、探究的教育特征,展示科技馆多元化的教育资源
-          logo:
-          title: 中国数字科技馆
-
-    - name: 图书
-      links:
-        - title: 中国国家图书馆：
-          logo: /assets/images/icons/nlc.png
-          url: http://www.nlc.cn/
-          description: 国家图书馆是国家总书库，国家书目中心，国家古籍保护中心，国家典籍博物馆
-        - title: 鸠摩搜书
-          logo: https://www.jiumodiary.com/images/apple/apple-57.png
-          url: https://www.jiumodiary.com/
-          description: 文档搜索引擎
-        - title: 世界数字图书馆
-          url: https://www.wdl.org/zh/
-          logo: https://www.wdl.org/static/img/logos/wdl-152x152.3c48b49bd60d.png
-          description: 以多语种格式免费提供世界各地的重要材料
-        - title: Library Genesis
-          url: http://libgen.io/
-          logo: /assets/images/icons/logo-default.png
-          description: 超270万份书籍、5800万份科学期刊免费下载，每天都在增加
-        - url: http://www.gutenberg.org/
-          logo: http://www.gutenberg.org/pics/logo-144x144.png
-          title: 古登堡计划
-          description: 超5.7万版权过期（Public domain）的电子书，免费、合法、无需注册
-        - title: 书单网
-          url: https://www.shudan.vip/
-          logo: /assets/images/icons/logo-default.png
-          description: 让搜书变得简单
-        - url: http://www.zvdd.de/en/start/
-          logo: http://www.zvdd.de/favicon.ico
-          title: Zvdd
-          description: 汇聚百万余册德国电子书的网站，包括十五世纪以来的各种书籍，可检索浏览，其中有不少中文书
-        - url: https://cnx.org/
-          logo: https://cnx.org/images/favicon-32x32.cache.a9deab55125ff207.png
-          title: OpenStax CNX
-          description: 已有2000多本书人文学科、数学计算、科学技术等几大类，所有的书籍支持在线看和免费下载
-
-        - url: http://en.booksee.org/
-          logo: http://en.booksee.org/favicon.ico
-          title: Booksee
-          description: 免费电子书库，超过200万本书和杂志
-
-        - url: http://en.bookfi.net/
-          logo: http://en.bookfi.net/favicon.ico
-          title: BookFI
-          description: 最流行多语言在线图书馆之一，超过220万本书下载
-
-        - url: http://www.ebook3000.com/
-          logo:
-          title: ebook3000
-          description: 最好的电子书库之一，提供免费电子书目录和下载链接
-
-        - url: http://booksc.org/
-          logo:
-          title: BookSC
-          description: 世界最大科学文档资源库，超过5000万篇文章
-
-        - url: https://open.umn.edu/opentextbooks/
-          logo:
-          title: Open Textbook Library
-          description: 开放教科书是经过资助、出版和许可的教科书，可以自由使用，改编和分发。这些书籍已经通过各种学院和大学的教师评估，确保质量
-
-        - url: http://www.freebookspot.es/
-          logo:
-          title: FreeBookSpot
-          description: 一个免费英文电子书大全网站，它提供有4485本免费电子书，分为96个分类，高达71.97GB
-        - url: http://www.free-ebooks.net
-          logo:
-          title: Free-eBooks
-          description: 一个提供免费电子书下载，电子书资源，电子书作者介绍的网站
-        - url: http://www.manybooks.net/
-          logo:
-          title: ManyBooks
-          description: 一个专门提供免费和打折电子书下载的网站，它所提供的免费电子书近3万本
-        - url: https://www.getfreeebooks.com/
-          logo:
-          title: GetFreeEBooks
-          description: 一个提供免费电子书下载的网站，站内的所有电子书都可以免费下载
-        - url: http://freecomputerbooks.com/
-          logo:
-          title: FreeComputerBooks
-          description: 一个专门收集计算机，编程，数学，工程和技术书籍，讲义和教程等专业知识电子书的链接网站，内容全免费，有13个顶级类别和200多个子类别
-        - url: http://www.freetechbooks.com/
-          logo:
-          title: FreeTechBooks
-          description: 一个提供计算机科学书籍，教科书和讲义免费电子书下载导航网站，链接到书籍符合法律要求或是版权协议，许可免费的
-        - url: http://digital.library.upenn.edu/books/
-          logo:
-          title: Online Books Page
-          description: 超过200万本免费电子书索引，其中有超过50万本为网站编辑精选合集，所有入选内容必须能够在线免费获得，不涉及到版权问题。索引中收录了免费书籍、权威馆藏和连续出版物。
-        - url: https://openlibrary.org/
-          logo:
-          title: Open Library
-          description: 一个开放的，可编辑的图书馆目录，为每本图书创建一个网页，截止到2018年10月共收录了超过36万本书。就像维基百科一样，用户可以向目录提供新信息或者进行更正用户可以按主题、作者或者成员进行浏览
-        - url: https://www.hathitrust.org/
-          logo:
-          title: HathiTrust数字图书馆
-          description: 美国高校图书馆建立的一个旨在将其成员馆所收藏的纸质文献进行数字化存储，为用户提供数字服务的数字图书馆项目。截至2018年10月，HathiTrust项目已经数字化文献1675万册，包括约81万册的图书和44万册的连续出版物用户可以按主题、作者或者成员进行浏览
-        - url: https://www.planetebook.com/
-          logo:
-          title: Planet eBook
-          description: 免费的经典文学之家！ 该网站的最新版本，对移动设备友好设计，支持多种格式电子书，致力于提供电子书集适配所有设备
-        - url: https://en.wikibooks.org/wiki/Main_Page
-          logo:
-          title: Wikibooks(维基教科书)
-          description: 由维基媒体基金会主办的维基教科书网站，人人可编辑的免费、自由教科书
-        - url: https://www.nap.edu/
-          logo:
-          title: National Academies Press 美国国家学术出版社
-          description: 出版的大部分PDF版图书对所有读者免费开放下载，并且将这些图书去除DRM保护
-        - url: https://ebookee.org/
-          logo:
-          title: EBOOKEE
-          description: 该站书籍种类丰富，基本专业书籍都可找到
 
 - name: 高效工作
   icon: linecons-cog

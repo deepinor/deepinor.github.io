@@ -22,7 +22,7 @@ url     : https://13C.org # the base hostname & protocol for your site e.g. http
 baseurl : / # does not include hostname
 title   : ¹³C.org
 description: > # this means to ignore newlines until "Language & timezone"
- 13C.org，科研动态，导航网站，科研工具，科研导航，工具聚合，
+ 13C.org, 13c导航, 科研动态, 导航网站, 科研工具, 科研导航,工具聚合, 
 
 ## => Language and Timezone
 ##############################
@@ -30,7 +30,7 @@ lang: zh # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 keywords: > # this means to ignore newlines until "Author and Social"
- 谷歌学术 sci-hub 13C科研导航 13C学术导航 13C学术搜索 13C学术网站大全 13C数据库导航 科研工具  science nature database 学术资源 科研资源 论文 实验室 学术工具 数据库 科研基础设施 科研仪器
+ 谷歌学术 sci-hub 13C科研导航 13C导航 13C学术搜索 13C学术网站大全 13C数据库导航 科研工具  science nature database 学术资源 科研资源 论文 实验室 学术工具 数据库 科研基础设施 科研仪器
 
 ## => Author and Social
 ##############################
