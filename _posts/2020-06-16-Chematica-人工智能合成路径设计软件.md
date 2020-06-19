@@ -6,7 +6,7 @@ show_date: true
 show_tags: false
 show_edit_on_github: false
 title: Chematica-人工智能合成路径设计软件
-tags: publication, π单键
+tags: 新闻 Chematica 合成设计
 author: 13C.org
 ---
 
