@@ -449,47 +449,47 @@
             logo: http://www.etnetchina.com.cn/favicon.ico
             title: 专业财经网
 
-          - url: http://www.caijing.com.cn/
+          - url: http://www.caijing.com.cn/?from=13c.org
             logo: http://www.caijing.com.cn/favicon.ico
             title: 财经网
 
-          - url: http://1234567.com.cn
+          - url: http://1234567.com.cn/?from=13c.org
             logo: http://1234567.com.cn/favicon.ico
             title: 天天基金网
 
-          - url: http://southmoney.com/
+          - url: http://southmoney.com/?from=13c.org
             logo: http://southmoney.com/favicon.ico
             title: 南方财富网
 
-          - url: http://www.ce.cn/
+          - url: http://www.ce.cn/?from=13c.org
             logo: http://www.ce.cn/favicon.ico
             title: 中国经济网
 
-          - url: http://www.10jqka.com.cn/
+          - url: http://www.10jqka.com.cn/?from=13c.org
             logo: http://www.10jqka.com.cn/favicon.ico
             title: 同花顺财经
 
-          - url: http://www.stockstar.com/
+          - url: http://www.stockstar.com/?from=13c.org
             logo: http://www.stockstar.com/favicon.ico
             title: 证券之星
 
-          - url: http://www.jrj.com.cn/
+          - url: http://www.jrj.com.cn/?from=13c.org
             logo: http://www.jrj.com.cn/favicon.ico
             title: 金融界
 
-          - url: http://business.sohu.com/
+          - url: http://business.sohu.com/?from=13c.org
             logo: http://business.sohu.com/favicon.ico
             title: 搜狐财经
 
-          - url: http://www.financeun.com/
+          - url: http://www.financeun.com/?from=13c.org
             logo: http://img.ilxdh.com/navig/2019-12-05/1575547953_266.png?auth_key=1591543207-78ba3e589378a44adab3feb012dc12b16af2909b-0-2fad6bdb3d3dc029b3d46470c6504865
             title: 中国金融网
 
-          - url: http://www.hexun.com/
+          - url: http://www.hexun.com/?from=13c.org
             logo: http://www.hexun.com/favicon.ico
             title: 和讯财经
 
-          - url: https://xueqiu.com/dh
+          - url: https://xueqiu.com/dh/?from=13c.org
             logo: https://xueqiu.com/favicon.ico
             title: 雪球财经导航
 
@@ -497,89 +497,89 @@
         links:
          - title: 雷锋网
            logo: /assets/images/logos/leiphone.png
-           url: https://www.leiphone.com/
+           url: https://www.leiphone.com/?from=13c.org
            description: 人工智能和智能硬件领域的互联网科技媒体
          - title: 36kr
            logo: /assets/images/logos/36kr.png
-           url: https://36kr.com/
+           url: https://36kr.com/?from=13c.org
            description: 创业资讯、科技新闻
          - title: 极客公园
-           url: http://www.geekpark.net/
+           url: http://www.geekpark.net/?from=13c.org
            logo: http://imgslim.geekpark.net/geekpark-icon-196-03ac430f5643fc17aba3b3f5429a287d.png
            description: 聚焦互联网领域，跟踪最新的科技新闻动态，关注极具创新精神的科技产品
          - title: CnBeta
-           url: https://www.cnbeta.com
+           url: https://www.cnbeta.com/?from=13c.org
            logo: https://static.cnbetacdn.com/images/logo.png
            description: 是互联网IT新闻业界的后起之秀,是国内领先的即时科技资讯站点和网友交流平台。消息速度快，报导立场公正中立，网友讨论气氛浓厚，在IT业界拥有独特的影响力
          - title: 数英网
            logo: /assets/images/logos/digitaling.png
-           url: https://www.digitaling.com/
+           url: https://www.digitaling.com/?from=13c.org
            description: 数字媒体及职业招聘网站
          - title: 猎云网
            logo: /assets/images/logos/lieyunwang.png
-           url: https://www.lieyunwang.com/
+           url: https://www.lieyunwang.com/?from=13c.org
            description: 互联网创业项目推荐和创业创新资讯
          - title: 人人都是产品经理
            logo: /assets/images/logos/woshipm.png
-           url: http://www.woshipm.com/
+           url: http://www.woshipm.com/?from=13c.org
            description: 产品经理、产品爱好者学习交流平台
          - title: 互联网早读课
            logo: /assets/images/logos/zaodula.png
-           url: https://www.zaodula.com/
+           url: https://www.zaodula.com/?from=13c.org
            description: 互联网行业深度阅读与学习平台
          - title: 产品壹佰
            logo: /assets/images/logos/chanpin100.png
-           url: http://www.chanpin100.com/
+           url: http://www.chanpin100.com/?from=13c.org
            description: 为产品经理爱好者提供最优质的产品资讯、原创内容和相关视频课程
          - title: PMCAFF
            logo: /assets/images/logos/pmcaff.png
-           url: http://www.pmcaff.com/
+           url: http://www.pmcaff.com/?from=13c.org
            description: 中国第一产品经理人气组织，专注于研究互联网产品
          - title: 爱运营
            logo: /assets/images/logos/iyunying.png
-           url: http://www.iyunying.org/
+           url: http://www.iyunying.org/?from=13c.org
            description: 网站运营人员学习交流，专注于网站产品运营管理、淘宝运营。
          - title: 鸟哥笔记
            logo: /assets/images/logos/niaogebiji.png
-           url: http://www.niaogebiji.com/
+           url: http://www.niaogebiji.com/?from=13c.org
            description: 移动互联网第一干货平台
          - title: 古田路9号
            logo: /assets/images/logos/gtn9.png
-           url: http://www.gtn9.com/
+           url: http://www.gtn9.com/?from=13c.org
            description: 国内专业品牌创意平台
          - title: 优阁网
            logo: /assets/images/logos/uigreat.png
-           url: http://www.uigreat.com/
+           url: http://www.uigreat.com/?from=13c.org
            description: UI设计师学习交流社区
          - title: 少数派
            logo: /assets/images/logos/sspai.png
-           url: https://sspai.com/
+           url: https://sspai.com/?from=13c.org
            description: 高品质数字消费指南
          - title: Today
            logo: /assets/images/logos/today.png
-           url: http://today.itjuzi.com/
+           url: http://today.itjuzi.com/?from=13c.org
            description: 为身边的新产品喝彩
          - title: Techcrunch
-           url: https://techcrunch.com/
+           url: https://techcrunch.com/?from=13c.org
            logo: https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32
            description: 一个聚焦信息技术公司报道的新闻网站，他们关注的公司大小各异，从创业公司到纳斯达克指数所包含的顶尖企业都有涉及
 
       - name: 社区
         links:
          - title: 知乎
-           url: https://www.zhihu.com/
+           url: https://www.zhihu.com/?from=13c.org
            logo: https://static.zhihu.com/static/favicon.ico
            description: 社会化问答网站
          - title: quora
            logo: https://qsf.fs.quoracdn.net/-3-images.favicon.ico-26-ae77b637b1e7ed2c.ico
-           url: https://www.quora.com/
+           url: https://www.quora.com/?from=13c.org
            description: 海外问答社区
          - title: 简书
-           url: https://www.jianshu.com/
+           url: https://www.jianshu.com/?from=13c.org
            logo: https://cdn2.jianshu.io/assets/favicons/favicon-e743bfb1821442341c3ab15bdbe804f7ad97676bd07a770ccc9483473aa76f06.ico
            description: 以互联网为基础的可以进行独立内容创作和发布的平台
          - title: CSDN
-           url: https://www.csdn.net/
+           url: https://www.csdn.net/?from=13c.org
            logo: https://csdnimg.cn/public/favicon.ico
            description: 中文IT知识服务集团，业务有IT信息传播、技术交流、教育培训和专业技术人才服务
 
@@ -587,22 +587,22 @@
         links:
          - title: 凤凰网
            logo: /assets/images/icons/ifeng.png
-           url: http://news.ifeng.com/
+           url: http://news.ifeng.com/?from=13c.org
            description: 全球领先的跨平台网络新媒体公司
 
       - name: 海外
         links:
          - title: cnn
            logo: /assets/images/icons/cnn.png
-           url: https://www.cnn.com/
+           url: https://www.cnn.com/?from=13c.org
            description: 有线电视新闻网是美国一个通过有线电视与卫星电视播出的新闻频道
          - title: RFI
            logo: /assets/images/icons/rfi.png
-           url: http://www.rfi.fr/cn/
+           url: http://www.rfi.fr/cn/?from=13c.org
            description: 法国国际广播电台，简称法广，是法国专责世界大部分地区之国际广播的电台广播机构，现隶属法国国营国际广播公司法国世界媒体旗下
          - title: BBC
            logo: /assets/images/icons/bbc.png
-           url: https://www.bbc.com/
+           url: https://www.bbc.com/?from=13c.org
            description: 英国广播公司
 
 - name: 学习提升
@@ -611,28 +611,28 @@
     - name: 在线课程
       links:
         - title: TED
-          url: https://www.ted.com
+          url: https://www.ted.com/?from=13c.org
           logo: https://pa.tedcdn.com/favicon.ico
           description: 美国的媒体组织，其口号是“值得传播的思想”，可以在线发布演讲稿以供免费分发
         - title: 网易公开课
-          url: https://open.163.com/
+          url: https://open.163.com/?from=13c.org
           logo: https://c.open.163.com/favicon.ico
           description: 网易视频公开课频道推出国内外名校公开课,涉及广泛的学科,名校老师认真讲解深度剖析,网易视频公开课频道搭建起强有力的网络视频教学平台
-        - url: https://ocw.mit.edu/index.htm
+        - url: https://ocw.mit.edu/?from=13c.org
           logo: https://ocw.mit.edu/images/apple-touch-icon.png
           title: MIT OpenCourseWare
           description: 公开MIT的全部课程的教学材料和课件，供免费使用，其中有部分教科书和高中课程
-        - url: http://www.edx.org/
+        - url: http://www.edx.org/?from=13c.org
           logo: https://www.edx.org/sites/default/files/theme/favicon.png
           title: EDX
           description: 麻省理工和哈佛大学联手开放课程平台
         - title: 可汗学院
           logo: https://cdn.kastatic.org/images/apple-touch-icon-57x57-precomposed.new.png
-          url: https://zh.khanacademy.org/
+          url: https://zh.khanacademy.org/?from=13c.org
           description: 一所非营利教育机构，你可以学习任何知识。每个学科和等级都有专家创建的内容和资源。永远免费
         - title: Coursera
           logo: https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png
-          url: https://www.coursera.org/
+          url: https://www.coursera.org/?from=13c.org
           description: Coursera与多家大学合作，给大众带来一些在线免费课堂
         - title: 中国大学mooc网
           url: https://www.icourse163.org/?from=13c.org
