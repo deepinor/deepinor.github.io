@@ -646,24 +646,32 @@
           url: https://crashcourse.club/category/?from=13c.org
           logo: https://crashcourse.club/static/img/favicon_app.png
           description: CrashCourse是一个由葛林兄弟的约翰·葛林和汉克·葛林成立的YouTube教育频道
-        - title: 我要自学网
-          url: https://www.51zxw.net/?from=13c.org
-          logo: https://www.51zxw.net/favicon.ico
-          description: 免费视频教程,提供全方位软件学习，有3D教程，平面教程，多媒体制作教程，办公信息化教程，机械设计教程，网站制作教程,电脑培训
+        - title: 译学馆
+          url: https://www.yxgapp.com/?from=13c.org
+          logo: https://cdn-www.yxgapp.com/wp-content/uploads/2018/12/yxg-logo-100x100.png
+          description: 知识无疆界
+
     - name: web教程
       links:
         - title: 慕课网
           logo: https://www.imooc.com/favicon.ico
           url: https://www.imooc.com
           description: 慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课
+
         - title: w3school
           logo: https://www.w3school.com.cn/ui2019/logo-48-red.png
           url: https://www.w3school.com.cn/?from=13c.org
           description: 全球最大的中文 Web 技术教程
+
         - title: 菜鸟学院
           logo: https://static.runoob.com/images/favicon.ico
           url: https://www.runoob.com/?from=13c.org
           description: 供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程
+
+        - title: 我要自学网
+          url: https://www.51zxw.net/?from=13c.org
+          logo: https://www.51zxw.net/favicon.ico
+          description: 免费视频教程,提供全方位软件学习，有3D教程，平面教程，多媒体制作教程，办公信息化教程，机械设计教程，网站制作教程,电脑培训
 
     - name: 科学科普
       links:
