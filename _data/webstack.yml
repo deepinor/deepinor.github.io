@@ -634,6 +634,22 @@
           logo: https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/icon-blue-96x96.png
           url: https://www.coursera.org/
           description: Coursera与多家大学合作，给大众带来一些在线免费课堂
+        - title: 中国大学mooc网
+          url: https://www.icourse163.org/?from=13c.org
+          logo: https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100
+          description: 国家精品课程在线学习平台
+        - title: 国图公开课
+          url: http://open.nlc.cn/?from=13c.org
+          logo: http://open.nlc.cn/onlineedu/client_res/files/favicon.ico?7.1.0
+          description: 秉承百年国图“传承文明、服务社会”之宗旨，依托国家图书馆海量馆藏资源，采取线上线下相结合的互动模式，以专题形式推送多种形态的学习资源，为社会公众的终身学习和全面发展提供内容丰富、结构系统、教学优质的国民通识在线课程，打造互联网时代图书馆社会教育与阅读服务平台
+        - title: crashcourse中文字幕组
+          url: https://crashcourse.club/category/?from=13c.org
+          logo: https://crashcourse.club/static/img/favicon_app.png
+          description: CrashCourse是一个由葛林兄弟的约翰·葛林和汉克·葛林成立的YouTube教育频道
+        - title: 我要自学网
+          url: https://www.51zxw.net/?from=13c.org
+          logo: https://www.51zxw.net/favicon.ico
+          description: 免费视频教程,提供全方位软件学习，有3D教程，平面教程，多媒体制作教程，办公信息化教程，机械设计教程，网站制作教程,电脑培训
     - name: web教程
       links:
         - title: 慕课网
@@ -642,7 +658,7 @@
           description: 慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课
         - title: w3school
           logo: https://www.w3school.com.cn/ui2019/logo-48-red.png
-          url: https://www.w3school.com.cn/
+          url: https://www.w3school.com.cn/?from=13c.org
           description: 全球最大的中文 Web 技术教程
         - title: 菜鸟学院
           logo: https://static.runoob.com/images/favicon.ico
