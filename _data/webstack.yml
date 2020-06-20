@@ -646,6 +646,10 @@
           url: https://crashcourse.club/category/?from=13c.org
           logo: https://crashcourse.club/static/img/favicon_app.png
           description: CrashCourse是一个由葛林兄弟的约翰·葛林和汉克·葛林成立的YouTube教育频道
+        - title: 译言网
+          url: http://www.yeeyan.org/?from=13c.org
+          logo: http://static.yeeyan.org/images/favicon.ico
+          description: 一群志愿翻译者于2006年成立的翻译社区网站，原主要是将国际新闻如卫报及ReadWriteWeb的来源内容翻译成中文为主，并以社群内部的荣誉制度来鼓励参与
         - title: 译学馆
           url: https://www.yxgapp.com/?from=13c.org
           logo: https://cdn-www.yxgapp.com/wp-content/uploads/2018/12/yxg-logo-100x100.png
@@ -658,6 +662,10 @@
           url: https://ke.qq.com/?from=13c.org
           logo: https://9.idqqimg.com/edu/edu_modules/edu-ui/img/nohash/favicon.ico
           description: 腾讯推出的专业职业培训在线教育平台，聚合大量优质教育机构和名师，下设职业培训、公务员考试、托福雅思、考证考级、英语口语、中小学教育等众多在线学习精品课程，打造老师在线上课教学、学生及时互动学习的课堂。腾讯课堂，学习成就梦想
+        - title: doyoudo
+          url: https://www.doyoudo.com/?from=13c.org
+          logo: https://www.doyoudo.com/
+          description: ps等软件教程
 
     - name: web教程
       links:
