@@ -7,11 +7,11 @@
       description: 化学论文解析
     - title: ¹³C在线音乐
       logo: /assets/logo.png
-      url: https://music.13C.org
+      url: https://music.13C.org/
       description: 在线音乐试听，账号密码都是12345
     - title: ¹³C视频聚合
       logo: /assets/logo.png
-      url: https://mv.guocx.net
+      url: https://mv.guocx.net/
       description: 影视聚合，账号密码都是12345
     - title: 果汁排行榜
       logo: /assets/images/icons/logo-default.png
@@ -52,7 +52,7 @@
           description: 拆掉学术围墙
         - title: 谷歌镜像
           logo: /assets/images/logos/google.png
-          url: https://googluck.tk
+          url: https://googluck.tk/
           description: 谷歌镜像
         - title: 谷歌学术镜像1
           logo: https://scholar.google.com.hk/favicon.ico
@@ -83,7 +83,7 @@
           url:  https://libgen.lc/
         - title: 微软学术
           logo: https://academic.microsoft.com/apple-touch-icon.png?v=lk9W0aw06r
-          url: https://academic.microsoft.com/home
+          url: https://academic.microsoft.com/home/
           description: 微软亚洲研究院开发的在线免费学术搜索引擎。它为研究员、学生、图书馆员和其他用户查找学术论文、国际会议、权威期刊、作者和学术兴趣圈提供了更加智能、新颖的获取方式
         - title: 爱学术
           logo: https://www.static.ixueshu.com/static/favicon.ico
@@ -103,7 +103,7 @@
           description: 英国皇家化学会论文搜索平台
         - title: Web of Science
           logo: http://login.webofknowledge.com/error/WOK5/6.25.0.67/images/wok_favicon.ico
-          url: http://www.webofknowledge.com
+          url: http://www.webofknowledge.com/
           description: 全球最大规模的出版商中立引文索引和研究情报平台
         - title: Engineering Village
           logo: /assets/images/icons/EngineeringVillage.png
@@ -131,11 +131,11 @@
           description: 文检测服务、优先出版服务、论文选题下载，在线分享下载等
         - title: SDBS
           logo: https://www.aist.go.jp/images/favicon.ico
-          url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi
+          url: https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi/
           description: 有机化合物谱图数据库
         - title: WebCSD
           logo: https://www.ccdc.cam.ac.uk/structures/favicon.png
-          url: https://www.ccdc.cam.ac.uk
+          url: https://www.ccdc.cam.ac.uk/
           description: CCDC单晶数据库
         - title: Drugbank
           logo: https://www.drugbank.ca/favicons/apple-touch-icon-76x76-precomposed.png
@@ -203,7 +203,7 @@
            description: 欧洲专利局专利检索
          - title: 美国专利
            logo: https://www.uspto.gov/profiles/uspto_gov/themes/uspto/favicon.ico
-           url: https://www.uspto.gov/patent
+           url: https://www.uspto.gov/patent/
            description: 美国国家专利和商标局
          - tile: ChemRxiv
            logo: https://website-p-eu.figstatic.com/assets/632e9a61153ddae07772b5e901a65e4d002e3c93/public/global/favicon/apple-touch-icon-57x57.png
@@ -220,7 +220,7 @@
            logo: /assets/images/icons/gugefanyi.png
            description:
          - title: Bing翻译
-           url: https://www.bing.com/translator?mkt=zh-CN
+           url: https://www.bing.com/translator?mkt=zh-CN/
            logo: https://www.bing.com/sa/simg/bing_p_rr_teal_min.ico
            description: 在英语和 70 多种语言之间快速翻译单词、短语和网页
          - title: 剑桥字典
@@ -232,8 +232,8 @@
            logo: /assets/images/icons/logo-default.png
            description: 一种全新的英文词典，提供词于词见常用并且地道搭配用法
          - title: 汉典
-           url: http://i1.haidii.com/favicon.ico
-           logo: https://www.zdic.net/favicon.ico
+           url: https://www.zdic.net/
+           logo: http://i1.haidii.com/favicon.ico
            description: 一个免费的在线汉语字、词查询网站
          - title: 有道词典
            url: http://dict.youdao.com/
@@ -291,67 +291,67 @@
         links:
            - title: 搜索(ga)
              logo: /assets/images/logos/google.png
-             url: https://googluck.ga
+             url: https://googluck.ga/
              description:
            - title: 搜索(tk)
              logo: /assets/images/logos/google.png
-             url: https://googluck.tk
+             url: https://googluck.tk/
              description:
            - title: 搜索(cf)
              logo: /assets/images/logos/google.png
-             url: https://googluck.cf
+             url: https://googluck.cf/
              description:
            - title: 搜索(gq)
              logo: /assets/images/logos/google.png
-             url: https://googluck.gq
+             url: https://googluck.gq/
              description:
            - title: 搜索(ml)
              logo: /assets/images/logos/google.png
-             url: https://googluck.ml
+             url: https://googluck.ml/
              description:
            - title: 百科(ga)
              logo: https://wiki.googluck.ga/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.ga
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             url: https://wiki.googluck.ga/
+             description: 
            - title: 百科(tk)
              logo: https://wiki.googluck.tk/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.tk
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             url: https://wiki.googluck.tk/
+             description: 
            - title: 百科(cf)
              logo: https://wiki.googluck.cf/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.cf
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             url: https://wiki.googluck.cf/
+             description: 
            - title: 百科(gq)
              logo: https://wiki.googluck.gq/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.gq
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             url: https://wiki.googluck.gq/
+             description: 
            - title: 百科(ml)
              logo: https://wiki.googluck.ml/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.ml
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             url: https://wiki.googluck.ml/
+             description: 
            - title: sci-hub.se
              logo: https://sci-hub.se/misc/img/logo.raven.jpg
-             url: https://sci-hub.se
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             url: https://sci-hub.se/
+             description: 
            - title: sci-hub.top
              logo: https://scihub.wikicn.top/misc/img/logo.raven.jpg
              url: https://scihub.wikicn.top/
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             description: 
            - title: sci-hub.ee
              logo: https://img.sci-hub.shop/scihub/logo.raven.jpg
-             url: https://sci-hub.ee
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             url: https://sci-hub.ee/
+             description: 
            - title: sci-hub.st
              logo: https://sci-hub.st/misc/img/logo.raven.jpg
              url: https://sci-hub.st/
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             description: 
            - title: sci-hub.shop
              logo: https://img.sci-hub.shop/scihub/logo.raven.jpg
-             url: https://sci-hub.shop
-             description: 如果您看不到logo, 意味着您可能无法连接该网站
+             url: https://sci-hub.shop/
+             description: 
            - title: Libgen
              logo: /assets/images/icons/logo-default.png
-             url:  https://libgen.pw
+             url:  https://libgen.pw/
              description: 镜像
            - title: Libgen
              logo: /assets/images/icons/logo-default.png
@@ -372,7 +372,7 @@
            description: 一款基于数据挖掘的推荐引擎产品，它为用户推荐有价值的、个性化的信息.
          - title: 今日热榜
            logo: https://file.ipadown.com/tophub/assets/images/logo.png
-           url: https://tophub.today/c/news
+           url: https://tophub.today/c/news/
            description: 今日热榜提供各站热榜聚合，追踪全网热点、简单高效阅读
          - title: 鱼塘热榜
            logo: https://mo.fish/fish.ico
@@ -411,7 +411,7 @@
            description: 中央广播电视总台主办，是以视频为特色的中央重点新闻网站，是央视的融合传播平台，是拥有全牌照业务资质的大型互联网文化企业
          - title: 环球网
            logo: https://rs2.huanqiucdn.cn/huanqiu/image/www/common/favicon1.ico
-           url: https://www.huanqiu.com
+           url: https://www.huanqiu.com/
            description: 环球网是中国领先的国际资讯门户，拥有独立采编权的中央重点新闻网站
 
       - name: 经济
@@ -508,7 +508,7 @@
            logo: http://imgslim.geekpark.net/geekpark-icon-196-03ac430f5643fc17aba3b3f5429a287d.png
            description: 聚焦互联网领域，跟踪最新的科技新闻动态，关注极具创新精神的科技产品
          - title: CnBeta
-           url: https://www.cnbeta.com
+           url: https://www.cnbeta.com/
            logo: https://static.cnbetacdn.com/images/logo.png
            description: 是互联网IT新闻业界的后起之秀,是国内领先的即时科技资讯站点和网友交流平台。消息速度快，报导立场公正中立，网友讨论气氛浓厚，在IT业界拥有独特的影响力
          - title: 数英网
@@ -611,7 +611,7 @@
     - name: 在线课程
       links:
         - title: TED
-          url: https://www.ted.com
+          url: https://www.ted.com/
           logo: https://pa.tedcdn.com/favicon.ico
           description: 美国的媒体组织，其口号是“值得传播的思想”，可以在线发布演讲稿以供免费分发
         - title: 网易公开课
@@ -635,35 +635,35 @@
           url: https://www.coursera.org/
           description: Coursera与多家大学合作，给大众带来一些在线免费课堂
         - title: 中国大学mooc网
-          url: https://www.icourse163.org/ 
+          url: https://www.icourse163.org/
           logo: https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100
           description: 国家精品课程在线学习平台
         - title: 国图公开课
-          url: http://open.nlc.cn/ 
+          url: http://open.nlc.cn/
           logo: http://open.nlc.cn/onlineedu/client_res/files/favicon.ico?7.1.0
           description: 秉承百年国图“传承文明、服务社会”之宗旨，依托国家图书馆海量馆藏资源，采取线上线下相结合的互动模式，以专题形式推送多种形态的学习资源，为社会公众的终身学习和全面发展提供内容丰富、结构系统、教学优质的国民通识在线课程，打造互联网时代图书馆社会教育与阅读服务平台
         - title: crashcourse中文字幕组
-          url: https://crashcourse.club/category/ 
+          url: https://crashcourse.club/category/
           logo: https://crashcourse.club/static/img/favicon_app.png
           description: CrashCourse是一个由葛林兄弟的约翰·葛林和汉克·葛林成立的YouTube教育频道
         - title: 译言网
-          url: http://www.yeeyan.org/ 
+          url: http://www.yeeyan.org/
           logo: http://static.yeeyan.org/images/favicon.ico
           description: 一群志愿翻译者于2006年成立的翻译社区网站，原主要是将国际新闻如卫报及ReadWriteWeb的来源内容翻译成中文为主，并以社群内部的荣誉制度来鼓励参与
         - title: 译学馆
-          url: https://www.yxgapp.com/ 
+          url: https://www.yxgapp.com/
           logo: https://cdn-www.yxgapp.com/wp-content/uploads/2018/12/yxg-logo-100x100.png
           description: 知识无疆界
         - title: 万门大学
-          url: https://www.wanmen.org/ 
+          url: https://www.wanmen.org/
           logo: https://imgs.wanmen.org/favi.png
           description: 课程内容覆盖职场、语言、大学、中学以及小学，更适合升学备考、留学考证、跨界深造的学习者
         - title: 腾讯课堂
-          url: https://ke.qq.com/ 
+          url: https://ke.qq.com/
           logo: https://9.idqqimg.com/edu/edu_modules/edu-ui/img/nohash/favicon.ico
           description: 腾讯推出的专业职业培训在线教育平台，聚合大量优质教育机构和名师，下设职业培训、公务员考试、托福雅思、考证考级、英语口语、中小学教育等众多在线学习精品课程，打造老师在线上课教学、学生及时互动学习的课堂。腾讯课堂，学习成就梦想
         - title: doyoudo
-          url: https://www.doyoudo.com/ 
+          url: https://www.doyoudo.com/
           logo: https://www.doyoudo.com/
           description: ps等软件教程
 
@@ -671,25 +671,25 @@
       links:
         - title: 慕课网
           logo: https://www.imooc.com/favicon.ico
-          url: https://www.imooc.com
+          url: https://www.imooc.com/
           description: 慕课网(IMOOC)提供了丰富的移动端开发、php开发、web前端、android开发以及html5等视频教程资源公开课
 
         - title: w3school
           logo: https://www.w3school.com.cn/ui2019/logo-48-red.png
-          url: https://www.w3school.com.cn/ 
+          url: https://www.w3school.com.cn/
           description: 全球最大的中文 Web 技术教程
 
         - title: 菜鸟学院
           logo: https://static.runoob.com/images/favicon.ico
-          url: https://www.runoob.com/ 
+          url: https://www.runoob.com/
           description: 供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程
 
         - title: 我要自学网
-          url: https://www.51zxw.net/ 
+          url: https://www.51zxw.net/
           logo: https://www.51zxw.net/favicon.ico
           description: 免费视频教程,提供全方位软件学习，有3D教程，平面教程，多媒体制作教程，办公信息化教程，机械设计教程，网站制作教程,电脑培训
         - title: 实验楼
-          url: https://www.shiyanlou.com/ 
+          url: https://www.shiyanlou.com/
           logo: https://www.shiyanlou.com/favicon.ico
           description: 国内领先的IT在线编程及在线实训学习平台，专业导师提供精选的实践项目，创新的技术使得学习者无需配置繁琐的本地环境，随时在线流畅使用。以就业为导向，提供编程、运维、测试、云计算、大数据、数据库等全面的IT技术动手实践环境
 
@@ -708,7 +708,7 @@
           logo: /assets/images/icons/huanqiukexue.png
           description: 《环球科学》杂志社官网,最快的科学新闻，最新的应用技术，著名科学爱好者现身说法，细数成功背后的种种诀窍，新锐鲜明的科学观点，颠覆传统的逻辑论断，50，100,150年前的科学美国人，见证经典时刻
 
-        - url: http://www.astron.ac.cn/index.htm
+        - url: http://www.astron.ac.cn/
           description:
           logo:
           title: 中国天文科普网
@@ -810,7 +810,7 @@
           logo:
           title: FreeBookSpot
           description: 一个免费英文电子书大全网站，它提供有4485本免费电子书，分为96个分类，高达71.97GB
-        - url: http://www.free-ebooks.net
+        - url: http://www.free-ebooks.net/
           logo:
           title: Free-eBooks
           description: 一个提供免费电子书下载，电子书资源，电子书作者介绍的网站
@@ -846,7 +846,7 @@
           logo:
           title: Planet eBook
           description: 免费的经典文学之家！ 该网站的最新版本，对移动设备友好设计，支持多种格式电子书，致力于提供电子书集适配所有设备
-        - url: https://en.wikibooks.org/wiki/Main_Page
+        - url: https://en.wikibooks.org/wiki/Main_Page/
           logo:
           title: Wikibooks(维基教科书)
           description: 由维基媒体基金会主办的维基教科书网站，人人可编辑的免费、自由教科书
@@ -866,7 +866,7 @@
       links:
        - title: ¹³C在线音乐
          logo: /assets/logo.png
-         url: https://music.13C.org
+         url: https://music.13C.org/
          description: 在线音乐试听，账号密码都是12345
 
        - title: Spotify
@@ -1012,7 +1012,7 @@
       links:
         - title: ¹³C视频聚合
           logo: /assets/logo.png
-          url: https://mv.guocx.net
+          url: https://mv.guocx.net/
           description: 影视聚合，账号密码都是12345
         - url: http://www.mvcat.com/
           description: 影猫电影推荐网是一个专门的电影推荐平台，通过收集经典电影，电影专题以及网友互动分享好看电影，为广大电影爱好者提供优质的电影推荐服务
@@ -1798,7 +1798,7 @@
 
         - title: 稿定设计
           logo: https://st-gdx.dancf.com/assets/20190910-143749-32a5.png
-          url: https://www.gaoding.com
+          url: https://www.gaoding.com/
           description: 线快速图片和视频编辑,不会PS也能搞定设计。海报、简历、PPT、公众号配图、电商等海量模板快速出图。三秒抠图实用便捷,抖音快手热门视频轻松搞定。海量正版授权资源,商用无忧。
 
         - title: 白描
@@ -1826,7 +1826,7 @@
           logo: /assets/images/logos/goqr.png
           description: create QR codes for free (Logo, T-Shirt, vCard, EPS)
         - title: ezgif
-          url: https://ezgif.com
+          url: https://ezgif.com/
           logo: https://ezgif.com/apple-touch-icon-precomposed.png
           description: simple online GIF maker and toolset for basic animated GIF editing.
         - title: screen sizes
@@ -1845,7 +1845,7 @@
     - name: Office
       links:
         - title: OfficePLUS
-          url: http://www.officeplus.cn/Template/Home.shtml
+          url: http://www.officeplus.cn/Template/
           logo: /assets/images/logos/officeplus.png
           description: OfficePLUS，微软Office官方在线模板网站！
         - title: Office
@@ -2049,6 +2049,6 @@
   icon: linecons-user
   links:
     - title: 索语人云
-      url: http://www.syrenyun.top/ 
+      url: http://www.syrenyun.top/
       logo: http://www.syrenyun.top/wp-content/uploads/2020/04/logo4.png
       description: 网址导航
