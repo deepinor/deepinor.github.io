@@ -650,6 +650,14 @@
           url: https://www.yxgapp.com/?from=13c.org
           logo: https://cdn-www.yxgapp.com/wp-content/uploads/2018/12/yxg-logo-100x100.png
           description: 知识无疆界
+        - title: 万门大学
+          url: https://www.wanmen.org/?from=13c.org
+          logo: https://imgs.wanmen.org/favi.png
+          description: 课程内容覆盖职场、语言、大学、中学以及小学，更适合升学备考、留学考证、跨界深造的学习者
+        - title: 腾讯课堂
+          url: https://ke.qq.com/?from=13c.org
+          logo: https://9.idqqimg.com/edu/edu_modules/edu-ui/img/nohash/favicon.ico
+          description: 腾讯推出的专业职业培训在线教育平台，聚合大量优质教育机构和名师，下设职业培训、公务员考试、托福雅思、考证考级、英语口语、中小学教育等众多在线学习精品课程，打造老师在线上课教学、学生及时互动学习的课堂。腾讯课堂，学习成就梦想
 
     - name: web教程
       links:
@@ -672,6 +680,10 @@
           url: https://www.51zxw.net/?from=13c.org
           logo: https://www.51zxw.net/favicon.ico
           description: 免费视频教程,提供全方位软件学习，有3D教程，平面教程，多媒体制作教程，办公信息化教程，机械设计教程，网站制作教程,电脑培训
+        - title: 实验楼
+          url: https://www.shiyanlou.com/?from=13c.org
+          logo: https://www.shiyanlou.com/favicon.ico
+          description: 国内领先的IT在线编程及在线实训学习平台，专业导师提供精选的实践项目，创新的技术使得学习者无需配置繁琐的本地环境，随时在线流畅使用。以就业为导向，提供编程、运维、测试、云计算、大数据、数据库等全面的IT技术动手实践环境
 
     - name: 科学科普
       links:
