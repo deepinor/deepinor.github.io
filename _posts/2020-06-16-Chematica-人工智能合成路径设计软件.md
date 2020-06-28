@@ -20,7 +20,7 @@ Gryzbowski和他的团队已经报道了多种使用不同简单易得原料合�
 
 -----
 
-![img](/assets/images/upload/2020-06-16-Chematica-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%90%88%E6%88%90%E8%B7%AF%E5%BE%84%E8%AE%BE%E8%AE%A1%E8%BD%AF%E4%BB%B6.assets/505744_d0sc01799jf6_501299.jpg)
+![13c导航-使用Chematica设计的remdesivir的合成路径-13corg](/assets/images/upload/2020-06-16-Chematica-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%90%88%E6%88%90%E8%B7%AF%E5%BE%84%E8%AE%BE%E8%AE%A1%E8%BD%AF%E4%BB%B6.assets/505744_d0sc01799jf6_501299.jpg)
 
 图1：使用Chematica设计的remdesivir的合成路径
 
