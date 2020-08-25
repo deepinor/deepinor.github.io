@@ -1845,7 +1845,7 @@
     - name: Office
       links:
         - title: OfficePLUS
-          url: http://www.officeplus.cn/Template/
+          url: http://www.officeplus.cn/
           logo: /assets/images/logos/officeplus.png
           description: OfficePLUS，微软Office官方在线模板网站！
         - title: Office
