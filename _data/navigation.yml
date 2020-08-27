@@ -11,6 +11,10 @@ header:
   icon:
   url: /nav/index.html
   
+- titles: 资源
+  icon:
+  url: https://one.13c.org
+  
 - titles: 关于 
   icon: 
   sub: 
