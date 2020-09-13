@@ -938,10 +938,10 @@
 
     - name: 在线影视
       links:
-        - title: ¹³C视频聚合
-          logo: /assets/logo.png
-          url: https://mv.guocx.net/
-          description: 影视聚合，账号密码都是12345
+        - title: 聚BT
+          logo: /assets/images/icons/logo-default.png
+          url: https://jubt.gitlab.io/home/
+          description: bt聚合地址发布页
         - url: http://www.mvcat.com/
           description: 影猫电影推荐网是一个专门的电影推荐平台，通过收集经典电影，电影专题以及网友互动分享好看电影，为广大电影爱好者提供优质的电影推荐服务
           logo: https://www.mvcat.com/img/logo_appicon.png
