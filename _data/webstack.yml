@@ -287,80 +287,8 @@
              url: http://www.chemexper.com/
              description: 试剂供应商聚合
 
-      - name: 镜像
-        links:
-           - title: 搜索(ga)
-             logo: /assets/images/logos/google.png
-             url: https://googluck.ga/
-             description:
-           - title: 搜索(tk)
-             logo: /assets/images/logos/google.png
-             url: https://googluck.tk/
-             description:
-           - title: 搜索(cf)
-             logo: /assets/images/logos/google.png
-             url: https://googluck.cf/
-             description:
-           - title: 搜索(gq)
-             logo: /assets/images/logos/google.png
-             url: https://googluck.gq/
-             description:
-           - title: 搜索(ml)
-             logo: /assets/images/logos/google.png
-             url: https://googluck.ml/
-             description:
-           - title: 百科(ga)
-             logo: https://wiki.googluck.ga/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.ga/
-             description: 
-           - title: 百科(tk)
-             logo: https://wiki.googluck.tk/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.tk/
-             description: 
-           - title: 百科(cf)
-             logo: https://wiki.googluck.cf/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.cf/
-             description: 
-           - title: 百科(gq)
-             logo: https://wiki.googluck.gq/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.gq/
-             description: 
-           - title: 百科(ml)
-             logo: https://wiki.googluck.ml/static/favicon/wikipedia.ico
-             url: https://wiki.googluck.ml/
-             description: 
-           - title: sci-hub.se
-             logo: https://sci-hub.se/misc/img/logo.raven.jpg
-             url: https://sci-hub.se/
-             description: 
-           - title: sci-hub.top
-             logo: https://scihub.wikicn.top/misc/img/logo.raven.jpg
-             url: https://scihub.wikicn.top/
-             description: 
-           - title: sci-hub.ee
-             logo: https://img.sci-hub.shop/scihub/logo.raven.jpg
-             url: https://sci-hub.ee/
-             description: 
-           - title: sci-hub.st
-             logo: https://sci-hub.st/misc/img/logo.raven.jpg
-             url: https://sci-hub.st/
-             description: 
-           - title: sci-hub.shop
-             logo: https://img.sci-hub.shop/scihub/logo.raven.jpg
-             url: https://sci-hub.shop/
-             description: 
-           - title: Libgen
-             logo: /assets/images/icons/logo-default.png
-             url:  https://libgen.pw/
-             description: 镜像
-           - title: Libgen
-             logo: /assets/images/icons/logo-default.png
-             url:  http://gen.lib.rus.ec/
-             description: 镜像
-           - title: libgen
-             url: https://libgen.uid00.workers.dev/
-             logo: /assets/images/icons/logo-default.png
-             description: 镜像
+
+
 - name: 新闻资讯
   icon: linecons-note
   sub:
@@ -1081,6 +1009,29 @@
         - title: TV6
           url: https://www.tv6.com/
           logo: https://www.tv6.com/statics/img/favicon.ico
+
+      - name: 纪录片
+        links:
+           - title: Documentary Storm
+             logo: https://www.documentarystorm.com/wp-content/themes/clean/icons/apple-touch-icon-114x114.png
+             url: https://www.documentarystorm.com/
+             description: 一个提供纪录片在线免费观看的网站，收录了世界各地的纪录片视频。拥有详细的分类和最佳纪录片推荐频道，视频资源来自于Youtube。
+           - title: 央视纪实
+             logo: https://tv.cctv.com/favicon.ico
+             url: http://jishi.cctv.com/
+             description: 纪实台汇集了央视大量优秀经典纪录片，集纳国内地方台、BBC、国家地理、美国历史频道、NHK等各具特色的高清正版纪录片资源，是国内纪录片资源最为丰富的视频播放频道
+           - title: 中国纪录片网
+             logo: http://www.docuchina.cn/favicon.ico
+             url: http://www.docuchina.cn/
+             description: 中国纪录片网是集纪录片创作生产、推介展示、传播推广、融资交易等为一体的国家级纪录片新媒体综合性产业运营平台。
+           - title: TDF
+             logo: https://topdocumentaryfilms.com/favicon.ico
+             url: https://topdocumentaryfilms.com/
+             description: 在线纪录片分享交流平台, 该网站不仅免费对外开放，还为读者提供了发表评论的平台，读者可以在这里发表自己对喜爱的纪录片或不喜爱的纪录片的评论.
+           - title: 纪录片天地
+             logo: /assets/images/icons/logo-default.png
+             url: http://www.jlpcn.net/
+             description: 提供最新探索频道 国家地理频道纪录片连载，想看最新的纪录片，来这里就对了
 
     - name: 直播
       links:
