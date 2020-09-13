@@ -970,18 +970,8 @@
           description:
           logo: http://www.vip1280.net/favicon.ico
           title: VIP电影
-        - url: https://www.xiangkanju.cc/
-          description: 左手吃斋影视 - 想看剧,影视大全
-          logo: https://www.xiangkanju.cc/favicon.ico
-          title: 左手吃斋影视
-        - url: http://www.wyb128.com/
-          description:
-          logo: http://www.wyb128.com/favicon.ico
-          title: 手机网
-        - url: https://www.kan84.tv/
-          description:
-          logo: https://www.kan84.tv/favicon.ico
-          title: 看巴士
+
+ 
         - url: https://www.adcmove.com/
           description:
           logo: https://www.adcmove.com/upload/site/20191106-1/f45567f7335275b0c4ef725947885a31.png
@@ -1006,9 +996,7 @@
         - title: 两个BT
           url: https://www.bttwo.com/
           logo: https://www.bttwo.com/wp-content/themes/mibt/favicon.ico
-        - title: TV6
-          url: https://www.tv6.com/
-          logo: https://www.tv6.com/statics/img/favicon.ico
+
 
     - name: 纪录片
       links:
