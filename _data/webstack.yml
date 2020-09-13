@@ -1032,6 +1032,10 @@
              logo: /assets/images/icons/logo-default.png
              url: http://www.jlpcn.net/
              description: 提供最新探索频道 国家地理频道纪录片连载，想看最新的纪录片，来这里就对了
+           - title: 每天一小时纪录片
+             logo: https://www.onehourlife.net/favicon.ico
+             url: https://www.onehourlife.net/
+             description: 每天一小时纪录片用心为您推荐BBC、国家地理频道、探索频道、NHK、央视等纪录片频道好看的纪录片，经典纪录片排行榜，必看纪录片大全就在每天一小时!
 
     - name: 直播
       links:
